@@ -6,19 +6,19 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		HCW1pXeP6P0ccfvpc9jpyizymmo=
+		+HC09JhysxHMUP/kEz3PLvdd+dg=
 		</data>
 		<key>Headers/IDCaptureMedium-Swift.h</key>
 		<data>
-		RUPuFMCxAWKVdvdBL318X4Z3YJs=
+		MSxSviyOUTR/wm2yZM/o8g1fvug=
 		</data>
 		<key>IDCapture.storyboardc/0MQ-BS-jP5-view-1qV-G3-ufb.nib/objects-14.0+.nib</key>
 		<data>
-		yuLrr3AZa+aoLV5QlUgXitzN4Cw=
+		Ipq6V+NmcUuLHLgjq3eVL3EUqdU=
 		</data>
 		<key>IDCapture.storyboardc/0MQ-BS-jP5-view-1qV-G3-ufb.nib/runtime.nib</key>
 		<data>
-		yuLrr3AZa+aoLV5QlUgXitzN4Cw=
+		Ipq6V+NmcUuLHLgjq3eVL3EUqdU=
 		</data>
 		<key>IDCapture.storyboardc/82V-S7-3fK-view-rnQ-zC-kEZ.nib/objects-14.0+.nib</key>
 		<data>
@@ -114,31 +114,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		H8yP6G64BZv3207KhVmeW+tdAAo=
+		Ha6svzc2RmLcqF0RNOrheoJrrlw=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		atan3LnvdTRYO/BJkLPhGy2D3Z8=
+		JYnFbk/n+iSsEVojGCdD+g6nK/U=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		hxj0eIwuTLZEoSSk7I+ELcbHd1E=
+		Rh9RsTzpcWI8QoBS1RYC347LxRw=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		McShHA7zM5nvf7sVQ4Iy3j0Z4PM=
+		9RK27ml9+i1yBc/5VgRlamurNX4=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Oy5kWmYfEawqZyTDf8uOnDH8QxE=
+		2wDAHuU4ZWsZnrzBerZbRYWtsjk=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		McShHA7zM5nvf7sVQ4Iy3j0Z4PM=
+		9RK27ml9+i1yBc/5VgRlamurNX4=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6b797VfPqrrzutCVzg+S9cG0LRE=
+		Z2n+NA+eyKlTlJ+8yEXClWDk918=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -151,28 +151,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yHwmpFodRIba/PCvfsX2RGMz/QHFC/QtMMv+ZjzaCok=
+			QC/rBHyG2SnAqG/whqchHqIma9X8LUIRuvZA2FvjvAA=
 			</data>
 		</dict>
 		<key>Headers/IDCaptureMedium-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yQWzcyMFB+5T3Pc3mBZAP4jdaxj25u9Y6wjzgYOjW0A=
+			hVmftI1014/+SXguIfBSJLPR9j76H0EO16nxg1D+Po8=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/0MQ-BS-jP5-view-1qV-G3-ufb.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eJaGw0Pxg6V98Aeyi/qY9F0/KaUOu4/kdT/Wjwn758o=
+			n3B78kPBP8/sylXaZp4UM8IqxI+ngmCp6GNOMvW9aIo=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/0MQ-BS-jP5-view-1qV-G3-ufb.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eJaGw0Pxg6V98Aeyi/qY9F0/KaUOu4/kdT/Wjwn758o=
+			n3B78kPBP8/sylXaZp4UM8IqxI+ngmCp6GNOMvW9aIo=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/82V-S7-3fK-view-rnQ-zC-kEZ.nib/objects-14.0+.nib</key>
@@ -340,42 +340,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ES530JkK5tlBF5ZaQ0ceOnAJ5gtQd0tf+HaYMPFBtOU=
+			2d1CKKvU5mxXShWJHyil02j0W9uxIGLRT9CRvN/HXDA=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mUnkKXM2Tm0gnDCnBbX00Cw0rL082sV1VzVfs43GOt8=
+			MrlC/gNDoLkLpvQ1ZSXUaT7Ulf17fV7KsI+t091QhUQ=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IJ0eaD6bBqUcARl/LWL27lCotlhc3NQZ0soi3qUVzlE=
+			WXizsrn/G254Z5+3sMiXVZJrc8l65GEE5vFpvJRZtgQ=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZmuZAVnguFpKIuI0EUSMcSJNHb7TMHvpJfk4zSOGfJs=
+			ISZsOn5l8DR7ZLVaoWCt4z5qkGvHMaoOjldrOWMhjCA=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IJ0eaD6bBqUcARl/LWL27lCotlhc3NQZ0soi3qUVzlE=
+			WXizsrn/G254Z5+3sMiXVZJrc8l65GEE5vFpvJRZtgQ=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TIcPLmJ2pZ8J3v4akMKDjF1Z5T3nFPqPXL9dYZ7AHN8=
+			DWHSwTCAyywZ/ZAq3Jct4aRgl0eMlbTiaseml1UOgPc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
