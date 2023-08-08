@@ -3215,21 +3215,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IDentityMediumSDK.OcrMetadata?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "OcrMetadata",
-                    "printedName": "IDentityMediumSDK.OcrMetadata",
-                    "usr": "s:17IDentityMediumSDK11OcrMetadataV"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataAA03OcrK0VSgvp",
-            "mangledName": "$s17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataAA03OcrK0VSgvp",
+            "usr": "s:17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataSSSgvp",
+            "mangledName": "$s17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataSSSgvp",
             "moduleName": "IDentityMediumSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -3247,21 +3247,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.OcrMetadata?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "OcrMetadata",
-                        "printedName": "IDentityMediumSDK.OcrMetadata",
-                        "usr": "s:17IDentityMediumSDK11OcrMetadataV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataAA03OcrK0VSgvg",
-                "mangledName": "$s17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataAA03OcrK0VSgvg",
+                "usr": "s:17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataSSSgvg",
+                "mangledName": "$s17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataSSSgvg",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3279,21 +3279,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.OcrMetadata?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "OcrMetadata",
-                        "printedName": "IDentityMediumSDK.OcrMetadata",
-                        "usr": "s:17IDentityMediumSDK11OcrMetadataV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataAA03OcrK0VSgvs",
-                "mangledName": "$s17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataAA03OcrK0VSgvs",
+                "usr": "s:17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataSSSgvs",
+                "mangledName": "$s17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataSSSgvs",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3310,8 +3310,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataAA03OcrK0VSgvM",
-                "mangledName": "$s17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataAA03OcrK0VSgvM",
+                "usr": "s:17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataSSSgvM",
+                "mangledName": "$s17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV11ocrMetadataSSSgvM",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8041,21 +8041,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IDentityMediumSDK.OcrMetadata?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "OcrMetadata",
-                    "printedName": "IDentityMediumSDK.OcrMetadata",
-                    "usr": "s:17IDentityMediumSDK11OcrMetadataV"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataAA03OcrJ0VSgvp",
-            "mangledName": "$s17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataAA03OcrJ0VSgvp",
+            "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataSSSgvp",
+            "mangledName": "$s17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataSSSgvp",
             "moduleName": "IDentityMediumSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -8073,21 +8073,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.OcrMetadata?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "OcrMetadata",
-                        "printedName": "IDentityMediumSDK.OcrMetadata",
-                        "usr": "s:17IDentityMediumSDK11OcrMetadataV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataAA03OcrJ0VSgvg",
-                "mangledName": "$s17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataAA03OcrJ0VSgvg",
+                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataSSSgvg",
+                "mangledName": "$s17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataSSSgvg",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8105,21 +8105,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.OcrMetadata?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "OcrMetadata",
-                        "printedName": "IDentityMediumSDK.OcrMetadata",
-                        "usr": "s:17IDentityMediumSDK11OcrMetadataV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataAA03OcrJ0VSgvs",
-                "mangledName": "$s17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataAA03OcrJ0VSgvs",
+                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataSSSgvs",
+                "mangledName": "$s17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataSSSgvs",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8136,161 +8136,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataAA03OcrJ0VSgvM",
-                "mangledName": "$s17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataAA03OcrJ0VSgvM",
-                "moduleName": "IDentityMediumSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "chipData",
-            "printedName": "chipData",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV04chipH0SDyS2SGSgvp",
-            "mangledName": "$s17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV04chipH0SDyS2SGSgvp",
-            "moduleName": "IDentityMediumSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV04chipH0SDyS2SGSgvg",
-                "mangledName": "$s17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV04chipH0SDyS2SGSgvg",
-                "moduleName": "IDentityMediumSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV04chipH0SDyS2SGSgvs",
-                "mangledName": "$s17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV04chipH0SDyS2SGSgvs",
-                "moduleName": "IDentityMediumSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV04chipH0SDyS2SGSgvM",
-                "mangledName": "$s17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV04chipH0SDyS2SGSgvM",
+                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataSSSgvM",
+                "mangledName": "$s17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV11ocrMetadataSSSgvM",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -40192,21 +40039,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IDentityMediumSDK.OcrMetadata?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "OcrMetadata",
-                    "printedName": "IDentityMediumSDK.OcrMetadata",
-                    "usr": "s:17IDentityMediumSDK11OcrMetadataV"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataAA03OcrI0VSgvp",
-            "mangledName": "$s17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataAA03OcrI0VSgvp",
+            "usr": "s:17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataSSSgvp",
+            "mangledName": "$s17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataSSSgvp",
             "moduleName": "IDentityMediumSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -40224,21 +40071,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.OcrMetadata?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "OcrMetadata",
-                        "printedName": "IDentityMediumSDK.OcrMetadata",
-                        "usr": "s:17IDentityMediumSDK11OcrMetadataV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataAA03OcrI0VSgvg",
-                "mangledName": "$s17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataAA03OcrI0VSgvg",
+                "usr": "s:17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataSSSgvg",
+                "mangledName": "$s17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataSSSgvg",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -40256,21 +40103,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.OcrMetadata?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "OcrMetadata",
-                        "printedName": "IDentityMediumSDK.OcrMetadata",
-                        "usr": "s:17IDentityMediumSDK11OcrMetadataV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataAA03OcrI0VSgvs",
-                "mangledName": "$s17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataAA03OcrI0VSgvs",
+                "usr": "s:17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataSSSgvs",
+                "mangledName": "$s17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataSSSgvs",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -40287,8 +40134,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataAA03OcrI0VSgvM",
-                "mangledName": "$s17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataAA03OcrI0VSgvM",
+                "usr": "s:17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataSSSgvM",
+                "mangledName": "$s17IDentityMediumSDK28AdditionalCustomerCommonDataV11ocrMetadataSSSgvM",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -44605,6 +44452,16 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDentityMediumSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -49457,6 +49314,16 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDentityMediumSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -75083,20 +74950,6 @@
       },
       {
         "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
-        "declKind": "Import",
-        "moduleName": "IDentityMediumSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CryptoKit",
-        "printedName": "CryptoKit",
-        "declKind": "Import",
-        "moduleName": "IDentityMediumSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -87091,21 +86944,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IDentityMediumSDK.OcrMetadata?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "OcrMetadata",
-                    "printedName": "IDentityMediumSDK.OcrMetadata",
-                    "usr": "s:17IDentityMediumSDK11OcrMetadataV"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataAA03OcrJ0VSgvp",
-            "mangledName": "$s17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataAA03OcrJ0VSgvp",
+            "usr": "s:17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataSSSgvp",
+            "mangledName": "$s17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataSSSgvp",
             "moduleName": "IDentityMediumSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -87123,21 +86976,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.OcrMetadata?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "OcrMetadata",
-                        "printedName": "IDentityMediumSDK.OcrMetadata",
-                        "usr": "s:17IDentityMediumSDK11OcrMetadataV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataAA03OcrJ0VSgvg",
-                "mangledName": "$s17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataAA03OcrJ0VSgvg",
+                "usr": "s:17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataSSSgvg",
+                "mangledName": "$s17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataSSSgvg",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -87155,21 +87008,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.OcrMetadata?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "OcrMetadata",
-                        "printedName": "IDentityMediumSDK.OcrMetadata",
-                        "usr": "s:17IDentityMediumSDK11OcrMetadataV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataAA03OcrJ0VSgvs",
-                "mangledName": "$s17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataAA03OcrJ0VSgvs",
+                "usr": "s:17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataSSSgvs",
+                "mangledName": "$s17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataSSSgvs",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -87186,8 +87039,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataAA03OcrJ0VSgvM",
-                "mangledName": "$s17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataAA03OcrJ0VSgvM",
+                "usr": "s:17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataSSSgvM",
+                "mangledName": "$s17IDentityMediumSDK31AdditionalCustomerLiveCheckDataV11ocrMetadataSSSgvM",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -89601,6 +89454,30 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDentityMediumSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "IDentityMediumSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "IDentityMediumSDK"
       },
       {
         "kind": "Import",
@@ -105016,235 +104893,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "OcrMetadata",
-        "printedName": "OcrMetadata",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "idData",
-            "printedName": "idData",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17IDentityMediumSDK11OcrMetadataV6idDataSDyS2SGvp",
-            "mangledName": "$s17IDentityMediumSDK11OcrMetadataV6idDataSDyS2SGvp",
-            "moduleName": "IDentityMediumSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK11OcrMetadataV6idDataSDyS2SGvg",
-                "mangledName": "$s17IDentityMediumSDK11OcrMetadataV6idDataSDyS2SGvg",
-                "moduleName": "IDentityMediumSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK11OcrMetadataV6idDataSDyS2SGvs",
-                "mangledName": "$s17IDentityMediumSDK11OcrMetadataV6idDataSDyS2SGvs",
-                "moduleName": "IDentityMediumSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK11OcrMetadataV6idDataSDyS2SGvM",
-                "mangledName": "$s17IDentityMediumSDK11OcrMetadataV6idDataSDyS2SGvM",
-                "moduleName": "IDentityMediumSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(idData:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OcrMetadata",
-                "printedName": "IDentityMediumSDK.OcrMetadata",
-                "usr": "s:17IDentityMediumSDK11OcrMetadataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:17IDentityMediumSDK11OcrMetadataV6idDataACSDyS2SG_tcfc",
-            "mangledName": "$s17IDentityMediumSDK11OcrMetadataV6idDataACSDyS2SG_tcfc",
-            "moduleName": "IDentityMediumSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK11OcrMetadataV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s17IDentityMediumSDK11OcrMetadataV6encode2toys7Encoder_p_tKF",
-            "moduleName": "IDentityMediumSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:17IDentityMediumSDK11OcrMetadataV",
-        "mangledName": "$s17IDentityMediumSDK11OcrMetadataV",
-        "moduleName": "IDentityMediumSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IDentityMediumSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "CustomerLiveCheckRequest",
         "printedName": "CustomerLiveCheckRequest",
         "children": [
@@ -113528,42 +113176,42 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 13419,
+      "offset": 13336,
       "length": 18,
       "value": "\"IntrinsicLoginID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 13473,
+      "offset": 13390,
       "length": 21,
       "value": "\"IntrinsicMerchantID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 13530,
+      "offset": 13447,
       "length": 21,
       "value": "\"IntrinsicSDKVersion\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 13419,
+      "offset": 13336,
       "length": 18,
       "value": "\"IntrinsicLoginID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 13473,
+      "offset": 13390,
       "length": 21,
       "value": "\"IntrinsicMerchantID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 13530,
+      "offset": 13447,
       "length": 21,
       "value": "\"IntrinsicSDKVersion\""
     },
@@ -113979,6 +113627,76 @@
       "offset": 354,
       "length": 11,
       "value": "\"MobileSDK\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 26,
+      "value": "\"PassiveFaceTrainingModel\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 24,
+      "value": "\"IDCaptureTrainingModel\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 30,
+      "value": "\"EncDocDetectionTrainingModel\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 26,
+      "value": "\"FPDetectionTrainingModel\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 520,
+      "length": 24,
+      "value": "\"FocusTrainingModel_448\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 26,
+      "value": "\"PassiveFaceTrainingModel\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 24,
+      "value": "\"IDCaptureTrainingModel\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 30,
+      "value": "\"EncDocDetectionTrainingModel\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 26,
+      "value": "\"FPDetectionTrainingModel\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 520,
+      "length": 24,
+      "value": "\"FocusTrainingModel_448\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Metadata.swift",
@@ -114620,217 +114338,224 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 1289,
+      "offset": 1214,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 1314,
+      "offset": 1239,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 2263,
+      "offset": 2188,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "Array",
-      "offset": 2536,
+      "offset": 2461,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2567,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "FloatLiteral",
-      "offset": 2620,
+      "offset": 2654,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "Array",
-      "offset": 2691,
+      "offset": 2725,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 2808,
+      "offset": 2842,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 3004,
+      "offset": 3038,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 4038,
+      "offset": 4072,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 4116,
+      "offset": 4150,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 5570,
+      "offset": 5604,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 5651,
+      "offset": 5685,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 8569,
+      "offset": 8603,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 8770,
+      "offset": 8804,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 8883,
+      "offset": 8917,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 9292,
+      "offset": 9326,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 13359,
+      "offset": 13459,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 13995,
+      "offset": 14095,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 14046,
+      "offset": 14146,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 14103,
+      "offset": 14203,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 14178,
+      "offset": 14278,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 14237,
+      "offset": 14337,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 14291,
+      "offset": 14391,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 14343,
+      "offset": 14443,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 14475,
+      "offset": 14575,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 14579,
+      "offset": 14679,
       "length": 26,
       "value": "\"IDCapture.idCaptureQueue\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 14731,
+      "offset": 14831,
       "length": 29,
       "value": "\"IDCapture.isProcessingQueue\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 14794,
+      "offset": 14894,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 15587,
+      "offset": 15687,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 68728,
+      "offset": 69037,
       "length": 20,
       "value": "\"idCaptureDebugData\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 68799,
+      "offset": 69108,
       "length": 15,
       "value": "\"idCaptureMode\""
     },
@@ -115836,6 +115561,55 @@
       "value": "\"device_id\""
     },
     {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 35,
+      "value": "\"UNIQUE_KEY_ID_7361_20230705112911\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 348,
+      "length": 130,
+      "value": "\"MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALX33M\/KjoDe2g4G\/AUTjeUL1W+PQxdD61sev8rE2\/0Pm2+iUiyz8NYlNERN8\/DiVK073Q3a0uT550eCnWh5NEECAwEAAQ==\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 70,
+      "value": "\"docdetect-realness-two-input-mobile-production_2023_08_01_v43.tflite\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 57,
+      "value": "\"liveness-mobile-production_2023-07-30_112451_V50.tflite\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1036,
+      "length": 63,
+      "value": "\"docdetect-detection-ssd-et-al-production_2023_04_30_V4.tflite\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1162,
+      "length": 27,
+      "value": "\"detect_fingerprint.tflite\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1237,
+      "length": 39,
+      "value": "\"docdetect-focus_2023-06-24_v15.tflite\""
+    },
+    {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/ZIPFoundation\/ZIPFoundation\/Archive+ZIP64.swift",
       "kind": "IntegerLiteral",
       "offset": 352,
@@ -116270,128 +116044,9 @@
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 240,
-      "length": 26,
-      "value": "\"PassiveFaceTrainingModel\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 302,
-      "length": 24,
-      "value": "\"IDCaptureTrainingModel\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 493,
-      "length": 30,
-      "value": "\"EncDocDetectionTrainingModel\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 556,
-      "length": 26,
-      "value": "\"FPDetectionTrainingModel\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 600,
-      "length": 24,
-      "value": "\"FocusTrainingModel_448\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 240,
-      "length": 26,
-      "value": "\"PassiveFaceTrainingModel\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 302,
-      "length": 24,
-      "value": "\"IDCaptureTrainingModel\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 493,
-      "length": 30,
-      "value": "\"EncDocDetectionTrainingModel\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 556,
-      "length": 26,
-      "value": "\"FPDetectionTrainingModel\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 600,
-      "length": 24,
-      "value": "\"FocusTrainingModel_448\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 7436,
-      "length": 34,
-      "value": "\"UNIQUE_KEY_ID_955_20230426121945\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 7506,
-      "length": 130,
-      "value": "\"MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAI8aYN8aOfMlcWhET4UPELOt2rrqemQSP8mdunFqpqVBIk3ZtkU+zw+q35zDfcon0yVUUaerHQrPeQMrtRxvJhcCAwEAAQ==\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 7702,
-      "length": 70,
-      "value": "\"docdetect-realness-two-input-mobile-production_2023-06-20_V40.tflite\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 7833,
-      "length": 50,
-      "value": "\"liveness-mobile-production_2023-06-15_V47.tflite\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 8180,
-      "length": 70,
-      "value": "\"docdetect-detection-ssd-et-al-production_2023_04_30_004135_V4.tflite\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 8313,
-      "length": 27,
-      "value": "\"detect_fingerprint.tflite\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 8388,
-      "length": 39,
-      "value": "\"docdetect-focus_2023-06-24_v15.tflite\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/ModelDownloader.swift",
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader.swift",
       "kind": "BooleanLiteral",
-      "offset": 9125,
+      "offset": 930,
       "length": 5,
       "value": "false"
     },
@@ -116881,14 +116536,14 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 20630,
+      "offset": 20636,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "StringLiteral",
-      "offset": 21906,
+      "offset": 21912,
       "length": 24,
       "value": "\"selfieCaptureDebugData\""
     },
@@ -117017,20 +116672,6 @@
       "offset": 854,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/OcrMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 532,
-      "length": 8,
-      "value": "\"IDData\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/OcrMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 532,
-      "length": 8,
-      "value": "\"IDData\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/JSON\/CountryList.swift",

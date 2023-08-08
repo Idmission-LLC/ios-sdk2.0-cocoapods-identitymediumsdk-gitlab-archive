@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "IDCaptureMedium"
-  spec.version      = "9.5.7.2.5"
+  spec.version      = "9.5.9.2.4"
   spec.summary      = "IDCaptureMedium lets user add IDCaptureMediumSDK in their project"
   spec.description  = <<-DESC 
                     IDCaptureMedium helps user to add IDCaptureMediumSDK in their project.
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/Idmission-LLC/IDentityMediumSDK2.0"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "Idmission LLC" => "amol.deshmukh@idmission.com" }
-  spec.source       = { :git => "https://oauth2:-RjPxFgW4eFB-gff-xPF@gitlab.idmission.com/apps/sdk2.0/ios/cocoapods/identitymediumsdk2.0.git", 
+  spec.source       = { :git => "https://sdk2:-RjPxFgW4eFB-gff-xPF@gitlab.idmission.com/apps/sdk2.0/ios/cocoapods/identitymediumsdk2.0.git", 
                         :tag => "#{spec.version}"}
                         
   spec.platform     = :ios

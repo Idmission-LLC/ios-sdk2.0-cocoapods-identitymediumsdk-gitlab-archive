@@ -336,6 +336,7 @@ SWIFT_CLASS("_TtC17IDentityMediumSDK7IDError")
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif
