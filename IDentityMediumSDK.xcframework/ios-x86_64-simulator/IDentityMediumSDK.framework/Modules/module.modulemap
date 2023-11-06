@@ -1,7 +1,7 @@
 framework module IDentityMediumSDK {
   umbrella header "IDentityMediumSDK.h"
-
   export *
+
   module * { export * }
 }
 

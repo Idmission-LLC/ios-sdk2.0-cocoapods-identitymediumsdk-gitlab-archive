@@ -251,7 +251,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerLiveCheckResponse, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerLiveCheckResponseV3, Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -261,13 +261,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<IDentityMediumSDK.CustomerLiveCheckResponse, Swift.Error>",
+                    "printedName": "Swift.Result<IDentityMediumSDK.CustomerLiveCheckResponseV3, Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerLiveCheckResponse",
-                        "printedName": "IDentityMediumSDK.CustomerLiveCheckResponse",
-                        "usr": "s:17IDentityMediumSDK25CustomerLiveCheckResponseV"
+                        "name": "CustomerLiveCheckResponseV3",
+                        "printedName": "IDentityMediumSDK.CustomerLiveCheckResponseV3",
+                        "usr": "s:17IDentityMediumSDK27CustomerLiveCheckResponseV3V"
                       },
                       {
                         "kind": "TypeNominal",
@@ -282,8 +282,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19SelfieCaptureMedium19LiveFaceCheckResultV6submit19additionalDocuments10completionySay08IDentityC3SDK010AdditionalJ7RequestVGSg_ys0G0OyAG08CustomerdF8ResponseVs5Error_pGctF",
-            "mangledName": "$s19SelfieCaptureMedium19LiveFaceCheckResultV6submit19additionalDocuments10completionySay08IDentityC3SDK010AdditionalJ7RequestVGSg_ys0G0OyAG08CustomerdF8ResponseVs5Error_pGctF",
+            "usr": "s:19SelfieCaptureMedium19LiveFaceCheckResultV6submit19additionalDocuments10completionySay08IDentityC3SDK010AdditionalJ7RequestVGSg_ys0G0OyAG08CustomerdF10ResponseV3Vs5Error_pGctF",
+            "mangledName": "$s19SelfieCaptureMedium19LiveFaceCheckResultV6submit19additionalDocuments10completionySay08IDentityC3SDK010AdditionalJ7RequestVGSg_ys0G0OyAG08CustomerdF10ResponseV3Vs5Error_pGctF",
             "moduleName": "SelfieCaptureMedium",
             "declAttributes": [
               "AccessControl",
@@ -428,7 +428,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerEnrollBiometricResponse, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerEnrollBiometricResponseV3, Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -438,13 +438,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<IDentityMediumSDK.CustomerEnrollBiometricResponse, Swift.Error>",
+                    "printedName": "Swift.Result<IDentityMediumSDK.CustomerEnrollBiometricResponseV3, Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerEnrollBiometricResponse",
-                        "printedName": "IDentityMediumSDK.CustomerEnrollBiometricResponse",
-                        "usr": "s:17IDentityMediumSDK31CustomerEnrollBiometricResponseV"
+                        "name": "CustomerEnrollBiometricResponseV3",
+                        "printedName": "IDentityMediumSDK.CustomerEnrollBiometricResponseV3",
+                        "usr": "s:17IDentityMediumSDK33CustomerEnrollBiometricResponseV3V"
                       },
                       {
                         "kind": "TypeNominal",
@@ -459,8 +459,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19SelfieCaptureMedium30CustomerEnrollBiometricsResultV6submit19additionalDocuments10completionySay08IDentityC3SDK010AdditionalJ7RequestVGSg_ys0G0OyAG0dE17BiometricResponseVs5Error_pGctF",
-            "mangledName": "$s19SelfieCaptureMedium30CustomerEnrollBiometricsResultV6submit19additionalDocuments10completionySay08IDentityC3SDK010AdditionalJ7RequestVGSg_ys0G0OyAG0dE17BiometricResponseVs5Error_pGctF",
+            "usr": "s:19SelfieCaptureMedium30CustomerEnrollBiometricsResultV6submit19additionalDocuments10completionySay08IDentityC3SDK010AdditionalJ7RequestVGSg_ys0G0OyAG0dE19BiometricResponseV3Vs5Error_pGctF",
+            "mangledName": "$s19SelfieCaptureMedium30CustomerEnrollBiometricsResultV6submit19additionalDocuments10completionySay08IDentityC3SDK010AdditionalJ7RequestVGSg_ys0G0OyAG0dE19BiometricResponseV3Vs5Error_pGctF",
             "moduleName": "SelfieCaptureMedium",
             "declAttributes": [
               "AccessControl",
@@ -759,7 +759,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerIdentifyResponse, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerIdentifyResponseV3, Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -769,13 +769,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<IDentityMediumSDK.CustomerIdentifyResponse, Swift.Error>",
+                    "printedName": "Swift.Result<IDentityMediumSDK.CustomerIdentifyResponseV3, Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerIdentifyResponse",
-                        "printedName": "IDentityMediumSDK.CustomerIdentifyResponse",
-                        "usr": "s:17IDentityMediumSDK24CustomerIdentifyResponseV"
+                        "name": "CustomerIdentifyResponseV3",
+                        "printedName": "IDentityMediumSDK.CustomerIdentifyResponseV3",
+                        "usr": "s:17IDentityMediumSDK26CustomerIdentifyResponseV3V"
                       },
                       {
                         "kind": "TypeNominal",
@@ -790,8 +790,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19SelfieCaptureMedium22CustomerIdentifyResultV6submit10completionyys0F0Oy08IDentityC3SDK0dE8ResponseVs5Error_pGc_tF",
-            "mangledName": "$s19SelfieCaptureMedium22CustomerIdentifyResultV6submit10completionyys0F0Oy08IDentityC3SDK0dE8ResponseVs5Error_pGc_tF",
+            "usr": "s:19SelfieCaptureMedium22CustomerIdentifyResultV6submit10completionyys0F0Oy08IDentityC3SDK0dE10ResponseV3Vs5Error_pGc_tF",
+            "mangledName": "$s19SelfieCaptureMedium22CustomerIdentifyResultV6submit10completionyys0F0Oy08IDentityC3SDK0dE10ResponseV3Vs5Error_pGc_tF",
             "moduleName": "SelfieCaptureMedium",
             "declAttributes": [
               "AccessControl",
@@ -1133,7 +1133,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerValidateIdFaceMatchResponse, Swift.Error>, [Swift.String : Any]?) -> ()",
+                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerValidateIdFaceMatchResponseV3, Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1142,64 +1142,30 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.Result<IDentityMediumSDK.CustomerValidateIdFaceMatchResponse, Swift.Error>, [Swift.String : Any]?)",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDentityMediumSDK.CustomerValidateIdFaceMatchResponseV3, Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Result",
-                        "printedName": "Swift.Result<IDentityMediumSDK.CustomerValidateIdFaceMatchResponse, Swift.Error>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "CustomerValidateIdFaceMatchResponse",
-                            "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchResponse",
-                            "usr": "s:17IDentityMediumSDK35CustomerValidateIdFaceMatchResponseV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Error",
-                            "printedName": "Swift.Error",
-                            "usr": "s:s5ErrorP"
-                          }
-                        ],
-                        "usr": "s:s6ResultO"
+                        "name": "CustomerValidateIdFaceMatchResponseV3",
+                        "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchResponseV3",
+                        "usr": "s:17IDentityMediumSDK37CustomerValidateIdFaceMatchResponseV3V"
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "[Swift.String : Any]?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Dictionary",
-                            "printedName": "[Swift.String : Any]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProtocolComposition",
-                                "printedName": "Any"
-                              }
-                            ],
-                            "usr": "s:SD"
-                          }
-                        ],
-                        "usr": "s:Sq"
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
                       }
-                    ]
+                    ],
+                    "usr": "s:s6ResultO"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:19SelfieCaptureMedium25ValidateIdMatchFaceResultV6submit19additionalDocuments10completionySay08IDentityC3SDK010AdditionalK7RequestVGSg_ys0H0OyAG08CustomerdegF8ResponseVs5Error_pG_SDySSypGSgtctF",
-            "mangledName": "$s19SelfieCaptureMedium25ValidateIdMatchFaceResultV6submit19additionalDocuments10completionySay08IDentityC3SDK010AdditionalK7RequestVGSg_ys0H0OyAG08CustomerdegF8ResponseVs5Error_pG_SDySSypGSgtctF",
+            "usr": "s:19SelfieCaptureMedium25ValidateIdMatchFaceResultV6submit19additionalDocuments10completionySay08IDentityC3SDK010AdditionalK7RequestVGSg_ys0H0OyAG08CustomerdegF10ResponseV3Vs5Error_pGctF",
+            "mangledName": "$s19SelfieCaptureMedium25ValidateIdMatchFaceResultV6submit19additionalDocuments10completionySay08IDentityC3SDK010AdditionalK7RequestVGSg_ys0H0OyAG08CustomerdegF10ResponseV3Vs5Error_pGctF",
             "moduleName": "SelfieCaptureMedium",
             "declAttributes": [
               "AccessControl",
@@ -1571,7 +1537,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerEnrollResponse, Swift.Error>, [Swift.String : Any]?) -> ()",
+                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerEnrollResponseV3, Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1580,64 +1546,30 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.Result<IDentityMediumSDK.CustomerEnrollResponse, Swift.Error>, [Swift.String : Any]?)",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDentityMediumSDK.CustomerEnrollResponseV3, Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Result",
-                        "printedName": "Swift.Result<IDentityMediumSDK.CustomerEnrollResponse, Swift.Error>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "CustomerEnrollResponse",
-                            "printedName": "IDentityMediumSDK.CustomerEnrollResponse",
-                            "usr": "s:17IDentityMediumSDK22CustomerEnrollResponseV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Error",
-                            "printedName": "Swift.Error",
-                            "usr": "s:s5ErrorP"
-                          }
-                        ],
-                        "usr": "s:s6ResultO"
+                        "name": "CustomerEnrollResponseV3",
+                        "printedName": "IDentityMediumSDK.CustomerEnrollResponseV3",
+                        "usr": "s:17IDentityMediumSDK24CustomerEnrollResponseV3V"
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "[Swift.String : Any]?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Dictionary",
-                            "printedName": "[Swift.String : Any]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProtocolComposition",
-                                "printedName": "Any"
-                              }
-                            ],
-                            "usr": "s:SD"
-                          }
-                        ],
-                        "usr": "s:Sq"
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
                       }
-                    ]
+                    ],
+                    "usr": "s:s6ResultO"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:19SelfieCaptureMedium20CustomerEnrollResultV6submit19additionalDocuments9cardToken0J5Last410completionySay08IDentityC3SDK010AdditionalI7RequestVGSg_SSSgANys0F0OyAI0dE8ResponseVs5Error_pG_SDySSypGSgtctF",
-            "mangledName": "$s19SelfieCaptureMedium20CustomerEnrollResultV6submit19additionalDocuments9cardToken0J5Last410completionySay08IDentityC3SDK010AdditionalI7RequestVGSg_SSSgANys0F0OyAI0dE8ResponseVs5Error_pG_SDySSypGSgtctF",
+            "usr": "s:19SelfieCaptureMedium20CustomerEnrollResultV6submit19additionalDocuments9cardToken0J5Last410completionySay08IDentityC3SDK010AdditionalI7RequestVGSg_SSSgANys0F0OyAI0dE10ResponseV3Vs5Error_pGctF",
+            "mangledName": "$s19SelfieCaptureMedium20CustomerEnrollResultV6submit19additionalDocuments9cardToken0J5Last410completionySay08IDentityC3SDK010AdditionalI7RequestVGSg_SSSgANys0F0OyAI0dE10ResponseV3Vs5Error_pGctF",
             "moduleName": "SelfieCaptureMedium",
             "declAttributes": [
               "AccessControl",
@@ -1731,6 +1663,34 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SelfieCaptureMedium"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SelfieCaptureMedium"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SelfieCaptureMedium"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "SelfieCaptureMedium"
+      },
+      {
         "kind": "TypeDecl",
         "name": "IDentitySDK",
         "printedName": "IDentitySDK",
@@ -1743,21 +1703,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IDentityMediumSDK.CustomerLiveCheckRequest?",
+                "printedName": "IDentityMediumSDK.CustomerLiveCheckRequestV3?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CustomerLiveCheckRequest",
-                    "printedName": "IDentityMediumSDK.CustomerLiveCheckRequest",
-                    "usr": "s:17IDentityMediumSDK24CustomerLiveCheckRequestV"
+                    "name": "CustomerLiveCheckRequestV3",
+                    "printedName": "IDentityMediumSDK.CustomerLiveCheckRequestV3",
+                    "usr": "s:17IDentityMediumSDK26CustomerLiveCheckRequestV3V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI0VSgvpZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI0VSgvpZ",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI2V3VSgvpZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI2V3VSgvpZ",
             "moduleName": "SelfieCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -1778,21 +1738,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerLiveCheckRequest?",
+                    "printedName": "IDentityMediumSDK.CustomerLiveCheckRequestV3?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerLiveCheckRequest",
-                        "printedName": "IDentityMediumSDK.CustomerLiveCheckRequest",
-                        "usr": "s:17IDentityMediumSDK24CustomerLiveCheckRequestV"
+                        "name": "CustomerLiveCheckRequestV3",
+                        "printedName": "IDentityMediumSDK.CustomerLiveCheckRequestV3",
+                        "usr": "s:17IDentityMediumSDK26CustomerLiveCheckRequestV3V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI0VSgvgZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI0VSgvgZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI2V3VSgvgZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI2V3VSgvgZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -1815,21 +1775,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerLiveCheckRequest?",
+                    "printedName": "IDentityMediumSDK.CustomerLiveCheckRequestV3?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerLiveCheckRequest",
-                        "printedName": "IDentityMediumSDK.CustomerLiveCheckRequest",
-                        "usr": "s:17IDentityMediumSDK24CustomerLiveCheckRequestV"
+                        "name": "CustomerLiveCheckRequestV3",
+                        "printedName": "IDentityMediumSDK.CustomerLiveCheckRequestV3",
+                        "usr": "s:17IDentityMediumSDK26CustomerLiveCheckRequestV3V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI0VSgvsZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI0VSgvsZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI2V3VSgvsZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI2V3VSgvsZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -1851,8 +1811,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI0VSgvMZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI0VSgvMZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI2V3VSgvMZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerLiveCheckRequestAA08CustomerghI2V3VSgvMZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -1933,21 +1893,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IDentityMediumSDK.CustomerEnrollBiometricsRequest?",
+                "printedName": "IDentityMediumSDK.CustomerEnrollBiometricsRequestV3?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CustomerEnrollBiometricsRequest",
-                    "printedName": "IDentityMediumSDK.CustomerEnrollBiometricsRequest",
-                    "usr": "s:17IDentityMediumSDK31CustomerEnrollBiometricsRequestV"
+                    "name": "CustomerEnrollBiometricsRequestV3",
+                    "printedName": "IDentityMediumSDK.CustomerEnrollBiometricsRequestV3",
+                    "usr": "s:17IDentityMediumSDK33CustomerEnrollBiometricsRequestV3V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI0VSgvpZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI0VSgvpZ",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI2V3VSgvpZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI2V3VSgvpZ",
             "moduleName": "SelfieCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -1968,21 +1928,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerEnrollBiometricsRequest?",
+                    "printedName": "IDentityMediumSDK.CustomerEnrollBiometricsRequestV3?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerEnrollBiometricsRequest",
-                        "printedName": "IDentityMediumSDK.CustomerEnrollBiometricsRequest",
-                        "usr": "s:17IDentityMediumSDK31CustomerEnrollBiometricsRequestV"
+                        "name": "CustomerEnrollBiometricsRequestV3",
+                        "printedName": "IDentityMediumSDK.CustomerEnrollBiometricsRequestV3",
+                        "usr": "s:17IDentityMediumSDK33CustomerEnrollBiometricsRequestV3V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI0VSgvgZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI0VSgvgZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI2V3VSgvgZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI2V3VSgvgZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2005,21 +1965,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerEnrollBiometricsRequest?",
+                    "printedName": "IDentityMediumSDK.CustomerEnrollBiometricsRequestV3?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerEnrollBiometricsRequest",
-                        "printedName": "IDentityMediumSDK.CustomerEnrollBiometricsRequest",
-                        "usr": "s:17IDentityMediumSDK31CustomerEnrollBiometricsRequestV"
+                        "name": "CustomerEnrollBiometricsRequestV3",
+                        "printedName": "IDentityMediumSDK.CustomerEnrollBiometricsRequestV3",
+                        "usr": "s:17IDentityMediumSDK33CustomerEnrollBiometricsRequestV3V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI0VSgvsZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI0VSgvsZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI2V3VSgvsZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI2V3VSgvsZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2041,8 +2001,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI0VSgvMZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI0VSgvMZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI2V3VSgvMZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E31customerEnrollBiometricsRequestAA08CustomerghI2V3VSgvMZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2072,15 +2032,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PersonalCustomerCommonRequestData",
-                "printedName": "IDentityMediumSDK.PersonalCustomerCommonRequestData",
-                "usr": "s:17IDentityMediumSDK33PersonalCustomerCommonRequestDataV"
+                "name": "PersonalCustomerCommonRequestDataV3",
+                "printedName": "IDentityMediumSDK.PersonalCustomerCommonRequestDataV3",
+                "usr": "s:17IDentityMediumSDK35PersonalCustomerCommonRequestDataV3V"
               },
               {
                 "kind": "TypeNominal",
-                "name": "AdditionalCustomerEnrollBiometricRequestData",
-                "printedName": "IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData",
-                "usr": "s:17IDentityMediumSDK44AdditionalCustomerEnrollBiometricRequestDataV"
+                "name": "AdditionalCustomerEnrollBiometricRequestDataV3",
+                "printedName": "IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestDataV3",
+                "usr": "s:17IDentityMediumSDK46AdditionalCustomerEnrollBiometricRequestDataV3V"
               },
               {
                 "kind": "TypeFunc",
@@ -2116,8 +2076,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerEnrollBiometrics4from12personalData7options10completionySo16UIViewControllerC_AA029PersonalCustomerCommonRequestK0VAA010Additionalqg9BiometricsK0Vys6ResultOyAD0qghV0Vs5Error_pGctFZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerEnrollBiometrics4from12personalData7options10completionySo16UIViewControllerC_AA029PersonalCustomerCommonRequestK0VAA010Additionalqg9BiometricsK0Vys6ResultOyAD0qghV0Vs5Error_pGctFZ",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerEnrollBiometrics4from12personalData7options10completionySo16UIViewControllerC_AA029PersonalCustomerCommonRequestK2V3VAA010Additionalqg9BiometricskT0Vys6ResultOyAD0qghW0Vs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24customerEnrollBiometrics4from12personalData7options10completionySo16UIViewControllerC_AA029PersonalCustomerCommonRequestK2V3VAA010Additionalqg9BiometricskT0Vys6ResultOyAD0qghW0Vs5Error_pGctFZ",
             "moduleName": "SelfieCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -2135,21 +2095,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IDentityMediumSDK.CustomerVerifyRequest?",
+                "printedName": "IDentityMediumSDK.CustomerVerifyRequestV3?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CustomerVerifyRequest",
-                    "printedName": "IDentityMediumSDK.CustomerVerifyRequest",
-                    "usr": "s:17IDentityMediumSDK21CustomerVerifyRequestV"
+                    "name": "CustomerVerifyRequestV3",
+                    "printedName": "IDentityMediumSDK.CustomerVerifyRequestV3",
+                    "usr": "s:17IDentityMediumSDK23CustomerVerifyRequestV3V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH0VSgvpZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH0VSgvpZ",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH2V3VSgvpZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH2V3VSgvpZ",
             "moduleName": "SelfieCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -2170,21 +2130,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerVerifyRequest?",
+                    "printedName": "IDentityMediumSDK.CustomerVerifyRequestV3?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerVerifyRequest",
-                        "printedName": "IDentityMediumSDK.CustomerVerifyRequest",
-                        "usr": "s:17IDentityMediumSDK21CustomerVerifyRequestV"
+                        "name": "CustomerVerifyRequestV3",
+                        "printedName": "IDentityMediumSDK.CustomerVerifyRequestV3",
+                        "usr": "s:17IDentityMediumSDK23CustomerVerifyRequestV3V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH0VSgvgZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH0VSgvgZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH2V3VSgvgZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH2V3VSgvgZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2207,21 +2167,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerVerifyRequest?",
+                    "printedName": "IDentityMediumSDK.CustomerVerifyRequestV3?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerVerifyRequest",
-                        "printedName": "IDentityMediumSDK.CustomerVerifyRequest",
-                        "usr": "s:17IDentityMediumSDK21CustomerVerifyRequestV"
+                        "name": "CustomerVerifyRequestV3",
+                        "printedName": "IDentityMediumSDK.CustomerVerifyRequestV3",
+                        "usr": "s:17IDentityMediumSDK23CustomerVerifyRequestV3V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH0VSgvsZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH0VSgvsZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH2V3VSgvsZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH2V3VSgvsZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2243,8 +2203,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH0VSgvMZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH0VSgvMZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH2V3VSgvMZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerVerifyRequestAA08CustomergH2V3VSgvMZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2331,21 +2291,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IDentityMediumSDK.CustomerIdentifyRequest?",
+                "printedName": "IDentityMediumSDK.CustomerIdentifyRequestV3?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CustomerIdentifyRequest",
-                    "printedName": "IDentityMediumSDK.CustomerIdentifyRequest",
-                    "usr": "s:17IDentityMediumSDK23CustomerIdentifyRequestV"
+                    "name": "CustomerIdentifyRequestV3",
+                    "printedName": "IDentityMediumSDK.CustomerIdentifyRequestV3",
+                    "usr": "s:17IDentityMediumSDK25CustomerIdentifyRequestV3V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH0VSgvpZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH0VSgvpZ",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH2V3VSgvpZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH2V3VSgvpZ",
             "moduleName": "SelfieCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -2366,21 +2326,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerIdentifyRequest?",
+                    "printedName": "IDentityMediumSDK.CustomerIdentifyRequestV3?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerIdentifyRequest",
-                        "printedName": "IDentityMediumSDK.CustomerIdentifyRequest",
-                        "usr": "s:17IDentityMediumSDK23CustomerIdentifyRequestV"
+                        "name": "CustomerIdentifyRequestV3",
+                        "printedName": "IDentityMediumSDK.CustomerIdentifyRequestV3",
+                        "usr": "s:17IDentityMediumSDK25CustomerIdentifyRequestV3V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH0VSgvgZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH0VSgvgZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH2V3VSgvgZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH2V3VSgvgZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2403,21 +2363,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerIdentifyRequest?",
+                    "printedName": "IDentityMediumSDK.CustomerIdentifyRequestV3?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerIdentifyRequest",
-                        "printedName": "IDentityMediumSDK.CustomerIdentifyRequest",
-                        "usr": "s:17IDentityMediumSDK23CustomerIdentifyRequestV"
+                        "name": "CustomerIdentifyRequestV3",
+                        "printedName": "IDentityMediumSDK.CustomerIdentifyRequestV3",
+                        "usr": "s:17IDentityMediumSDK25CustomerIdentifyRequestV3V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH0VSgvsZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH0VSgvsZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH2V3VSgvsZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH2V3VSgvsZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2439,8 +2399,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH0VSgvMZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH0VSgvMZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH2V3VSgvMZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E23customerIdentifyRequestAA08CustomergH2V3VSgvMZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2521,21 +2481,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchRequest?",
+                "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchRequestV3?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CustomerValidateIdFaceMatchRequest",
-                    "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchRequest",
-                    "usr": "s:17IDentityMediumSDK34CustomerValidateIdFaceMatchRequestV"
+                    "name": "CustomerValidateIdFaceMatchRequestV3",
+                    "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchRequestV3",
+                    "usr": "s:17IDentityMediumSDK36CustomerValidateIdFaceMatchRequestV3V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK0VSgvpZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK0VSgvpZ",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK2V3VSgvpZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK2V3VSgvpZ",
             "moduleName": "SelfieCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -2556,21 +2516,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchRequest?",
+                    "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchRequestV3?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerValidateIdFaceMatchRequest",
-                        "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchRequest",
-                        "usr": "s:17IDentityMediumSDK34CustomerValidateIdFaceMatchRequestV"
+                        "name": "CustomerValidateIdFaceMatchRequestV3",
+                        "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchRequestV3",
+                        "usr": "s:17IDentityMediumSDK36CustomerValidateIdFaceMatchRequestV3V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK0VSgvgZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK0VSgvgZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK2V3VSgvgZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK2V3VSgvgZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2593,21 +2553,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchRequest?",
+                    "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchRequestV3?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerValidateIdFaceMatchRequest",
-                        "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchRequest",
-                        "usr": "s:17IDentityMediumSDK34CustomerValidateIdFaceMatchRequestV"
+                        "name": "CustomerValidateIdFaceMatchRequestV3",
+                        "printedName": "IDentityMediumSDK.CustomerValidateIdFaceMatchRequestV3",
+                        "usr": "s:17IDentityMediumSDK36CustomerValidateIdFaceMatchRequestV3V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK0VSgvsZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK0VSgvsZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK2V3VSgvsZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK2V3VSgvsZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2629,8 +2589,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK0VSgvMZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK0VSgvMZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK2V3VSgvMZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E34customerValidateIdFaceMatchRequestAA08CustomerghijK2V3VSgvMZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2660,9 +2620,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "AdditionalCustomerWFlagCommonData",
-                "printedName": "IDentityMediumSDK.AdditionalCustomerWFlagCommonData",
-                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV"
+                "name": "AdditionalCustomerWFlagCommonDataV3",
+                "printedName": "IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3",
+                "usr": "s:17IDentityMediumSDK35AdditionalCustomerWFlagCommonDataV3V"
               },
               {
                 "kind": "TypeNominal",
@@ -2705,8 +2665,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24idValidationAndMatchFace4from7options11captureBack10completionySo16UIViewControllerC_AA33AdditionalCustomerWFlagCommonDataVSbys6ResultOyAD010ValidateIdijW0Vs5Error_pGctFZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24idValidationAndMatchFace4from7options11captureBack10completionySo16UIViewControllerC_AA33AdditionalCustomerWFlagCommonDataVSbys6ResultOyAD010ValidateIdijW0Vs5Error_pGctFZ",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24idValidationAndMatchFace4from7options11captureBack10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VSbys6ResultOyAD010ValidateIdijX0Vs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24idValidationAndMatchFace4from7options11captureBack10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VSbys6ResultOyAD010ValidateIdijX0Vs5Error_pGctFZ",
             "moduleName": "SelfieCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -2734,9 +2694,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "AdditionalCustomerWFlagCommonData",
-                "printedName": "IDentityMediumSDK.AdditionalCustomerWFlagCommonData",
-                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV"
+                "name": "AdditionalCustomerWFlagCommonDataV3",
+                "printedName": "IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3",
+                "usr": "s:17IDentityMediumSDK35AdditionalCustomerWFlagCommonDataV3V"
               },
               {
                 "kind": "TypeNominal",
@@ -2798,8 +2758,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24idValidationAndMatchFace4from7options0F4Type0F7Country0F5State10completionySo16UIViewControllerC_AA33AdditionalCustomerWFlagCommonDataVS3SSgys6ResultOyAD010ValidateIdijX0Vs5Error_pGctFZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24idValidationAndMatchFace4from7options0F4Type0F7Country0F5State10completionySo16UIViewControllerC_AA33AdditionalCustomerWFlagCommonDataVS3SSgys6ResultOyAD010ValidateIdijX0Vs5Error_pGctFZ",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24idValidationAndMatchFace4from7options0F4Type0F7Country0F5State10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VS3SSgys6ResultOyAD010ValidateIdijY0Vs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24idValidationAndMatchFace4from7options0F4Type0F7Country0F5State10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VS3SSgys6ResultOyAD010ValidateIdijY0Vs5Error_pGctFZ",
             "moduleName": "SelfieCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -2817,21 +2777,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IDentityMediumSDK.CustomerEnrollRequest?",
+                "printedName": "IDentityMediumSDK.CustomerEnrollRequestV3?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CustomerEnrollRequest",
-                    "printedName": "IDentityMediumSDK.CustomerEnrollRequest",
-                    "usr": "s:17IDentityMediumSDK21CustomerEnrollRequestV"
+                    "name": "CustomerEnrollRequestV3",
+                    "printedName": "IDentityMediumSDK.CustomerEnrollRequestV3",
+                    "usr": "s:17IDentityMediumSDK23CustomerEnrollRequestV3V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH0VSgvpZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH0VSgvpZ",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH2V3VSgvpZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH2V3VSgvpZ",
             "moduleName": "SelfieCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -2852,21 +2812,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerEnrollRequest?",
+                    "printedName": "IDentityMediumSDK.CustomerEnrollRequestV3?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerEnrollRequest",
-                        "printedName": "IDentityMediumSDK.CustomerEnrollRequest",
-                        "usr": "s:17IDentityMediumSDK21CustomerEnrollRequestV"
+                        "name": "CustomerEnrollRequestV3",
+                        "printedName": "IDentityMediumSDK.CustomerEnrollRequestV3",
+                        "usr": "s:17IDentityMediumSDK23CustomerEnrollRequestV3V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH0VSgvgZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH0VSgvgZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH2V3VSgvgZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH2V3VSgvgZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2889,21 +2849,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerEnrollRequest?",
+                    "printedName": "IDentityMediumSDK.CustomerEnrollRequestV3?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerEnrollRequest",
-                        "printedName": "IDentityMediumSDK.CustomerEnrollRequest",
-                        "usr": "s:17IDentityMediumSDK21CustomerEnrollRequestV"
+                        "name": "CustomerEnrollRequestV3",
+                        "printedName": "IDentityMediumSDK.CustomerEnrollRequestV3",
+                        "usr": "s:17IDentityMediumSDK23CustomerEnrollRequestV3V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH0VSgvsZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH0VSgvsZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH2V3VSgvsZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH2V3VSgvsZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2925,8 +2885,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH0VSgvMZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH0VSgvMZ",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH2V3VSgvMZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E21customerEnrollRequestAA08CustomergH2V3VSgvMZ",
                 "moduleName": "SelfieCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -2956,15 +2916,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PersonalCustomerCommonRequestData",
-                "printedName": "IDentityMediumSDK.PersonalCustomerCommonRequestData",
-                "usr": "s:17IDentityMediumSDK33PersonalCustomerCommonRequestDataV"
+                "name": "PersonalCustomerCommonRequestEnrollDataV3",
+                "printedName": "IDentityMediumSDK.PersonalCustomerCommonRequestEnrollDataV3",
+                "usr": "s:17IDentityMediumSDK41PersonalCustomerCommonRequestEnrollDataV3V"
               },
               {
                 "kind": "TypeNominal",
-                "name": "AdditionalCustomerWFlagCommonData",
-                "printedName": "IDentityMediumSDK.AdditionalCustomerWFlagCommonData",
-                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV"
+                "name": "AdditionalCustomerWFlagCommonDataV3",
+                "printedName": "IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3",
+                "usr": "s:17IDentityMediumSDK35AdditionalCustomerWFlagCommonDataV3V"
               },
               {
                 "kind": "TypeNominal",
@@ -3007,8 +2967,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E29idValidationAndCustomerEnroll4from12personalData7options11captureBack10completionySo16UIViewControllerC_AA08Personali13CommonRequestM0VAA010Additionali5WFlaguM0VSbys6ResultOyAD0ijY0Vs5Error_pGctFZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E29idValidationAndCustomerEnroll4from12personalData7options11captureBack10completionySo16UIViewControllerC_AA08Personali13CommonRequestM0VAA010Additionali5WFlaguM0VSbys6ResultOyAD0ijY0Vs5Error_pGctFZ",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E29idValidationAndCustomerEnroll4from12personalData7options11captureBack10completionySo16UIViewControllerC_AA08Personali13CommonRequestjM2V3VAA010Additionali5WFlagumW0VSbys6ResultOyAD0ijZ0Vs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E29idValidationAndCustomerEnroll4from12personalData7options11captureBack10completionySo16UIViewControllerC_AA08Personali13CommonRequestjM2V3VAA010Additionali5WFlagumW0VSbys6ResultOyAD0ijZ0Vs5Error_pGctFZ",
             "moduleName": "SelfieCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -3036,15 +2996,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PersonalCustomerCommonRequestData",
-                "printedName": "IDentityMediumSDK.PersonalCustomerCommonRequestData",
-                "usr": "s:17IDentityMediumSDK33PersonalCustomerCommonRequestDataV"
+                "name": "PersonalCustomerCommonRequestEnrollDataV3",
+                "printedName": "IDentityMediumSDK.PersonalCustomerCommonRequestEnrollDataV3",
+                "usr": "s:17IDentityMediumSDK41PersonalCustomerCommonRequestEnrollDataV3V"
               },
               {
                 "kind": "TypeNominal",
-                "name": "AdditionalCustomerWFlagCommonData",
-                "printedName": "IDentityMediumSDK.AdditionalCustomerWFlagCommonData",
-                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV"
+                "name": "AdditionalCustomerWFlagCommonDataV3",
+                "printedName": "IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3",
+                "usr": "s:17IDentityMediumSDK35AdditionalCustomerWFlagCommonDataV3V"
               },
               {
                 "kind": "TypeNominal",
@@ -3106,8 +3066,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E29idValidationAndCustomerEnroll4from12personalData7options0F4Type0F7Country0F5State10completionySo16UIViewControllerC_AA08Personali13CommonRequestM0VAA010Additionali5WFlagvM0VS3SSgys6ResultOyAD0ijZ0Vs5Error_pGctFZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E29idValidationAndCustomerEnroll4from12personalData7options0F4Type0F7Country0F5State10completionySo16UIViewControllerC_AA08Personali13CommonRequestM0VAA010Additionali5WFlagvM0VS3SSgys6ResultOyAD0ijZ0Vs5Error_pGctFZ",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E29idValidationAndCustomerEnroll4from12personalData7options0F4Type0F7Country0F5State10completionySo16UIViewControllerC_AA08Personali13CommonRequestjM2V3VAA010Additionali5WFlagvmX0VS3SSgys6ResultOyAD0iJ6ResultVs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E29idValidationAndCustomerEnroll4from12personalData7options0F4Type0F7Country0F5State10completionySo16UIViewControllerC_AA08Personali13CommonRequestjM2V3VAA010Additionali5WFlagvmX0VS3SSgys6ResultOyAD0iJ6ResultVs5Error_pGctFZ",
             "moduleName": "SelfieCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -3131,15 +3091,78 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
+      "kind": "StringLiteral",
+      "offset": 9002,
+      "length": 15,
+      "value": "\"SelfieCapture\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 15659,
+      "offset": 10233,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 25164,
+      "offset": 10370,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11740,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11877,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13035,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13172,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14195,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14332,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15647,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25182,
       "length": 4,
       "value": "true"
     },
@@ -3153,37 +3176,499 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1129,
+      "offset": 1131,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1218,
+      "offset": 1222,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14383,
+      "offset": 2587,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2627,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2975,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2985,
+      "length": 4,
+      "value": "0.33"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3414,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3699,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4748,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4900,
       "length": 5,
       "value": "false"
     },
     {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5216,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5231,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5349,
+      "length": 3,
+      "value": "-30"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5365,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5468,
+      "length": 3,
+      "value": "-35"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5484,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5535,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6479,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7708,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7754,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7850,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8482,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8644,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8656,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8730,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8911,
+      "length": 10,
+      "value": "\"faceRect\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8959,
+      "length": 10,
+      "value": "\"fullSize\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9511,
+      "length": 19,
+      "value": "\"faceLivenessScore\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9586,
+      "length": 43,
+      "value": "\"Face Liveness Score: \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9628,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9676,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9742,
+      "length": 24,
+      "value": "\"leftEyeOpenProbability\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9827,
+      "length": 54,
+      "value": "\"Left Eye Open Probability: \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9880,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9943,
+      "length": 25,
+      "value": "\"rightEyeOpenProbability\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10030,
+      "length": 56,
+      "value": "\"Right Eye Open Probability: \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10085,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10144,
+      "length": 21,
+      "value": "\"faceMaskProbability\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10222,
+      "length": 46,
+      "value": "\"Mask Detection Score: \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10267,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10321,
+      "length": 16,
+      "value": "\"focusFaceScore\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10399,
+      "length": 37,
+      "value": "\"Focus Face Score: \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10435,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12422,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12488,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13332,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13398,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13910,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14620,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 14896,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16950,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18468,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19623,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20967,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21079,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22850,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23616,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23931,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 868,
+      "offset": 870,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 957,
+      "offset": 961,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1916,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3912,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/RetryViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 703,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/RetryViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 769,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/RetryViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2167,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/SelfieCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 627,
+      "length": 12,
+      "value": "\"retry_blue\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/SelfieCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 891,
+      "length": 21,
+      "value": "\"Selfie Instructions\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/SelfieCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1049,
+      "length": 16,
+      "value": "\"overlay_selfie\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/SelfieCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1223,
+      "length": 27,
+      "value": "\"overlay_selfie_background\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/SelfieCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1379,
+      "length": 12,
+      "value": "\"retry_user\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/SelfieCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1522,
+      "length": 13,
+      "value": "\"xmark-solid\""
     }
   ]
 }

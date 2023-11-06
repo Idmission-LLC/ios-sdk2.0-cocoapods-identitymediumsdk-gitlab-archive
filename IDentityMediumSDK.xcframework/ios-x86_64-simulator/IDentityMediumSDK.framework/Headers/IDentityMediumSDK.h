@@ -17,6 +17,8 @@ FOUNDATION_EXPORT const unsigned char IDentityMediumSDKVersionString[];
 
 #import "IDentityXSLT.h"
 #import "UIImage+Rotation.h"
+#import "UIImage+VisionDetection.h"
+#import "CommonClass.h"
 #import "UIImage+Glare.h"
 #import "RSA.h"
 #import "FWEncryptorAES.h"

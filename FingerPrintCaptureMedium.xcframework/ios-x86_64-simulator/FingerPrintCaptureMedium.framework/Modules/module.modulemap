@@ -1,7 +1,7 @@
 framework module FingerPrintCaptureMedium {
   umbrella header "FingerPrintCaptureMedium.h"
-
   export *
+
   module * { export * }
 }
 
