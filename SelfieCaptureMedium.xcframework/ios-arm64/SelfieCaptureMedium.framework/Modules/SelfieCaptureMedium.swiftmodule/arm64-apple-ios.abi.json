@@ -2626,10 +2626,10 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
+                "name": "CaptureBack",
+                "printedName": "IDentityMediumSDK.CaptureBack",
                 "hasDefaultArg": true,
-                "usr": "s:Sb"
+                "usr": "s:17IDentityMediumSDK11CaptureBackO"
               },
               {
                 "kind": "TypeFunc",
@@ -2665,8 +2665,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24idValidationAndMatchFace4from7options11captureBack10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VSbys6ResultOyAD010ValidateIdijX0Vs5Error_pGctFZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24idValidationAndMatchFace4from7options11captureBack10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VSbys6ResultOyAD010ValidateIdijX0Vs5Error_pGctFZ",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E24idValidationAndMatchFace4from7options11captureBack10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VAA0eN0Oys6ResultOyAD010ValidateIdijX0Vs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E24idValidationAndMatchFace4from7options11captureBack10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VAA0eN0Oys6ResultOyAD010ValidateIdijX0Vs5Error_pGctFZ",
             "moduleName": "SelfieCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -2928,10 +2928,10 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
+                "name": "CaptureBack",
+                "printedName": "IDentityMediumSDK.CaptureBack",
                 "hasDefaultArg": true,
-                "usr": "s:Sb"
+                "usr": "s:17IDentityMediumSDK11CaptureBackO"
               },
               {
                 "kind": "TypeFunc",
@@ -2967,8 +2967,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E29idValidationAndCustomerEnroll4from12personalData7options11captureBack10completionySo16UIViewControllerC_AA08Personali13CommonRequestjM2V3VAA010Additionali5WFlagumW0VSbys6ResultOyAD0ijZ0Vs5Error_pGctFZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E29idValidationAndCustomerEnroll4from12personalData7options11captureBack10completionySo16UIViewControllerC_AA08Personali13CommonRequestjM2V3VAA010Additionali5WFlagumW0VSbys6ResultOyAD0ijZ0Vs5Error_pGctFZ",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E29idValidationAndCustomerEnroll4from12personalData7options11captureBack10completionySo16UIViewControllerC_AA08Personali13CommonRequestjM2V3VAA010Additionali5WFlagumW0VAA0eP0Oys6ResultOyAD0ijZ0Vs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E29idValidationAndCustomerEnroll4from12personalData7options11captureBack10completionySo16UIViewControllerC_AA08Personali13CommonRequestjM2V3VAA010Additionali5WFlagumW0VAA0eP0Oys6ResultOyAD0ijZ0Vs5Error_pGctFZ",
             "moduleName": "SelfieCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -3153,20 +3153,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15647,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25182,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "Array",
       "offset": 684,
@@ -3190,392 +3176,392 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2587,
+      "offset": 2630,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2627,
+      "offset": 2670,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2975,
+      "offset": 3018,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2985,
+      "offset": 3028,
       "length": 4,
       "value": "0.33"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3414,
+      "offset": 3457,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3699,
+      "offset": 3742,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4748,
+      "offset": 4791,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4900,
+      "offset": 4943,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5216,
+      "offset": 5259,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5231,
+      "offset": 5274,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5349,
+      "offset": 5392,
       "length": 3,
       "value": "-30"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5365,
+      "offset": 5408,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5468,
+      "offset": 5511,
       "length": 3,
       "value": "-35"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5484,
+      "offset": 5527,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5535,
+      "offset": 5578,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6479,
+      "offset": 6522,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7708,
+      "offset": 7751,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7754,
+      "offset": 7797,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7850,
+      "offset": 7893,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8482,
+      "offset": 8525,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8644,
+      "offset": 8687,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8656,
+      "offset": 8699,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8730,
+      "offset": 8773,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8911,
+      "offset": 8954,
       "length": 10,
       "value": "\"faceRect\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8959,
+      "offset": 9002,
       "length": 10,
       "value": "\"fullSize\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9511,
+      "offset": 9554,
       "length": 19,
       "value": "\"faceLivenessScore\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9586,
+      "offset": 9629,
       "length": 43,
       "value": "\"Face Liveness Score: \""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9628,
+      "offset": 9671,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9676,
+      "offset": 9719,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9742,
+      "offset": 9785,
       "length": 24,
       "value": "\"leftEyeOpenProbability\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9827,
+      "offset": 9870,
       "length": 54,
       "value": "\"Left Eye Open Probability: \""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9880,
+      "offset": 9923,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9943,
+      "offset": 9986,
       "length": 25,
       "value": "\"rightEyeOpenProbability\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10030,
+      "offset": 10073,
       "length": 56,
       "value": "\"Right Eye Open Probability: \""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10085,
+      "offset": 10128,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10144,
+      "offset": 10187,
       "length": 21,
       "value": "\"faceMaskProbability\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10222,
+      "offset": 10265,
       "length": 46,
       "value": "\"Mask Detection Score: \""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10267,
+      "offset": 10310,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10321,
+      "offset": 10364,
       "length": 16,
       "value": "\"focusFaceScore\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10399,
+      "offset": 10442,
       "length": 37,
       "value": "\"Focus Face Score: \""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10435,
+      "offset": 10478,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12422,
+      "offset": 12465,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12488,
+      "offset": 12531,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13332,
+      "offset": 13375,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13398,
+      "offset": 13441,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13910,
+      "offset": 13953,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14620,
+      "offset": 14663,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 14896,
+      "offset": 14939,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16950,
+      "offset": 17068,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18468,
+      "offset": 18661,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19623,
+      "offset": 19891,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20967,
+      "offset": 21310,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21079,
+      "offset": 21422,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22850,
+      "offset": 23193,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23616,
+      "offset": 23959,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23931,
+      "offset": 24274,
       "length": 4,
       "value": "true"
     },

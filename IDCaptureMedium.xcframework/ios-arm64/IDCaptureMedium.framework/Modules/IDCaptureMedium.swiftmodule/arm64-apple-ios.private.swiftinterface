@@ -22,7 +22,7 @@ public typealias ValidateIdCompletion = (_ result: Swift.Result<IDCaptureMedium.
 public typealias AutofillCompletion = (_ result: Swift.Result<IDentityMediumSDK.AutofillResult, any Swift.Error>) -> Swift.Void
 extension IDentityMediumSDK.IDentitySDK {
   public static var customerValidateIdRequest: IDentityMediumSDK.CustomerValidateIdRequestV3?
-  public class func idValidation(from presenter: UIKit.UIViewController, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, captureBack: Swift.Bool = true, completion: @escaping IDCaptureMedium.ValidateIdCompletion)
+  public class func idValidation(from presenter: UIKit.UIViewController, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, captureBack: IDentityMediumSDK.CaptureBack = .auto, completion: @escaping IDCaptureMedium.ValidateIdCompletion)
   public class func idValidation(from presenter: UIKit.UIViewController, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, completion: @escaping IDCaptureMedium.ValidateIdCompletion)
   public class func autofill(from presenter: UIKit.UIViewController, completion: @escaping IDCaptureMedium.AutofillCompletion)
 }

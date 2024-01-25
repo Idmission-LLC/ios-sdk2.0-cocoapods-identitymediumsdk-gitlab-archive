@@ -9,6 +9,7 @@ import CommonCrypto
 import Compression
 import CoreFoundation
 import CoreGraphics
+import CoreLocation
 import CoreMedia
 import CryptoKit
 import DeveloperToolsSupport
@@ -19,6 +20,7 @@ import MLKitFaceDetection
 import MLKitTextRecognition
 import MLKitVision
 import MetalPerformanceShaders
+import Speech
 import Swift
 import SwiftUI
 import TensorFlowLite
@@ -412,6 +414,24 @@ public struct AdditionalCustomerWFlagCommonDataV3 : Swift.Encodable {
       get
     }
   }
+  public enum SendProcessedImagesInResponse : Swift.String, Swift.Encodable {
+    case yes
+    case no
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum SendInputImagesInResponse : Swift.String, Swift.Encodable {
+    case yes
+    case no
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
   public var uniqueRequestId: Swift.String
   public var clientTraceId: Swift.String?
   public var manualReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.ManualReviewRequired?
@@ -430,9 +450,11 @@ public struct AdditionalCustomerWFlagCommonDataV3 : Swift.Encodable {
   public var deDupDataRequiredInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.DeDupDataRequiredInResponse?
   public var postDataOnReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.PostDataOnReviewRequired?
   public var gpsCoordinates: Swift.String?
+  public var sendProcessedImagesInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendProcessedImagesInResponse?
+  public var sendInputImagesInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendInputImagesInResponse?
   public var metadata: IDentityMediumSDK.Metadata?
   public var ocrMetadata: Swift.String?
-  public init(uniqueRequestId: Swift.String = UUID().uuidString, clientTraceId: Swift.String? = nil, manualReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.ManualReviewRequired? = .no, bypassAgeValidation: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.BypassAgeValidation? = .no, deDuplicationRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.DeDuplicationRequired? = .no, bypassNameMatching: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.BypassNameMatching? = .yes, postDataAPIRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.PostDataAPIRequired? = .no, sendInputImagesInPost: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendInputImagesInPost? = .no, sendProcessedImagesInPost: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendProcessedImagesInPost? = .no, needImmediateResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.NeedImmediateResponse? = .no, deduplicationSynchronous: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.DeduplicationSynchronous? = .no, verifyDataWithHost: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.VerifyDataWithHost? = .no, idBackImageRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.IdBackImageRequired? = .yes, stripSpecialCharacters: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.StripSpecialCharacters? = .yes, idImageResolutionCheck: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.IdImageResolutionCheck? = .yes, deDupDataRequiredInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.DeDupDataRequiredInResponse? = .yes, postDataOnReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.PostDataOnReviewRequired? = .yes, gpsCoordinates: Swift.String? = nil)
+  public init(uniqueRequestId: Swift.String = UUID().uuidString, clientTraceId: Swift.String? = nil, manualReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.ManualReviewRequired? = .no, bypassAgeValidation: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.BypassAgeValidation? = .no, deDuplicationRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.DeDuplicationRequired? = .no, bypassNameMatching: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.BypassNameMatching? = .yes, postDataAPIRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.PostDataAPIRequired? = .no, sendInputImagesInPost: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendInputImagesInPost? = .no, sendProcessedImagesInPost: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendProcessedImagesInPost? = .no, needImmediateResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.NeedImmediateResponse? = .no, deduplicationSynchronous: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.DeduplicationSynchronous? = .no, verifyDataWithHost: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.VerifyDataWithHost? = .no, idBackImageRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.IdBackImageRequired? = .yes, stripSpecialCharacters: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.StripSpecialCharacters? = .yes, idImageResolutionCheck: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.IdImageResolutionCheck? = .yes, deDupDataRequiredInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.DeDupDataRequiredInResponse? = .yes, postDataOnReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.PostDataOnReviewRequired? = .yes, gpsCoordinates: Swift.String? = nil, sendProcessedImagesInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendProcessedImagesInResponse? = .yes, sendInputImagesInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendInputImagesInResponse? = .yes)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol DocumentCaptureDelegate : AnyObject {
@@ -587,6 +609,13 @@ final public class Archive : Swift.Sequence {
   }
   public typealias Element = IDentityMediumSDK.Entry
   public typealias Iterator = Swift.AnyIterator<IDentityMediumSDK.Entry>
+}
+extension IDentityMediumSDK.VideoCapture {
+  public struct Colors {
+    public var readingTextColor: UIKit.UIColor?
+    public var readingTextSpokenWordColor: UIKit.UIColor?
+    public var readingTextBackgroundColor: UIKit.UIColor?
+  }
 }
 extension IDentityMediumSDK.SignatureCapture {
   public struct Fonts {
@@ -819,6 +848,7 @@ public struct DetectedData {
   public var mrz: IDentityMediumSDK.MRZResult?
   public var barcode: [Swift.String : Swift.String]?
   public var nfcFaceImageMatched: Swift.Bool?
+  public var nfcFaceImageMatchDistance: Swift.Float?
   public var ocrStrings: [Swift.String]?
   public var idType: Swift.String?
   public var country: Swift.String?
@@ -838,8 +868,18 @@ public struct AutofillResult : Swift.Encodable {
   public var barcode: [Swift.String : Swift.String]?
   public func encode(to encoder: any Swift.Encoder) throws
 }
+public enum CaptureBack : Swift.Int {
+  case no
+  case yes
+  case auto
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public class IDCapture {
-  public var captureBack: Swift.Bool?
+  public var captureBack: IDentityMediumSDK.CaptureBack?
   public var idTypeCountryState: IDentityMediumSDK.SelectedData?
   public static var options: IDentityMediumSDK.IDCapture.Options
   public static var strings: IDentityMediumSDK.IDCapture.Strings
@@ -1437,6 +1477,20 @@ public struct CustomerVerifyResponse : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  public var isGPSEnabled: Swift.Bool {
+    get
+    set
+  }
+  public static var gpsCoordinates: Swift.String? {
+    get
+  }
+  public static func requestLocation()
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
+  @objc deinit
+}
 extension Foundation.Data {
   public var floats: [Swift.Float]? {
     get
@@ -1728,6 +1782,42 @@ public struct FormDetailLiveCheckResponseData : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public typealias URLResultCompletion = (Swift.Result<Foundation.URL, any Swift.Error>) -> Swift.Void
+public protocol VideoCaptureDelegate : IDentityMediumSDK.IDCaptureDelegate, IDentityMediumSDK.SelfieCaptureDelegate {
+  func foundLiveFace(frame: CoreFoundation.CGRect?, fullSize: CoreFoundation.CGSize, mode: IDentityMediumSDK.VideoCaptureMode)
+}
+public enum VideoCaptureMode {
+  case selfieCapture, idCapture, readingText, liveFaceLost
+  public static func == (a: IDentityMediumSDK.VideoCaptureMode, b: IDentityMediumSDK.VideoCaptureMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class VideoCapture {
+  public var videoWriter: IDentityMediumSDK.VideoWriter
+  final public let speechRecognizer: IDentityMediumSDK.SpeechRecognizer?
+  public static var options: IDentityMediumSDK.VideoCapture.Options
+  public static var strings: IDentityMediumSDK.VideoCapture.Strings
+  public static var colors: IDentityMediumSDK.VideoCapture.Colors
+  weak public var delegate: (any IDentityMediumSDK.VideoCaptureDelegate)?
+  public var mode: IDentityMediumSDK.VideoCaptureMode
+  public init?(selfieOverlayFrame: CoreFoundation.CGRect, idOverlayFrame: CoreFoundation.CGRect, videoSettings: [Swift.String : Any]?, audioSettings: [Swift.String : Any]?)
+  public func stopVideoWriter(completion: IDentityMediumSDK.URLResultCompletion? = nil)
+  public func retry()
+  public func typeMismatch()
+  @objc deinit
+}
+extension IDentityMediumSDK.VideoCapture : IDentityMediumSDK.CaptureSessionDelegate {
+  public func captured(image: UIKit.UIImage, captureMode: IDentityMediumSDK.CaptureMode, lensPosition: Swift.Float)
+  public func captured(sampleBuffer: CoreMedia.CMSampleBuffer)
+}
+extension IDentityMediumSDK.VideoCapture : IDentityMediumSDK.SelfieCaptureDelegate {
+  public func updated(state: IDentityMediumSDK.SelfieCaptureState)
+}
+extension IDentityMediumSDK.VideoCapture : IDentityMediumSDK.IDCaptureDelegate {
+  public func updated(state: IDentityMediumSDK.IDCaptureState)
+}
 public struct FormDetailIdentifyResponseDataV3 : Swift.Codable {
   public var uniqueRequestId: Swift.String?
   public var verificationResultId: Swift.Int?
@@ -1857,10 +1947,35 @@ public class SignatureCapture {
   public init(overlayFrame: CoreFoundation.CGRect)
   @objc deinit
 }
+extension IDentityMediumSDK.VideoCapture {
+  public struct Strings {
+    public var faceDoesNotMatch: Swift.String
+    public var voiceDoesNotMatch: Swift.String
+    public var liveFaceLost: Swift.String
+    public var idDoesNotMatch: Swift.String
+    public var doneButton: Swift.String
+    public mutating func reset()
+  }
+}
 public struct RealnessScores {
   public let photocopyScore: Swift.Float
   public let realScore: Swift.Float
   public let screenScore: Swift.Float
+}
+extension IDentityMediumSDK.VideoCapture {
+  public struct Options {
+    public var idToSelfieMatchThreshold: Swift.Float
+    public var idToIdPhotoMatchThreshold: Swift.Float
+    public var frontLevenshteinThreshold: Swift.Float
+    public var backLevenshteinThreshold: Swift.Float
+    public var passportLevenshteinThreshold: Swift.Float
+    public var readTextCountdownSeconds: Swift.Int
+    public var readTextWordMatchThreshold: Swift.Float
+    public var isDebugMode: Swift.Bool
+    public var frontRealnessThreshold: Swift.Float
+    public var backRealnessThreshold: Swift.Float
+    public var enableRealId: Swift.Bool
+  }
 }
 public struct DeDuplicationResponseDataV3 : Swift.Codable {
   public var faceMatchingScore: Swift.String?
@@ -1887,6 +2002,21 @@ public struct BiometricIdentifyDataV3 : Swift.Encodable {
   public var voiceData: Swift.String?
   public init(selfie: Swift.String, fingerPrintData: IDentityMediumSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
+}
+public protocol SpeechRecognizerDelegate : AnyObject {
+  func speechRecognition(result: Speech.SFSpeechRecognitionResult)
+  func speechRecognition(error: any Swift.Error)
+}
+@_hasMissingDesignatedInitializers public class SpeechRecognizer {
+  weak public var delegate: (any IDentityMediumSDK.SpeechRecognizerDelegate)?
+  public var isAvailable: Swift.Bool {
+    get
+  }
+  public func start()
+  public func append(sampleBuffer: CoreMedia.CMSampleBuffer)
+  public func stop()
+  public func retry()
+  @objc deinit
 }
 public struct CustomerValidateIdRequestV3 : Swift.Encodable {
   public var securityData: IDentityMediumSDK.SecurityData
@@ -2392,6 +2522,8 @@ public struct IdDataResponse : Swift.Codable {
   public var idNumber3_doc: Swift.String?
   public var idExpirationDate_doc: Swift.String?
   public var idIssueDate_doc: Swift.String?
+  public var profession: Swift.String?
+  public var professionNonEng: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -2571,6 +2703,11 @@ extension CoreFoundation.CGSize {
     get
   }
 }
+@_hasMissingDesignatedInitializers public class VideoWriter {
+  public static let fileType: AVFoundation.AVFileType
+  @objc deinit
+  public func write(audio: CoreMedia.CMSampleBuffer)
+}
 public protocol SelfieCaptureDelegate : AnyObject {
   func updated(state: IDentityMediumSDK.SelfieCaptureState)
 }
@@ -2675,6 +2812,7 @@ extension IDentityMediumSDK.IDCapture {
     public var enableInstructionScreen: Swift.Bool
     public var focusThreshold: Swift.Float
     public var enablePassportNFC: Swift.Bool
+    public var passportNFCPhotoMatchThreshold: Swift.Float
   }
 }
 public struct CustomerIdentifyResponseV3 : Swift.Codable {
@@ -2882,6 +3020,12 @@ extension IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.DeDupDataRequire
 extension IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.PostDataOnReviewRequired : Swift.Equatable {}
 extension IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.PostDataOnReviewRequired : Swift.Hashable {}
 extension IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.PostDataOnReviewRequired : Swift.RawRepresentable {}
+extension IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendProcessedImagesInResponse : Swift.Equatable {}
+extension IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendProcessedImagesInResponse : Swift.Hashable {}
+extension IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendProcessedImagesInResponse : Swift.RawRepresentable {}
+extension IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendInputImagesInResponse : Swift.Equatable {}
+extension IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendInputImagesInResponse : Swift.Hashable {}
+extension IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3.SendInputImagesInResponse : Swift.RawRepresentable {}
 extension IDentityMediumSDK.PersonalCustomerCommonRequestDataV3.Gender : Swift.Equatable {}
 extension IDentityMediumSDK.PersonalCustomerCommonRequestDataV3.Gender : Swift.Hashable {}
 extension IDentityMediumSDK.PersonalCustomerCommonRequestDataV3.Gender : Swift.RawRepresentable {}
@@ -2900,6 +3044,9 @@ extension IDentityMediumSDK.Entry.EntryType : Swift.Hashable {}
 extension IDentityMediumSDK.Entry.EntryType : Swift.RawRepresentable {}
 extension IDentityMediumSDK.DetectedData.DocumentSide : Swift.Equatable {}
 extension IDentityMediumSDK.DetectedData.DocumentSide : Swift.Hashable {}
+extension IDentityMediumSDK.CaptureBack : Swift.Equatable {}
+extension IDentityMediumSDK.CaptureBack : Swift.Hashable {}
+extension IDentityMediumSDK.CaptureBack : Swift.RawRepresentable {}
 extension IDentityMediumSDK.AdditionalCustomerCommonDataV3.StripSpecialCharacters : Swift.Equatable {}
 extension IDentityMediumSDK.AdditionalCustomerCommonDataV3.StripSpecialCharacters : Swift.Hashable {}
 extension IDentityMediumSDK.AdditionalCustomerCommonDataV3.StripSpecialCharacters : Swift.RawRepresentable {}
@@ -2920,6 +3067,8 @@ extension IDentityMediumSDK.Language : Swift.Hashable {}
 extension IDentityMediumSDK.Language : Swift.RawRepresentable {}
 extension IDentityMediumSDK.SelfieCapture.LabelPosition : Swift.Equatable {}
 extension IDentityMediumSDK.SelfieCapture.LabelPosition : Swift.Hashable {}
+extension IDentityMediumSDK.VideoCaptureMode : Swift.Equatable {}
+extension IDentityMediumSDK.VideoCaptureMode : Swift.Hashable {}
 extension IDentityMediumSDK.IdDataRequestV3.IdType : Swift.Equatable {}
 extension IDentityMediumSDK.IdDataRequestV3.IdType : Swift.Hashable {}
 extension IDentityMediumSDK.IdDataRequestV3.IdType : Swift.RawRepresentable {}

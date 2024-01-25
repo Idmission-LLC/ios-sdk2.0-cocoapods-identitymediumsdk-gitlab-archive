@@ -279,6 +279,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import AVFoundation;
 @import CoreFoundation;
+@import CoreLocation;
 @import CoreMedia;
 @import Foundation;
 @import ObjectiveC;
@@ -366,6 +367,19 @@ SWIFT_CLASS("_TtC17IDentityMediumSDK7IDError")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@class CLLocationManager;
+@class CLLocation;
+
+/// :nodoc:
+SWIFT_CLASS("_TtC17IDentityMediumSDK15LocationManager")
+@interface LocationManager : NSObject <CLLocationManagerDelegate>
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
+@end
 
 
 

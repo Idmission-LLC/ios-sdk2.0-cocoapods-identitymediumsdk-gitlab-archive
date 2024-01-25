@@ -60,9 +60,9 @@ extension IDentityMediumSDK.IDentitySDK {
 }
 extension IDentityMediumSDK.IDentitySDK {
   public static var customerValidateIdFaceMatchRequest: IDentityMediumSDK.CustomerValidateIdFaceMatchRequestV3?
-  public class func idValidationAndMatchFace(from presenter: UIKit.UIViewController, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, captureBack: Swift.Bool = true, completion: @escaping SelfieCaptureMedium.ValidateIdMatchFaceCompletion)
+  public class func idValidationAndMatchFace(from presenter: UIKit.UIViewController, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, captureBack: IDentityMediumSDK.CaptureBack = .auto, completion: @escaping SelfieCaptureMedium.ValidateIdMatchFaceCompletion)
   public class func idValidationAndMatchFace(from presenter: UIKit.UIViewController, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, completion: @escaping SelfieCaptureMedium.ValidateIdMatchFaceCompletion)
   public static var customerEnrollRequest: IDentityMediumSDK.CustomerEnrollRequestV3?
-  public class func idValidationAndCustomerEnroll(from presenter: UIKit.UIViewController, personalData: IDentityMediumSDK.PersonalCustomerCommonRequestEnrollDataV3, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, captureBack: Swift.Bool = true, completion: @escaping SelfieCaptureMedium.ValidateIdCustomerEnrollCompletion)
+  public class func idValidationAndCustomerEnroll(from presenter: UIKit.UIViewController, personalData: IDentityMediumSDK.PersonalCustomerCommonRequestEnrollDataV3, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, captureBack: IDentityMediumSDK.CaptureBack = .auto, completion: @escaping SelfieCaptureMedium.ValidateIdCustomerEnrollCompletion)
   public class func idValidationAndCustomerEnroll(from presenter: UIKit.UIViewController, personalData: IDentityMediumSDK.PersonalCustomerCommonRequestEnrollDataV3, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, completion: @escaping SelfieCaptureMedium.ValidateIdCustomerEnrollCompletion)
 }
