@@ -361,7 +361,7 @@ IDentitySDK.idValidation(from: self, options: options) { result in
 -   <u>**IDentityMediumSDK  /  IDentityLiteSDK**</u> : For `IDentityMediumSDK  /  IDentityLiteSDK` flavours user can user either anyone below API call for `ID Validation`.  
 
 ```swift
-// For IDentityMediumSDK / IDentityLiteSDK :  Start ID Validation using captureBack(true/false) values with the default options, presenting it from view controller(self)
+// For IDentityMediumSDK / IDentityLiteSDK :  Start ID Validation using captureBack(true/false/auto) values with the default options, presenting it from view controller(self)
 
 let options = AdditionalCustomerWFlagCommonDataV3()
 IDentitySDK.idValidation(from: self, options: options, captureBack: captureBack) { result in
@@ -457,7 +457,7 @@ IDentitySDK.idValidationAndMatchFace(from: self, options: options) { result in
 -   <u>**IDentityMediumSDK  /  IDentityLiteSDK**</u> : For `IDentityMediumSDK  /  IDentityLiteSDK` flavours user can user either anyone below API call `ID Validation and face match`.
 
 ```swift
-// For IDentityMediumSDK / IDentityLiteSDK : Start ID Validation and face match using captureBack(true/false) values with the default options, presenting it from view controller(self)
+// For IDentityMediumSDK / IDentityLiteSDK : Start ID Validation and face match using captureBack(true/false/auto) values with the default options, presenting it from view controller(self)
 
 let options = AdditionalCustomerWFlagCommonDataV3()
 IDentitySDK.idValidationAndMatchFace(from: self, options: options, captureBack: captureBack) { result in
@@ -596,7 +596,7 @@ IDentitySDK.idValidationAndCustomerEnroll(from: self, personalData: personalData
 -   <u>**IDentityMediumSDK  /  IDentityLiteSDK**</u> : For `IDentityMediumSDK  /  IDentityLiteSDK` flavours user can user either anyone below API call `Enroll Customer with ID validation`.
 
 ```swift
-// For IDentityMediumSDK / IDentityLiteSDK  : Start Enroll Customer with ID validation using captureBack(true/false) values with personalData & the default options, presenting it from view controller(self)
+// For IDentityMediumSDK / IDentityLiteSDK  : Start Enroll Customer with ID validation using captureBack(true/false/auto) values with personalData & the default options, presenting it from view controller(self)
 
 let personalData = PersonalCustomerCommonRequestDataV3(uniqueNumber: uniqueNumber)
 let options = AdditionalCustomerWFlagCommonDataV3()
@@ -1222,6 +1222,11 @@ VoiceCapture.fonts.buttonLabelFont = UIFont.systemFont(ofSize: 12)
 ```
 
 ## SDK Version History
+
+### **v 9.6.4.2.1 (26 February 2024)**
+- Added Apple Privacy Policy - Spring 2024 Mandate
+- Updated Doc-Detect model to determine if ID or Passport capture
+- Updated all default AI models to the latest versions.
 
 ### **v 9.6.3.2.2 (29 January 2024)**
 - Updated SDK support for additional flags (sendProcessedImagesInResponse and sendInputImagesInResponse)

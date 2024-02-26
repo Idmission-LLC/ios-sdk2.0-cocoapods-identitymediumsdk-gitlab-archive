@@ -168772,62 +168772,62 @@
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/DocumentCapture.Strings.swift",
       "kind": "StringLiteral",
       "offset": 3315,
-      "length": 51,
-      "value": "\"Ajustar la identificación dentro del rectángulo\""
+      "length": 45,
+      "value": "\"Ajustar el documento dentro del rectángulo\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/DocumentCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3401,
+      "offset": 3395,
       "length": 20,
       "value": "\"Capturar Documento\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/DocumentCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3453,
+      "offset": 3447,
       "length": 17,
       "value": "\"Adjuntar imagen\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/DocumentCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3499,
+      "offset": 3493,
       "length": 14,
       "value": "\"Adjuntar PDF\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/DocumentCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3549,
+      "offset": 3543,
       "length": 28,
       "value": "\"Vista previa del documento\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/DocumentCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3613,
+      "offset": 3607,
       "length": 67,
       "value": "\"Identificación original no detectada. Hay que intentar de nuevo.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/DocumentCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3715,
+      "offset": 3709,
       "length": 12,
       "value": "\"Reintentar\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/DocumentCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3763,
+      "offset": 3757,
       "length": 10,
       "value": "\"Cancelar\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/DocumentCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3811,
+      "offset": 3805,
       "length": 11,
       "value": "\"Continuar\""
     },
@@ -172126,7 +172126,7 @@
       "kind": "StringLiteral",
       "offset": 544,
       "length": 70,
-      "value": "\"docdetect-realness-two-input-mobile-production_2023-12-18_V48.tflite\""
+      "value": "\"docdetect-realness-two-input-mobile-production_2024-02-06_V50.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
@@ -172154,7 +172154,7 @@
       "kind": "StringLiteral",
       "offset": 1224,
       "length": 39,
-      "value": "\"docdetect-focus_2023-06-24_v15.tflite\""
+      "value": "\"docdetect-focus_2024_02_10_V23.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",

@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "FingerPrintCaptureMedium"
-  spec.version      = "9.6.3.2.2"
+  spec.version      = "9.6.4.2.1"
   spec.summary      = "FingerPrintCaptureMedium lets user add FingerPrintCaptureMediumSDK in their project"
   spec.description  = <<-DESC 
                     FingerPrintCaptureMedium helps user to add FingerPrintCaptureMediumSDK in their project.

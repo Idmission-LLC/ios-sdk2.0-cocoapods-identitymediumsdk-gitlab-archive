@@ -106,7 +106,7 @@
 		</data>
 		<key>FocusTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
 		<data>
-		opbhnLXaNSvU0OZvm5SP1AtILFM=
+		dthZoq8YD+eO9+DxAh9JBPulYqk=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -314,11 +314,11 @@
 		</data>
 		<key>IdTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
 		<data>
-		9BNcaq+WT+WlOjWUOzBYv3CJugw=
+		XPSkVYrE9k+tsWTW63l/7IpS8U0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xES5fp+oFgwvb/AnkekriqM4ELk=
+		KanW716M61Shk2wfEyBjPugyjTQ=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
@@ -358,11 +358,11 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		bGzjnv5SL1X3oRB+UNDVToPgGdc=
+		HaMWlyzEb/9UWLLpbh+F4FuarJs=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		l3BjmA+BKL7dZp6FuuG+IG0d05U=
+		M+Zc8SzG89ftm1S3NYPt6atkXEs=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -378,7 +378,7 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gVB3sbZsDSEOUpO5WwXQ0AgR6lY=
+		Yrr0lgCwdI5FfJ6kHtAs6fu1TBQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -386,7 +386,11 @@
 		</data>
 		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
 		<data>
-		QIuR2n35G3pMGGUWLy/NM7ggZss=
+		WzUfcLOc0MpkwMA6zDS6Mzug7MU=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		xDKlf4wsC+jBbNbXter38oa5qXo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -570,7 +574,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FVmbpAlM9fkFSuGbpTT84S6pu1M8nusZkGJha+RI3Sk=
+			rSalTB2rXoySA9dlG6sMcGrx7mafyhlQP69tPNeEq9g=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -934,7 +938,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7p1uledApmdnhFnUlEYI89+vu3Hx4dahGzCsozCCoJE=
+			g3vzLkOBqeQg/NI9nWjaCHWrPS9Cdaiag40IrV301vk=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/Info.plist</key>
@@ -1004,14 +1008,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q+E60fRq2EURxsuntRz1Xfni1n964WjjEDGOEI41yfo=
+			+/F8AmGmxrMFv5pMMVeVGQFfUmJBC49/GYm57QiWzEA=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5J2j41Ty8yuJFEdYY0Q2YOOfcVmOW7flF8fw26M25dE=
+			2sAu+I2IudeCBhfX5rNMZkihnFQRLiIpnyluuS8aEWo=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1039,7 +1043,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WVWrIF+/nq4iGfqZ/OTo/MwGRRrpFylN3VKpbo7nP3A=
+			eFtSE4VtX6eFJujfT0GbRCAyM7GYTekKYl7Qv1yVPVc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1053,7 +1057,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WtYOXw2540AgFANWL5ElQ8k3zYUuT1Y0/2VLjQZlYE4=
+			Tji9G5DcNcDlYK6v0eXTeuy5X3jo56lGUvz/HEJkbKo=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8fr+gFOCQ7hhQHSAsAGe+EZo1jsfqH1XiZZ8DXj7MVg=
 			</data>
 		</dict>
 	</dict>
