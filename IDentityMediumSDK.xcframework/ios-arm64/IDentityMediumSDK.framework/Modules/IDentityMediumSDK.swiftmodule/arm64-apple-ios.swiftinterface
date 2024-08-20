@@ -2256,6 +2256,7 @@ extension IDentityMediumSDK.IDCapture {
     public var captureFront: Swift.String
     public var captureBack: Swift.String
     public var autofillPrompt: Swift.String
+    public var documentDetectedHoldStill: Swift.String
     public var retryScreenText: Swift.String
     public var retryButtonText: Swift.String
     public var cancelButtonText: Swift.String

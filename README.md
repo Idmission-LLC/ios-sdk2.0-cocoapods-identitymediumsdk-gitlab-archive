@@ -216,9 +216,16 @@ Run `pod install` to install above mentioned dependencies.
 - Add an [`NSSpeechRecognitionUsageDescription`](https://developer.apple.com/documentation/bundleresources/information_property_list/nsspeechrecognitionusagedescription) key to the app's `Info.plist` to allow speech recognition access.
 - Add an [`NSLocationWhenInUseUsageDescription`](https://developer.apple.com/documentation/bundleresources/information_property_list/nfcreaderusagedescription) key to the app's `Info.plist` to allow GPS location access.
 
+### **Step 8:** Add API Required Reasons
+
+Add the following dependency [API required reasons](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api) to the app's `PrivacyInfo.xcprivacy` file:
+
+- File Timestamp: `C617.1`, `3B52.1`
+- System Boot Time: `35F9.1`
+- Disk Space: `E174.1`
+- User Defaults: `CA92.1`, `1C8F.1`, `C56D.1`
+
 <br />
-
-
 
 ## Usage
 
@@ -333,7 +340,7 @@ For `ID Validation` you need to use below respective methods of SDK Flavours wit
 ```swift
 // For IDentitySDK : Start ID Validation with the default options, presenting it from view controller(self)
 
-let options =  AdditionalCustomerWFlagCommonDataV3()
+let options =  AdditionalCustomerWFlagCommonData()
 IDentitySDK.idValidation(from: self, options: options) { result in
     switch result {
         case .success(let validateIdResult):
@@ -363,7 +370,7 @@ IDentitySDK.idValidation(from: self, options: options) { result in
 ```swift
 // For IDentityMediumSDK / IDentityLiteSDK :  Start ID Validation using captureBack(true/false/auto) values with the default options, presenting it from view controller(self)
 
-let options = AdditionalCustomerWFlagCommonDataV3()
+let options = AdditionalCustomerWFlagCommonData()
 IDentitySDK.idValidation(from: self, options: options, captureBack: captureBack) { result in
     switch result {
         case .success(let validateIdResult):
@@ -393,7 +400,7 @@ OR
 ```swift
 // For IDentityMediumSDK / IDentityLiteSDK : Start ID Validation using idType, idCountry, idState with the default options, presenting it from view controller(self)
 
-let options = AdditionalCustomerWFlagCommonDataV3()
+let options = AdditionalCustomerWFlagCommonData()
 IDentitySDK.idValidation(from: self, options: options, idType: idType, idCountry: idCountry, idState: idState) { result in
     switch result {
         case .success(let validateIdResult):
@@ -418,7 +425,7 @@ IDentitySDK.idValidation(from: self, options: options, idType: idType, idCountry
 }
 ```
   
-The `AdditionalCustomerWFlagCommonDataV3` documentation contains information on the various capture options that can be set.  
+The `AdditionalCustomerWFlagCommonData` documentation contains information on the various capture options that can be set.  
 
 <br />
 
@@ -431,7 +438,7 @@ For `ID Validation and face match` you need to use below respective methods of S
 ```swift
 // For IDentitySDK : Start ID Validation and face match with the default options, presenting it from view controller(self)
 
-let options =  AdditionalCustomerWFlagCommonDataV3()
+let options =  AdditionalCustomerWFlagCommonData()
 IDentitySDK.idValidationAndMatchFace(from: self, options: options) { result in
     switch result {
         case .success(let validateIdMatchFaceResult):
@@ -459,7 +466,7 @@ IDentitySDK.idValidationAndMatchFace(from: self, options: options) { result in
 ```swift
 // For IDentityMediumSDK / IDentityLiteSDK : Start ID Validation and face match using captureBack(true/false/auto) values with the default options, presenting it from view controller(self)
 
-let options = AdditionalCustomerWFlagCommonDataV3()
+let options = AdditionalCustomerWFlagCommonData()
 IDentitySDK.idValidationAndMatchFace(from: self, options: options, captureBack: captureBack) { result in
     switch result {
         case .success(let validateIdMatchFaceResult):
@@ -489,7 +496,7 @@ OR
 ```swift
 // For IDentityMediumSDK / IDentityLiteSDK : Start ID Validation and face match using idType, idCountry, idState with the default options, presenting it from view controller(self)
 
-let options = AdditionalCustomerWFlagCommonDataV3()
+let options = AdditionalCustomerWFlagCommonData()
 IDentitySDK.idValidationAndMatchFace(from: self, options: options, idType: idType, idCountry: idCountry, idState: idState) { result in
     switch result {
         case .success(let validateIdMatchFaceResult):
@@ -514,7 +521,7 @@ IDentitySDK.idValidationAndMatchFace(from: self, options: options, idType: idTyp
 }
 ```
 
-The `AdditionalCustomerWFlagCommonDataV3` documentation contains information on the various capture options that can be set.  
+The `AdditionalCustomerWFlagCommonData` documentation contains information on the various capture options that can be set.  
 
 <br />
 
@@ -527,8 +534,8 @@ For `Enroll Biometric` you need to use below method with personalData & & the de
 ```swift
 // Start customer enroll birometric with personalData & the default options, presenting it from view controller(self)
 
-let personalData = PersonalCustomerCommonRequestDataV3(uniqueNumber: uniqueNumber)
-let options = AdditionalCustomerEnrollBiometricRequestDataV3()
+let personalData = PersonalCustomerCommonRequestData(uniqueNumber: uniqueNumber)
+let options = AdditionalCustomerEnrollBiometricRequestData()
 IDentitySDK.customerEnrollBiometrics(from: self, personalData: personalData, options: options) { result in
     switch result {
         case .success(let customerEnrollBiometricsResult):
@@ -553,7 +560,7 @@ IDentitySDK.customerEnrollBiometrics(from: self, personalData: personalData, opt
 }
 ```
 
-The `AdditionalCustomerEnrollBiometricRequestDataV3` documentation contains information on the various capture options that can be set.  
+The `AdditionalCustomerEnrollBiometricRequestData` documentation contains information on the various capture options that can be set.  
 
 <br />
 
@@ -566,8 +573,8 @@ For `Enroll Customer with ID validation` you need to use below respective method
 ```swift
 // For IDentityMediumSDK / IDentityLiteSDK  : Start Enroll Customer with ID validation with personalData & the default options, presenting it from view controller(self)
 
-let personalData = PersonalCustomerCommonRequestDataV3(uniqueNumber: uniqueNumber)
-let options = AdditionalCustomerWFlagCommonDataV3()
+let personalData = PersonalCustomerCommonRequestData(uniqueNumber: uniqueNumber)
+let options = AdditionalCustomerWFlagCommonData()
 IDentitySDK.idValidationAndCustomerEnroll(from: self, personalData: personalData, options: options) { result in
     switch result {
         case .success(let customerEnrollResult):
@@ -598,8 +605,8 @@ IDentitySDK.idValidationAndCustomerEnroll(from: self, personalData: personalData
 ```swift
 // For IDentityMediumSDK / IDentityLiteSDK  : Start Enroll Customer with ID validation using captureBack(true/false/auto) values with personalData & the default options, presenting it from view controller(self)
 
-let personalData = PersonalCustomerCommonRequestDataV3(uniqueNumber: uniqueNumber)
-let options = AdditionalCustomerWFlagCommonDataV3()
+let personalData = PersonalCustomerCommonRequestData(uniqueNumber: uniqueNumber)
+let options = AdditionalCustomerWFlagCommonData()
 IDentitySDK.idValidationAndCustomerEnroll(from: self, personalData: personalData, options: options, captureBack: captureBack) { result in
     switch result {
         case .success(let customerEnrollResult):
@@ -629,8 +636,8 @@ OR
 ```swift
 // For IDentityMediumSDK / IDentityLiteSDK  : Start Enroll Customer with ID validation using idType, idCountry, idState with personalData & the default options, presenting it from view controller(self)
 
-let personalData = PersonalCustomerCommonRequestDataV3(uniqueNumber: uniqueNumber)
-let options = AdditionalCustomerWFlagCommonDataV3()
+let personalData = PersonalCustomerCommonRequestData(uniqueNumber: uniqueNumber)
+let options = AdditionalCustomerWFlagCommonData()
 IDentitySDK.idValidationAndCustomerEnroll(from: self, personalData: personalData, options: options, idType: idType, idCountry: idCountry, idState: idState) { result in
     switch result {
         case .success(let customerEnrollResult):
@@ -655,7 +662,7 @@ IDentitySDK.idValidationAndCustomerEnroll(from: self, personalData: personalData
 }
 ```
 
-The `AdditionalCustomerWFlagCommonDataV3` documentation contains information on the various capture options that can be set.  
+The `AdditionalCustomerWFlagCommonData` documentation contains information on the various capture options that can be set.  
 
 <br />
 
@@ -693,7 +700,7 @@ IDentitySDK.customerVerification(from: self, personalData: personalData) { resul
 }
 ```
 
-The `AdditionalCustomerWFlagCommonDataV3` documentation contains information on the various capture options that can be set.  
+The `AdditionalCustomerWFlagCommonData` documentation contains information on the various capture options that can be set.  
 
 <br />
 
@@ -896,6 +903,7 @@ IDCapture.strings.scanBarcode = "Scan the barcode"
 IDCapture.strings.frontBackMismatch = "ID front and back do not match. Please try again."
 IDCapture.strings.autofillPrompt = "Place the barcode or machine-readable zone of your ID in the rectangle."
 IDCapture.strings.notInFocus = "Not in focus"
+IDCapture.strings.documentDetectedHoldStill = "Document detected, hold still..."
 IDCapture.colors.overlayTopViewColor = .white
 IDCapture.colors.closeButtonTextColor = .black
 IDCapture.colors.closeButtonColor = .white
@@ -968,6 +976,8 @@ SelfieCapture.options.enableInstructionScreen = true
 SelfieCapture.options.capture4K = false
 SelfieCapture.options.uploadFaceData = true
 SelfieCapture.options.ovalScaleMultiplier = 0.7
+SelfieCapture.options.cameraPosition = .front
+SelfieCapture.options.showToggleCamera = false
 
 //SelfieCapture Camera Screen UI Customization
 SelfieCapture.strings.captureSelfie = "Capture Selfie"
@@ -1222,6 +1232,9 @@ VoiceCapture.fonts.buttonLabelFont = UIFont.systemFont(ofSize: 12)
 ```
 
 ## SDK Version History
+
+### **v 9.6.4.2.2 (31 May 2024)**
+- Improved user experience for IDCapture. When rectangle turn green, showing message 'document detected, hold still...'
 
 ### **v 9.6.4.2.1 (26 February 2024)**
 - Added Apple Privacy Policy - Spring 2024 Mandate

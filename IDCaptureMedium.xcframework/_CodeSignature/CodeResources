@@ -114,19 +114,19 @@
 		</data>
 		<key>ios-arm64/IDCaptureMedium.framework/IDCaptureMedium</key>
 		<data>
-		rcq2Asz4ryJHDnXDXhcmMXWS4RI=
+		xfaQ247/RO7v7qv2cGbcnCie0f0=
 		</data>
 		<key>ios-arm64/IDCaptureMedium.framework/Info.plist</key>
 		<data>
-		GCl7ZEOcsjzMMhnvTeNxfTw6J7Y=
+		AV27qZuyDx0z7019JlU+vaC+0e8=
 		</data>
 		<key>ios-arm64/IDCaptureMedium.framework/Modules/IDCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		yarlPMoFt4hpRXF7dUGvbCeqAOQ=
+		cgNn8Uvv4IMInbht4S7BRFf7eBw=
 		</data>
 		<key>ios-arm64/IDCaptureMedium.framework/Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		1xofIPpUJmcVTop9rHmDeO2Yomk=
+		aZa4iBDIwpppFoXRdMeLOjVGjDo=
 		</data>
 		<key>ios-arm64/IDCaptureMedium.framework/Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>ios-arm64/IDCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ikzRRQAV0noaO50theGkndakXYE=
+		HH/5k3PM3pD3xYdYTGGr2ywom70=
 		</data>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/Assets.car</key>
 		<data>
@@ -258,19 +258,19 @@
 		</data>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/IDCaptureMedium</key>
 		<data>
-		yypsaRXR142aPaY550k3QRtWr/I=
+		LXn4DzdjArB/vSWX74AGjmvak0M=
 		</data>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/Info.plist</key>
 		<data>
-		oYkWJzRrE3dF+Ann+AvSALXu4Cg=
+		55cy7Y4CzMYNSUN3u2v9yUQyp54=
 		</data>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/Modules/IDCaptureMedium.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		PpvE4daTIyWY4fe58FHpM+qIrC8=
+		2mrEwIr8t38MKVa3nh8+AGjAH7o=
 		</data>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/Modules/IDCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		R8rPtL39URbuswJRboaAfP5/biE=
+		pEsEd4MjSRpfetbZhz492T/IwaE=
 		</data>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/Modules/IDCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -290,7 +290,7 @@
 		</data>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<data>
-		d8kA+n8XBWInIQgg7WvU6nmiX2Q=
+		e9IlZvjRpoRuNg1v5tR+3vEAQzo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -596,44 +596,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rcq2Asz4ryJHDnXDXhcmMXWS4RI=
+			xfaQ247/RO7v7qv2cGbcnCie0f0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ugfMoHxjugYk2wGS+1LJdfed44KQBkixJp+bwyG7/nw=
+			nx68RE8BxOg2NOzTVB3exLu0pteVBL9m9ldItcD5g1g=
 			</data>
 		</dict>
 		<key>ios-arm64/IDCaptureMedium.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GCl7ZEOcsjzMMhnvTeNxfTw6J7Y=
+			AV27qZuyDx0z7019JlU+vaC+0e8=
 			</data>
 			<key>hash2</key>
 			<data>
-			cDxIbMVIxgpHCXjHuELAWbPNXJ7p9FAhrW+CZ2K4At4=
+			F5E8HIY6ly78g1PKAlAKRUKZUHozJV6R7VADIXcie2g=
 			</data>
 		</dict>
 		<key>ios-arm64/IDCaptureMedium.framework/Modules/IDCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yarlPMoFt4hpRXF7dUGvbCeqAOQ=
+			cgNn8Uvv4IMInbht4S7BRFf7eBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			/nLd2isl04fdNFFWUfYRQzgkpcNdf4/ZUaTrD9bUYv8=
+			iboKChq2og/X9mDJhuM/5PKqxrJ7sB/pwP/Pz8Y2/WA=
 			</data>
 		</dict>
 		<key>ios-arm64/IDCaptureMedium.framework/Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1xofIPpUJmcVTop9rHmDeO2Yomk=
+			aZa4iBDIwpppFoXRdMeLOjVGjDo=
 			</data>
 			<key>hash2</key>
 			<data>
-			xmyIfXZaO3dSbK3S4eWnX/SfD2DNMs+Yh23oWgp26AQ=
+			jA9eN+7zTnmkFwNFVIkZdfcQDNd3W/+MagNfTQ5xs4k=
 			</data>
 		</dict>
 		<key>ios-arm64/IDCaptureMedium.framework/Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -684,11 +684,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ikzRRQAV0noaO50theGkndakXYE=
+			HH/5k3PM3pD3xYdYTGGr2ywom70=
 			</data>
 			<key>hash2</key>
 			<data>
-			KBcKqePRNPwc/AhOCXKiuydzn6fPWaRx5Q7guqg6fTM=
+			eQstkQueDARI2w3PNsJxYLUU124AHu/LLJKCrZuRbiw=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/Assets.car</key>
@@ -992,44 +992,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yypsaRXR142aPaY550k3QRtWr/I=
+			LXn4DzdjArB/vSWX74AGjmvak0M=
 			</data>
 			<key>hash2</key>
 			<data>
-			i32vLVqt7bO+4VIySvfmgYjmYpUpLgTWHogrK/5jycc=
+			BtH/DIa+yUMG3cfbP0Gp0ku+aNXZxU/b2ZvlNPWyquA=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oYkWJzRrE3dF+Ann+AvSALXu4Cg=
+			55cy7Y4CzMYNSUN3u2v9yUQyp54=
 			</data>
 			<key>hash2</key>
 			<data>
-			RVuJgRJWe55VyAYCpC2WnQ7fonguw6YPNCZXRRyfhyg=
+			HrAzLTyDTkJLhsa1cdKs7jIO8UGaw/vE44t/BHZ25gc=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/Modules/IDCaptureMedium.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PpvE4daTIyWY4fe58FHpM+qIrC8=
+			2mrEwIr8t38MKVa3nh8+AGjAH7o=
 			</data>
 			<key>hash2</key>
 			<data>
-			SpmxjSLpMmxPRSvwxjIGLubnIjiJ6+WXEvgkkSih90g=
+			JeUa+6P45+c7M4fu6iX37OPAUUAUfHGkshg47mSB8zA=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/Modules/IDCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R8rPtL39URbuswJRboaAfP5/biE=
+			pEsEd4MjSRpfetbZhz492T/IwaE=
 			</data>
 			<key>hash2</key>
 			<data>
-			e2UBakERsIXfQ1BvvANZ4ocr3+6Z7dchdYDo91wfZus=
+			vBU3rxZONiFK5GtV90LphbnynHBo2Ls4tlU6F2v3SJ0=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/Modules/IDCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1080,11 +1080,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d8kA+n8XBWInIQgg7WvU6nmiX2Q=
+			e9IlZvjRpoRuNg1v5tR+3vEAQzo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ud/v141C5U2HcqKUvkG1WmIPieKTvQ/rfiSVUrTZTas=
+			Ygt1yAeM/GrS6YxubPDPxLDGuSrvHNxftPOp6yUyvhg=
 			</data>
 		</dict>
 	</dict>

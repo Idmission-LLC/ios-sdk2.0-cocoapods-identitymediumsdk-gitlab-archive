@@ -14,11 +14,11 @@
 		</data>
 		<key>ios-arm64/VoiceCaptureMedium.framework/Info.plist</key>
 		<data>
-		gGuRs8Unxg4yID/iGcAosAvjja4=
+		XtH7MpQ03yl/WUqq4q1QT+LKqmA=
 		</data>
 		<key>ios-arm64/VoiceCaptureMedium.framework/Modules/VoiceCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		hEVI19LiF5rscSXEQskDK75B3qc=
+		SonVdWbrAWPVegHa636aDODdjf4=
 		</data>
 		<key>ios-arm64/VoiceCaptureMedium.framework/Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>ios-arm64/VoiceCaptureMedium.framework/VoiceCaptureMedium</key>
 		<data>
-		wbcP6drgomF+LrwS+MTH9u5b79g=
+		UnLFrdAZt13vA5LjXBQF3gRj3TI=
 		</data>
 		<key>ios-arm64/VoiceCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<data>
-		arJTPulHZt20Y7WhrHQAcV1GIyw=
+		pdnHDc2NoUXR2iSdHM3pTGixmrw=
 		</data>
 		<key>ios-x86_64-simulator/VoiceCaptureMedium.framework/Headers/VoiceCaptureMedium-Swift.h</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>ios-x86_64-simulator/VoiceCaptureMedium.framework/Info.plist</key>
 		<data>
-		e8EpOMG66Aonv5axrHebZ6pl27Y=
+		t7sPaHfu1ihc1CXRVATy7bzcMng=
 		</data>
 		<key>ios-x86_64-simulator/VoiceCaptureMedium.framework/Modules/VoiceCaptureMedium.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		A87Lk1lpu1wdoVcrb1LA1OxYwhk=
+		sPqLoUMljLD99QEwSd8I+1qPDwA=
 		</data>
 		<key>ios-x86_64-simulator/VoiceCaptureMedium.framework/Modules/VoiceCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -126,11 +126,11 @@
 		</data>
 		<key>ios-x86_64-simulator/VoiceCaptureMedium.framework/VoiceCaptureMedium</key>
 		<data>
-		0kK7N6fdi1FdKf7eLTwiYT3FQGA=
+		dYR30QI+Ezqob/d2NBhGuXlvSfU=
 		</data>
 		<key>ios-x86_64-simulator/VoiceCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<data>
-		yeITMjt0c6hVUtvhCOgcR19re6Y=
+		BLUxE0DLbV9fXnlnPMuGClsRf9E=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -161,22 +161,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gGuRs8Unxg4yID/iGcAosAvjja4=
+			XtH7MpQ03yl/WUqq4q1QT+LKqmA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ITVoy+j0jTvRk+Yv6+ArYy2lPnCOo+K89lHeOo9KQ/Y=
+			BK7saWLlSzhOtItSMikHl7gDzVONrLjJET3G7o1eh8k=
 			</data>
 		</dict>
 		<key>ios-arm64/VoiceCaptureMedium.framework/Modules/VoiceCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hEVI19LiF5rscSXEQskDK75B3qc=
+			SonVdWbrAWPVegHa636aDODdjf4=
 			</data>
 			<key>hash2</key>
 			<data>
-			p6xhGkop9bUlm+2+D3z2+k79IoTJHbAG9mGxksU9f5Y=
+			h41ThzwHULZzBDsofm0pMrPKPMTD3UpzCujiDq4TepI=
 			</data>
 		</dict>
 		<key>ios-arm64/VoiceCaptureMedium.framework/Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -293,22 +293,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wbcP6drgomF+LrwS+MTH9u5b79g=
+			UnLFrdAZt13vA5LjXBQF3gRj3TI=
 			</data>
 			<key>hash2</key>
 			<data>
-			TI6qGcJgGVOvMqnEIIphJZvoIsQHlROvSFMrE22pA0I=
+			GXcHuSAK9SFLTUS4wM0fstRLD41AHqsD/+jpC5LmH5U=
 			</data>
 		</dict>
 		<key>ios-arm64/VoiceCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			arJTPulHZt20Y7WhrHQAcV1GIyw=
+			pdnHDc2NoUXR2iSdHM3pTGixmrw=
 			</data>
 			<key>hash2</key>
 			<data>
-			46XB/PmR1waOoptEcI+Pr8heNpTNgFEvxIdERrF4JZk=
+			3bx46qIY97walQy1dWsD+cwB3TSYjI0T1ic9bYNUBcI=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/VoiceCaptureMedium.framework/Headers/VoiceCaptureMedium-Swift.h</key>
@@ -337,22 +337,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e8EpOMG66Aonv5axrHebZ6pl27Y=
+			t7sPaHfu1ihc1CXRVATy7bzcMng=
 			</data>
 			<key>hash2</key>
 			<data>
-			NmHHzaU2WdpYu/gr8qZcX2A6+FgFK9TTdH+8iO52LJs=
+			hIhfQiaGBLgiKwZRxlkvCKcryp7O00/abB//68Ouj3g=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/VoiceCaptureMedium.framework/Modules/VoiceCaptureMedium.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A87Lk1lpu1wdoVcrb1LA1OxYwhk=
+			sPqLoUMljLD99QEwSd8I+1qPDwA=
 			</data>
 			<key>hash2</key>
 			<data>
-			9oH1j7BD3A7mzIN5bdrtZk1pWMR2P6t+iUJpmpQZY78=
+			vXKU+X2xxgqSVyQb+Hy3tuuZtjfGcFe1EGEP/Fz/G5g=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/VoiceCaptureMedium.framework/Modules/VoiceCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -469,22 +469,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0kK7N6fdi1FdKf7eLTwiYT3FQGA=
+			dYR30QI+Ezqob/d2NBhGuXlvSfU=
 			</data>
 			<key>hash2</key>
 			<data>
-			hudwgxhGm3jZpkdG16Q+CK73vodFRBqnfC6ETzOyAH0=
+			5rTIMeX76yZqAi2I5fU5F4M7mwLRPFcmsNJk0qCID1I=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/VoiceCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yeITMjt0c6hVUtvhCOgcR19re6Y=
+			BLUxE0DLbV9fXnlnPMuGClsRf9E=
 			</data>
 			<key>hash2</key>
 			<data>
-			GEgK3jvH+ezr1LZ7YVrdGR54R4J2BiUL+LM055nqlUg=
+			qtii8117+HrKOLfGAWbHDcFAtjTOGm/V1Nh9UvBiEgk=
 			</data>
 		</dict>
 	</dict>

@@ -51475,6 +51475,92 @@
               },
               {
                 "kind": "Var",
+                "name": "documentDetectedHoldStill",
+                "printedName": "documentDetectedHoldStill",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17IDentityMediumSDK9IDCaptureC7StringsV25documentDetectedHoldStillSSvp",
+                "mangledName": "$s17IDentityMediumSDK9IDCaptureC7StringsV25documentDetectedHoldStillSSvp",
+                "moduleName": "IDentityMediumSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC7StringsV25documentDetectedHoldStillSSvg",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC7StringsV25documentDetectedHoldStillSSvg",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC7StringsV25documentDetectedHoldStillSSvs",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC7StringsV25documentDetectedHoldStillSSvs",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC7StringsV25documentDetectedHoldStillSSvM",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC7StringsV25documentDetectedHoldStillSSvM",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "retryScreenText",
                 "printedName": "retryScreenText",
                 "children": [
@@ -176954,441 +177040,462 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 2559,
+      "offset": 2671,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 2608,
+      "offset": 2720,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 2679,
+      "offset": 2791,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 2709,
+      "offset": 2821,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 2745,
+      "offset": 2857,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 2777,
+      "offset": 2889,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 2807,
+      "offset": 2919,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 2853,
+      "offset": 2965,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 2886,
+      "offset": 2998,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 2930,
+      "offset": 3042,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 2969,
+      "offset": 3081,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3001,
+      "offset": 3113,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3035,
+      "offset": 3147,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3069,
+      "offset": 3181,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3102,
+      "offset": 3214,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3138,
+      "offset": 3250,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3176,
+      "offset": 3297,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3213,
+      "offset": 3335,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3251,
+      "offset": 3372,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3291,
+      "offset": 3410,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3329,
+      "offset": 3450,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3394,
+      "offset": 3488,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
+      "kind": "StringLiteral",
+      "offset": 3553,
       "length": 81,
       "value": "\"Place your ID in the screen as shown. The image will be captured automatically.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3522,
+      "offset": 3681,
       "length": 10,
       "value": "\"Continue\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3601,
+      "offset": 3760,
       "length": 13,
       "value": "\"Move closer\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3642,
+      "offset": 3801,
       "length": 11,
       "value": "\"Move back\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3687,
+      "offset": 3846,
       "length": 35,
       "value": "\"Fit document inside the rectangle\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3752,
+      "offset": 3911,
       "length": 14,
       "value": "\"Not in focus\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3794,
+      "offset": 3953,
       "length": 22,
       "value": "\"Scan the front of ID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3860,
+      "offset": 4019,
       "length": 67,
       "value": "\"Make sure the photo and all text on the ID are completely visible\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 3958,
+      "offset": 4117,
       "length": 18,
       "value": "\"Scan the barcode\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 4018,
+      "offset": 4177,
       "length": 55,
       "value": "\"Make sure the barcode on the ID is completely visible\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 4110,
+      "offset": 4269,
       "length": 51,
       "value": "\"ID front and back do not match. Please try again.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 4191,
+      "offset": 4350,
       "length": 21,
       "value": "\"Scan the back of ID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 4244,
+      "offset": 4403,
       "length": 55,
       "value": "\"Too much glare. Move document away from direct light.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 4331,
+      "offset": 4490,
       "length": 22,
       "value": "\"Scan the front of ID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 4384,
+      "offset": 4543,
       "length": 21,
       "value": "\"Scan the back of ID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 4439,
+      "offset": 4598,
       "length": 73,
       "value": "\"Place the barcode or machine-readable zone of your ID in the rectangle.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 4548,
+      "offset": 4716,
+      "length": 34,
+      "value": "\"Document detected, hold still...\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
+      "kind": "StringLiteral",
+      "offset": 4786,
       "length": 41,
       "value": "\"Real ID not detected. Please try again.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 4624,
+      "offset": 4862,
       "length": 7,
       "value": "\"Retry\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 4667,
+      "offset": 4905,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 4713,
+      "offset": 4951,
       "length": 210,
       "value": "\"Place the back of your phone over the barcode on the last page of your passport. Slowly move your phone up and down along the page. Once the reading begins, do not move your phone until the process completes.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 4959,
+      "offset": 5197,
       "length": 21,
       "value": "\"Face does not match\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 5043,
+      "offset": 5281,
       "length": 100,
       "value": "\"Poner la identificación en la pantalla como se muestra, la imagen se capturará automáticamente.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 5190,
+      "offset": 5428,
       "length": 11,
       "value": "\"Continuar\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 5270,
+      "offset": 5508,
       "length": 20,
       "value": "\"Acercar la cámara\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 5318,
+      "offset": 5556,
       "length": 19,
       "value": "\"Alejar la cámara\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 5371,
+      "offset": 5609,
       "length": 51,
       "value": "\"Ajustar la identificación dentro del rectángulo\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 5452,
+      "offset": 5690,
       "length": 29,
       "value": "\"Identificación no enfocada\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 5509,
+      "offset": 5747,
       "length": 42,
       "value": "\"Escanear el frente de la identificación\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 5595,
+      "offset": 5833,
       "length": 101,
       "value": "\"Hay que asegurarse que la foto y todo el texto de la identificación estén completamente visibles.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 5727,
+      "offset": 5965,
       "length": 31,
       "value": "\"Escanear el código de barras\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 5800,
+      "offset": 6038,
       "length": 87,
       "value": "\"Asegurarse que el código de barras de la identificación esté completamente visible\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 5924,
+      "offset": 6162,
       "length": 87,
       "value": "\"El frente y el reverso de la identificación no coinciden. Hay que intentar de nuevo.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6041,
+      "offset": 6279,
       "length": 43,
       "value": "\"Escanear el reverso de la identificación\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6116,
+      "offset": 6354,
       "length": 63,
       "value": "\"Hay demasiado reflejo. Alejar el documento de la luz directa.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6211,
+      "offset": 6449,
       "length": 42,
       "value": "\"Escanear el frente de la identificación\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6284,
+      "offset": 6522,
       "length": 43,
       "value": "\"Escanear el reverso de la identificación\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6361,
+      "offset": 6599,
       "length": 113,
       "value": "\"Colocar el código de barras o la zona de lectura mecánica (MRZ) de la identificación dentro del rectángulo.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6510,
+      "offset": 6757,
+      "length": 55,
+      "value": "\"Se ha detectado el documento, no moverse por favor...\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
+      "kind": "StringLiteral",
+      "offset": 6848,
       "length": 67,
       "value": "\"Identificación original no detectada. Hay que intentar de nuevo.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6612,
+      "offset": 6950,
       "length": 19,
       "value": "\"Intentar de nuevo\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6667,
+      "offset": 7005,
       "length": 10,
       "value": "\"Cancelar\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6715,
+      "offset": 7053,
       "length": 282,
       "value": "\"Coloque la parte posterior de su teléfono sobre el código de barras en la última página de su pasaporte. Mueva lentamente su teléfono hacia arriba y hacia abajo a lo largo de la página. Una vez que comience la lectura, no mueva su teléfono hasta que se complete el proceso.\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Strings\/IDCapture.Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7033,
+      "offset": 7371,
       "length": 21,
       "value": "\"La cara no coincide\""
     },
