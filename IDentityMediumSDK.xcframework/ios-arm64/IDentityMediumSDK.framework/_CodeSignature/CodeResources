@@ -164,25 +164,17 @@
 		<data>
 		XbJUe8PtIFXmArkvhIp46V5BAD4=
 		</data>
-		<key>Headers/FWEncryptorAES.h</key>
-		<data>
-		1y7mrxQl8GnMyvrgj4V9k4pByV8=
-		</data>
 		<key>Headers/IDentityMediumSDK-Swift.h</key>
 		<data>
 		POIVriOMK3uLlDTOzEV8ZFbFoKc=
 		</data>
 		<key>Headers/IDentityMediumSDK.h</key>
 		<data>
-		FM9xpfq00XiAlxTjelobpvL7AI0=
+		VnDht6npFNtx1j7wxcva+44Jlcg=
 		</data>
 		<key>Headers/IDentityXSLT.h</key>
 		<data>
 		Kw5kU13Uro49wJDcrtNx0+l5TsY=
-		</data>
-		<key>Headers/RSA.h</key>
-		<data>
-		ZD1I72sCxB85uR+lEMJ6m6VTKZo=
 		</data>
 		<key>Headers/UIImage+Glare.h</key>
 		<data>
@@ -318,7 +310,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0evuwQPnVcTRAwiwzwH4JJoe+EY=
+		DWQgEeMWdUzbkcXgJYJgw+IfEdE=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
@@ -358,7 +350,7 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		2v0ymrMl7Z/G0V6Ccx6o9/FKaWc=
+		HNFOsp0USWc3tIrkFsqufB3QmBQ=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -675,13 +667,6 @@
 			EWsQce8i5TcHZAJ0bmbcwQCS1UgF2tUFqEaC1xAX1Ds=
 			</data>
 		</dict>
-		<key>Headers/FWEncryptorAES.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Il2cSyCVLgtkD9aZ1hFA7z6lhnO2L3k9IGUS94LkJ+Q=
-			</data>
-		</dict>
 		<key>Headers/IDentityMediumSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -693,7 +678,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6zGcDzmb752FcsynGjNSMeAh5sZAxNjP3vQj04/2H3k=
+			BpmYgsjzJ4BEP1lYhrqi5AZO/PhLFpGcsQSbDmS1j0c=
 			</data>
 		</dict>
 		<key>Headers/IDentityXSLT.h</key>
@@ -701,13 +686,6 @@
 			<key>hash2</key>
 			<data>
 			U/aNEdTvONPMBD9bsPi1CjDtOPX8RD9X/RlBcRVnIR4=
-			</data>
-		</dict>
-		<key>Headers/RSA.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pv2+/ViGBTj1pqQbpdfaaQE9iD/RZhmH1utXFnv50FY=
 			</data>
 		</dict>
 		<key>Headers/UIImage+Glare.h</key>
@@ -1008,7 +986,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mLs+NhOBEQPlSesEY0+n17vxtFh8Dic9RVzIWub6dE8=
+			uIjyIah+fOs5y3a7tf9GOsc+VrMCqeui63bSy4/vid0=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.abi.json</key>
