@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SignatureCaptureMedium-Swift.h</key>
 		<data>
-		PXalsvy2xGSpQFgQNDBAeAlEr/E=
+		uIybEk1bS0xgCVzjFx5WQCbRPG8=
 		</data>
 		<key>Headers/SignatureCaptureMedium.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G9OdU23upb+PZ/6Q+D5KY3yDrOs=
+		CZg9/iQfZsSvGQjMvISCKnIkB3M=
 		</data>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		FgKc0W3t3n3+Z/8uMSecP9uq+/I=
+		ZzclS3SjiUR0T+M54vhO9JzfIxo=
 		</data>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		o7LQHor5BK80DMSjQj7Rbv8iXZ8=
+		q0DONR1/OLWgxj85okT4BVjqo34=
 		</data>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DyHPjR9/jW3k+ZsT63Uc69I4aoQ=
+		d1c5Vq8sHPd8jaB9bCrKW3IU2ss=
 		</data>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		OiIcVGrkNsYzMIODL2hxaRicHeo=
+		jP8AlkAOEyykjgxierFpT/hbYjM=
 		</data>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DyHPjR9/jW3k+ZsT63Uc69I4aoQ=
+		d1c5Vq8sHPd8jaB9bCrKW3IU2ss=
 		</data>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		y3alQ4/73tZ5EpolekodO1EtHYE=
+		xsr3qqPf28jzJMQQW64MfzcPoTc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I0NVIyntuAYZGrLqJ1z6UIa3pxORuMdnTQ3vPBIOyXA=
+			4TqnLtz2HKpQIxVZf9liglSDS+rAzqmML4J5BoShlYQ=
 			</data>
 		</dict>
 		<key>Headers/SignatureCaptureMedium.h</key>
@@ -85,42 +85,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HOKqkwM3X6X4MRp1ZgtvZilZWN1UZVu9l0jV4te3oRs=
+			qP6/yAtcAgxVaoicAul7hP2rLNwmWfv1HZbTW/UVnws=
 			</data>
 		</dict>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/CVPg3EE6lVr0k0GJxFxs+acs3cX/J+zkcAGb3IC2/A=
+			fBuoA6gjPVjLah8S7+r40fDf1DqMgN9Fs682bMUKjvQ=
 			</data>
 		</dict>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WJYIUoV7lUbgC+VSTeYiH5Gy2ZtdgAglVXZWnnSZKmE=
+			TyrTSgWxusIXlDuZcoZTsveIpFqxCn0TV1yX9TubZS8=
 			</data>
 		</dict>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aFxPr8MK3RWrY25aBAEPWm+xaS2feR9A19t8st80BPw=
+			pCr2gMYZw2VV/VJrL/Wqj2mMg3ehQH16OoVEdOzigao=
 			</data>
 		</dict>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WJYIUoV7lUbgC+VSTeYiH5Gy2ZtdgAglVXZWnnSZKmE=
+			TyrTSgWxusIXlDuZcoZTsveIpFqxCn0TV1yX9TubZS8=
 			</data>
 		</dict>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bs9qD3UFvMIUwDXVjuLRverVtNuqd2lf/2hSw1Mz6O8=
+			xjyXilubyfEnZ6oUyxUkIJna0ip+c+Nvi12FdZYjWI8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

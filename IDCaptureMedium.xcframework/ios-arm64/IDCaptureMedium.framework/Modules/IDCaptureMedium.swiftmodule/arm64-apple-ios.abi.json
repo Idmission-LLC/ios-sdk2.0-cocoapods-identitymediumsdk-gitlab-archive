@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "IDCaptureMedium",
+    "printedName": "IDCaptureMedium",
     "children": [
       {
         "kind": "Import",
@@ -250,7 +250,7 @@
           {
             "kind": "Function",
             "name": "submit",
-            "printedName": "submit(additionalDocuments:completion:)",
+            "printedName": "submit(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -258,32 +258,9 @@
                 "printedName": "()"
               },
               {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[IDentityMediumSDK.AdditionalDocumentsRequest]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[IDentityMediumSDK.AdditionalDocumentsRequest]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AdditionalDocumentsRequest",
-                        "printedName": "IDentityMediumSDK.AdditionalDocumentsRequest",
-                        "usr": "s:17IDentityMediumSDK26AdditionalDocumentsRequestV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerValidateIdResponseV3, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerValidateIdResponseV3, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -293,7 +270,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<IDentityMediumSDK.CustomerValidateIdResponseV3, Swift.Error>",
+                    "printedName": "Swift.Result<IDentityMediumSDK.CustomerValidateIdResponseV3, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -304,7 +281,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -314,8 +291,62 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15IDCaptureMedium16ValidateIdResultV6submit19additionalDocuments10completionySay08IDentityB3SDK010AdditionalH7RequestVGSg_ys0E0OyAG08CustomercD10ResponseV3Vs5Error_pGctF",
-            "mangledName": "$s15IDCaptureMedium16ValidateIdResultV6submit19additionalDocuments10completionySay08IDentityB3SDK010AdditionalH7RequestVGSg_ys0E0OyAG08CustomercD10ResponseV3Vs5Error_pGctF",
+            "usr": "s:15IDCaptureMedium16ValidateIdResultV6submit10completionyys0E0Oy08IDentityB3SDK08CustomercD10ResponseV3Vs5Error_pGc_tF",
+            "mangledName": "$s15IDCaptureMedium16ValidateIdResultV6submit10completionyys0E0Oy08IDentityB3SDK08CustomercD10ResponseV3Vs5Error_pGc_tF",
+            "moduleName": "IDCaptureMedium",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "finalSubmit",
+            "printedName": "finalSubmit(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerValidateIdResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDentityMediumSDK.CustomerValidateIdResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerValidateIdResponse",
+                        "printedName": "IDentityMediumSDK.CustomerValidateIdResponse",
+                        "usr": "s:17IDentityMediumSDK26CustomerValidateIdResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15IDCaptureMedium16ValidateIdResultV11finalSubmit10completionyys0E0Oy08IDentityB3SDK08CustomercD8ResponseVs5Error_pGc_tF",
+            "mangledName": "$s15IDCaptureMedium16ValidateIdResultV11finalSubmit10completionyys0E0Oy08IDentityB3SDK08CustomercD8ResponseVs5Error_pGc_tF",
             "moduleName": "IDCaptureMedium",
             "declAttributes": [
               "AccessControl",
@@ -331,6 +362,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -527,21 +574,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IDentityMediumSDK.CustomerValidateIdRequestV3?",
+                "printedName": "IDentityMediumSDK.CustomerValidateIdRequest?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CustomerValidateIdRequestV3",
-                    "printedName": "IDentityMediumSDK.CustomerValidateIdRequestV3",
-                    "usr": "s:17IDentityMediumSDK27CustomerValidateIdRequestV3V"
+                    "name": "CustomerValidateIdRequest",
+                    "printedName": "IDentityMediumSDK.CustomerValidateIdRequest",
+                    "usr": "s:17IDentityMediumSDK25CustomerValidateIdRequestV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH2V3VSgvpZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH2V3VSgvpZ",
+            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvpZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvpZ",
             "moduleName": "IDCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -562,21 +609,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerValidateIdRequestV3?",
+                    "printedName": "IDentityMediumSDK.CustomerValidateIdRequest?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerValidateIdRequestV3",
-                        "printedName": "IDentityMediumSDK.CustomerValidateIdRequestV3",
-                        "usr": "s:17IDentityMediumSDK27CustomerValidateIdRequestV3V"
+                        "name": "CustomerValidateIdRequest",
+                        "printedName": "IDentityMediumSDK.CustomerValidateIdRequest",
+                        "usr": "s:17IDentityMediumSDK25CustomerValidateIdRequestV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH2V3VSgvgZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH2V3VSgvgZ",
+                "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvgZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvgZ",
                 "moduleName": "IDCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -599,21 +646,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IDentityMediumSDK.CustomerValidateIdRequestV3?",
+                    "printedName": "IDentityMediumSDK.CustomerValidateIdRequest?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CustomerValidateIdRequestV3",
-                        "printedName": "IDentityMediumSDK.CustomerValidateIdRequestV3",
-                        "usr": "s:17IDentityMediumSDK27CustomerValidateIdRequestV3V"
+                        "name": "CustomerValidateIdRequest",
+                        "printedName": "IDentityMediumSDK.CustomerValidateIdRequest",
+                        "usr": "s:17IDentityMediumSDK25CustomerValidateIdRequestV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH2V3VSgvsZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH2V3VSgvsZ",
+                "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvsZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvsZ",
                 "moduleName": "IDCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -635,8 +682,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH2V3VSgvMZ",
-                "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH2V3VSgvMZ",
+                "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvMZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvMZ",
                 "moduleName": "IDCaptureMedium",
                 "static": true,
                 "implicit": true,
@@ -647,6 +694,80 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "idValidation",
+            "printedName": "idValidation(from:options:captureBack:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdditionalCustomerWFlagCommonData",
+                "printedName": "IDentityMediumSDK.AdditionalCustomerWFlagCommonData",
+                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CaptureBack",
+                "printedName": "IDentityMediumSDK.CaptureBack",
+                "hasDefaultArg": true,
+                "usr": "s:17IDentityMediumSDK11CaptureBackO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDCaptureMedium.ValidateIdResult, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDCaptureMedium.ValidateIdResult, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValidateIdResult",
+                        "printedName": "IDCaptureMedium.ValidateIdResult",
+                        "usr": "s:15IDCaptureMedium16ValidateIdResultV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from7options11captureBack10completionySo16UIViewControllerC_AA33AdditionalCustomerWFlagCommonDataVAA07CaptureJ0Oys6ResultOyAD010ValidateIdT0Vs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from7options11captureBack10completionySo16UIViewControllerC_AA33AdditionalCustomerWFlagCommonDataVAA07CaptureJ0Oys6ResultOyAD010ValidateIdT0Vs5Error_pGctFZ",
+            "moduleName": "IDCaptureMedium",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -680,7 +801,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<IDCaptureMedium.ValidateIdResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<IDCaptureMedium.ValidateIdResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -690,7 +811,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<IDCaptureMedium.ValidateIdResult, Swift.Error>",
+                    "printedName": "Swift.Result<IDCaptureMedium.ValidateIdResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -701,7 +822,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -713,6 +834,99 @@
             "declKind": "Func",
             "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from7options11captureBack10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VAA07CaptureJ0Oys6ResultOyAD010ValidateIdU0Vs5Error_pGctFZ",
             "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from7options11captureBack10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VAA07CaptureJ0Oys6ResultOyAD010ValidateIdU0Vs5Error_pGctFZ",
+            "moduleName": "IDCaptureMedium",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "idValidation",
+            "printedName": "idValidation(from:options:idType:idCountry:idState:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdditionalCustomerWFlagCommonData",
+                "printedName": "IDentityMediumSDK.AdditionalCustomerWFlagCommonData",
+                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDCaptureMedium.ValidateIdResult, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDCaptureMedium.ValidateIdResult, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValidateIdResult",
+                        "printedName": "IDCaptureMedium.ValidateIdResult",
+                        "usr": "s:15IDCaptureMedium16ValidateIdResultV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from7options0E4Type0E7Country0E5State10completionySo16UIViewControllerC_AA33AdditionalCustomerWFlagCommonDataVS3SSgys6ResultOyAD010ValidateIdT0Vs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from7options0E4Type0E7Country0E5State10completionySo16UIViewControllerC_AA33AdditionalCustomerWFlagCommonDataVS3SSgys6ResultOyAD010ValidateIdT0Vs5Error_pGctFZ",
             "moduleName": "IDCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -773,7 +987,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<IDCaptureMedium.ValidateIdResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<IDCaptureMedium.ValidateIdResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -783,7 +997,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<IDCaptureMedium.ValidateIdResult, Swift.Error>",
+                    "printedName": "Swift.Result<IDCaptureMedium.ValidateIdResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -794,7 +1008,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -834,7 +1048,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<IDentityMediumSDK.AutofillResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<IDentityMediumSDK.AutofillResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -844,7 +1058,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<IDentityMediumSDK.AutofillResult, Swift.Error>",
+                    "printedName": "Swift.Result<IDentityMediumSDK.AutofillResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -855,7 +1069,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -881,7 +1095,23 @@
         "mangledName": "$s17IDentityMediumSDK0aC0C",
         "moduleName": "IDentityMediumSDK",
         "isExternal": true,
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -943,6 +1173,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1016,6 +1260,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1037,709 +1295,23 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "Array",
-      "offset": 2280,
+      "offset": 2278,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "Array",
-      "offset": 2337,
+      "offset": 2335,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4338,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4423,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4461,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4568,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4609,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4651,
+      "offset": 37977,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5470,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5751,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6824,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8008,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8019,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8106,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8111,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9435,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10065,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10111,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10207,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11042,
-      "length": 11,
-      "value": "\"debugData\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11223,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11386,
-      "length": 117,
-      "value": "\"Photocopy Score: \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11428,
-      "length": 1,
-      "value": "\"\nRealness Score: \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11465,
-      "length": 1,
-      "value": "\"\nScreen Score: \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11502,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11609,
-      "length": 14,
-      "value": "\"Top Matches:\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11719,
-      "length": 44,
-      "value": "\"\n - \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11735,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11737,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11749,
-      "length": 1,
-      "value": "\": \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11762,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11915,
-      "length": 28,
-      "value": "\"Focus Score: \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11942,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12114,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12126,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12747,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12796,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13859,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 14065,
-      "length": 13,
-      "value": "\"captureMode\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15439,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16088,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16942,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 16992,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 16998,
-      "length": 3,
-      "value": "3.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 17097,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 17103,
-      "length": 3,
-      "value": "3.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 17757,
-      "length": 3,
-      "value": "4.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 17763,
-      "length": 3,
-      "value": "6.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 17862,
-      "length": 3,
-      "value": "5.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 17868,
-      "length": 3,
-      "value": "6.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20025,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20872,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22547,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 23806,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 23909,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 24970,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 25070,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25522,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25753,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 26224,
-      "length": 3,
-      "value": "0.9"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27338,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27414,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27591,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27664,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 28218,
-      "length": 3,
-      "value": "600"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "Dictionary",
-      "offset": 31435,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "Dictionary",
-      "offset": 31895,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 31923,
-      "length": 8,
-      "value": "\"IDData\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 32832,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 33338,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 33379,
-      "length": 8,
-      "value": "\"_FRONT\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 33826,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 33857,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 33976,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 34174,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 34256,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 34888,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 35044,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 35105,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 35176,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 35371,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 35426,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 35575,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 35630,
-      "length": 18,
-      "value": "\"Realness Scores:\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 35697,
-      "length": 14,
-      "value": "\"Top Matches:\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 35760,
-      "length": 14,
-      "value": "\"Focus Score:\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 36184,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 37226,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 37327,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 37885,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 38142,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 38701,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 1914,
-      "length": 11,
-      "value": "\"IDCapture\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6133,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6270,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6794,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6931,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/UIImage+IDCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 364,
-      "length": 27,
-      "value": "\"overlay_portrait_id_front\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/UIImage+IDCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 545,
-      "length": 27,
-      "value": "\"overlay_landscape_id_back\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/UIImage+IDCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 696,
-      "length": 27,
-      "value": "\"id_capture_instruction_pp\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/UIImage+IDCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 754,
-      "length": 27,
-      "value": "\"id_capture_instruction_dl\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/UIImage+IDCapture.swift",
@@ -1763,114 +1335,9 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectStateTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1207,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectStateTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1267,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectStateTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1321,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectStateTableViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1366,
-      "length": 15,
-      "value": "\"Search States\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectStateTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1484,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectStateTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1906,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectStateTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1950,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectStateTableViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2389,
-      "length": 6,
-      "value": "\"Cell\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectStateTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3036,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/RetryViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 401,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/RetryViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 674,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/RetryViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 740,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/RetryViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2150,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureInstructionsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2752,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureInstructionsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3971,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1180,
       "length": 5,
       "value": "false"
     },
@@ -1911,125 +1378,6 @@
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3757,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4331,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "FloatLiteral",
-      "offset": 4387,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4481,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "FloatLiteral",
-      "offset": 4553,
-      "length": 4,
-      "value": "-2.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4811,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4842,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4849,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4952,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4983,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4990,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5304,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5310,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5415,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5421,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5676,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7686,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
       "kind": "FloatLiteral",
       "offset": 7907,
       "length": 3,
@@ -2048,111 +1396,6 @@
       "offset": 8050,
       "length": 5,
       "value": "127.5"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectIdTypeTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 579,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectIdTypeTableViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1087,
-      "length": 6,
-      "value": "\"Cell\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectIdTypeTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1725,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectCountryTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1109,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectCountryTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1169,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectCountryTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1223,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectCountryTableViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1268,
-      "length": 18,
-      "value": "\"Search Countries\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectCountryTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1389,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectCountryTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1898,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectCountryTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1942,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectCountryTableViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2384,
-      "length": 6,
-      "value": "\"Cell\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectCountryTableViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3207,
-      "length": 4,
-      "value": "\"DL\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectCountryTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3358,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectCountryTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3843,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectCountryTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4008,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/IDCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",

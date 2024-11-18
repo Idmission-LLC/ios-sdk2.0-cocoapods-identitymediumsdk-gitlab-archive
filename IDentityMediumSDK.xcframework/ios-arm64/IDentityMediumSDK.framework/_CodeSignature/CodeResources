@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		owcqxk6+KQ4JL+0TXf8JlXbSCuM=
+		XlTzNlxcuoLwY4HNHovHUEc6nwI=
 		</data>
-		<key>DocDetectionTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
+		<key>DocDetectionTrainingModel_UNIQUE_KEY_ID_1426_20230825072044.tflite</key>
 		<data>
-		ttIemYyFdOkweKfsC0fikHDhLA0=
+		V6agMVeh4yguzUVtkvPJIjUJamY=
 		</data>
 		<key>DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib/objects-14.0+.nib</key>
 		<data>
@@ -96,17 +96,25 @@
 		<data>
 		TngDxKsLJjUH/4AdtyBGgnpZZAU=
 		</data>
-		<key>FPDetectionTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
+		<key>FPDetectionTrainingModel_UNIQUE_KEY_ID_1426_20230825072044.tflite</key>
 		<data>
-		HsXQqCSdQy7MLvoKt+Q7ofhQVCQ=
+		2KFPULdGL2vrgE9qpCiiLs1L3eU=
 		</data>
-		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
+		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_1426_20230825072044.tflite</key>
 		<data>
-		i2m9vZwbuth9pcSpbg0pSi1vy1k=
+		oVXm7WLO6UROyNtWViQ0bcdAr3I=
 		</data>
-		<key>FocusTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
+		<key>FocusTrainingModel_UNIQUE_KEY_ID_1426_20230825072044.tflite</key>
 		<data>
-		dthZoq8YD+eO9+DxAh9JBPulYqk=
+		nOpHMxVXHK+KpJ5KpcWAyv0Z3d8=
+		</data>
+		<key>GET_XSLT_DATA.json</key>
+		<data>
+		r4pT4tYjepBLh4NXSpKs3Pp+qDM=
+		</data>
+		<key>GET_XSLT_DATA.xml</key>
+		<data>
+		ku5oKK7xrf/GhE2zx1fFpHZxldU=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -122,7 +130,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		KPtoMCEANl5QoyCojm3VjAVwKr0=
+		iK2ud+EEDxorL7PgRPJ8Udb56UY=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -166,7 +174,7 @@
 		</data>
 		<key>Headers/IDentityMediumSDK-Swift.h</key>
 		<data>
-		POIVriOMK3uLlDTOzEV8ZFbFoKc=
+		oPAYdYXDHUcZrVcHsz4BgyZmC3s=
 		</data>
 		<key>Headers/IDentityMediumSDK.h</key>
 		<data>
@@ -304,17 +312,17 @@
 		<data>
 		kaJR25wXLG/fzOUUQZTZ4TIeR+k=
 		</data>
-		<key>IdTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
+		<key>IdTrainingModel_UNIQUE_KEY_ID_1426_20230825072044.tflite</key>
 		<data>
-		XPSkVYrE9k+tsWTW63l/7IpS8U0=
+		vwi/xrti6UaWq1djDf3Q/jIi6xs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DWQgEeMWdUzbkcXgJYJgw+IfEdE=
+		vkIVTjbm/kwSCqrKpWYexREbiRc=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		EHIkU+cDSEfdoZO7E4W1mxVW6sU=
+		HNR8eMab0Gv80y1iTMtHOpxPWoc=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -350,39 +358,47 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		HNFOsp0USWc3tIrkFsqufB3QmBQ=
+		TQniAUANKY6PCsDKt5eB+4erSoY=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		omRQySaSwP/6/E2KOq6ynj4g7rk=
+		eWf/TirPaZXz0H+Vl4GRg2FcJZE=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		FfqAhvQEPA6VrFp9a0tXTyAdgaU=
+		aqjU32GTDPl/HfwLPViDePD10Yo=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ukBHCYsfYjOBzgA5wi2pxrtjqp0=
+		o9HMn7SzLLuzVHjBkFS2m/gN/qc=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		FfqAhvQEPA6VrFp9a0tXTyAdgaU=
+		aqjU32GTDPl/HfwLPViDePD10Yo=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0yNZIkODTfumTSXUknh5CGDlyVw=
+		CtZxK9b4p13+wgrCkyWlepjKVnE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		CSAWVBrMeO4kDStuVgX93yY9U+A=
 		</data>
-		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
+		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_1426_20230825072044.tflite</key>
 		<data>
-		WzUfcLOc0MpkwMA6zDS6Mzug7MU=
+		IHqLZpDUMZ4ftRMwRkVUgtkW5i4=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		xDKlf4wsC+jBbNbXter38oa5qXo=
+		TaTyTcEd6lmQI305SwzT0DmhxSc=
+		</data>
+		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.json</key>
+		<data>
+		Vwq5XkLRRMhgBZjUYTYw8eBjt+U=
+		</data>
+		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.xml</key>
+		<data>
+		+Besejjgg61DHPDJVuWdS2bVG+4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -391,14 +407,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1SEUgnd3cdnEWAQtQjnFY3YCsGqCHUeu2eCvQ4cDkx4=
+			nUFid/5HTyG4IYKjjBk2O+b57/O562L8R1EYSITj8cQ=
 			</data>
 		</dict>
-		<key>DocDetectionTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
+		<key>DocDetectionTrainingModel_UNIQUE_KEY_ID_1426_20230825072044.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lKUZrM5ich8O6oVrN129hUSMxAFx4anaqqxWN0zqG1Y=
+			cykkd2lAo6l57L6iNlv+14A7UW4wf5rZzrkPjDwr7Xg=
 			</data>
 		</dict>
 		<key>DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib/objects-14.0+.nib</key>
@@ -548,25 +564,39 @@
 			/b15oVnJjm6ej6gpuprlR4yXlrmjVZSilJluNV1ZLYc=
 			</data>
 		</dict>
-		<key>FPDetectionTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
+		<key>FPDetectionTrainingModel_UNIQUE_KEY_ID_1426_20230825072044.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MSdLB5lIO1gnjrb+sI6JixB3u1vl8xcyR1mQ9PJzR1g=
+			Y2d/6O6d5r41OSv7ZyIvvDyhIa//mQ4PaGODDX5kDZY=
 			</data>
 		</dict>
-		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
+		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_1426_20230825072044.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U2M7kLMO9hWnAOrt2ajQsnvM+KUluEHFqUM1pjMeXDE=
+			NBeEk89F6pBFYcxAxvc8+qYLtmrS0QmwlKebuT9utS0=
 			</data>
 		</dict>
-		<key>FocusTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
+		<key>FocusTrainingModel_UNIQUE_KEY_ID_1426_20230825072044.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rSalTB2rXoySA9dlG6sMcGrx7mafyhlQP69tPNeEq9g=
+			554MSEKDdpQhhhnoQLPvXAxYL10SEoYFslXZ+KI0cxw=
+			</data>
+		</dict>
+		<key>GET_XSLT_DATA.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+X0nw/ckaF0YzKlkavzT6AedsjUBqeh7isqyOgtA1VE=
+			</data>
+		</dict>
+		<key>GET_XSLT_DATA.xml</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kOSrLc34DQ0zFXa7VbBcRQZjYIg0wBiOvPdurX6qK9E=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -594,7 +624,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			10jAp/d2Dy/sY8YEUBuD7Dwap9KA0ILzfLgv1JoTOB8=
+			HfdHGKOXZepCmWm1SAXGQLbCz/6oe+DkqJ9G2HRAt1o=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -671,7 +701,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mmOIlsLAMIG94RD8qEmhMDwGdw5LCLQG7FYkZUhN6Gw=
+			JQIDf2grw1rHUq8I1BoxtUV/xLnuSnTy2QPRfW/y+LQ=
 			</data>
 		</dict>
 		<key>Headers/IDentityMediumSDK.h</key>
@@ -912,18 +942,18 @@
 			aYNprLbIgDX45Q7oHJ1IwMY9px2AfQV2tO0IZF2Ssfc=
 			</data>
 		</dict>
-		<key>IdTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
+		<key>IdTrainingModel_UNIQUE_KEY_ID_1426_20230825072044.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g3vzLkOBqeQg/NI9nWjaCHWrPS9Cdaiag40IrV301vk=
+			8HXm1QPvodJfrl1ZrcGNzrx6i06BoIpy5nmcpmFD23c=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hyeTtPfcwuUeVEtLe2c0IKywmiy2J1nxcdmMYyYkve0=
+			Uq131cqPLEIzFKsNfFHrq3xl2i5HAj6ADF1X4iXHm6o=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -986,42 +1016,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uIjyIah+fOs5y3a7tf9GOsc+VrMCqeui63bSy4/vid0=
+			dt44iC1ui94PO6OOvYxBudT/VAvZt4oV87T+xcFbXYk=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4VqyJzhkj27k3LGVzz01GJbx/pOlVSvxZOQWxhHg8Fo=
+			7WI49vWjWyCFh+3bWeOGxQExQqou5SBZoNy0PbAyjaU=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dE7OxkA/xRiCWt8Dshy37s/mLs2HW5y+uc1p9c4QGQE=
+			RRcdMJcpac84U8WbfKaiN48xscapgYRD8F+JZXN/eyc=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			naM3pJ3a0vMyO+h0PvanKdGHJlJBxdyBp1mV40nAbqA=
+			uzt0RCmIah+8u50NQpsbG3uavHIu74VFSnweJbvnOpI=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dE7OxkA/xRiCWt8Dshy37s/mLs2HW5y+uc1p9c4QGQE=
+			RRcdMJcpac84U8WbfKaiN48xscapgYRD8F+JZXN/eyc=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WIw5BMfRAMuKYzm+iPIEAjjRa6r6R/B7vjvysPZzfcI=
+			DyDNqEykPxOCrmr6fv1rigmQU6RLGuMC5qzNIXAOBqo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1031,18 +1061,32 @@
 			5ScQp0q2fwkk2Oc5YxFvoe0cZ1MlFJ3oaidO7FCBSuk=
 			</data>
 		</dict>
-		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_2506_20231205105026.tflite</key>
+		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_1426_20230825072044.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tji9G5DcNcDlYK6v0eXTeuy5X3jo56lGUvz/HEJkbKo=
+			HXT7hbczfuSWTxIvIx52EG+0k7cCJTN6tlQfzDtlmow=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8fr+gFOCQ7hhQHSAsAGe+EZo1jsfqH1XiZZ8DXj7MVg=
+			Zb6xrIw/HNFfwVeI0CR8K/h753+aoGym+SUOfZ8KG4w=
+			</data>
+		</dict>
+		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TJj2RjX8fMzdFPD/MPRGFrvXrzLT4ta3/pLxbGAy7BU=
+			</data>
+		</dict>
+		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.xml</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YmDHj0If28dVTXDtzPSypdca/hiBtCN6BVsPzlVqqnM=
 			</data>
 		</dict>
 	</dict>

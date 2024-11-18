@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "VoiceCaptureMedium",
+    "printedName": "VoiceCaptureMedium",
     "children": [
       {
         "kind": "Import",
@@ -103,7 +103,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Foundation.URL, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<Foundation.URL, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -113,7 +113,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<Foundation.URL, Swift.Error>",
+                    "printedName": "Swift.Result<Foundation.URL, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -124,7 +124,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -151,7 +151,23 @@
         "mangledName": "$s17IDentityMediumSDK0aC0C",
         "moduleName": "IDentityMediumSDK",
         "isExternal": true,
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -170,293 +186,6 @@
       "offset": 1055,
       "length": 11,
       "value": "\"voice.m4a\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2310,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2594,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 7503,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7517,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8567,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9245,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9610,
-      "length": 10,
-      "value": "\"Settings\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9738,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9911,
-      "length": 4,
-      "value": "\"OK\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10024,
-      "length": 7,
-      "value": "\"Error\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10042,
-      "length": 35,
-      "value": "\"Microphone Permission Not Granted\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10217,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10551,
-      "length": 17,
-      "value": "\"ERROR: \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10567,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10645,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10957,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11194,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11267,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11461,
-      "length": 5,
-      "value": "44100"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11503,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13039,
-      "length": 17,
-      "value": "\"ERROR: \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13055,
-      "length": 30,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13982,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14132,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 14180,
-      "length": 9,
-      "value": "\"IDError\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14197,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 14238,
-      "length": 10,
-      "value": "\"Canceled\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14469,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14509,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 14553,
-      "length": 11,
-      "value": "\"%02u:%02u\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15249,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15537,
-      "length": 55,
-      "value": "\"audioRecorderDidFinishRecording successfully: \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15591,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15718,
-      "length": 43,
-      "value": "\"audioRecorderEncodeErrorDidOccur \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15760,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15994,
-      "length": 51,
-      "value": "\"audioPlayerDidFinishPlaying successfully: \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 16044,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 16165,
-      "length": 41,
-      "value": "\"audioPlayerDecodeErrorDidOccur \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 16205,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/Extensions\/IDentitySDK+VoiceCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 755,
-      "length": 14,
-      "value": "\"VoiceCapture\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/Extensions\/IDentitySDK+VoiceCapture.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1563,
-      "length": 4,
-      "value": "true"
     }
   ]
 }

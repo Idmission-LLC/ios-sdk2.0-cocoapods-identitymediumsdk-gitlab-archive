@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FingerPrintCaptureMedium",
+    "printedName": "FingerPrintCaptureMedium",
     "children": [
       {
         "kind": "Import",
@@ -110,6 +110,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -274,7 +288,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<IDentityMediumSDK.FingerPrintData, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<IDentityMediumSDK.FingerPrintData, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -284,7 +298,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<IDentityMediumSDK.FingerPrintData, Swift.Error>",
+                    "printedName": "Swift.Result<IDentityMediumSDK.FingerPrintData, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -295,7 +309,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -322,201 +336,28 @@
         "mangledName": "$s17IDentityMediumSDK0aC0C",
         "moduleName": "IDentityMediumSDK",
         "isExternal": true,
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 795,
-      "length": 20,
-      "value": "\"FingerPrintCapture\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1865,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2002,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4777,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4914,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 5404,
-      "length": 10,
-      "value": "\"LIFINGER\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 5673,
-      "length": 10,
-      "value": "\"LMFINGER\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 5944,
-      "length": 10,
-      "value": "\"LRFINGER\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 6209,
-      "length": 10,
-      "value": "\"LLFINGER\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 6512,
-      "length": 10,
-      "value": "\"RIFINGER\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 6786,
-      "length": 10,
-      "value": "\"RMFINGER\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 7062,
-      "length": 10,
-      "value": "\"RRFINGER\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 7332,
-      "length": 10,
-      "value": "\"RLFINGER\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 7593,
-      "length": 11,
-      "value": "\"isSuccess\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 7620,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7668,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 7684,
-      "length": 5,
-      "value": "\"YES\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 7772,
-      "length": 21,
-      "value": "\"fingerDetect.tflite\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 7809,
-      "length": 14,
-      "value": "\"fingerDetect\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/IDentitySDK+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 9157,
-      "length": 4,
-      "value": "\"NO\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/FingerPrintCaptureInstructionsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 860,
-      "length": 21,
-      "value": "\"LeftHand_Identifier\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/FingerPrintCaptureInstructionsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 932,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/FingerPrintCaptureInstructionsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1005,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/FingerPrintCaptureInstructionsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5280,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/UIImage+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 403,
-      "length": 18,
-      "value": "\"fp_instruction_7\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/UIImage+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 630,
-      "length": 7,
-      "value": "\"handL\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/FingerPrintCapture\/Extensions\/UIImage+FingerPrintCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 848,
-      "length": 7,
-      "value": "\"handR\""
-    },
     {
       "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/FingerPrintCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",

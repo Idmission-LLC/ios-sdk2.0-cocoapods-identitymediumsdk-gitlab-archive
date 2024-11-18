@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "SignatureCaptureMedium",
+    "printedName": "SignatureCaptureMedium",
     "children": [
       {
         "kind": "Import",
@@ -112,8 +112,9 @@
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -206,8 +207,9 @@
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -300,6 +302,7 @@
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl",
@@ -394,6 +397,7 @@
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl",
@@ -496,6 +500,7 @@
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl",
@@ -614,6 +619,7 @@
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl",
@@ -724,6 +730,7 @@
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl",
@@ -826,6 +833,7 @@
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl",
@@ -944,6 +952,7 @@
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl",
@@ -1063,6 +1072,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -1104,6 +1114,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Required"
@@ -1136,6 +1147,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -1190,6 +1202,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -1244,6 +1257,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -1299,6 +1313,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -1354,6 +1369,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -1376,6 +1392,7 @@
             "mangledName": "$s22SignatureCaptureMedium0A4ViewC5eraseyyF",
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC",
@@ -1416,6 +1433,7 @@
             "mangledName": "$s22SignatureCaptureMedium0A4ViewC19get_Cordinate_ArraySaySo7CGPointVGSgyF",
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -1447,6 +1465,7 @@
             "mangledName": "$s22SignatureCaptureMedium0A4ViewC20get_XCordinate_ArraySay12CoreGraphics7CGFloatVGyF",
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -1478,6 +1497,7 @@
             "mangledName": "$s22SignatureCaptureMedium0A4ViewC20get_YCordinate_ArraySay12CoreGraphics7CGFloatVGyF",
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -1509,6 +1529,7 @@
             "mangledName": "$s22SignatureCaptureMedium0A4ViewC19get_TimeStamp_ArraySaySSGyF",
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -1532,6 +1553,7 @@
             "mangledName": "$s22SignatureCaptureMedium0A4ViewC14signatureImageSo7UIImageCyF",
             "moduleName": "SignatureCaptureMedium",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -1545,6 +1567,7 @@
         "moduleName": "SignatureCaptureMedium",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -1557,6 +1580,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1653,7 +1690,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<IDentityMediumSDK.SignatureData, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<IDentityMediumSDK.SignatureDataRequest, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1663,18 +1700,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<IDentityMediumSDK.SignatureData, Swift.Error>",
+                    "printedName": "Swift.Result<IDentityMediumSDK.SignatureDataRequest, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "SignatureData",
-                        "printedName": "IDentityMediumSDK.SignatureData",
-                        "usr": "s:17IDentityMediumSDK13SignatureDataV"
+                        "name": "SignatureDataRequest",
+                        "printedName": "IDentityMediumSDK.SignatureDataRequest",
+                        "usr": "s:17IDentityMediumSDK20SignatureDataRequestV"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1684,8 +1721,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK0aC0C016SignatureCaptureB0E09signatureE04from10completionySo16UIViewControllerC_ys6ResultOyAA0D4DataVs5Error_pGctFZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C016SignatureCaptureB0E09signatureE04from10completionySo16UIViewControllerC_ys6ResultOyAA0D4DataVs5Error_pGctFZ",
+            "usr": "s:17IDentityMediumSDK0aC0C016SignatureCaptureB0E09signatureE04from10completionySo16UIViewControllerC_ys6ResultOyAA0D11DataRequestVs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C016SignatureCaptureB0E09signatureE04from10completionySo16UIViewControllerC_ys6ResultOyAA0D11DataRequestVs5Error_pGctFZ",
             "moduleName": "SignatureCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -1701,180 +1738,28 @@
         "mangledName": "$s17IDentityMediumSDK0aC0C",
         "moduleName": "IDentityMediumSDK",
         "isExternal": true,
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/Extensions\/IDentitySDK+SignatureCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 784,
-      "length": 18,
-      "value": "\"SignatureCapture\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/Extensions\/IDentitySDK+SignatureCapture.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1665,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5268,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5360,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5374,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5467,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5481,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5573,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5587,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5676,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5690,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6674,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6944,
-      "length": 13,
-      "value": "\"Please Sign\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6968,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7055,
-      "length": 4,
-      "value": "\"OK\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7145,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 7326,
-      "length": 4,
-      "value": "0.50"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7446,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7589,
-      "length": 15,
-      "value": "\"clickX_simple\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7670,
-      "length": 15,
-      "value": "\"clickY_simple\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7751,
-      "length": 13,
-      "value": "\"time_simple\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7829,
-      "length": 13,
-      "value": "\"fileContent\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8587,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureCaptureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9028,
-      "length": 4,
-      "value": "true"
-    },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
       "kind": "FloatLiteral",
@@ -1902,41 +1787,6 @@
       "offset": 813,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1029,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1238,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1605,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1715,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "StringLiteral",
-      "offset": 1825,
-      "length": 17,
-      "value": "\"touchesBegan : \""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
@@ -2070,83 +1920,6 @@
       "offset": 2804,
       "length": 17,
       "value": "\"touchesMoved : \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3034,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3771,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "FloatLiteral",
-      "offset": 3777,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4502,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4684,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "Array",
-      "offset": 4763,
-      "length": 5,
-      "value": "[0.0]"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4881,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "Array",
-      "offset": 4960,
-      "length": 5,
-      "value": "[0.0]"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5085,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "Array",
-      "offset": 5164,
-      "length": 4,
-      "value": "[\"\"]"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SignatureCapture\/SignatureView.swift",
-      "kind": "StringLiteral",
-      "offset": 5342,
-      "length": 2,
-      "value": "\"\""
     }
   ]
 }

@@ -6,4 +6,5 @@ pod trunk push IDCaptureMedium.podspec
 pod trunk push IDentityMediumSDK2.0.podspec
 pod trunk push SelfieCaptureMedium.podspec
 pod trunk push SignatureCaptureMedium.podspec
+pod trunk push VideoCaptureMedium.podspec
 pod trunk push VoiceCaptureMedium.podspec

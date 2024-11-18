@@ -1,0 +1,4 @@
+framework module VideoCaptureMedium {
+  header "VideoCaptureMedium-Swift.h"
+  requires objc
+}
