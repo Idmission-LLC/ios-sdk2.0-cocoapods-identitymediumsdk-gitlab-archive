@@ -225898,7 +225898,7 @@
       "kind": "StringLiteral",
       "offset": 277,
       "length": 35,
-      "value": "\"UNIQUE_KEY_ID_1426_20230825072044\""
+      "value": "\"UNIQUE_KEY_ID_1676_20241029084442\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
@@ -225961,7 +225961,7 @@
       "kind": "StringLiteral",
       "offset": 1042,
       "length": 50,
-      "value": "\"liveness-mobile-production_2024-07-10_V65.tflite\""
+      "value": "\"liveness-mobile-production_11-20-2024_v69.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
@@ -225975,7 +225975,7 @@
       "kind": "StringLiteral",
       "offset": 1469,
       "length": 70,
-      "value": "\"docdetect-realness-two-input-mobile-production_2024-08-02_V56.tflite\""
+      "value": "\"docdetect-realness-two-input-mobile-production_09_27_2024_V57.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
@@ -225988,13 +225988,13 @@
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
       "offset": 1711,
-      "length": 64,
-      "value": "\"docdetect-detection-ssd-et-al-production_2024-10-24_V14.tflite\""
+      "length": 63,
+      "value": "\"docdetect-detection-ssd-et-al-production_2024-11-10_V2.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1838,
+      "offset": 1837,
       "length": 27,
       "value": "\"detect_fingerprint.tflite\""
     },
