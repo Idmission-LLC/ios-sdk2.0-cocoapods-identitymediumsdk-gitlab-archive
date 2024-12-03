@@ -967,14 +967,16 @@ IDCapture.options.backRealnessThreshold = 0.3
 IDCapture.options.frontDocumentConfidence = 0.7
 IDCapture.options.backDocumentConfidence = 0.7
 IDCapture.options.documentComponentConfidence = 0.5
-IDCapture.options.lowerWidthThresholdTolerance = 0.2
+IDCapture.options.glareThreshold = 0.3
+IDCapture.options.fingerThreshold = 0.3
+IDCapture.options.lowerWidthThresholdTolerance = 0.3
 IDCapture.options.upperWidthThresholdTolerance = 0.05
 IDCapture.options.isDebugMode = true
 IDCapture.options.enableInstructionScreen = true
 IDCapture.options.enableRealId = true
 IDCapture.options.uploadIdData = true
 IDCapture.options.capture4K = true
-IDCapture.options.focusThreshold = 0.3
+IDCapture.options.focusThreshold = 0.2
 IDCapture.options.enablePassportNFC = false
 IDCapture.options.passportNFCPhotoMatchThreshold = 0.97
 
@@ -1141,8 +1143,8 @@ SelfieCapture.images.retryScreenImage = UIImage(named: "SelfieRetryImage")
 
 ```swift
 //DocumentCapture Customization
-DocumentCapture.options.lowerWidthThresholdTolerance = 0.4
-DocumentCapture.options.upperWidthThresholdTolerance = 0.1
+DocumentCapture.options.lowerWidthThresholdTolerance = 0.3
+DocumentCapture.options.upperWidthThresholdTolerance = 0.05
 DocumentCapture.options.isDebugMode = true
 DocumentCapture.options.enableInstructionScreen = true
 DocumentCapture.options.capture4K = true
@@ -1323,6 +1325,9 @@ VoiceCapture.fonts.buttonLabelFont = UIFont.systemFont(ofSize: 12)
 ```
 
 ## SDK Version History
+
+### **v 9.6.24.2.5 (05 December 2024)**
+- Improved capture quality with model updates that notify users of obstructions over key ID information.
 
 ### **v 9.6.22.2.9 (18 November 2024)**
 - Integrated the latest swagger V4 API version. This includes updates to model download based on V4, updates to the new initialization process, as well as ensuring backward compatibility.

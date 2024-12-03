@@ -980,6 +980,8 @@ public enum IDCaptureState {
   case moveCloser
   case moveAway
   case alignRectangle
+  case glare
+  case finger
   case notInFocus
   case capturing
   case detectedBox(IDentityMediumSDK.DetectedData)
@@ -996,6 +998,10 @@ public struct DebugData {
   public var realnessScores: IDentityMediumSDK.RealnessScores?
   public var topClassifierResults: [(Swift.String, Swift.Float)]?
   public var focusScore: Swift.Float?
+  public var glareRect: CoreFoundation.CGRect?
+  public var fingerRect: CoreFoundation.CGRect?
+  public var glareScore: Swift.Float?
+  public var fingerScore: Swift.Float?
 }
 public struct DetectedData {
   public enum DocumentSide {
@@ -2897,6 +2903,8 @@ extension IDentityMediumSDK.IDCapture {
     public var moveCloser: Swift.String
     public var moveAway: Swift.String
     public var alignRectangle: Swift.String
+    public var glareDetected: Swift.String
+    public var removeFinger: Swift.String
     public var notInFocus: Swift.String
     public var useFront: Swift.String
     public var makeSurePhotoTextVisible: Swift.String
@@ -3577,12 +3585,14 @@ extension IDentityMediumSDK.IDCapture {
     public var lowerWidthThresholdTolerance: Swift.Float
     public var upperWidthThresholdTolerance: Swift.Float
     public var documentComponentConfidence: Swift.Float
+    public var glareThreshold: Swift.Float
+    public var fingerThreshold: Swift.Float
+    public var focusThreshold: Swift.Float
     public var isDebugMode: Swift.Bool
     public var capture4K: Swift.Bool
     public var uploadIdData: Swift.Bool
     public var enableRealId: Swift.Bool
     public var enableInstructionScreen: Swift.Bool
-    public var focusThreshold: Swift.Float
     public var enablePassportNFC: Swift.Bool
     public var passportNFCPhotoMatchThreshold: Swift.Float
   }

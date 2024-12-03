@@ -18,11 +18,11 @@
 		</data>
 		<key>ios-arm64/VideoCaptureMedium.framework/Info.plist</key>
 		<data>
-		/DMl4SIBIeBO5/mFsxYz1aH0dq0=
+		zjTwuTQcGylcDU5AVGouSs5JRGM=
 		</data>
 		<key>ios-arm64/VideoCaptureMedium.framework/Modules/VideoCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		1CRxYJwIWRbW0Oea5Xgx287ELfw=
+		tcsleAtyEZb2TBdXGvD36g8e34s=
 		</data>
 		<key>ios-arm64/VideoCaptureMedium.framework/Modules/VideoCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>ios-arm64/VideoCaptureMedium.framework/VideoCaptureMedium</key>
 		<data>
-		te3CA0ikjDU+bzcJlCVw0C8cLMw=
+		/bJdHxBnqo9N/ZBsXTPHqnETpm4=
 		</data>
 		<key>ios-arm64/VideoCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<data>
-		kaQ3xeN0F5sCAOgMSaUwp5anLXk=
+		9bTyGZUP6oX1QBOxn/aNM5KDxq8=
 		</data>
 		<key>ios-x86_64-simulator/VideoCaptureMedium.framework/Assets.car</key>
 		<data>
@@ -102,11 +102,11 @@
 		</data>
 		<key>ios-x86_64-simulator/VideoCaptureMedium.framework/Info.plist</key>
 		<data>
-		vvQhGgRDiNRNhJx1VogMxKRpaT0=
+		FMpeS7369ZPGDuZXP5D8jjmsfoo=
 		</data>
 		<key>ios-x86_64-simulator/VideoCaptureMedium.framework/Modules/VideoCaptureMedium.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		lS6pe/YJIP4ITqSgIXOCyCJp4PY=
+		g82BckoId1WHhfBxsZJzsfgaCNM=
 		</data>
 		<key>ios-x86_64-simulator/VideoCaptureMedium.framework/Modules/VideoCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -166,11 +166,11 @@
 		</data>
 		<key>ios-x86_64-simulator/VideoCaptureMedium.framework/VideoCaptureMedium</key>
 		<data>
-		GWgFSpa/CQTm9qS13ZUknXP8OX8=
+		2c9G5sRpMLXgjQwEsk2mRc9jsZ4=
 		</data>
 		<key>ios-x86_64-simulator/VideoCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<data>
-		DK9Hgci64Z+Xuf8v+efycP8vIHs=
+		8mWwzK99+Osae/3li5vzkaL3Ndk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -212,22 +212,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/DMl4SIBIeBO5/mFsxYz1aH0dq0=
+			zjTwuTQcGylcDU5AVGouSs5JRGM=
 			</data>
 			<key>hash2</key>
 			<data>
-			F3d+m/0qOKNHWDqxLS08UoLQszGP6dbeFUnWR21G1Nk=
+			nj6LPxOq0shvadYbKUGVun9DYqcIwdQq4F8YK8/L5Ww=
 			</data>
 		</dict>
 		<key>ios-arm64/VideoCaptureMedium.framework/Modules/VideoCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1CRxYJwIWRbW0Oea5Xgx287ELfw=
+			tcsleAtyEZb2TBdXGvD36g8e34s=
 			</data>
 			<key>hash2</key>
 			<data>
-			xkNA8wAQ/WmAooK2Vo3ahA+hWXf3zdAdq9Go4hqVpeM=
+			gFQmdCRcbENw2eZTlBU/GniKqyddcJUiCMg/csfheos=
 			</data>
 		</dict>
 		<key>ios-arm64/VideoCaptureMedium.framework/Modules/VideoCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -388,22 +388,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			te3CA0ikjDU+bzcJlCVw0C8cLMw=
+			/bJdHxBnqo9N/ZBsXTPHqnETpm4=
 			</data>
 			<key>hash2</key>
 			<data>
-			vIgn8Pn3r/rwFbrX7ZvylW1m0D1JijuE96rKv8+eYyg=
+			Ebp+2qonzCes+6t4Vh8PQc+rvoES5ZRhnb7I2d6oK7c=
 			</data>
 		</dict>
 		<key>ios-arm64/VideoCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kaQ3xeN0F5sCAOgMSaUwp5anLXk=
+			9bTyGZUP6oX1QBOxn/aNM5KDxq8=
 			</data>
 			<key>hash2</key>
 			<data>
-			8T+qcJ5OyYHTVU9Sxzb3YDQvcYZ9aZLzCKP+DbdEs8o=
+			kNMmkT8P3eDHCsoT7Dctoiwzz2H85lDDZiRfqksED/M=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/VideoCaptureMedium.framework/Assets.car</key>
@@ -443,22 +443,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vvQhGgRDiNRNhJx1VogMxKRpaT0=
+			FMpeS7369ZPGDuZXP5D8jjmsfoo=
 			</data>
 			<key>hash2</key>
 			<data>
-			XNY3rD0XoUYK5tGtOTAvnqs5ZiyTjuAB0t7ZUFlVzIA=
+			4dhD5e+Kz65kl8XomLp9WjQNP3bO/9ESZ0fLB0uRcoo=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/VideoCaptureMedium.framework/Modules/VideoCaptureMedium.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lS6pe/YJIP4ITqSgIXOCyCJp4PY=
+			g82BckoId1WHhfBxsZJzsfgaCNM=
 			</data>
 			<key>hash2</key>
 			<data>
-			NhToaGrqq6HY88QMWk/al/mZY3qSy/CBjx/K0rZlXTw=
+			ClywXnEI9s87Y/vYRW5wjjWKAgqGEmFIdvFiy9mxRsw=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/VideoCaptureMedium.framework/Modules/VideoCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -619,22 +619,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GWgFSpa/CQTm9qS13ZUknXP8OX8=
+			2c9G5sRpMLXgjQwEsk2mRc9jsZ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			tkuYXMBWHxi3bsveHMyi1efG2wIqv6kTIlfSXSwwK4I=
+			ot9UV2wOWxowgMRkqsFsxsYySHlbqM7XzgTkuX2wN/I=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/VideoCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DK9Hgci64Z+Xuf8v+efycP8vIHs=
+			8mWwzK99+Osae/3li5vzkaL3Ndk=
 			</data>
 			<key>hash2</key>
 			<data>
-			o2dilSRjTHxMysiaMaZEqW4bYC/pF/PSjsBpyczVBIQ=
+			rXaa9PlufpFEsqYXdjljDTW79t7EOAAuWbAsVwaUh4s=
 			</data>
 		</dict>
 	</dict>
