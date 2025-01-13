@@ -88,8 +88,8 @@ public struct OrderPEPResult : Swift.Codable {
 @_inheritsConvenienceInitializers @objc public class FingerPrintDetector : ObjectiveC.NSObject {
   public var interpreter: TensorFlowLite.Interpreter?
   @objc override dynamic public init()
-  @objc public func detectFingerPrint(image: UIKit.UIImage?) -> IDentityMediumSDK.DetectedFingerPrintData?
   @objc deinit
+  @objc public func detectFingerPrint(image: UIKit.UIImage?) -> IDentityMediumSDK.DetectedFingerPrintData?
 }
 extension IDentityMediumSDK.DocumentCapture {
   public struct Fonts {
@@ -3724,6 +3724,9 @@ extension IDentityMediumSDK.IDentitySDK {
     get
   }
   public static var docRealnessModelName: Swift.String {
+    get
+  }
+  public static var faceMaskModelName: Swift.String {
     get
   }
   public static var docDetectionModelName: Swift.String {

@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9FN2u6hU+bEmdFMiXoDcDERm4hk=
+		QCqAZRaZ2eiXftJa98mZ2IPCEy4=
 		</data>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		n/0cjHhnjJCdQLZk92yMNLHXUGc=
+		arXetZz+4sCuB1cRdSu0Sa/2cuQ=
 		</data>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		7ln7dAO1GkV5Q+D3T3qxhIa8+yA=
+		40iwcWQ3grstetYX5pWRosZ91EM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rzu5izlaiA7MeXi1BOM4a2wn2wSgLIlEiRAoCP/xU8k=
+			rMyNX/TRFF0EYAqbNWsYWgJZpMo8FhO1yOxof0QTGZI=
 			</data>
 		</dict>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zN6BGplzqpO2WcDlpEFscPU9pkJgBgAWElNLnCnFhxI=
+			SDpMecF48NgORItEgK/mdgPEJwEA5HsJBhrkOcR9YqM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

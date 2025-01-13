@@ -1288,56 +1288,56 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1973,
+      "offset": 2015,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "Array",
-      "offset": 2278,
+      "offset": 2333,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "Array",
-      "offset": 2335,
+      "offset": 2390,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39303,
+      "offset": 39943,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/UIImage+IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 696,
+      "offset": 738,
       "length": 27,
       "value": "\"id_capture_instruction_pp\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/UIImage+IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 754,
+      "offset": 796,
       "length": 27,
       "value": "\"id_capture_instruction_dl\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectStateTableViewController.swift",
       "kind": "Array",
-      "offset": 358,
+      "offset": 400,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/RetryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 401,
+      "offset": 443,
       "length": 5,
       "value": "false"
     },

@@ -3886,56 +3886,56 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "Array",
-      "offset": 684,
+      "offset": 726,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1101,
+      "offset": 1143,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1225,
+      "offset": 1267,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1316,
+      "offset": 1358,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16633,
+      "offset": 16675,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 888,
+      "offset": 930,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 956,
+      "offset": 998,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1047,
+      "offset": 1089,
       "length": 2,
       "value": "\"\""
     },
