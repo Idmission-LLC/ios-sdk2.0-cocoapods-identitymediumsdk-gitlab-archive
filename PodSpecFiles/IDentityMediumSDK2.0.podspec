@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "IDentityMediumSDK2.0"
-  spec.version      = "9.6.26.2.2"
+  spec.version      = "10.1.4.2.4"
   spec.summary      = "IDentityMediumSDK lets user add IDentityMediumSDK in their project"
   spec.description  = <<-DESC 
                     IDentityMediumSDK helps user to add IDentityMediumSDK in their project.

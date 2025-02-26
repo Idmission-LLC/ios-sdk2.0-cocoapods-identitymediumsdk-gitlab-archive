@@ -22,7 +22,6 @@ import MLKitTextRecognition
 import MLKitVision
 import MetalPerformanceShaders
 import MobileCoreServices
-import Speech
 import Swift
 import SwiftUI
 import TensorFlowLite
@@ -786,13 +785,6 @@ public struct CustomerLiveCheckResponseV3 : Swift.Codable {
   public var responseCustomerData: IDentityMediumSDK.CustomerDataResponse?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
-}
-extension IDentityMediumSDK.VideoCapture {
-  public struct Colors {
-    public var readingTextColor: UIKit.UIColor?
-    public var readingTextSpokenWordColor: UIKit.UIColor?
-    public var readingTextBackgroundColor: UIKit.UIColor?
-  }
 }
 extension IDentityMediumSDK.SignatureCapture {
   public struct Fonts {
@@ -2269,42 +2261,6 @@ public struct FormDetailLiveCheckResponseData : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public typealias URLResultCompletion = (Swift.Result<Foundation.URL, any Swift.Error>) -> Swift.Void
-public protocol VideoCaptureDelegate : IDentityMediumSDK.IDCaptureDelegate, IDentityMediumSDK.SelfieCaptureDelegate {
-  func foundLiveFace(frame: CoreFoundation.CGRect?, fullSize: CoreFoundation.CGSize, mode: IDentityMediumSDK.VideoCaptureMode)
-}
-public enum VideoCaptureMode {
-  case selfieCapture, idCapture, readingText, liveFaceLost
-  public static func == (a: IDentityMediumSDK.VideoCaptureMode, b: IDentityMediumSDK.VideoCaptureMode) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public class VideoCapture {
-  public var videoWriter: IDentityMediumSDK.VideoWriter
-  final public let speechRecognizer: IDentityMediumSDK.SpeechRecognizer?
-  public static var options: IDentityMediumSDK.VideoCapture.Options
-  public static var strings: IDentityMediumSDK.VideoCapture.Strings
-  public static var colors: IDentityMediumSDK.VideoCapture.Colors
-  weak public var delegate: (any IDentityMediumSDK.VideoCaptureDelegate)?
-  public var mode: IDentityMediumSDK.VideoCaptureMode
-  public init?(selfieOverlayFrame: CoreFoundation.CGRect, idOverlayFrame: CoreFoundation.CGRect, videoSettings: [Swift.String : Any]?, audioSettings: [Swift.String : Any]?)
-  public func stopVideoWriter(completion: IDentityMediumSDK.URLResultCompletion? = nil)
-  public func retry()
-  public func typeMismatch()
-  @objc deinit
-}
-extension IDentityMediumSDK.VideoCapture : IDentityMediumSDK.CaptureSessionDelegate {
-  public func captured(image: UIKit.UIImage, captureMode: IDentityMediumSDK.CaptureMode, lensPosition: Swift.Float)
-  public func captured(sampleBuffer: CoreMedia.CMSampleBuffer)
-}
-extension IDentityMediumSDK.VideoCapture : IDentityMediumSDK.SelfieCaptureDelegate {
-  public func updated(state: IDentityMediumSDK.SelfieCaptureState)
-}
-extension IDentityMediumSDK.VideoCapture : IDentityMediumSDK.IDCaptureDelegate {
-  public func updated(state: IDentityMediumSDK.IDCaptureState)
-}
 @available(*, deprecated, renamed: "CustomerEnrollDataResponse", message: "This struct will no longer supported in future release please use the updated 'CustomerEnrollDataResponse' struct")
 public struct CustomerEnrollDataResponseV3 : Swift.Codable {
   public var extractedIdData: IDentityMediumSDK.IdDataResponse?
@@ -2544,16 +2500,6 @@ public class SignatureCapture {
   public init(overlayFrame: CoreFoundation.CGRect)
   @objc deinit
 }
-extension IDentityMediumSDK.VideoCapture {
-  public struct Strings {
-    public var faceDoesNotMatch: Swift.String
-    public var voiceDoesNotMatch: Swift.String
-    public var liveFaceLost: Swift.String
-    public var idDoesNotMatch: Swift.String
-    public var doneButton: Swift.String
-    public mutating func reset()
-  }
-}
 public struct RealnessScores {
   public let photocopyScore: Swift.Float
   public let realScore: Swift.Float
@@ -2577,21 +2523,6 @@ public struct CompanyTemplateMappingData : Swift.Codable {
   public var facePresent: Swift.Bool?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
-}
-extension IDentityMediumSDK.VideoCapture {
-  public struct Options {
-    public var idToSelfieMatchThreshold: Swift.Float
-    public var idToIdPhotoMatchThreshold: Swift.Float
-    public var frontLevenshteinThreshold: Swift.Float
-    public var backLevenshteinThreshold: Swift.Float
-    public var passportLevenshteinThreshold: Swift.Float
-    public var readTextCountdownSeconds: Swift.Int
-    public var readTextWordMatchThreshold: Swift.Float
-    public var isDebugMode: Swift.Bool
-    public var frontRealnessThreshold: Swift.Float
-    public var backRealnessThreshold: Swift.Float
-    public var enableRealId: Swift.Bool
-  }
 }
 public struct DeDuplicationResponseData : Swift.Codable {
   public var faceMatchingScore: Swift.String?
@@ -2625,21 +2556,6 @@ public struct BiometricIdentifyData : Swift.Encodable {
   public var videoData: Swift.String?
   public init(selfie: Swift.String, fingerPrintData: IDentityMediumSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
-}
-public protocol SpeechRecognizerDelegate : AnyObject {
-  func speechRecognition(result: Speech.SFSpeechRecognitionResult)
-  func speechRecognition(error: any Swift.Error)
-}
-@_hasMissingDesignatedInitializers public class SpeechRecognizer {
-  weak public var delegate: (any IDentityMediumSDK.SpeechRecognizerDelegate)?
-  public var isAvailable: Swift.Bool {
-    get
-  }
-  public func start()
-  public func append(sampleBuffer: CoreMedia.CMSampleBuffer)
-  public func stop()
-  public func retry()
-  @objc deinit
 }
 public struct CustomerValidateIdRequest : Swift.Encodable {
   public var customerData: IDentityMediumSDK.CustomerValidateIdDataRequest
@@ -3478,11 +3394,6 @@ extension CoreFoundation.CGSize {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class VideoWriter {
-  public static let fileType: AVFoundation.AVFileType
-  @objc deinit
-  public func write(audio: CoreMedia.CMSampleBuffer)
-}
 public protocol SelfieCaptureDelegate : AnyObject {
   func updated(state: IDentityMediumSDK.SelfieCaptureState)
 }
@@ -3594,6 +3505,7 @@ extension IDentityMediumSDK.IDCapture {
     public var enableRealId: Swift.Bool
     public var enableInstructionScreen: Swift.Bool
     public var enablePassportNFC: Swift.Bool
+    public var performIdCaptureBeforeSelfie: Swift.Bool
     public var passportNFCPhotoMatchThreshold: Swift.Float
   }
 }
@@ -3925,8 +3837,6 @@ extension IDentityMediumSDK.ConsentData.ConsentAccepted : Swift.Hashable {}
 extension IDentityMediumSDK.ConsentData.ConsentAccepted : Swift.RawRepresentable {}
 extension IDentityMediumSDK.SelfieCapture.LabelPosition : Swift.Equatable {}
 extension IDentityMediumSDK.SelfieCapture.LabelPosition : Swift.Hashable {}
-extension IDentityMediumSDK.VideoCaptureMode : Swift.Equatable {}
-extension IDentityMediumSDK.VideoCaptureMode : Swift.Hashable {}
 extension IDentityMediumSDK.CustomerDataMatchConfig.IdNumberMatch : Swift.Equatable {}
 extension IDentityMediumSDK.CustomerDataMatchConfig.IdNumberMatch : Swift.Hashable {}
 extension IDentityMediumSDK.CustomerDataMatchConfig.IdNumberMatch : Swift.RawRepresentable {}

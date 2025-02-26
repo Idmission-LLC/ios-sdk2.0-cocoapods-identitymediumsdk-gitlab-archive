@@ -1,0 +1,26 @@
+Pod::Spec.new do |spec|
+
+
+  spec.name         = "IDentityMediumModels"
+  spec.version      = "10.1.4.2.4"
+  spec.summary      = "IDentityMediumModels lets user add IDentityMediumModels in their project"
+  spec.description  = <<-DESC 
+                    IDentityMediumModels helps user to add IDentityMediumModels in their project.
+                    On integrating IDentityMediumModels user will be able to use embedded models.
+                    Also able to use various service ID mentioned in Documentation.
+                   DESC
+  
+  spec.homepage     = "https://github.com/Idmission-LLC/IDentityMediumModels"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.author             = { "Idmission LLC" => "amol.deshmukh@idmission.com" }
+  spec.source       = { :git => "https://sdk2:-RjPxFgW4eFB-gff-xPF@gitlab.idmission.com/apps/sdk2.0/ios/cocoapods/identitymediumsdk2.0.git", 
+                        :tag => "#{spec.version}"}
+
+  spec.platform     = :ios
+  spec.ios.deployment_target = '13.0'
+  spec.swift_version = "5"
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.ios.vendored_frameworks = 'IDentityMediumModels.xcframework'  
+
+end

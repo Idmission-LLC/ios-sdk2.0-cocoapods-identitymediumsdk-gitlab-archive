@@ -25,17 +25,17 @@ The IDmission IDentity SDK is a comprehensive toolkit that enables the use of an
 
 
 
-| Feature/Flavours |  **Identity SDK**  |  **IdentityMedium SDK**  |  **IdentityLite SDK**  |
-|:------|:------:|:------:|:------:|
-|**1. Document Detect**|On Device|On Device|On Device|
-|**2. Rotate, crop etc.**|On Device|On Server|On Server|
-|**3. Document Realness**|On Device|On Server|On Server|
-|**4. Document Classification**|On Device|On Server|On Server|
-|**5. MRZ/Barcode reading**|On Device|On Device|On Server|
-|**6. OCR from front**|On Server|On Server|On Server|
-|**7. Face detect**|On Device|On Device|On Device|
-|**8. Liveness detect**|On Device|On Device|On Device|
-|**9. Detect hats and sunglasses**|On Device|On Server|On Server|
+| Feature/Flavours |  **IdentityVideoID SDK**  |  **Identity SDK**  |  **IdentityMedium SDK**  |  **IdentityLite SDK**  |
+|:------|:------|:------:|:------:|:------:|
+|**1. Document Detect**|On Device|On Device|On Device|On Device|
+|**2. Rotate, crop etc.**|On Device|On Device|On Server|On Server|
+|**3. Document Realness**|On Device|On Device|On Server|On Server|
+|**4. Document Classification**|On Device|On Device|On Server|On Server|
+|**5. MRZ/Barcode reading**|On Device|On Device|On Device|On Server|
+|**6. OCR from front**|On Device|On Server|On Server|On Server|
+|**7. Face detect**|On Device|On Device|On Device|On Device|
+|**8. Liveness detect**|On Device|On Device|On Device|On Device|
+|**9. Detect hats and sunglasses**|On Device|On Device|On Server|On Server|
   
 <br />
 
@@ -45,6 +45,7 @@ The IDmission IDentity SDK is a comprehensive toolkit that enables the use of an
 <br />
 
 **Sample Apps -** Here are the links to the Sample apps on IDmission GitHub Repository
+- [IDentityVideoIdSDK Sample App](https://github.com/Idmission-LLC/VideoIdSDK2Sample)
 - [IDentitySDK Sample App](https://github.com/Idmission-LLC/SDK2Sample)
 - [IDentityMediumSDK Sample App](https://github.com/Idmission-LLC/MediumSDK2Sample)
 - [IDentityLiteSDK Sample App](https://github.com/Idmission-LLC/LiteSDK2Sample)
@@ -91,9 +92,20 @@ Add [CocoaPods](https://cocoapods.org/) pod file to your project using `pod init
 ##### **Add SDK using podfile :**
 
 As per SDK flavour which you choose to integrate, add the following pod in your podfile which you have created in Step-2
+- **IDentityVideoId 2.0**  *pod*. 
+```swift
+pod 'IDentityVideoIdSDK2.0'
+pod 'IDentityVideoIdModels' (Optional) : If developer wanto to use SDK without models they can skip this framework.
+pod 'FingerPrintCaptureVideoId' (Optional) : If developer required this feature they can use this framework.
+pod 'SignatureCaptureVideoId' (Optional) : If developer required this feature they can use this framework.
+pod 'VoiceCaptureVideoId' (Optional) : If developer required this feature they can use this framework.
+pod 'VideoCaptureVideoId' (Optional) : If developer required this feature they can use this framework.
+```
+
 - **IDentity 2.0**  *pod*. 
 ```swift
 pod 'IDentitySDK2.0'
+pod 'IDentityModels' (Optional) : If developer wanto to use SDK without models they can skip this framework.
 pod 'FingerPrintCapture' (Optional) : If developer required this feature they can use this framework.
 pod 'SignatureCapture' (Optional) : If developer required this feature they can use this framework.
 pod 'VoiceCapture' (Optional) : If developer required this feature they can use this framework.
@@ -102,6 +114,7 @@ pod 'VoiceCapture' (Optional) : If developer required this feature they can use 
 - **IDentityMedium 2.0**  *pod*
 ```swift
 pod 'IDentityMediumSDK2.0'
+pod 'IDentityMediumModels' (Optional) : If developer wanto to use SDK without models they can skip this framework.
 pod 'FingerPrintCaptureMedium' (Optional) : If developer required this feature they can use this framework.
 pod 'SignatureCaptureMedium' (Optional) : If developer required this feature they can use this framework.
 pod 'VoiceCaptureMedium' (Optional) : If developer required this feature they can use this framework.
@@ -110,6 +123,7 @@ pod 'VoiceCaptureMedium' (Optional) : If developer required this feature they ca
 - **IDentityLite 2.0**  *pod*.
 ```swift
 pod 'IDentityLiteSDK2.0'
+pod 'IDentityLiteModels' (Optional) : If developer wanto to use SDK without models they can skip this framework.
 pod 'FingerPrintCaptureLite' (Optional) : If developer required this feature they can use this framework.
 pod 'SignatureCaptureLite' (Optional) : If developer required this feature they can use this framework.
 pod 'VoiceCaptureLite' (Optional) : If developer required this feature they can use this framework.
@@ -119,10 +133,21 @@ pod 'VoiceCaptureLite' (Optional) : If developer required this feature they can 
 
 To add IDentitySDK2.0 manually, As per your requirement choose any SDK flavour & download it from below link.
 
+- [Download IDentityVideoIdSDK2.0](https://drive.google.com/file/d/1pnIMJT8TeCoiQJjkwmztoUroVM8cHPUn/view?usp=sharing) : Drag & drop following files in your project.
+    - `IDentityVideoIdSDK.xcframework`
+    - `IDCaptureVideoId.xcframework`
+    - `SelfieCaptureVideoId.xcframework`
+    - `IDentityVideoIdModels.xcframework` (Optional) : If developer wanto to use SDK without models they can skip this framework.
+    - `SignatureCaptureVideoId.xcframework` (Optional) : If developer required this feature they can use this framework.
+    - `FingerPrintCaptureVideoId.xcframework` (Optional) : If developer required this feature they can use this framework.
+    - `VideoCaptureVideoId.xcframework` (Optional) : If developer required this feature they can use this framework.
+    - `VoiceCaptureVideoId.xcframework` (Optional) : If developer required this feature they can use this framework.
+
 - [Download IDentitySDK2.0](https://drive.google.com/file/d/1pnIMJT8TeCoiQJjkwmztoUroVM8cHPUn/view?usp=sharing) : Drag & drop following files in your project.
     - `IDentitySDK_Swift.xcframework`
     - `IDCapture_Swift.xcframework`
     - `SelfieCapture_Swift.xcframework`
+    - `IDentityModels.xcframework` (Optional) : If developer wanto to use SDK without models they can skip this framework.
     - `SignatureCapture_Swift.xcframework` (Optional) : If developer required this feature they can use this framework.
     - `FingerPrintCapture_Swift.xcframework` (Optional) : If developer required this feature they can use this framework.
     - `VoiceCapture_Swift.xcframework` (Optional) : If developer required this feature they can use this framework.
@@ -131,6 +156,7 @@ To add IDentitySDK2.0 manually, As per your requirement choose any SDK flavour &
     - `IDentityMediumSDK.xcframework`
     - `IDCaptureMedium.xcframework`
     - `SelfieCaptureMedium.xcframework`
+    - `IDentityMediumModels.xcframework` (Optional) : If developer wanto to use SDK without models they can skip this framework.    
     - `SignatureCaptureMedium.xcframework` (Optional) : If developer required this feature they can use this framework.
     - `FingerPrintCaptureMedium.xcframework` (Optional) : If developer required this feature they can use this framework.
     - `VoiceCaptureMedium.xcframework` (Optional) : If developer required this feature they can use this framework.
@@ -139,6 +165,7 @@ To add IDentitySDK2.0 manually, As per your requirement choose any SDK flavour &
     - `IDentityLiteSDK.xcframework`
     - `IDCaptureLite.xcframework`
     - `SelfieCaptureLite.xcframework`
+    - `IDentityLiteModels.xcframework` (Optional) : If developer wanto to use SDK without models they can skip this framework.   
     - `SignatureCaptureLite.xcframework` (Optional) : If developer required this feature they can use this framework.
     - `FingerPrintCaptureLite.xcframework` (Optional) : If developer required this feature they can use this framework.
     - `VoiceCaptureLite.xcframework` (Optional) : If developer required this feature they can use this framework.
@@ -148,7 +175,7 @@ Once added respective `.xcframeworks` in your project, make sure to make it all 
 ### **Step 4:** Add Required Dependencies
 As per SDK flavour which you choose to integrate, add the following dependencies in your podfile which you have created in Step-2
 
-- **IDentitySDK2.0**  *dependencies*.  
+- **IDentityVideoIdSDK2.0**  *dependencies*.  
 
 ```swift
 pod 'TensorFlowLiteSwift', '~> 2.7.0'
@@ -157,6 +184,16 @@ pod 'GoogleMLKit/FaceDetection'
 pod 'GoogleMLKit/ImageLabeling'
 pod 'GZIP'
 pod 'OpenSSL-Universal', :git => 'https://github.com/krzyzanowskim/OpenSSL.git', :tag => '1.1.2301'
+```
+
+- **IDentitySDK2.0**  *dependencies*.  
+
+```swift
+pod 'TensorFlowLiteSwift', '~> 2.7.0'
+pod 'GoogleMLKit/TextRecognition'
+pod 'GoogleMLKit/FaceDetection'
+pod 'GoogleMLKit/ImageLabeling'
+pod 'GZIP'
 ```
     
 - **IDentityMediumSDK2.0**  *dependencies*.  
@@ -181,26 +218,20 @@ Optionally add the following `post_install` script (replacing `APP_TARGET` with 
 
 ```swift
 post_install do |installer|
-    applicationTargets = [
-    'Pods-APP_TARGET',
-    ] 
-    
-    host_targets = installer.aggregate_targets.select { |aggregate_target|
-    applicationTargets.include? aggregate_target.name
-    }
-
-    # We only want to remove pods from Application targets, not libraries
-    host_targets.each do |host_target|
-        host_target.xcconfigs.each do |config_name, config_file|
-            puts "> Removing #{config_name} #{host_target.name} OTHER_LDFLAGS ..."
-            pods = ['MLImage', 'MLKitCommon', 'MLKitFaceDetection', 'MLKitImageLabeling', 'MLKitImageLabelingCommon', 'MLKitObjectDetectionCommon','MLKitVision','MLKitVisionKit', 'TensorFlowLiteC', 'TensorFlowLiteTaskTextC']
-
-            pods.each do |pod|
-                 puts "- #{pod}"
-                 config_file.frameworks.delete(pod)
+    installer.aggregate_targets.each do |aggregate_target|
+        if aggregate_target.name == 'Pods-APP_TARGET'
+            aggregate_target.xcconfigs.each do |config_name, config_file|
+                aggregate_target.pod_targets.each do |pod_target|
+                    pod_target.specs.each do |spec|
+                        if spec.attributes_hash['vendored_frameworks'] != nil or (spec.attributes_hash['ios'] != nil and spec.attributes_hash['ios']['vendored_frameworks'] != nil)
+                            puts "Removing #{spec.name}"
+                            config_file.frameworks.delete(spec.name)
+                        end
+                    end
+                end
+                xcconfig_path = aggregate_target.xcconfig_path(config_name)
+                config_file.save_as(xcconfig_path)
             end
-            xcconfig_path = host_target.xcconfig_path(config_name)
-            config_file.save_as(xcconfig_path)
         end
     end
 end
@@ -286,6 +317,19 @@ The following details are the response parameters
 ### **2) Initialize the SDK :** 
 While Initializing the SDK, first `import` below frameworks as per requirement
 
+- To integrate **IDentityVideoIdSDK** import Following frameworks.  
+
+```swift
+//For IdentityVideoIdSDK flavours import Following
+import IDentityVideoIdSDK
+import IDCaptureVideoId
+import SelfieCaptureVideoId
+import SignatureCaptureVideoId (Its optional framework as per business requirement)
+import FingerPrintCaptureVideoId (Its optional framework as per business requirement)
+import VideoCaptureVideoId (Its optional framework as per business requirement)
+import VoiceCaptureVideoId (Its optional framework as per business requirement)
+```
+
 - To integrate **IDentitySDK** import Following frameworks.  
 
 ```swift
@@ -352,6 +396,53 @@ IDentitySDK.initializeSDK(language: language,
 
 Once the SDK has been initialized, the application can start capturing data using the various following static `IDentitySDK` methods.
 
+#### To track the model download activity or status developer can use the below method.
+
+```swift
+//Parameter for SDK initialization API.
+extension ViewController: InitializationDelegate {
+    func updateInitialization(stage: InitializationStage, state: InitializationState) {
+        let text = "\(stage.rawValue) \(state.rawValue)"
+        switch stage {
+        case .login: loginLabel.text = text
+        case .getXsltData: getXsltDataLabel.text = text
+        case .searchCompanyTemplateDetails: searchCompanyTemplateDetailsLabel.text = text
+        case .passiveFaceTrainingModelLabel: passiveFaceTrainingModelLabel.text = text
+        case .idCaptureTrainingModelLabel: idCaptureTrainingModelLabel.text = text
+        case .classifierTrainingModelLabel: classifierTrainingModelLabel.text = text
+        case .faceMaskTrainingModelLabel: faceMaskTrainingModelLabel.text = text
+        case .docDetectionTrainingModelLabel: docDetectionTrainingModelLabel.text = text
+        case .fingerprintDetectionTrainingModelLabel: fingerprintDetectionTrainingModelLabel.text = text
+        case .focusTrainingModelLabel: focusTrainingModelLabel.text = text
+        case .focusFaceTrainingModelLabel: focusFaceTrainingModelLabel.text = text
+        }
+        // check for completion of the stage states
+        // check for completion of the stage states
+        states[stage] = state
+        if states[.login] == .downloaded &&
+            ([.ok, .downloaded].contains(states[.getXsltData])) &&
+            ([.ok, .downloaded].contains(states[.searchCompanyTemplateDetails])) &&
+            ([.ok, .downloadedFromS3, .error].contains(states[.passiveFaceTrainingModelLabel])) &&
+            ([.ok, .downloadedFromS3, .error].contains(states[.idCaptureTrainingModelLabel])) &&
+            ([.ok, .downloadedFromS3, .error].contains(states[.classifierTrainingModelLabel])) &&
+            ([.ok, .downloadedFromS3, .error].contains(states[.faceMaskTrainingModelLabel])) &&
+            ([.ok, .downloadedFromS3, .error].contains(states[.docDetectionTrainingModelLabel])) &&
+            ([.ok, .downloadedFromS3, .error].contains(states[.fingerprintDetectionTrainingModelLabel])) &&
+            ([.ok, .downloadedFromS3, .error].contains(states[.focusTrainingModelLabel])) &&
+            ([.ok, .downloadedFromS3, .error].contains(states[.focusFaceTrainingModelLabel])) {
+            activityIndicator.stopAnimating()
+            continueButton.isHidden = false
+        } else if states[.login] == .error ||
+                    states[.getXsltData] == .error ||
+                    states[.searchCompanyTemplateDetails] == .error  {
+            activityIndicator.stopAnimating()
+            goBackButton.isHidden = false
+        }
+    }
+}
+```
+Here 'updateInitialization' is a delegate method & can be used to track the model download status. 
+
 <br />
 
 ## SDK Features
@@ -362,7 +453,7 @@ Once the SDK has been initialized, the application can start capturing data usin
 
 You can do Live face check using following method from a `UIViewController`. If successful, call `submit` to send the result to the server.
 
-  -   <u>**IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For all flavours user need to use below API call for `Live Face Check`
+  -   <u>**IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For all flavours user need to use below API call for `Live Face Check`
 
 ```swift
 // Start live face capture, presenting it from view controller
@@ -396,10 +487,10 @@ IDentitySDK.liveFaceCheck(from: self) { result in
 
 For `ID Validation` you need to use below respective methods of SDK Flavours with the default options from a  `UIViewController`. If successful, call  `submit`  to send the result to the server.
 
--   <u>**IDentitySDK**</u> : For `IdentitySDK` flavour user needs to use below API call for `ID Validation`.  
+-   <u>**IDentityVideoIdSDK / IDentitySDK**</u> : For `IDentityVideoIdSDK` / `IdentitySDK` flavour user needs to use below API call for `ID Validation`.  
 
 ```swift
-// For IDentitySDK : Start ID Validation with the default options, presenting it from view controller(self)
+// For IDentityVideoIdSDK / IDentitySDK : Start ID Validation with the default options, presenting it from view controller(self)
 
 let options =  AdditionalCustomerWFlagCommonData()
 IDentitySDK.idValidation(from: self, options: options) { result in
@@ -494,10 +585,10 @@ The `AdditionalCustomerWFlagCommonData` documentation contains information on th
 
 For `ID Validation and face match` you need to use below respective methods of SDK Flavours with the default options from a `UIViewController`. If successful, call `submit` to send the result to the server.
 
-  -   <u>**IDentitySDK**</u> : For `IdentitySDK` flavour user needs to use below API call for `ID Validation and face match`. 
+  -   <u>**IDentityVideoIdSDK / IDentitySDK**</u> : For `IDentityVideoIdSDK` / `IdentitySDK` flavour user needs to use below API call for `ID Validation and face match`. 
 
 ```swift
-// For IDentitySDK : Start ID Validation and face match with the default options, presenting it from view controller(self)
+// For IDentityVideoIdSDK / IDentitySDK : Start ID Validation and face match with the default options, presenting it from view controller(self)
 
 let options =  AdditionalCustomerWFlagCommonData()
 IDentitySDK.idValidationAndMatchFace(from: self, options: options) { result in
@@ -590,7 +681,7 @@ The `AdditionalCustomerWFlagCommonData` documentation contains information on th
 
 For `Enroll Biometric` you need to use below method with personalData & & the default options from a  `UIViewController`. If successful, call `submit` to send the result to the server.  
 
-  -   <u>**IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For all flavours user needs to use below API call method for `Enroll Biometric`.   
+  -   <u>**IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For all flavours user needs to use below API call method for `Enroll Biometric`.   
 
 ```swift
 // Start customer enroll birometric with personalData & the default options, presenting it from view controller(self)
@@ -629,10 +720,10 @@ The `PersonalCustomerEnrollBiometricsRequestData` & `AdditionalCustomerEnrollBio
 
 For `Enroll Customer with ID validation` you need to use below respective methods of SDK Flavours with personalData & the default options from a `UIViewController`. If successful, call `submit` to send the result to the server.
 
-  -   <u>**IDentitySDK**</u> : For `IdentitySDK` flavour user needs to use below API call for `Enroll Customer with ID validation`.  
+  -   <u>**IDentityVideoIdSDK / IDentitySDK**</u> : For `IDentityVideoIdSDK` / `IdentitySDK` flavour user needs to use below API call for `Enroll Customer with ID validation`.  
 
 ```swift
-// For IDentityMediumSDK / IDentityLiteSDK  : Start Enroll Customer with ID validation with personalData & the default options, presenting it from view controller(self)
+// For IDentityVideoIdSDK /  / IDentitySDK /   : Start Enroll Customer with ID validation with personalData & the default options, presenting it from view controller(self)
 
 let personalData = PersonalCustomerCommonRequestEnrollData(uniqueNumber: uniqueNumber)
 let options = AdditionalCustomerWFlagCommonData()
@@ -731,7 +822,7 @@ The `PersonalCustomerCommonRequestEnrollData` & `AdditionalCustomerWFlagCommonDa
 
 For `Customer Verification` you need to use below method with personalData from a  `UIViewController`. If successful, call `submit` to send the result to the server.  
 
-  -   <u>**IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For all flavours user needs to use below API call method for `Customer Verification Verification`.   
+  -   <u>**IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For all flavours user needs to use below API call method for `Customer Verification Verification`.   
 
 ```swift
 // Start Customer Verification with personalData, presenting it from view controller(self)
@@ -769,7 +860,7 @@ Please refer `PersonalCustomerVerifyData` documentation for more details.
 
 For `Customer Biometric Verification` you need to use below method of from a  `UIViewController`. If successful, call `submit` to send the result to the server.  
 
-  -   <u>**IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For all flavours user needs to use below API call method for `Customer Biometric Verification`. 
+  -   <u>**IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For all flavours user needs to use below API call method for `Customer Biometric Verification`. 
   
 ```swift
 // start Customer Biometric Verification, presenting it from view controller(self)
@@ -804,7 +895,7 @@ IDentitySDK.identifyCustomer(from: self) { result in
 
 For `autofill` you need to use below method of from a  `UIViewController`. If successful, call `submit` to send the result to the server.  
 
-  -   <u>**IDentitySDK  /  IDentityMediumSDK**</u> : For `IDentitySDK  /  IDentityMediumSDK` flavours user needs to use below API call method for `autofill`. 
+  -   <u>**IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK**</u> : For `IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK` flavours user needs to use below API call method for `autofill`. 
   
 ```swift
 // start autofill, presenting it from view controller(self)
@@ -839,7 +930,7 @@ IDentitySDK.autofill(from: self) { result in
 
 For additinal `Document Capture` you need to use below method of from a  `UIViewController`. If successful, call `submit` to send the result to the server.  
 
-  -   <u>**IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For `IDentitySDK  /  IDentityMediumSDK /  IDentityLiteSDK` flavours user needs to use below API call method for `Document Capture`. 
+  -   <u>**IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For `IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK /  IDentityLiteSDK` flavours user needs to use below API call method for `Document Capture`. 
   
 ```swift
 // start document Capture, presenting it from view controller(self)
@@ -862,7 +953,7 @@ IDentitySDK.documentCapture(from: self, documentName: documentName, uploadDocume
 
 For `Signature Capture` you need to use below method from a `UIViewController`. If successful, call `submit` to send the result to the server.  
 
-  -   <u>**IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For `IDentitySDK  /  IDentityMediumSDK /  IDentityLiteSDK` flavours user needs to use below API call method for `Signature Capture`. 
+  -   <u>**IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For `IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK /  IDentityLiteSDK` flavours user needs to use below API call method for `Signature Capture`. 
   
 ```swift
 // start Signature Capture, presenting it from view controller(self)
@@ -885,7 +976,7 @@ IDentitySDK.signatureCapture(from: self) { signatureResult in
 
 For `FingerPrint Capture` you need to use below method from a `UIViewController`. If successful, call `submit` to send the result to the server.  
 
-  -   <u>**IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For `IDentitySDK  /  IDentityMediumSDK /  IDentityLiteSDK` flavours user needs to use below API call method for `FingerPrint Capture`. 
+  -   <u>**IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For `IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK /  IDentityLiteSDK` flavours user needs to use below API call method for `FingerPrint Capture`. 
   
 ```swift
 // start FingerPrint Capture, presenting it from view controller(self)
@@ -908,7 +999,7 @@ IDentitySDK.fingerPrintCapture(from: self) { fingerPrintResult in
 
 For `Voice Capture` you need to use below method from a `UIViewController`. If successful, call `submit` to send the result to the server.  
 
-  -   <u>**IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For `IDentitySDK  /  IDentityMediumSDK /  IDentityLiteSDK` flavours user needs to use below API call method for `Voice Capture`. 
+  -   <u>**IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK  /  IDentityLiteSDK**</u> : For `IDentityVideoIdSDK / IDentitySDK  /  IDentityMediumSDK /  IDentityLiteSDK` flavours user needs to use below API call method for `Voice Capture`. 
   
 ```swift
 // start Voice Capture, presenting it from view controller(self)
@@ -929,7 +1020,7 @@ IDentitySDK.voiceCapture(from: self) { voiceResult in
 
 For `Video Capture` you first need to successfully complete the `ID Validation` flow from item **2)** above before passing the `front` and `back` `DetectedData` items from the `ValidateIdResult` to the below method presented from a `UIViewController`.
 
--   **IDentitySDK** : For `IDentitySDK` flavour user needs to use below API call method for `Video Capture`.
+-   **IDentityVideoIdSDK** : For `IDentityVideoIdSDK` flavour user needs to use below API call method for `Video Capture`.
 
 ```
 // Text for the user to read aloud during video recording.
@@ -967,8 +1058,8 @@ IDCapture.options.backRealnessThreshold = 0.3
 IDCapture.options.frontDocumentConfidence = 0.7
 IDCapture.options.backDocumentConfidence = 0.7
 IDCapture.options.documentComponentConfidence = 0.5
-IDCapture.options.glareThreshold = 0.3
-IDCapture.options.fingerThreshold = 0.3
+IDCapture.options.glareThreshold = 0.5
+IDCapture.options.fingerThreshold = 0.5
 IDCapture.options.lowerWidthThresholdTolerance = 0.3
 IDCapture.options.upperWidthThresholdTolerance = 0.05
 IDCapture.options.isDebugMode = true
@@ -978,6 +1069,7 @@ IDCapture.options.uploadIdData = true
 IDCapture.options.capture4K = true
 IDCapture.options.focusThreshold = 0.2
 IDCapture.options.enablePassportNFC = false
+IDCapture.options.performIdCaptureBeforeSelfie = false
 IDCapture.options.passportNFCPhotoMatchThreshold = 0.97
 
 //IDCapture Camera Screen UI Customization
@@ -997,7 +1089,8 @@ IDCapture.strings.frontBackMismatch = "ID front and back do not match. Please tr
 IDCapture.strings.autofillPrompt = "Place the barcode or machine-readable zone of your ID in the rectangle."
 IDCapture.strings.notInFocus = "Not in focus"
 IDCapture.strings.documentDetectedHoldStill = "Document detected, hold still..."
-IDCapture.colors.overlayTopViewColor = .white
+IDCapture.strings.glareDetected = "Move Away From Direct Light"
+IDCapture.strings.removeFinger = "Remove Finger"
 IDCapture.colors.closeButtonTextColor = .black
 IDCapture.colors.closeButtonColor = .white
 IDCapture.colors.closeButtonImageTintColor = .white
@@ -1325,6 +1418,12 @@ VoiceCapture.fonts.buttonLabelFont = UIFont.systemFont(ofSize: 12)
 ```
 
 ## SDK Version History
+
+### **v 10.1.4.2.4 (26 February 2025)**
+- Reduced the overall size of SDK.
+- Added configuration options to change the sequence of ID and Selfie capture.
+- Added support for the face mask detection model in the Medium version of the Android SDK.
+- Updated all default AI models to the latest versions.
 
 ### **v 9.6.24.2.5 (05 December 2024)**
 - Improved capture quality with model updates that notify users of obstructions over key ID information.

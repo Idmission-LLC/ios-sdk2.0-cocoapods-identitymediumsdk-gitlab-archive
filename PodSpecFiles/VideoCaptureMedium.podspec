@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "VideoCaptureMedium"
-  spec.version      = "9.6.26.2.2"
+  spec.version      = "10.1.4.2.4"
   spec.summary      = "VideoCaptureMedium lets user add VideoCaptureMediumSDK in their project"
   spec.description  = <<-DESC 
                     VideoCapture helps user to add VideoCaptureMediumSDK in their project.

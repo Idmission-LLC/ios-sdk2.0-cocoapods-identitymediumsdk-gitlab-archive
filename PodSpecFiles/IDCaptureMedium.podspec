@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "IDCaptureMedium"
-  spec.version      = "9.6.26.2.2"
+  spec.version      = "10.1.4.2.4"
   spec.summary      = "IDCaptureMedium lets user add IDCaptureMediumSDK in their project"
   spec.description  = <<-DESC 
                     IDCaptureMedium helps user to add IDCaptureMediumSDK in their project.

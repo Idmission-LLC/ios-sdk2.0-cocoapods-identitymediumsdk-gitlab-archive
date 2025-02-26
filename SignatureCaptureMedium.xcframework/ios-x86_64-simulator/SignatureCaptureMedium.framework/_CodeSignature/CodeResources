@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		J4577v3mvSbpt9kaBIRPbrMKO+I=
+		RtuUSG8Tfdyfo2gtotOwOAyGdlM=
 		</data>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		hFV7RBH2zzTtIC/W7fU1gZZ64qY=
+		iHQlmb/jWFY22wZabwKv6qD9Lq8=
 		</data>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		s2sThmXkDEhm7WMjYZXIvOjW/Hc=
+		ZBNAG8Fbk7k+5qyySm/P2otz6NM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ry37Vh37nvELJ7QrJoriWRcU9/hD3rmKkLA46t0dYmk=
+			W4ABtIIuWHOvo8EVW5biHTCOD9rJInbrXkCds9FA2uA=
 			</data>
 		</dict>
 		<key>Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UNo8IWNWpVlLxwhHWol1liJ/t7ukytyPjQhE9pF9Odg=
+			JL0l3h4dSG25tZmdpGn6WJ9LE9qfYqOnakkyOzB3nH0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

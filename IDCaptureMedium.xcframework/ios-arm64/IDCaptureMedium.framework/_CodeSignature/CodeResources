@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		XrW3TdfZJwTTnWZRvWS4MU9at7w=
+		jEoiHakflWACcQ2ux+qK2Z/e3WA=
 		</data>
 		<key>Headers/IDCaptureMedium-Swift.h</key>
 		<data>
@@ -114,15 +114,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dRjEWlWr/KjOYQxDKd8r2zQ5GaY=
+		vCn8ydYbwnrMoQctZ5iZqjRVo68=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		IG1QzQQ0VTH/xQ84dYXGu4qTgH0=
+		8tOQvFBl05d2XIvUWT7dN7hZEzo=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		wZOq3+FwAV5rfKutaflT4B8UR/k=
+		9vNn7fBtaNr6Qs+Vi5NefiHRggc=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jdCINLt4WRAGGoaGkyZOmKOejVQ=
+		bBWvNqtm/7FG3K7XnO1ENTJjjU8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -151,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			69bZ8cDEI9SrU9fyXMDUFyvUm69lF1Hyf3DcOLt1ff4=
+			vP2JGaMP0tukOxvMziFsq8UEIn3EyEKniT9BbJEYk/I=
 			</data>
 		</dict>
 		<key>Headers/IDCaptureMedium-Swift.h</key>
@@ -340,14 +340,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IAtQIqD3LJT5cOFhBBLBJRxaVGxOKtdRNJELnU2sw6U=
+			rKVnTNJkm8to2LtMAevscew413nbkBgyreM1WdY8a08=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			anBRujNft4/qdEoRzPNcxnjcEdo2zOrmv97nEcAKMfA=
+			b6FcR89sCJcy+sJYLEuMoufHzJvvgD3XZvOMpIhhz+w=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -375,7 +375,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			11ZCPa4pfA6Z+fahj0nfq7wohLAe5eyjWjKsxeCh31A=
+			3Zl8RZoT95IZyV5JtZhYiHsFmY8Gm+B3Soc1WOtMty4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
