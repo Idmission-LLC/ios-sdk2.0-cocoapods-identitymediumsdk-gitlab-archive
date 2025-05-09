@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-medium/Build/Products/Release-iphoneos/IDentityMediumModels.framework/IDentityMediumModels'
 relocations:
-  - { offset: 0x323F0, size: 0x8, addend: 0x0, symName: _IDentityMediumModelsVersionString, symObjAddr: 0x0, symBinAddr: 0x6060, symSize: 0x0 }
-  - { offset: 0x32424, size: 0x8, addend: 0x0, symName: _IDentityMediumModelsVersionNumber, symObjAddr: 0x40, symBinAddr: 0x60A0, symSize: 0x0 }
+  - { offset: 0x323F0, size: 0x8, addend: 0x0, symName: _IDentityMediumModelsVersionString, symObjAddr: 0x0, symBinAddr: 0x4F30, symSize: 0x0 }
+  - { offset: 0x32424, size: 0x8, addend: 0x0, symName: _IDentityMediumModelsVersionNumber, symObjAddr: 0x40, symBinAddr: 0x4F70, symSize: 0x0 }
   - { offset: 0x32460, size: 0x8, addend: 0x0, symName: '_$sSo8NSBundleC20IDentityMediumModelsE6modelsABvgZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x44 }
   - { offset: 0x324BC, size: 0x8, addend: 0x0, symName: '_$sSo8NSBundleC20IDentityMediumModelsE6modelsABvgZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x44 }
   - { offset: 0x324FC, size: 0x8, addend: 0x0, symName: '_$s20IDentityMediumModels82IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt0zCMa', symObjAddr: 0x44, symBinAddr: 0x4044, symSize: 0x20 }

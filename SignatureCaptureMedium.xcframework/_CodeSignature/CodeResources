@@ -14,27 +14,27 @@
 		</data>
 		<key>ios-arm64/SignatureCaptureMedium.framework/Info.plist</key>
 		<data>
-		/CTe95BImXRVkORD8wHJ+88hE7Q=
+		HBmbu9LZsrsazxZ486/lbIIckf8=
 		</data>
 		<key>ios-arm64/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		02Meq0JE+9ZLXNN2CwOmwWL9KtM=
+		BHb3FCj/iS8rpZc2iTyo+I9m47k=
 		</data>
 		<key>ios-arm64/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		q0DONR1/OLWgxj85okT4BVjqo34=
+		di7LmDSzV9C9rk1BcbaROIS+5UU=
 		</data>
 		<key>ios-arm64/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		7XWKOPQfU743mpBeioeJouQK+/c=
+		vwJlOHxgzNSQUvO6nSw48w2oTYo=
 		</data>
 		<key>ios-arm64/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		0adHlcN/uooC/IN53RU68PCzzvg=
+		3qzo1gDNAfqBob0EW0B6j9ecK1M=
 		</data>
 		<key>ios-arm64/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		7XWKOPQfU743mpBeioeJouQK+/c=
+		vwJlOHxgzNSQUvO6nSw48w2oTYo=
 		</data>
 		<key>ios-arm64/SignatureCaptureMedium.framework/Modules/module.modulemap</key>
 		<data>
@@ -44,41 +44,33 @@
 		<data>
 		1taPCJ7xUgXLnTQqa/HGbiulYlw=
 		</data>
-		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/SignatureCaptureViewController.nib/objects-14.0+.nib</key>
+		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/SignatureCaptureViewController.nib</key>
 		<data>
 		WUl5a4NQgHvVEKClFVE835zQprU=
 		</data>
-		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/SignatureCaptureViewController.nib/runtime.nib</key>
-		<data>
-		WUl5a4NQgHvVEKClFVE835zQprU=
-		</data>
-		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-14.0+.nib</key>
+		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
 		J7GLJ2e829SK3u4jOnGYUjM6IQg=
 		</data>
-		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
-		<data>
-		Py+b+3C1EljrFVoEUo1nZlyVwAg=
-		</data>
 		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCaptureMedium</key>
 		<data>
-		u4R1QGxIQwC0cI40VjHc8wWSr/o=
+		+06d75Cya7mD2xrkwP1yu2E5bIc=
 		</data>
 		<key>ios-arm64/SignatureCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<data>
-		bFH/ZhDHDn+73zDiX86uePPyFAA=
+		1edyU7IDnzPjm+WKZtgOhbAfUik=
 		</data>
 		<key>ios-arm64/dSYMs/SignatureCaptureMedium.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		nSRR2k7ztAWmm4BmojmzOTeZ8yM=
+		hgbynAvBhGIKaFYEroK4VnSlQ4c=
 		</data>
 		<key>ios-arm64/dSYMs/SignatureCaptureMedium.framework.dSYM/Contents/Resources/DWARF/SignatureCaptureMedium</key>
 		<data>
-		kDZCkR2+i7ZZBCodrn7Tml2GHws=
+		fmiO1ohks4DiuJs8ksF0G1yQMDM=
 		</data>
 		<key>ios-arm64/dSYMs/SignatureCaptureMedium.framework.dSYM/Contents/Resources/Relocations/aarch64/SignatureCaptureMedium.yml</key>
 		<data>
-		8KETNqoXkbnUdJqhuuAuNeys4ug=
+		zwo2YZW+TsUCEQOfi1TmtQqFKuM=
 		</data>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Headers/SignatureCaptureMedium-Swift.h</key>
 		<data>
@@ -90,27 +82,27 @@
 		</data>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Info.plist</key>
 		<data>
-		RtuUSG8Tfdyfo2gtotOwOAyGdlM=
+		3mxJ+VJYuPQrit1cAdil7IGdAZw=
 		</data>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		iHQlmb/jWFY22wZabwKv6qD9Lq8=
+		qxUgFSBND/T3hKxicXwYNXbIFhA=
 		</data>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		q0DONR1/OLWgxj85okT4BVjqo34=
+		di7LmDSzV9C9rk1BcbaROIS+5UU=
 		</data>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		19Vh4UDRR36+pYjjNR4JUhmhZpU=
+		BVCFQ0iLbtP/1ACdUZ/BFwlGjzM=
 		</data>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3s4QFadk8YTobNkbfP6SG5wQtzI=
+		Odh7zV66fnqkEud9nzTEVGVYcFc=
 		</data>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		19Vh4UDRR36+pYjjNR4JUhmhZpU=
+		BVCFQ0iLbtP/1ACdUZ/BFwlGjzM=
 		</data>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Modules/module.modulemap</key>
 		<data>
@@ -120,41 +112,33 @@
 		<data>
 		1taPCJ7xUgXLnTQqa/HGbiulYlw=
 		</data>
-		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/SignatureCaptureViewController.nib/objects-14.0+.nib</key>
+		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/SignatureCaptureViewController.nib</key>
 		<data>
 		WUl5a4NQgHvVEKClFVE835zQprU=
 		</data>
-		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/SignatureCaptureViewController.nib/runtime.nib</key>
-		<data>
-		WUl5a4NQgHvVEKClFVE835zQprU=
-		</data>
-		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-14.0+.nib</key>
+		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
 		J7GLJ2e829SK3u4jOnGYUjM6IQg=
 		</data>
-		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
-		<data>
-		Py+b+3C1EljrFVoEUo1nZlyVwAg=
-		</data>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCaptureMedium</key>
 		<data>
-		xatN2wAg1KWGoG4WZPaZ4FWenk4=
+		7IWVMsKwcOpROTAmh1iJE5sEPAQ=
 		</data>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<data>
-		lMuXwjr9/750swBb7boxUDt1Sxc=
+		vLHKePQOZ4+TYz+/BBj0iVjvFHc=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/SignatureCaptureMedium.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		nSRR2k7ztAWmm4BmojmzOTeZ8yM=
+		hgbynAvBhGIKaFYEroK4VnSlQ4c=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/SignatureCaptureMedium.framework.dSYM/Contents/Resources/DWARF/SignatureCaptureMedium</key>
 		<data>
-		n8qh0fy4tEXWOdrCBH+vDxKPqII=
+		ArlooHE72iHtAKwD7qpwQrW4QB0=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/SignatureCaptureMedium.framework.dSYM/Contents/Resources/Relocations/x86_64/SignatureCaptureMedium.yml</key>
 		<data>
-		LDoFHhBMjeLaaQ1jXyAG/io72ew=
+		ndH6mAf6PmD7ynsn7uDYgKIstEU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -185,66 +169,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/CTe95BImXRVkORD8wHJ+88hE7Q=
+			HBmbu9LZsrsazxZ486/lbIIckf8=
 			</data>
 			<key>hash2</key>
 			<data>
-			82N8SX9HQ5VJXInMkaAodbJYxyE0IsD2V+lXNCAqCdE=
+			yhqDWuJYfg7SZZTqZbSpHos3+GfA7qpfG37iJGXyiuo=
 			</data>
 		</dict>
 		<key>ios-arm64/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			02Meq0JE+9ZLXNN2CwOmwWL9KtM=
+			BHb3FCj/iS8rpZc2iTyo+I9m47k=
 			</data>
 			<key>hash2</key>
 			<data>
-			3yxbZlywkLhe7+ZCYjqrr7fIHuXJbAjGOqB5rMDIYT4=
+			gn1NLbvVLSImFR8f/D4lcIi6mT4UZg8HUHopB2lXFmU=
 			</data>
 		</dict>
 		<key>ios-arm64/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q0DONR1/OLWgxj85okT4BVjqo34=
+			di7LmDSzV9C9rk1BcbaROIS+5UU=
 			</data>
 			<key>hash2</key>
 			<data>
-			fBuoA6gjPVjLah8S7+r40fDf1DqMgN9Fs682bMUKjvQ=
+			8ootighVTob+2wf2tTRX9OWZ4YJsu6b7lcCbb02CrJw=
 			</data>
 		</dict>
 		<key>ios-arm64/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7XWKOPQfU743mpBeioeJouQK+/c=
+			vwJlOHxgzNSQUvO6nSw48w2oTYo=
 			</data>
 			<key>hash2</key>
 			<data>
-			qvUPYNXRSA5yLArxnSY3J1gRsaoqe6RQtXsgF3kk7SI=
+			Vdo1S3yT6tGgi/RpTR8k8CT1/udKZmaLrXikIFMiVl8=
 			</data>
 		</dict>
 		<key>ios-arm64/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0adHlcN/uooC/IN53RU68PCzzvg=
+			3qzo1gDNAfqBob0EW0B6j9ecK1M=
 			</data>
 			<key>hash2</key>
 			<data>
-			C+ERGj6K6bpmThtF8s212/0agODY3js/EZm6roYMggs=
+			TEdMyzoUWdQ+mbkyT0Zopw6wM7DjpKVQyKL8Kt9Q2kk=
 			</data>
 		</dict>
 		<key>ios-arm64/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7XWKOPQfU743mpBeioeJouQK+/c=
+			vwJlOHxgzNSQUvO6nSw48w2oTYo=
 			</data>
 			<key>hash2</key>
 			<data>
-			qvUPYNXRSA5yLArxnSY3J1gRsaoqe6RQtXsgF3kk7SI=
+			Vdo1S3yT6tGgi/RpTR8k8CT1/udKZmaLrXikIFMiVl8=
 			</data>
 		</dict>
 		<key>ios-arm64/SignatureCaptureMedium.framework/Modules/module.modulemap</key>
@@ -269,7 +253,7 @@
 			DSavRH2dfAwFq56sKFjyCEsO+76DGdzUjpUHQiuuNWc=
 			</data>
 		</dict>
-		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/SignatureCaptureViewController.nib/objects-14.0+.nib</key>
+		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/SignatureCaptureViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -280,18 +264,7 @@
 			S6Im0sjIvDGCk5/aTdrGGy6aHXS/0HuGQlmllApkvMU=
 			</data>
 		</dict>
-		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/SignatureCaptureViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WUl5a4NQgHvVEKClFVE835zQprU=
-			</data>
-			<key>hash2</key>
-			<data>
-			S6Im0sjIvDGCk5/aTdrGGy6aHXS/0HuGQlmllApkvMU=
-			</data>
-		</dict>
-		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-14.0+.nib</key>
+		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -302,70 +275,59 @@
 			fA/VK8YlZSxU+6ylRueSdG/Qrpt5p4tAt2S9GoUAYRk=
 			</data>
 		</dict>
-		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Py+b+3C1EljrFVoEUo1nZlyVwAg=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZAZzv4bUoCsxfJcRPGo1I8pWayu+3OFGsKeOXWArfH4=
-			</data>
-		</dict>
 		<key>ios-arm64/SignatureCaptureMedium.framework/SignatureCaptureMedium</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u4R1QGxIQwC0cI40VjHc8wWSr/o=
+			+06d75Cya7mD2xrkwP1yu2E5bIc=
 			</data>
 			<key>hash2</key>
 			<data>
-			upEwsF36U+KZHkkQ59YVnOtcYAQWUgH7oC1UPPTN7EY=
+			ZErLWYojeSlafv9TlKNuRYGZAEWbcARTdopycdhCxS4=
 			</data>
 		</dict>
 		<key>ios-arm64/SignatureCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bFH/ZhDHDn+73zDiX86uePPyFAA=
+			1edyU7IDnzPjm+WKZtgOhbAfUik=
 			</data>
 			<key>hash2</key>
 			<data>
-			WFiwH9DT3Y1U97msML4y+x5+YhOuJzu02d2vlTWA+5M=
+			3YCQDtGrbhFhoqfG9uRVDFpKPDsL4+adPWNL8pzLXmQ=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/SignatureCaptureMedium.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nSRR2k7ztAWmm4BmojmzOTeZ8yM=
+			hgbynAvBhGIKaFYEroK4VnSlQ4c=
 			</data>
 			<key>hash2</key>
 			<data>
-			MFyI/5dUNujg9vr2QgyhFh1fAVgtL4cj8q5SpkAdR0w=
+			9Wl07cW/oinjbyHuLZwmHLHSnnGXPPeOrfIs6mwep3E=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/SignatureCaptureMedium.framework.dSYM/Contents/Resources/DWARF/SignatureCaptureMedium</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kDZCkR2+i7ZZBCodrn7Tml2GHws=
+			fmiO1ohks4DiuJs8ksF0G1yQMDM=
 			</data>
 			<key>hash2</key>
 			<data>
-			m74hQpxVfd+la59nClWjhfClXzs74LlY/KQmjDZMGvQ=
+			anorxbq6IIlQk+9bEBIX/YuOZt15JiDnoPDBMdXDK4s=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/SignatureCaptureMedium.framework.dSYM/Contents/Resources/Relocations/aarch64/SignatureCaptureMedium.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8KETNqoXkbnUdJqhuuAuNeys4ug=
+			zwo2YZW+TsUCEQOfi1TmtQqFKuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			/3+otJyr0M/VkMn9d0agcp0LTflr6+jqe8MDlYWINf0=
+			W4onCqoN18TmYxOd81/IB95Jlz4BbJXX5ojDA3md2u4=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Headers/SignatureCaptureMedium-Swift.h</key>
@@ -394,66 +356,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RtuUSG8Tfdyfo2gtotOwOAyGdlM=
+			3mxJ+VJYuPQrit1cAdil7IGdAZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			iUoP3b41fOMcH5vWxtcr2w3l+nNnpKosHu9yfzafKL8=
+			QCFqf7sMTghSXUd8gXip8W8mbRtw1X+vuCwKejgl37E=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iHQlmb/jWFY22wZabwKv6qD9Lq8=
+			qxUgFSBND/T3hKxicXwYNXbIFhA=
 			</data>
 			<key>hash2</key>
 			<data>
-			W4ABtIIuWHOvo8EVW5biHTCOD9rJInbrXkCds9FA2uA=
+			tzzFk4C7cPepGW6WcfKlCLFiJKFTZdeZMrG1Z8nhrw8=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q0DONR1/OLWgxj85okT4BVjqo34=
+			di7LmDSzV9C9rk1BcbaROIS+5UU=
 			</data>
 			<key>hash2</key>
 			<data>
-			fBuoA6gjPVjLah8S7+r40fDf1DqMgN9Fs682bMUKjvQ=
+			8ootighVTob+2wf2tTRX9OWZ4YJsu6b7lcCbb02CrJw=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			19Vh4UDRR36+pYjjNR4JUhmhZpU=
+			BVCFQ0iLbtP/1ACdUZ/BFwlGjzM=
 			</data>
 			<key>hash2</key>
 			<data>
-			S8j8IKYry/0IN9M6FT9SSiLyiJNIv7JtzRmj2Jz91Ms=
+			oaY7hKj5Io5TFRH7rXJAJzXxYfDOJIIPS9YSPDkk2S8=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3s4QFadk8YTobNkbfP6SG5wQtzI=
+			Odh7zV66fnqkEud9nzTEVGVYcFc=
 			</data>
 			<key>hash2</key>
 			<data>
-			LFkpRGujg4tj/Plpk8r5jXwcaC3YTK3OCXGBZz1PdnU=
+			I+NSAYDYDL2icJ3xIkNQSCSnjGjBaUjZnxjpnDX0Ezc=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Modules/SignatureCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			19Vh4UDRR36+pYjjNR4JUhmhZpU=
+			BVCFQ0iLbtP/1ACdUZ/BFwlGjzM=
 			</data>
 			<key>hash2</key>
 			<data>
-			S8j8IKYry/0IN9M6FT9SSiLyiJNIv7JtzRmj2Jz91Ms=
+			oaY7hKj5Io5TFRH7rXJAJzXxYfDOJIIPS9YSPDkk2S8=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/Modules/module.modulemap</key>
@@ -478,7 +440,7 @@
 			DSavRH2dfAwFq56sKFjyCEsO+76DGdzUjpUHQiuuNWc=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/SignatureCaptureViewController.nib/objects-14.0+.nib</key>
+		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/SignatureCaptureViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -489,18 +451,7 @@
 			S6Im0sjIvDGCk5/aTdrGGy6aHXS/0HuGQlmllApkvMU=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/SignatureCaptureViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WUl5a4NQgHvVEKClFVE835zQprU=
-			</data>
-			<key>hash2</key>
-			<data>
-			S6Im0sjIvDGCk5/aTdrGGy6aHXS/0HuGQlmllApkvMU=
-			</data>
-		</dict>
-		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-14.0+.nib</key>
+		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -511,70 +462,59 @@
 			fA/VK8YlZSxU+6ylRueSdG/Qrpt5p4tAt2S9GoUAYRk=
 			</data>
 		</dict>
-		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Py+b+3C1EljrFVoEUo1nZlyVwAg=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZAZzv4bUoCsxfJcRPGo1I8pWayu+3OFGsKeOXWArfH4=
-			</data>
-		</dict>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/SignatureCaptureMedium</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xatN2wAg1KWGoG4WZPaZ4FWenk4=
+			7IWVMsKwcOpROTAmh1iJE5sEPAQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			4gNAQ4q1n8vnfQkXdu/Qa1r5dqD6k4lmqckIuctjbIw=
+			m/0xAVrH5DLVOGpCXqtu6g61zUQEH/iLrr8NplFhOqw=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/SignatureCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lMuXwjr9/750swBb7boxUDt1Sxc=
+			vLHKePQOZ4+TYz+/BBj0iVjvFHc=
 			</data>
 			<key>hash2</key>
 			<data>
-			skwbRvFuatL7U2XcLgTK1w2APiwPF5JksHct38PTojA=
+			gvhERDrFvlwr7HeTLIEDXrYRY3R8kAP4H2ydZnUmteE=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/SignatureCaptureMedium.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nSRR2k7ztAWmm4BmojmzOTeZ8yM=
+			hgbynAvBhGIKaFYEroK4VnSlQ4c=
 			</data>
 			<key>hash2</key>
 			<data>
-			MFyI/5dUNujg9vr2QgyhFh1fAVgtL4cj8q5SpkAdR0w=
+			9Wl07cW/oinjbyHuLZwmHLHSnnGXPPeOrfIs6mwep3E=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/SignatureCaptureMedium.framework.dSYM/Contents/Resources/DWARF/SignatureCaptureMedium</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n8qh0fy4tEXWOdrCBH+vDxKPqII=
+			ArlooHE72iHtAKwD7qpwQrW4QB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZCzDCNno8dfZbMq+lzQ04WtgAzOFACMkHrEz6/xyF+w=
+			Qo2a77TJGT0arji4W4zB0SkTPJYuaT8Rs+Y9bcg68Ps=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/SignatureCaptureMedium.framework.dSYM/Contents/Resources/Relocations/x86_64/SignatureCaptureMedium.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LDoFHhBMjeLaaQ1jXyAG/io72ew=
+			ndH6mAf6PmD7ynsn7uDYgKIstEU=
 			</data>
 			<key>hash2</key>
 			<data>
-			zt9kx3F7TvzdRLSr47fzJYd8tbBlvUY85Mbb7+1GH2Y=
+			7WypMHt5ScTBasPuSczF9OHMe1Cjmis3PrzKyjtL8L0=
 			</data>
 		</dict>
 	</dict>

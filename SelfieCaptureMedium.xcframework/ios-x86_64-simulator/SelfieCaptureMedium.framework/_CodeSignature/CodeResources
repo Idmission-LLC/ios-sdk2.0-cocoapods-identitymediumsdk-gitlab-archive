@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		V7ibDfFFZtoPhXw8Fxu0xvIZXo0=
+		yy5l2oEs4zFCy/AoVkQlVpw9Apo=
 		</data>
 		<key>Headers/SelfieCaptureMedium-Swift.h</key>
 		<data>
@@ -14,85 +14,61 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yGEnENWeXqY2YDIpkVS+QX/k8RA=
+		Q3eQm8L2gwbtioL93DK+Cs0i57k=
 		</data>
 		<key>Modules/SelfieCaptureMedium.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		NsjMVwe9e6nwf30gifaxhZIdj4w=
+		IPc4XFFypGUq9xJaWCNLQBtc1iM=
 		</data>
 		<key>Modules/SelfieCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/2IUQXll8itA4XbaglrriWXHNqw=
+		nsOm0IgbSoYcc96pZ2gSIg1EX5k=
 		</data>
 		<key>Modules/SelfieCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		keaYYnqdo8RTfI2dvODS55Czj+0=
+		n0PaDWOfrrASyUjMFlS+TUxC8mE=
 		</data>
 		<key>Modules/SelfieCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		sDfyEpgwpmTJvYK3TBIURjeqti8=
+		JUCQWDByy6MmoskPNJCCj/dBWzc=
 		</data>
 		<key>Modules/SelfieCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		keaYYnqdo8RTfI2dvODS55Czj+0=
+		n0PaDWOfrrASyUjMFlS+TUxC8mE=
 		</data>
 		<key>Modules/SelfieCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qS5aJjjFdoWQVZPsoJX9rJontoU=
+		RjT8Ujh0oViLEe2foTQ2qDQDseE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		tfBbTjFNksC3SvBS/qSvplsDtRU=
 		</data>
-		<key>SelfieCapture.storyboardc/D83-0d-1aa-view-MLu-Po-Y2J.nib/objects-14.0+.nib</key>
+		<key>SelfieCapture.storyboardc/D83-0d-1aa-view-MLu-Po-Y2J.nib</key>
 		<data>
 		+/NIAa7nDbDrGUCzhBmMSVnc1R0=
-		</data>
-		<key>SelfieCapture.storyboardc/D83-0d-1aa-view-MLu-Po-Y2J.nib/runtime.nib</key>
-		<data>
-		WHULBCi19bP3k08I3KqjRhKwgd8=
 		</data>
 		<key>SelfieCapture.storyboardc/Info.plist</key>
 		<data>
 		KMm3Pq5WNmYo3MvEDGuG4QyYT2s=
 		</data>
-		<key>SelfieCapture.storyboardc/RetryViewController.nib/objects-14.0+.nib</key>
+		<key>SelfieCapture.storyboardc/RetryViewController.nib</key>
 		<data>
 		59MA6Zqa3DArIrMxV5WgV5zSvCw=
 		</data>
-		<key>SelfieCapture.storyboardc/RetryViewController.nib/runtime.nib</key>
-		<data>
-		59MA6Zqa3DArIrMxV5WgV5zSvCw=
-		</data>
-		<key>SelfieCapture.storyboardc/SelfieCaptureInstructionsViewController.nib/objects-14.0+.nib</key>
+		<key>SelfieCapture.storyboardc/SelfieCaptureInstructionsViewController.nib</key>
 		<data>
 		12BU+HLe6z3pwJOv5/2u+HAXQw4=
 		</data>
-		<key>SelfieCapture.storyboardc/SelfieCaptureInstructionsViewController.nib/runtime.nib</key>
-		<data>
-		12BU+HLe6z3pwJOv5/2u+HAXQw4=
-		</data>
-		<key>SelfieCapture.storyboardc/SelfieCaptureViewController.nib/objects-14.0+.nib</key>
+		<key>SelfieCapture.storyboardc/SelfieCaptureViewController.nib</key>
 		<data>
 		/KcctXunDi/RFqMNUfXELP94E7o=
 		</data>
-		<key>SelfieCapture.storyboardc/SelfieCaptureViewController.nib/runtime.nib</key>
-		<data>
-		/KcctXunDi/RFqMNUfXELP94E7o=
-		</data>
-		<key>SelfieCapture.storyboardc/etj-lQ-qHg-view-K5c-kA-PpU.nib/objects-14.0+.nib</key>
+		<key>SelfieCapture.storyboardc/etj-lQ-qHg-view-K5c-kA-PpU.nib</key>
 		<data>
 		E2GiXmtPkA6LVAwiQsJEEfxSORY=
 		</data>
-		<key>SelfieCapture.storyboardc/etj-lQ-qHg-view-K5c-kA-PpU.nib/runtime.nib</key>
-		<data>
-		E2GiXmtPkA6LVAwiQsJEEfxSORY=
-		</data>
-		<key>SelfieCapture.storyboardc/hWk-eV-qnL-view-KES-jY-WvT.nib/objects-14.0+.nib</key>
-		<data>
-		HK9W3Vn5Qt47uXtVFno/sFdSJJI=
-		</data>
-		<key>SelfieCapture.storyboardc/hWk-eV-qnL-view-KES-jY-WvT.nib/runtime.nib</key>
+		<key>SelfieCapture.storyboardc/hWk-eV-qnL-view-KES-jY-WvT.nib</key>
 		<data>
 		HK9W3Vn5Qt47uXtVFno/sFdSJJI=
 		</data>
@@ -103,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6uiOoT1ypET/IFIYQHQZl8vEsG3KbirfWPDeE1FF+8E=
+			JJcIEjsD3FpFiuys5CXsb3Bo7Yh9u/jCWLgtJaNJt30=
 			</data>
 		</dict>
 		<key>Headers/SelfieCaptureMedium-Swift.h</key>
@@ -117,42 +93,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yf/DMYbYN//ZASOsa6/O0UADZ/JH66N/YMeW+FrEGco=
+			Ft2kHyC06USmhNHPIqSeaHUBlBxdKXz0ErrYJGXOQ5k=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vrEcJPi0fU6pKFj/Kyg7ZSv1q48WFFm339MV67WUsFk=
+			QB0CSmDmuWEpsIHzAm+IAtbqn06OyKEH1wJEIE1ZbB8=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LDiSPCHER0wJB2Rl+5drYznYrFtfcdJrxddV9l0kgiE=
+			Y46VqOgBbH7tMkXSYM9RM14Xg0rguto4Vh/neziudr4=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fp5ILdp1BJUgELGbaloBVcl3zxdhv7XJNaY9PIScRTU=
+			o2zM6a+Ud4iWWcL1iUmkFAMzJ1q7XVH0pIgE6Wm9kDU=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LDiSPCHER0wJB2Rl+5drYznYrFtfcdJrxddV9l0kgiE=
+			Y46VqOgBbH7tMkXSYM9RM14Xg0rguto4Vh/neziudr4=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DcXej6K7maHRjJKP6NdRrMczLOw+D7cmMz4QuXmzVCQ=
+			v5XWdYdVRkuE5NOOQW18nf2t5l9SLaQxOBDQ5ikWLhg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -162,18 +138,11 @@
 			o3wnFvUJxDP/b7JgGtcUewcddFVX2PR5u24bambIAqI=
 			</data>
 		</dict>
-		<key>SelfieCapture.storyboardc/D83-0d-1aa-view-MLu-Po-Y2J.nib/objects-14.0+.nib</key>
+		<key>SelfieCapture.storyboardc/D83-0d-1aa-view-MLu-Po-Y2J.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			zHsNQr0PyHnqW/n+DIVsj+rE4Po/Y00g+kN8uHLOtgI=
-			</data>
-		</dict>
-		<key>SelfieCapture.storyboardc/D83-0d-1aa-view-MLu-Po-Y2J.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2UgAVBc/zzKynEm4FgYi6K27sGnIF4eNWN7tluFc0X0=
 			</data>
 		</dict>
 		<key>SelfieCapture.storyboardc/Info.plist</key>
@@ -183,70 +152,35 @@
 			q3HAI6EU4ES10epE3ehoAhAE2QqIkvKZQPPfE7hARFQ=
 			</data>
 		</dict>
-		<key>SelfieCapture.storyboardc/RetryViewController.nib/objects-14.0+.nib</key>
+		<key>SelfieCapture.storyboardc/RetryViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			g05qZd2yzFFWTI5aGXKj/7GWxgKzJW1SHyasQX3yiW0=
 			</data>
 		</dict>
-		<key>SelfieCapture.storyboardc/RetryViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			g05qZd2yzFFWTI5aGXKj/7GWxgKzJW1SHyasQX3yiW0=
-			</data>
-		</dict>
-		<key>SelfieCapture.storyboardc/SelfieCaptureInstructionsViewController.nib/objects-14.0+.nib</key>
+		<key>SelfieCapture.storyboardc/SelfieCaptureInstructionsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			eCL73re+1PiCdorJhiKKk6LWawM21VzxLIYkWt2aWAM=
 			</data>
 		</dict>
-		<key>SelfieCapture.storyboardc/SelfieCaptureInstructionsViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eCL73re+1PiCdorJhiKKk6LWawM21VzxLIYkWt2aWAM=
-			</data>
-		</dict>
-		<key>SelfieCapture.storyboardc/SelfieCaptureViewController.nib/objects-14.0+.nib</key>
+		<key>SelfieCapture.storyboardc/SelfieCaptureViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			kO2OeYcNSLLuUXnCjNXModA4VE1orI0CXZU3f1sAocA=
 			</data>
 		</dict>
-		<key>SelfieCapture.storyboardc/SelfieCaptureViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kO2OeYcNSLLuUXnCjNXModA4VE1orI0CXZU3f1sAocA=
-			</data>
-		</dict>
-		<key>SelfieCapture.storyboardc/etj-lQ-qHg-view-K5c-kA-PpU.nib/objects-14.0+.nib</key>
+		<key>SelfieCapture.storyboardc/etj-lQ-qHg-view-K5c-kA-PpU.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			alRJX8RyFo3UE/1CA47x7jW+SeVipBpkZzvYqaMnclg=
 			</data>
 		</dict>
-		<key>SelfieCapture.storyboardc/etj-lQ-qHg-view-K5c-kA-PpU.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			alRJX8RyFo3UE/1CA47x7jW+SeVipBpkZzvYqaMnclg=
-			</data>
-		</dict>
-		<key>SelfieCapture.storyboardc/hWk-eV-qnL-view-KES-jY-WvT.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wc/vvFUQ5t3riE5RA+QPLgndOOANVNQtQioV+/+mq/0=
-			</data>
-		</dict>
-		<key>SelfieCapture.storyboardc/hWk-eV-qnL-view-KES-jY-WvT.nib/runtime.nib</key>
+		<key>SelfieCapture.storyboardc/hWk-eV-qnL-view-KES-jY-WvT.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>

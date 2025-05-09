@@ -2,11 +2,11 @@
 triple:          'x86_64-apple-darwin'
 binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-medium/Build/Products/Release-iphonesimulator/IDentityMediumModels.framework/IDentityMediumModels'
 relocations:
-  - { offset: 0x34209, size: 0x8, addend: 0x0, symName: _IDentityMediumModelsVersionString, symObjAddr: 0x0, symBinAddr: 0x3B90, symSize: 0x0 }
-  - { offset: 0x3423D, size: 0x8, addend: 0x0, symName: _IDentityMediumModelsVersionNumber, symObjAddr: 0x40, symBinAddr: 0x3BD0, symSize: 0x0 }
-  - { offset: 0x34279, size: 0x8, addend: 0x0, symName: '_$sSo8NSBundleC20IDentityMediumModelsE6modelsABvgZ', symObjAddr: 0x0, symBinAddr: 0x1BE0, symSize: 0x50 }
-  - { offset: 0x342D5, size: 0x8, addend: 0x0, symName: '_$sSo8NSBundleC20IDentityMediumModelsE6modelsABvgZ', symObjAddr: 0x0, symBinAddr: 0x1BE0, symSize: 0x50 }
-  - { offset: 0x34315, size: 0x8, addend: 0x0, symName: '_$s20IDentityMediumModels82IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt0zCMa', symObjAddr: 0x50, symBinAddr: 0x1C30, symSize: 0x20 }
-  - { offset: 0x3436F, size: 0x8, addend: 0x0, symName: '_$s20IDentityMediumModels82IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt0zCfd', symObjAddr: 0x70, symBinAddr: 0x1C50, symSize: 0x10 }
-  - { offset: 0x3439A, size: 0x8, addend: 0x0, symName: '_$s20IDentityMediumModels82IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt0zCfD', symObjAddr: 0x80, symBinAddr: 0x1C60, symSize: 0x20 }
+  - { offset: 0x34209, size: 0x8, addend: 0x0, symName: _IDentityMediumModelsVersionString, symObjAddr: 0x0, symBinAddr: 0x1C50, symSize: 0x0 }
+  - { offset: 0x3423D, size: 0x8, addend: 0x0, symName: _IDentityMediumModelsVersionNumber, symObjAddr: 0x40, symBinAddr: 0x1C90, symSize: 0x0 }
+  - { offset: 0x34279, size: 0x8, addend: 0x0, symName: '_$sSo8NSBundleC20IDentityMediumModelsE6modelsABvgZ', symObjAddr: 0x0, symBinAddr: 0xCF0, symSize: 0x50 }
+  - { offset: 0x342D5, size: 0x8, addend: 0x0, symName: '_$sSo8NSBundleC20IDentityMediumModelsE6modelsABvgZ', symObjAddr: 0x0, symBinAddr: 0xCF0, symSize: 0x50 }
+  - { offset: 0x34315, size: 0x8, addend: 0x0, symName: '_$s20IDentityMediumModels82IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt0zCMa', symObjAddr: 0x50, symBinAddr: 0xD40, symSize: 0x20 }
+  - { offset: 0x3436F, size: 0x8, addend: 0x0, symName: '_$s20IDentityMediumModels82IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt0zCfd', symObjAddr: 0x70, symBinAddr: 0xD60, symSize: 0x10 }
+  - { offset: 0x3439A, size: 0x8, addend: 0x0, symName: '_$s20IDentityMediumModels82IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt0zCfD', symObjAddr: 0x80, symBinAddr: 0xD70, symSize: 0x20 }
 ...

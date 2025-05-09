@@ -1419,6 +1419,9 @@ VoiceCapture.fonts.buttonLabelFont = UIFont.systemFont(ofSize: 12)
 
 ## SDK Version History
 
+### **v 10.1.4.2.5 (09 May 2025)**
+- Updated Minimum Deployment target to iOS 15.6
+
 ### **v 10.1.4.2.4 (26 February 2025)**
 - Reduced the overall size of SDK.
 - Added configuration options to change the sequence of ID and Selfie capture.

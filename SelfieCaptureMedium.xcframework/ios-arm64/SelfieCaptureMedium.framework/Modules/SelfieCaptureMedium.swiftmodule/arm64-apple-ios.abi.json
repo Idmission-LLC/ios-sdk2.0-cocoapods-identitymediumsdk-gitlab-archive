@@ -3870,70 +3870,70 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/UserDefaults+SelfieCapture.swift",
+      "filePath": "\/Users\/amold\/Downloads\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/UserDefaults+SelfieCapture.swift",
       "kind": "StringLiteral",
       "offset": 202,
       "length": 29,
       "value": "\"com.idmission.SelfieCapture\""
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/UserDefaults+SelfieCapture.swift",
+      "filePath": "\/Users\/amold\/Downloads\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/UserDefaults+SelfieCapture.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 26,
       "value": "\"liveFaceNotDetectedCount\""
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "filePath": "\/Users\/amold\/Downloads\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "Array",
       "offset": 731,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "filePath": "\/Users\/amold\/Downloads\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
       "offset": 1148,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "filePath": "\/Users\/amold\/Downloads\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
       "offset": 1272,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "filePath": "\/Users\/amold\/Downloads\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
       "offset": 1363,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
+      "filePath": "\/Users\/amold\/Downloads\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 16680,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
+      "filePath": "\/Users\/amold\/Downloads\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
       "kind": "StringLiteral",
       "offset": 935,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
+      "filePath": "\/Users\/amold\/Downloads\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
       "kind": "StringLiteral",
       "offset": 1003,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
+      "filePath": "\/Users\/amold\/Downloads\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
       "kind": "StringLiteral",
       "offset": 1094,
       "length": 2,

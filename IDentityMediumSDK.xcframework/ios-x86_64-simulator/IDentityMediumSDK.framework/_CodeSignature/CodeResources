@@ -6,45 +6,25 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		RlheyDfsbIP8zowiTEr5ETkCuj4=
+		uTYRpiIPc1D6GUEsxnZT44nMOlM=
 		</data>
-		<key>DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib</key>
 		<data>
 		0WO/6frETtm4KgzKbjqsh8g9TSE=
 		</data>
-		<key>DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib/runtime.nib</key>
-		<data>
-		0WO/6frETtm4KgzKbjqsh8g9TSE=
-		</data>
-		<key>DocumentCapture.storyboardc/DocumentCaptureInstructionsViewController.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/DocumentCaptureInstructionsViewController.nib</key>
 		<data>
 		qdAINfL9N7NBVQpILPgK9UhgXEU=
 		</data>
-		<key>DocumentCapture.storyboardc/DocumentCaptureInstructionsViewController.nib/runtime.nib</key>
-		<data>
-		qdAINfL9N7NBVQpILPgK9UhgXEU=
-		</data>
-		<key>DocumentCapture.storyboardc/DocumentCapturePreviewViewController.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/DocumentCapturePreviewViewController.nib</key>
 		<data>
 		duqg3l6EDOtYwx40AT02N5WGYqI=
 		</data>
-		<key>DocumentCapture.storyboardc/DocumentCapturePreviewViewController.nib/runtime.nib</key>
-		<data>
-		duqg3l6EDOtYwx40AT02N5WGYqI=
-		</data>
-		<key>DocumentCapture.storyboardc/DocumentCaptureViewController.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/DocumentCaptureViewController.nib</key>
 		<data>
 		rys22aW3F72uYWegEF0EiZFnAQY=
 		</data>
-		<key>DocumentCapture.storyboardc/DocumentCaptureViewController.nib/runtime.nib</key>
-		<data>
-		rys22aW3F72uYWegEF0EiZFnAQY=
-		</data>
-		<key>DocumentCapture.storyboardc/DocumentUploadViewController.nib/objects-14.0+.nib</key>
-		<data>
-		2WprKdx3/iIcerYU+OVHAY+GU50=
-		</data>
-		<key>DocumentCapture.storyboardc/DocumentUploadViewController.nib/runtime.nib</key>
+		<key>DocumentCapture.storyboardc/DocumentUploadViewController.nib</key>
 		<data>
 		2WprKdx3/iIcerYU+OVHAY+GU50=
 		</data>
@@ -52,43 +32,23 @@
 		<data>
 		dBN0ssrE7CC4eUhtTUBSv0rLpdw=
 		</data>
-		<key>DocumentCapture.storyboardc/Nz6-Xg-y6r-view-18I-ZM-9wZ.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/Nz6-Xg-y6r-view-18I-ZM-9wZ.nib</key>
 		<data>
 		RmwZzcecLtTdW6Y8zkXcQ3Fy7sI=
 		</data>
-		<key>DocumentCapture.storyboardc/Nz6-Xg-y6r-view-18I-ZM-9wZ.nib/runtime.nib</key>
-		<data>
-		TnHN4tDvcrmRyonSxiRvhEku2L8=
-		</data>
-		<key>DocumentCapture.storyboardc/RetryViewController.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/RetryViewController.nib</key>
 		<data>
 		Zzi86nqpzx22CsWfsSunX3PpWdw=
 		</data>
-		<key>DocumentCapture.storyboardc/RetryViewController.nib/runtime.nib</key>
-		<data>
-		Zzi86nqpzx22CsWfsSunX3PpWdw=
-		</data>
-		<key>DocumentCapture.storyboardc/bv3-fe-or7-view-dWP-aa-uph.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/bv3-fe-or7-view-dWP-aa-uph.nib</key>
 		<data>
 		IALcvMqJfMKClA+0gtpzFHrhSMA=
 		</data>
-		<key>DocumentCapture.storyboardc/bv3-fe-or7-view-dWP-aa-uph.nib/runtime.nib</key>
-		<data>
-		rj8qrp88++PixctlC+WVEpnySEw=
-		</data>
-		<key>DocumentCapture.storyboardc/uZ1-C4-XDq-view-stv-OC-CZ5.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/uZ1-C4-XDq-view-stv-OC-CZ5.nib</key>
 		<data>
 		PsWB/PwgYPYpTpt92gKe5p/gCDU=
 		</data>
-		<key>DocumentCapture.storyboardc/uZ1-C4-XDq-view-stv-OC-CZ5.nib/runtime.nib</key>
-		<data>
-		PsWB/PwgYPYpTpt92gKe5p/gCDU=
-		</data>
-		<key>DocumentCapture.storyboardc/vOZ-qx-4e5-view-VEb-Bo-e7P.nib/objects-14.0+.nib</key>
-		<data>
-		TngDxKsLJjUH/4AdtyBGgnpZZAU=
-		</data>
-		<key>DocumentCapture.storyboardc/vOZ-qx-4e5-view-VEb-Bo-e7P.nib/runtime.nib</key>
+		<key>DocumentCapture.storyboardc/vOZ-qx-4e5-view-VEb-Bo-e7P.nib</key>
 		<data>
 		TngDxKsLJjUH/4AdtyBGgnpZZAU=
 		</data>
@@ -114,7 +74,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		XbL7t4UIl0GrT/4m60gpgUk3ef8=
+		c3qTKGgXuu+ii0aWV/uADqEt/Lw=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -298,11 +258,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1pnXSl0kMMeah6y9v5fMyITAY3w=
+		ba3OMH4EtIMQqsxfFDegit2pOKs=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		tkHbccyW/m/BiMg0+TIkbT47WE4=
+		4QcQ2Tkdg6WTDHNF5kF4xtLXb+U=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -338,27 +298,27 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		akI9sRqtVgo3ezWDnqLffwc3thM=
+		NnO2oANn2Jb+1p9o/3Dv/p9oL6E=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OHDpQyTw0YfP/ZX9YyTM3x8g7uk=
+		UQ0DROKTHjVx9Tq+ZSnxXYQdGyc=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Hy3Q6fgtLRBvq+Fao8DWx5bRrd8=
+		bjhOsbAyJjZ+Ji4TcYiyGqtHe5E=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		57pQ5iujDI/V80NNOFd5r87YX7o=
+		8N808hyq9Y2zKu7uIOPcpA6uSTs=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Hy3Q6fgtLRBvq+Fao8DWx5bRrd8=
+		bjhOsbAyJjZ+Ji4TcYiyGqtHe5E=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wcaq4KT56TzyHWPpF791VsyGZN8=
+		QJjUeIXU7SzcsSCUaGJ6IhBc9l4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -383,73 +343,38 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qm7TXhZ8cxV+HJ7Xdd1JwMlG2rYJSS3Ul4su5VEY7gI=
+			/ArXVHKuM4Z9xSNuygBE+/d5wooxgsL8OY2An6E+aLM=
 			</data>
 		</dict>
-		<key>DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			C61a8sa3wXyr3qCDUF0r+WvLiofZZKevnNU4hAIOiCg=
 			</data>
 		</dict>
-		<key>DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			C61a8sa3wXyr3qCDUF0r+WvLiofZZKevnNU4hAIOiCg=
-			</data>
-		</dict>
-		<key>DocumentCapture.storyboardc/DocumentCaptureInstructionsViewController.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/DocumentCaptureInstructionsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			JLtKQ9SlKQAak16G/xqGeaI9K48qNe6m+dQa2p+HjC8=
 			</data>
 		</dict>
-		<key>DocumentCapture.storyboardc/DocumentCaptureInstructionsViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JLtKQ9SlKQAak16G/xqGeaI9K48qNe6m+dQa2p+HjC8=
-			</data>
-		</dict>
-		<key>DocumentCapture.storyboardc/DocumentCapturePreviewViewController.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/DocumentCapturePreviewViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			NYN6iRKLuRygoo1Ripe3gnceFpHdCsLa6h4JykwfeMs=
 			</data>
 		</dict>
-		<key>DocumentCapture.storyboardc/DocumentCapturePreviewViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NYN6iRKLuRygoo1Ripe3gnceFpHdCsLa6h4JykwfeMs=
-			</data>
-		</dict>
-		<key>DocumentCapture.storyboardc/DocumentCaptureViewController.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/DocumentCaptureViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			b+UcIVoo7C6H6pYKxkjlKX7VOi8iftcnuKfRRZMXJy0=
 			</data>
 		</dict>
-		<key>DocumentCapture.storyboardc/DocumentCaptureViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b+UcIVoo7C6H6pYKxkjlKX7VOi8iftcnuKfRRZMXJy0=
-			</data>
-		</dict>
-		<key>DocumentCapture.storyboardc/DocumentUploadViewController.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			misvae69P7CjjRABLTt7o/3s9eEKVwcIti9T5fibGIo=
-			</data>
-		</dict>
-		<key>DocumentCapture.storyboardc/DocumentUploadViewController.nib/runtime.nib</key>
+		<key>DocumentCapture.storyboardc/DocumentUploadViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
@@ -463,70 +388,35 @@
 			hKQn4AEQxs/w2ShyXpGKZGip7jD9enFxaCFuRiMZ/zc=
 			</data>
 		</dict>
-		<key>DocumentCapture.storyboardc/Nz6-Xg-y6r-view-18I-ZM-9wZ.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/Nz6-Xg-y6r-view-18I-ZM-9wZ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			B9VEYUMynFZ0MF6nOQBGrmFDIWESQlHmO9Ro+hsLPi8=
 			</data>
 		</dict>
-		<key>DocumentCapture.storyboardc/Nz6-Xg-y6r-view-18I-ZM-9wZ.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LoNMUp3xs1BETT9UBihwmLirKvEcrDnwfpQCcnKjsRg=
-			</data>
-		</dict>
-		<key>DocumentCapture.storyboardc/RetryViewController.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/RetryViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			qpWp0QQ2TdmGqEIatez8lXRXPwchdsqIXtiQHnUC/dc=
 			</data>
 		</dict>
-		<key>DocumentCapture.storyboardc/RetryViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qpWp0QQ2TdmGqEIatez8lXRXPwchdsqIXtiQHnUC/dc=
-			</data>
-		</dict>
-		<key>DocumentCapture.storyboardc/bv3-fe-or7-view-dWP-aa-uph.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/bv3-fe-or7-view-dWP-aa-uph.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			F/39EQzkT2s4vG7EwcczjoE2q2NcRPDsTz6L5ieKXVQ=
 			</data>
 		</dict>
-		<key>DocumentCapture.storyboardc/bv3-fe-or7-view-dWP-aa-uph.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			A6vSKgZU5cf4fO/e+a9Tx1BOWj8WZeLk18RZdIA6zUo=
-			</data>
-		</dict>
-		<key>DocumentCapture.storyboardc/uZ1-C4-XDq-view-stv-OC-CZ5.nib/objects-14.0+.nib</key>
+		<key>DocumentCapture.storyboardc/uZ1-C4-XDq-view-stv-OC-CZ5.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			dT1NreEAZAFvMX10h/05+C1fBMC0sZg2PdwpQn6NFM4=
 			</data>
 		</dict>
-		<key>DocumentCapture.storyboardc/uZ1-C4-XDq-view-stv-OC-CZ5.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dT1NreEAZAFvMX10h/05+C1fBMC0sZg2PdwpQn6NFM4=
-			</data>
-		</dict>
-		<key>DocumentCapture.storyboardc/vOZ-qx-4e5-view-VEb-Bo-e7P.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/b15oVnJjm6ej6gpuprlR4yXlrmjVZSilJluNV1ZLYc=
-			</data>
-		</dict>
-		<key>DocumentCapture.storyboardc/vOZ-qx-4e5-view-VEb-Bo-e7P.nib/runtime.nib</key>
+		<key>DocumentCapture.storyboardc/vOZ-qx-4e5-view-VEb-Bo-e7P.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
@@ -572,7 +462,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iRFzZEjpGJUqPEVTP3fFYe1IDMBJDw22qNyHZIOlNtM=
+			HW/omMh8s3vrfGMk69H5LKzZtRKis/kJcR9QabU7b3w=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -894,7 +784,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Reg2tTZsvkaY4+5nah4EbppnBV2zi5BopW5mBNaubfk=
+			yVn84ZsiLawJEg3bb+2kSccwAMip9tUiii/hQljbZ40=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -957,42 +847,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j8+QgvPl+uVNUeAB3Q59LIEvyCife6IeByI3hAOMXHg=
+			q0RupkTC6seDtt2njbdgu6tqV2+Q29QShW+OzYW6SGo=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IuQ8c3sXSWryxGdi5VABBLzA+xwZgIw6RwGOIIUzri0=
+			DAd5ZjskQ9HPosog7JeijCCO/5hwiDv1DvTEHlSsAXc=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UK4g7Eb3F0Kqlewyg+G9Yl/K73XpBuJL6bA5TvPL2OQ=
+			TT/tPPiL2s1jASdDOfB6yeVikmIFjhGJtVx3YX6yCd4=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iwof//caHV0aS5sb+eFn4Q2s9uAPpzoMYaubeAAAyxc=
+			mdr+ON7NETivv40pE+55e38D36KeJgnApOPjcXwKMEU=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UK4g7Eb3F0Kqlewyg+G9Yl/K73XpBuJL6bA5TvPL2OQ=
+			TT/tPPiL2s1jASdDOfB6yeVikmIFjhGJtVx3YX6yCd4=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+k+4S2GA37yZjOBCiuTCe4jDycl12pivHu4NvIC2IRY=
+			xW2KLY3Hr5C6Y7Qz5QcOz3Cn0Mfma9SF9WXqDkVBXVA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
