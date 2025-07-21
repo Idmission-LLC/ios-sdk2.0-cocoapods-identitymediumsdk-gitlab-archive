@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2CLy2YLrKL0tnH0Mo+/egsme6aA=
+		kaLP4NAO95xyR7OoYmOh0RyHAsY=
 		</data>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		jcwsopYb40PgdVi1cr6UO7x/T+Y=
+		QHSV11hraNzIFN4hECCQ+VCpq60=
 		</data>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		R64SGy11xpYBjPatbjNF1cqnCVU=
+		P/7MKGN0h4bGJNhylFFUhi3ZnJc=
 		</data>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		uS676drltIqylInB0EWrfnlmK5w=
+		oOThktW2abCPm2y8Ms/80z+nnn8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,14 +77,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EdKOONLIG93YvcoEYO44PkBIla8ThhwDGNeE4TaOmG4=
+			iQMmKptJ0erTFciWGOs9O4L6wjrVjXcT0sDHMyCJw50=
 			</data>
 		</dict>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/9UYIIhIA200RlH8MfrSyhygDO6pnjSy8B+9zfIQEx8=
+			y+vDg4re7wqNR8fWYG+uwKQwSg0gH+MoQ6H+2Jjf9tI=
 			</data>
 		</dict>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U+b3ZuH85NgB9W45gjyhf8ELFBzvkV0KvNGsLdoqE2U=
+			tUkm7WsioOjGZqeCV9NFxl1djfMRm+to5a3RPUB5vGc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

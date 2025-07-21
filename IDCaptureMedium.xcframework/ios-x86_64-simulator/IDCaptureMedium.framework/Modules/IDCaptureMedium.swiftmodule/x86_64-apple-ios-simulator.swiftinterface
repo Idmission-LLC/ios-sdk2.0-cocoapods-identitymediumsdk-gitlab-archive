@@ -24,9 +24,9 @@ public typealias ValidateIdCompletion = (_ result: Swift.Result<IDCaptureMedium.
 public typealias AutofillCompletion = (_ result: Swift.Result<IDentityMediumSDK.AutofillResult, any Swift.Error>) -> Swift.Void
 extension IDentityMediumSDK.IDentitySDK {
   public static var customerValidateIdRequest: IDentityMediumSDK.CustomerValidateIdRequest?
-  public class func idValidation(from presenter: UIKit.UIViewController, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonData, captureBack: IDentityMediumSDK.CaptureBack = .auto, completion: @escaping IDCaptureMedium.ValidateIdCompletion)
+  public class func idValidation(from presenter: UIKit.UIViewController, customerDataOptions: IDentityMediumSDK.CommonCustomerDataRequest? = nil, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonData, captureBack: IDentityMediumSDK.CaptureBack = .auto, completion: @escaping IDCaptureMedium.ValidateIdCompletion)
   public class func idValidation(from presenter: UIKit.UIViewController, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, captureBack: IDentityMediumSDK.CaptureBack = .auto, completion: @escaping IDCaptureMedium.ValidateIdCompletion)
-  public class func idValidation(from presenter: UIKit.UIViewController, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonData, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, completion: @escaping IDCaptureMedium.ValidateIdCompletion)
+  public class func idValidation(from presenter: UIKit.UIViewController, customerDataOptions: IDentityMediumSDK.CommonCustomerDataRequest? = nil, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonData, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, completion: @escaping IDCaptureMedium.ValidateIdCompletion)
   public class func idValidation(from presenter: UIKit.UIViewController, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, completion: @escaping IDCaptureMedium.ValidateIdCompletion)
   public class func autofill(from presenter: UIKit.UIViewController, completion: @escaping IDCaptureMedium.AutofillCompletion)
 }
