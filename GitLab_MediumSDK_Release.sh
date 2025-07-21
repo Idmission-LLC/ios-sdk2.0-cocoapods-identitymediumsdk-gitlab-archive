@@ -57,13 +57,3 @@ git tag "${SDK_VERSION}"
 git push origin "${SDK_VERSION}"
 
 echo "✅ Done! MediumSDK updated and tagged as '${SDK_VERSION}'."
-
-#Push All PodSpec file to CocoapodsTrunk
-#echo "⬆️ MediumSDK: Pushing to Cocoapod Trunk"
-#pod trunk push FingerPrintCaptureMedium.podspec
-#pod trunk push IDCaptureMedium.podspec
-#pod trunk push SelfieCaptureMedium.podspec
-#pod trunk push IDentityMediumModels.podspec
-#pod trunk push SignatureCaptureMedium.podspec
-#pod trunk push VoiceCaptureMedium.podspec
-#pod trunk push IDentityMediumSDK2.0.podspec
