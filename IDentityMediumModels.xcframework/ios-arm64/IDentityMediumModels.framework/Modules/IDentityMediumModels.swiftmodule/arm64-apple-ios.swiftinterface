@@ -15,3 +15,7 @@ extension Foundation.Bundle {
 @_hasMissingDesignatedInitializers public class IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt0z {
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @objcMembers final public class ModelsEntryPoint : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
