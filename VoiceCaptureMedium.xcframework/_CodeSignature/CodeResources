@@ -54,7 +54,7 @@
 		</data>
 		<key>ios-arm64/VoiceCaptureMedium.framework/VoiceCaptureMedium</key>
 		<data>
-		HXOU3gdR1BtNxL/sZH7Ffg+QooI=
+		A42WkG/PWIfSN9iylBhI+5+yrcQ=
 		</data>
 		<key>ios-arm64/VoiceCaptureMedium.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/VoiceCaptureMedium.framework.dSYM/Contents/Resources/DWARF/VoiceCaptureMedium</key>
 		<data>
-		tvT+4AmaTbEwfgx7fLQnvo+sy6g=
+		1D+UC5G6EkfJQ8c6Bh0Ykgnmlms=
 		</data>
 		<key>ios-arm64/dSYMs/VoiceCaptureMedium.framework.dSYM/Contents/Resources/Relocations/aarch64/VoiceCaptureMedium.yml</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/VoiceCaptureMedium.framework.dSYM/Contents/Resources/DWARF/VoiceCaptureMedium</key>
 		<data>
-		uLggG5LLretoOzPPnlMojd5+m04=
+		Sjaeg0Q8/oRJZRdvT3WKfR4SHXI=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/VoiceCaptureMedium.framework.dSYM/Contents/Resources/Relocations/x86_64/VoiceCaptureMedium.yml</key>
 		<data>
@@ -279,11 +279,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HXOU3gdR1BtNxL/sZH7Ffg+QooI=
+			A42WkG/PWIfSN9iylBhI+5+yrcQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			4k7VU++0zVFfq+NRnJEWEf07c8a84ONFLEusZdMwuo0=
+			hzt/mTdYGstaHV157zUPH0BtqBlb3KnEqCGJhh9D0aM=
 			</data>
 		</dict>
 		<key>ios-arm64/VoiceCaptureMedium.framework/_CodeSignature/CodeResources</key>
@@ -312,11 +312,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tvT+4AmaTbEwfgx7fLQnvo+sy6g=
+			1D+UC5G6EkfJQ8c6Bh0Ykgnmlms=
 			</data>
 			<key>hash2</key>
 			<data>
-			sVKc4yqlmV+rdFSrfXJxES6RUhy6VF6wdKkvvErmGmI=
+			dn0pdxpkZkMz+EDZTn3aNRgtpAD7AVvpWqGeSTq58Y8=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/VoiceCaptureMedium.framework.dSYM/Contents/Resources/Relocations/aarch64/VoiceCaptureMedium.yml</key>
@@ -499,11 +499,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uLggG5LLretoOzPPnlMojd5+m04=
+			Sjaeg0Q8/oRJZRdvT3WKfR4SHXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			9u8VDpzUdB/hrhx5uwP6A3nomkN4gy+dHZTYKfWifS4=
+			lWJKRtPdL+3DgI0daTAb21hT1PiGyWM56m5gmip8NIg=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/VoiceCaptureMedium.framework.dSYM/Contents/Resources/Relocations/x86_64/VoiceCaptureMedium.yml</key>
