@@ -2,74 +2,74 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-medium/Build/Products/Release-iphoneos/VoiceCaptureMedium.framework/VoiceCaptureMedium'
 relocations:
-  - { offset: 0x7CEA6, size: 0x8, addend: 0x0, symName: _VoiceCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0x10800, symSize: 0x0 }
-  - { offset: 0x7CEDB, size: 0x8, addend: 0x0, symName: _VoiceCaptureMediumVersionNumber, symObjAddr: 0x38, symBinAddr: 0x10838, symSize: 0x0 }
+  - { offset: 0x7CEA6, size: 0x8, addend: 0x0, symName: _VoiceCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0x10BF0, symSize: 0x0 }
+  - { offset: 0x7CEDB, size: 0x8, addend: 0x0, symName: _VoiceCaptureMediumVersionNumber, symObjAddr: 0x38, symBinAddr: 0x10C28, symSize: 0x0 }
   - { offset: 0x7DD30, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x2E08, symBinAddr: 0xAE04, symSize: 0x2C }
   - { offset: 0x7DD48, size: 0x8, addend: 0x0, symName: '_$sSbIegy_SbIeyBy_TR', symObjAddr: 0x3044, symBinAddr: 0xB040, symSize: 0x3C }
-  - { offset: 0x7DE72, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerCfETo', symObjAddr: 0x4A60, symBinAddr: 0xCA5C, symSize: 0x194 }
-  - { offset: 0x7DEA1, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerCMU', symObjAddr: 0x4BF4, symBinAddr: 0xCBF0, symSize: 0x8 }
-  - { offset: 0x7DEB5, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerCMa', symObjAddr: 0x4BFC, symBinAddr: 0xCBF8, symSize: 0x3C }
-  - { offset: 0x7DEC9, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerCMr', symObjAddr: 0x4C38, symBinAddr: 0xCC34, symSize: 0xC8 }
-  - { offset: 0x7DEEC, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC31audioRecorderDidFinishRecording_12successfullyySo07AVAudioG0C_SbtFTo', symObjAddr: 0x4D00, symBinAddr: 0xCCFC, symSize: 0x70 }
-  - { offset: 0x7DF2E, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC32audioRecorderEncodeErrorDidOccur_5errorySo07AVAudioG0C_s0I0_pSgtFTo', symObjAddr: 0x4D70, symBinAddr: 0xCD6C, symSize: 0x84 }
-  - { offset: 0x7DF70, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC27audioPlayerDidFinishPlaying_12successfullyySo07AVAudioG0C_SbtFTo', symObjAddr: 0x4DF4, symBinAddr: 0xCDF0, symSize: 0x70 }
-  - { offset: 0x7DFB2, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC30audioPlayerDecodeErrorDidOccur_5errorySo07AVAudioG0C_s0I0_pSgtFTo', symObjAddr: 0x4E64, symBinAddr: 0xCE60, symSize: 0x84 }
-  - { offset: 0x7DFE5, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x4EE8, symBinAddr: 0xCEE4, symSize: 0xC }
-  - { offset: 0x7DFF9, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x4EF4, symBinAddr: 0xCEF0, symSize: 0x4 }
-  - { offset: 0x7E00D, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOwet', symObjAddr: 0x4EF8, symBinAddr: 0xCEF4, symSize: 0x90 }
-  - { offset: 0x7E021, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOwst', symObjAddr: 0x4F88, symBinAddr: 0xCF84, symSize: 0xBC }
-  - { offset: 0x7E035, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOwug', symObjAddr: 0x5044, symBinAddr: 0xD040, symSize: 0x8 }
-  - { offset: 0x7E049, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOwup', symObjAddr: 0x504C, symBinAddr: 0xD048, symSize: 0x4 }
-  - { offset: 0x7E05D, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOwui', symObjAddr: 0x5050, symBinAddr: 0xD04C, symSize: 0x8 }
-  - { offset: 0x7E071, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOMa', symObjAddr: 0x5058, symBinAddr: 0xD054, symSize: 0x10 }
-  - { offset: 0x7E085, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOSHAASQWb', symObjAddr: 0x5068, symBinAddr: 0xD064, symSize: 0x4 }
-  - { offset: 0x7E099, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOAESQAAWl', symObjAddr: 0x506C, symBinAddr: 0xD068, symSize: 0x44 }
-  - { offset: 0x7E15F, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x56F4, symBinAddr: 0xD6F0, symSize: 0x64 }
-  - { offset: 0x7E18C, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo38UIApplicationOpenExternalURLOptionsKeya_Tg5', symObjAddr: 0x5758, symBinAddr: 0xD754, symSize: 0x80 }
-  - { offset: 0x7E215, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x57D8, symBinAddr: 0xD7D4, symSize: 0xE0 }
-  - { offset: 0x7E28D, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo38UIApplicationOpenExternalURLOptionsKeya_Tg5', symObjAddr: 0x58B8, symBinAddr: 0xD8B4, symSize: 0x174 }
-  - { offset: 0x7E352, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo7UILabelC_Tg5', symObjAddr: 0x5A2C, symBinAddr: 0xDA28, symSize: 0x1F4 }
-  - { offset: 0x7E49A, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x65A0, symBinAddr: 0xE59C, symSize: 0x40 }
-  - { offset: 0x7E4AE, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC4save33_3F31B092865C7E959D9E89F98895FE00LLyyFyycfU_TA', symObjAddr: 0x65E4, symBinAddr: 0xE5E0, symSize: 0x30 }
-  - { offset: 0x7E4C2, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x6614, symBinAddr: 0xE610, symSize: 0x10 }
-  - { offset: 0x7E4D6, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x6624, symBinAddr: 0xE620, symSize: 0x8 }
-  - { offset: 0x7E4EA, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x662C, symBinAddr: 0xE628, symSize: 0x44 }
-  - { offset: 0x7E4FE, size: 0x8, addend: 0x0, symName: '_$ss6ResultOy10Foundation3URLVs5Error_pGIegn_SgWOe', symObjAddr: 0x6670, symBinAddr: 0xE66C, symSize: 0x10 }
-  - { offset: 0x7E512, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x6680, symBinAddr: 0xE67C, symSize: 0x10 }
-  - { offset: 0x7E526, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC29checkAudioAuthorizationStatus33_3F31B092865C7E959D9E89F98895FE00LLyyFySbcfU_TA', symObjAddr: 0x66B4, symBinAddr: 0xE6B0, symSize: 0x8 }
-  - { offset: 0x7E53A, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC19authorizationStatus33_3F31B092865C7E959D9E89F98895FE00LL10completionyySbc_tFyyScMYccfU2_TA', symObjAddr: 0x66BC, symBinAddr: 0xE6B8, symSize: 0x24 }
-  - { offset: 0x7E56E, size: 0x8, addend: 0x0, symName: '_$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl', symObjAddr: 0x66E0, symBinAddr: 0xE6DC, symSize: 0x4C }
-  - { offset: 0x7E582, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x672C, symBinAddr: 0xE728, symSize: 0x44 }
-  - { offset: 0x7E596, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC19authorizationStatus33_3F31B092865C7E959D9E89F98895FE00LL10completionyySbc_tFyyScMYccfU1_TA', symObjAddr: 0x6794, symBinAddr: 0xE790, symSize: 0x24 }
-  - { offset: 0x7E5CA, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC19authorizationStatus33_3F31B092865C7E959D9E89F98895FE00LL10completionyySbc_tFySbcfU0_TA', symObjAddr: 0x67B8, symBinAddr: 0xE7B4, symSize: 0x8 }
-  - { offset: 0x7E5DE, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC19authorizationStatus33_3F31B092865C7E959D9E89F98895FE00LL10completionyySbc_tFySbcfU0_yyScMYccfU_TA', symObjAddr: 0x67E4, symBinAddr: 0xE7E0, symSize: 0x28 }
-  - { offset: 0x7E612, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC29checkAudioAuthorizationStatus33_3F31B092865C7E959D9E89F98895FE00LLyyFySbcfU_yyScMYccfU_TA', symObjAddr: 0x6830, symBinAddr: 0xE82C, symSize: 0xC }
-  - { offset: 0x7E626, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC29checkAudioAuthorizationStatus33_3F31B092865C7E959D9E89F98895FE00LLyyFySbcfU_yyScMYccfU_ySo13UIAlertActionCcfU_TA', symObjAddr: 0x68F0, symBinAddr: 0xE8EC, symSize: 0x40 }
-  - { offset: 0x7E63A, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC29checkAudioAuthorizationStatus33_3F31B092865C7E959D9E89F98895FE00LLyyFySbcfU_yyScMYccfU_yycfU0_TA', symObjAddr: 0x695C, symBinAddr: 0xE958, symSize: 0x8 }
-  - { offset: 0x7E64E, size: 0x8, addend: 0x0, symName: '_$ss6ResultOy10Foundation3URLVs5Error_pGIegn_SgWOy', symObjAddr: 0x6964, symBinAddr: 0xE960, symSize: 0x10 }
-  - { offset: 0x7E662, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaMa', symObjAddr: 0x6974, symBinAddr: 0xE970, symSize: 0x54 }
-  - { offset: 0x7E676, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC6cancel33_3F31B092865C7E959D9E89F98895FE00LLyyFyycfU_TA', symObjAddr: 0x6A0C, symBinAddr: 0xEA08, symSize: 0x8 }
-  - { offset: 0x7E68A, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC14viewWillAppearyySbFySo7NSTimerCYbcfU_TA', symObjAddr: 0x6A14, symBinAddr: 0xEA10, symSize: 0x8 }
-  - { offset: 0x7E69E, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas20_SwiftNewtypeWrapperSCSYWb', symObjAddr: 0x6A54, symBinAddr: 0xEA50, symSize: 0x2C }
-  - { offset: 0x7E6B2, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb', symObjAddr: 0x6A80, symBinAddr: 0xEA7C, symSize: 0x2C }
-  - { offset: 0x7E6C6, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaSHSCSQWb', symObjAddr: 0x6AAC, symBinAddr: 0xEAA8, symSize: 0x2C }
+  - { offset: 0x7DE72, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerCfETo', symObjAddr: 0x4E14, symBinAddr: 0xCE10, symSize: 0x194 }
+  - { offset: 0x7DEA1, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerCMU', symObjAddr: 0x4FA8, symBinAddr: 0xCFA4, symSize: 0x8 }
+  - { offset: 0x7DEB5, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerCMa', symObjAddr: 0x4FB0, symBinAddr: 0xCFAC, symSize: 0x3C }
+  - { offset: 0x7DEC9, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerCMr', symObjAddr: 0x4FEC, symBinAddr: 0xCFE8, symSize: 0xC8 }
+  - { offset: 0x7DEEC, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC31audioRecorderDidFinishRecording_12successfullyySo07AVAudioG0C_SbtFTo', symObjAddr: 0x50B4, symBinAddr: 0xD0B0, symSize: 0x70 }
+  - { offset: 0x7DF2E, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC32audioRecorderEncodeErrorDidOccur_5errorySo07AVAudioG0C_s0I0_pSgtFTo', symObjAddr: 0x5124, symBinAddr: 0xD120, symSize: 0x84 }
+  - { offset: 0x7DF70, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC27audioPlayerDidFinishPlaying_12successfullyySo07AVAudioG0C_SbtFTo', symObjAddr: 0x51A8, symBinAddr: 0xD1A4, symSize: 0x70 }
+  - { offset: 0x7DFB2, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC30audioPlayerDecodeErrorDidOccur_5errorySo07AVAudioG0C_s0I0_pSgtFTo', symObjAddr: 0x5218, symBinAddr: 0xD214, symSize: 0x84 }
+  - { offset: 0x7DFE5, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x529C, symBinAddr: 0xD298, symSize: 0xC }
+  - { offset: 0x7DFF9, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x52A8, symBinAddr: 0xD2A4, symSize: 0x4 }
+  - { offset: 0x7E00D, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOwet', symObjAddr: 0x52AC, symBinAddr: 0xD2A8, symSize: 0x90 }
+  - { offset: 0x7E021, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOwst', symObjAddr: 0x533C, symBinAddr: 0xD338, symSize: 0xBC }
+  - { offset: 0x7E035, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOwug', symObjAddr: 0x53F8, symBinAddr: 0xD3F4, symSize: 0x8 }
+  - { offset: 0x7E049, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOwup', symObjAddr: 0x5400, symBinAddr: 0xD3FC, symSize: 0x4 }
+  - { offset: 0x7E05D, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOwui', symObjAddr: 0x5404, symBinAddr: 0xD400, symSize: 0x8 }
+  - { offset: 0x7E071, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOMa', symObjAddr: 0x540C, symBinAddr: 0xD408, symSize: 0x10 }
+  - { offset: 0x7E085, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOSHAASQWb', symObjAddr: 0x541C, symBinAddr: 0xD418, symSize: 0x4 }
+  - { offset: 0x7E099, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOAESQAAWl', symObjAddr: 0x5420, symBinAddr: 0xD41C, symSize: 0x44 }
+  - { offset: 0x7E15F, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x5AA8, symBinAddr: 0xDAA4, symSize: 0x64 }
+  - { offset: 0x7E18C, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo38UIApplicationOpenExternalURLOptionsKeya_Tg5', symObjAddr: 0x5B0C, symBinAddr: 0xDB08, symSize: 0x80 }
+  - { offset: 0x7E215, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x5B8C, symBinAddr: 0xDB88, symSize: 0xE0 }
+  - { offset: 0x7E28D, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo38UIApplicationOpenExternalURLOptionsKeya_Tg5', symObjAddr: 0x5C6C, symBinAddr: 0xDC68, symSize: 0x174 }
+  - { offset: 0x7E352, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo7UILabelC_Tg5', symObjAddr: 0x5DE0, symBinAddr: 0xDDDC, symSize: 0x1F4 }
+  - { offset: 0x7E49A, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x6950, symBinAddr: 0xE94C, symSize: 0x40 }
+  - { offset: 0x7E4AE, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC4save33_3F31B092865C7E959D9E89F98895FE00LLyyFyycfU_TA', symObjAddr: 0x6994, symBinAddr: 0xE990, symSize: 0x30 }
+  - { offset: 0x7E4C2, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x69C4, symBinAddr: 0xE9C0, symSize: 0x10 }
+  - { offset: 0x7E4D6, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x69D4, symBinAddr: 0xE9D0, symSize: 0x8 }
+  - { offset: 0x7E4EA, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x69DC, symBinAddr: 0xE9D8, symSize: 0x44 }
+  - { offset: 0x7E4FE, size: 0x8, addend: 0x0, symName: '_$ss6ResultOy10Foundation3URLVs5Error_pGIegn_SgWOe', symObjAddr: 0x6A20, symBinAddr: 0xEA1C, symSize: 0x10 }
+  - { offset: 0x7E512, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x6A30, symBinAddr: 0xEA2C, symSize: 0x10 }
+  - { offset: 0x7E526, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC29checkAudioAuthorizationStatus33_3F31B092865C7E959D9E89F98895FE00LLyyFySbcfU_TA', symObjAddr: 0x6A64, symBinAddr: 0xEA60, symSize: 0x8 }
+  - { offset: 0x7E53A, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC19authorizationStatus33_3F31B092865C7E959D9E89F98895FE00LL10completionyySbc_tFyyScMYccfU2_TA', symObjAddr: 0x6A6C, symBinAddr: 0xEA68, symSize: 0x24 }
+  - { offset: 0x7E56E, size: 0x8, addend: 0x0, symName: '_$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl', symObjAddr: 0x6A90, symBinAddr: 0xEA8C, symSize: 0x4C }
+  - { offset: 0x7E582, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x6ADC, symBinAddr: 0xEAD8, symSize: 0x44 }
+  - { offset: 0x7E596, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC19authorizationStatus33_3F31B092865C7E959D9E89F98895FE00LL10completionyySbc_tFyyScMYccfU1_TA', symObjAddr: 0x6B44, symBinAddr: 0xEB40, symSize: 0x24 }
+  - { offset: 0x7E5CA, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC19authorizationStatus33_3F31B092865C7E959D9E89F98895FE00LL10completionyySbc_tFySbcfU0_TA', symObjAddr: 0x6B68, symBinAddr: 0xEB64, symSize: 0x8 }
+  - { offset: 0x7E5DE, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC19authorizationStatus33_3F31B092865C7E959D9E89F98895FE00LL10completionyySbc_tFySbcfU0_yyScMYccfU_TA', symObjAddr: 0x6B94, symBinAddr: 0xEB90, symSize: 0x28 }
+  - { offset: 0x7E612, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC29checkAudioAuthorizationStatus33_3F31B092865C7E959D9E89F98895FE00LLyyFySbcfU_yyScMYccfU_TA', symObjAddr: 0x6BE0, symBinAddr: 0xEBDC, symSize: 0xC }
+  - { offset: 0x7E626, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC29checkAudioAuthorizationStatus33_3F31B092865C7E959D9E89F98895FE00LLyyFySbcfU_yyScMYccfU_ySo13UIAlertActionCcfU_TA', symObjAddr: 0x6CA0, symBinAddr: 0xEC9C, symSize: 0x40 }
+  - { offset: 0x7E63A, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC29checkAudioAuthorizationStatus33_3F31B092865C7E959D9E89F98895FE00LLyyFySbcfU_yyScMYccfU_yycfU0_TA', symObjAddr: 0x6D0C, symBinAddr: 0xED08, symSize: 0x8 }
+  - { offset: 0x7E64E, size: 0x8, addend: 0x0, symName: '_$ss6ResultOy10Foundation3URLVs5Error_pGIegn_SgWOy', symObjAddr: 0x6D14, symBinAddr: 0xED10, symSize: 0x10 }
+  - { offset: 0x7E662, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaMa', symObjAddr: 0x6D24, symBinAddr: 0xED20, symSize: 0x54 }
+  - { offset: 0x7E676, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC6cancel33_3F31B092865C7E959D9E89F98895FE00LLyyFyycfU_TA', symObjAddr: 0x6DBC, symBinAddr: 0xEDB8, symSize: 0x8 }
+  - { offset: 0x7E68A, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC14viewWillAppearyySbFySo7NSTimerCYbcfU_TA', symObjAddr: 0x6DC4, symBinAddr: 0xEDC0, symSize: 0x8 }
+  - { offset: 0x7E69E, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas20_SwiftNewtypeWrapperSCSYWb', symObjAddr: 0x6E04, symBinAddr: 0xEE00, symSize: 0x2C }
+  - { offset: 0x7E6B2, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb', symObjAddr: 0x6E30, symBinAddr: 0xEE2C, symSize: 0x2C }
+  - { offset: 0x7E6C6, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaSHSCSQWb', symObjAddr: 0x6E5C, symBinAddr: 0xEE58, symSize: 0x2C }
   - { offset: 0x7E750, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x80, symBinAddr: 0x8080, symSize: 0x40 }
   - { offset: 0x7E9AC, size: 0x8, addend: 0x0, symName: '_$sSTsSQ7ElementRpzrlE8containsySbABFSay18VoiceCaptureMedium0cD14ViewControllerC5StateOG_Tg5', symObjAddr: 0x34A0, symBinAddr: 0xB49C, symSize: 0x60 }
   - { offset: 0x7E9E4, size: 0x8, addend: 0x0, symName: '_$sSTsSQ7ElementRpzrlE8containsySbABFSay18VoiceCaptureMedium0cD14ViewControllerC5StateOG_Tg5', symObjAddr: 0x34A0, symBinAddr: 0xB49C, symSize: 0x60 }
   - { offset: 0x7E9F8, size: 0x8, addend: 0x0, symName: '_$sSTsSQ7ElementRpzrlE8containsySbABFSay18VoiceCaptureMedium0cD14ViewControllerC5StateOG_Tg5', symObjAddr: 0x34A0, symBinAddr: 0xB49C, symSize: 0x60 }
   - { offset: 0x7EA0C, size: 0x8, addend: 0x0, symName: '_$sSTsSQ7ElementRpzrlE8containsySbABFSay18VoiceCaptureMedium0cD14ViewControllerC5StateOG_Tg5', symObjAddr: 0x34A0, symBinAddr: 0xB49C, symSize: 0x60 }
   - { offset: 0x7EA20, size: 0x8, addend: 0x0, symName: '_$sSTsSQ7ElementRpzrlE8containsySbABFSay18VoiceCaptureMedium0cD14ViewControllerC5StateOG_Tg5', symObjAddr: 0x34A0, symBinAddr: 0xB49C, symSize: 0x60 }
-  - { offset: 0x7EB57, size: 0x8, addend: 0x0, symName: '_$ss20_SwiftNewtypeWrapperPss21_ObjectiveCBridgeable8RawValueRpzrlE016_forceBridgeFromD1C_6resultyAD_01_D5CTypeQZ_xSgztFZSo38UIApplicationOpenExternalURLOptionsKeya_Tgmq5', symObjAddr: 0x5320, symBinAddr: 0xD31C, symSize: 0x84 }
-  - { offset: 0x7EBE8, size: 0x8, addend: 0x0, symName: '_$ss20_SwiftNewtypeWrapperPss21_ObjectiveCBridgeable8RawValueRpzrlE024_conditionallyBridgeFromD1C_6resultSbAD_01_D5CTypeQZ_xSgztFZSo38UIApplicationOpenExternalURLOptionsKeya_Tgmq5', symObjAddr: 0x53A4, symBinAddr: 0xD3A0, symSize: 0x8C }
-  - { offset: 0x7EC79, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromF1C_6resulty01_F5CTypeQz_xSgztFZTW', symObjAddr: 0x543C, symBinAddr: 0xD438, symSize: 0x4 }
-  - { offset: 0x7EC95, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromF1C_6resultSb01_F5CTypeQz_xSgztFZTW', symObjAddr: 0x5440, symBinAddr: 0xD43C, symSize: 0x4 }
-  - { offset: 0x7ECC0, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromF1Cyx01_F5CTypeQzSgFZTW', symObjAddr: 0x5444, symBinAddr: 0xD440, symSize: 0x40 }
-  - { offset: 0x7ED3E, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaSHSCSH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x54CC, symBinAddr: 0xD4C8, symSize: 0x40 }
-  - { offset: 0x7EDBC, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaSHSCSH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x550C, symBinAddr: 0xD508, symSize: 0x70 }
-  - { offset: 0x7EE32, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x557C, symBinAddr: 0xD578, symSize: 0x88 }
-  - { offset: 0x7EED4, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas35_HasCustomAnyHashableRepresentationSCsACP03_toghI0s0hI0VSgyFTW', symObjAddr: 0x5670, symBinAddr: 0xD66C, symSize: 0x84 }
-  - { offset: 0x7EF20, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTgm5Tf4g_n', symObjAddr: 0x6180, symBinAddr: 0xE17C, symSize: 0x110 }
-  - { offset: 0x7F049, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo38UIApplicationOpenExternalURLOptionsKeya_ypTgm5Tf4g_n', symObjAddr: 0x6290, symBinAddr: 0xE28C, symSize: 0x100 }
+  - { offset: 0x7EB57, size: 0x8, addend: 0x0, symName: '_$ss20_SwiftNewtypeWrapperPss21_ObjectiveCBridgeable8RawValueRpzrlE016_forceBridgeFromD1C_6resultyAD_01_D5CTypeQZ_xSgztFZSo38UIApplicationOpenExternalURLOptionsKeya_Tgmq5', symObjAddr: 0x56D4, symBinAddr: 0xD6D0, symSize: 0x84 }
+  - { offset: 0x7EBE8, size: 0x8, addend: 0x0, symName: '_$ss20_SwiftNewtypeWrapperPss21_ObjectiveCBridgeable8RawValueRpzrlE024_conditionallyBridgeFromD1C_6resultSbAD_01_D5CTypeQZ_xSgztFZSo38UIApplicationOpenExternalURLOptionsKeya_Tgmq5', symObjAddr: 0x5758, symBinAddr: 0xD754, symSize: 0x8C }
+  - { offset: 0x7EC79, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromF1C_6resulty01_F5CTypeQz_xSgztFZTW', symObjAddr: 0x57F0, symBinAddr: 0xD7EC, symSize: 0x4 }
+  - { offset: 0x7EC95, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromF1C_6resultSb01_F5CTypeQz_xSgztFZTW', symObjAddr: 0x57F4, symBinAddr: 0xD7F0, symSize: 0x4 }
+  - { offset: 0x7ECC0, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromF1Cyx01_F5CTypeQzSgFZTW', symObjAddr: 0x57F8, symBinAddr: 0xD7F4, symSize: 0x40 }
+  - { offset: 0x7ED3E, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaSHSCSH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x5880, symBinAddr: 0xD87C, symSize: 0x40 }
+  - { offset: 0x7EDBC, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaSHSCSH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x58C0, symBinAddr: 0xD8BC, symSize: 0x70 }
+  - { offset: 0x7EE32, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x5930, symBinAddr: 0xD92C, symSize: 0x88 }
+  - { offset: 0x7EED4, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas35_HasCustomAnyHashableRepresentationSCsACP03_toghI0s0hI0VSgyFTW', symObjAddr: 0x5A24, symBinAddr: 0xDA20, symSize: 0x84 }
+  - { offset: 0x7EF20, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTgm5Tf4g_n', symObjAddr: 0x6534, symBinAddr: 0xE530, symSize: 0x110 }
+  - { offset: 0x7F049, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo38UIApplicationOpenExternalURLOptionsKeya_ypTgm5Tf4g_n', symObjAddr: 0x6644, symBinAddr: 0xE640, symSize: 0x100 }
   - { offset: 0x7F1B4, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x14 }
   - { offset: 0x7F230, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOSHAASH9hashValueSivgTW', symObjAddr: 0x14, symBinAddr: 0x8014, symSize: 0x44 }
   - { offset: 0x7F2F6, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x58, symBinAddr: 0x8058, symSize: 0x28 }
@@ -131,28 +131,28 @@ relocations:
   - { offset: 0x81B4A, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC8onDelete33_3F31B092865C7E959D9E89F98895FE00LLyyF', symObjAddr: 0x3500, symBinAddr: 0xB4FC, symSize: 0x11C }
   - { offset: 0x81C5C, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC4stop33_3F31B092865C7E959D9E89F98895FE00LLyyF', symObjAddr: 0x361C, symBinAddr: 0xB618, symSize: 0x94 }
   - { offset: 0x81D41, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC4play33_3F31B092865C7E959D9E89F98895FE00LLyyF', symObjAddr: 0x36B0, symBinAddr: 0xB6AC, symSize: 0x1FC }
-  - { offset: 0x81FAA, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC4save33_3F31B092865C7E959D9E89F98895FE00LLyyF', symObjAddr: 0x38AC, symBinAddr: 0xB8A8, symSize: 0x5B4 }
-  - { offset: 0x81FFF, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC4save33_3F31B092865C7E959D9E89F98895FE00LLyyFyycfU_', symObjAddr: 0x3E60, symBinAddr: 0xBE5C, symSize: 0xE8 }
-  - { offset: 0x8206B, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC6cancel33_3F31B092865C7E959D9E89F98895FE00LLyyFyycfU_', symObjAddr: 0x3F48, symBinAddr: 0xBF44, symSize: 0x214 }
-  - { offset: 0x821A8, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC13setTimerLabel33_3F31B092865C7E959D9E89F98895FE00LL12timeIntervalySd_tF', symObjAddr: 0x415C, symBinAddr: 0xC158, symSize: 0x144 }
-  - { offset: 0x8232C, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC24audioWillEnterForeground33_3F31B092865C7E959D9E89F98895FE00LL12notificationy10Foundation12NotificationV_tFTo', symObjAddr: 0x42A0, symBinAddr: 0xC29C, symSize: 0xEC }
-  - { offset: 0x823E5, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0x438C, symBinAddr: 0xC388, symSize: 0x328 }
-  - { offset: 0x82472, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x46B4, symBinAddr: 0xC6B0, symSize: 0x60 }
-  - { offset: 0x82486, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x4714, symBinAddr: 0xC710, symSize: 0x2F0 }
-  - { offset: 0x82505, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x4A04, symBinAddr: 0xCA00, symSize: 0x28 }
-  - { offset: 0x82519, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerCfD', symObjAddr: 0x4A2C, symBinAddr: 0xCA28, symSize: 0x34 }
-  - { offset: 0x8253C, size: 0x8, addend: 0x0, symName: '_$sSo15AVAudioRecorderC3url8settingsAB10Foundation3URLV_SDySSypGtKcfcTO', symObjAddr: 0x50B0, symBinAddr: 0xD0AC, symSize: 0x158 }
-  - { offset: 0x82550, size: 0x8, addend: 0x0, symName: '_$sSo13AVAudioPlayerC10contentsOfAB10Foundation3URLV_tKcfcTO', symObjAddr: 0x5208, symBinAddr: 0xD204, symSize: 0x118 }
-  - { offset: 0x8259C, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaSYSCSY8rawValuexSg03RawG0Qz_tcfCTW', symObjAddr: 0x5604, symBinAddr: 0xD600, symSize: 0x44 }
-  - { offset: 0x825C5, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaSYSCSY8rawValue03RawG0QzvgTW', symObjAddr: 0x5648, symBinAddr: 0xD644, symSize: 0x28 }
-  - { offset: 0x825F5, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC19authorizationStatus33_3F31B092865C7E959D9E89F98895FE00LL10completionyySbc_tFTf4nd_n', symObjAddr: 0x5C20, symBinAddr: 0xDC1C, symSize: 0x3AC }
-  - { offset: 0x82643, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC21configureAudioSession33_3F31B092865C7E959D9E89F98895FE00LLyyKFTf4d_n', symObjAddr: 0x5FCC, symBinAddr: 0xDFC8, symSize: 0x1B4 }
-  - { offset: 0x827EF, size: 0x8, addend: 0x0, symName: '_$s17IDentityMediumSDK0aC0C012VoiceCaptureB0E05voiceE04from10completionySo16UIViewControllerC_ys6ResultOy10Foundation3URLVs5Error_pGctFZ', symObjAddr: 0x0, symBinAddr: 0xEB84, symSize: 0x19C }
-  - { offset: 0x82857, size: 0x8, addend: 0x0, symName: '_$s17IDentityMediumSDK0aC0C012VoiceCaptureB0E05voiceE04from10completionySo16UIViewControllerC_ys6ResultOy10Foundation3URLVs5Error_pGctFZ', symObjAddr: 0x0, symBinAddr: 0xEB84, symSize: 0x19C }
-  - { offset: 0x82924, size: 0x8, addend: 0x0, symName: '_$s17IDentityMediumSDK0aC0C012VoiceCaptureB0E25presentableViewController33_6E61E35C9F190C0B6B09E0CBA1792039LLAD0de11PresentablegH0_pSgvgZTf4d_n', symObjAddr: 0x1DC, symBinAddr: 0xED20, symSize: 0x13C }
-  - { offset: 0x829C6, size: 0x8, addend: 0x0, symName: '_$ss6ResultOy10Foundation3URLVs5Error_pGWOh', symObjAddr: 0x318, symBinAddr: 0xEE5C, symSize: 0x40 }
-  - { offset: 0x829DA, size: 0x8, addend: 0x0, symName: '_$sSo16UIViewControllerCMa', symObjAddr: 0x368, symBinAddr: 0xEE9C, symSize: 0x3C }
-  - { offset: 0x82C11, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium81IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt633_69EE281C62693A04D9D25CBEA4CFC695LLCfD', symObjAddr: 0x0, symBinAddr: 0xEED8, symSize: 0x10 }
-  - { offset: 0x82C53, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium81IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt633_69EE281C62693A04D9D25CBEA4CFC695LLCMa', symObjAddr: 0x10, symBinAddr: 0xEEE8, symSize: 0x20 }
-  - { offset: 0x82C6E, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium81IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt633_69EE281C62693A04D9D25CBEA4CFC695LLCfD', symObjAddr: 0x0, symBinAddr: 0xEED8, symSize: 0x10 }
+  - { offset: 0x81FAA, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC4save33_3F31B092865C7E959D9E89F98895FE00LLyyF', symObjAddr: 0x38AC, symBinAddr: 0xB8A8, symSize: 0x968 }
+  - { offset: 0x81FFF, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC4save33_3F31B092865C7E959D9E89F98895FE00LLyyFyycfU_', symObjAddr: 0x4214, symBinAddr: 0xC210, symSize: 0xE8 }
+  - { offset: 0x8206B, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC6cancel33_3F31B092865C7E959D9E89F98895FE00LLyyFyycfU_', symObjAddr: 0x42FC, symBinAddr: 0xC2F8, symSize: 0x214 }
+  - { offset: 0x821A8, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC13setTimerLabel33_3F31B092865C7E959D9E89F98895FE00LL12timeIntervalySd_tF', symObjAddr: 0x4510, symBinAddr: 0xC50C, symSize: 0x144 }
+  - { offset: 0x8232C, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC24audioWillEnterForeground33_3F31B092865C7E959D9E89F98895FE00LL12notificationy10Foundation12NotificationV_tFTo', symObjAddr: 0x4654, symBinAddr: 0xC650, symSize: 0xEC }
+  - { offset: 0x823E5, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0x4740, symBinAddr: 0xC73C, symSize: 0x328 }
+  - { offset: 0x82472, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x4A68, symBinAddr: 0xCA64, symSize: 0x60 }
+  - { offset: 0x82486, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x4AC8, symBinAddr: 0xCAC4, symSize: 0x2F0 }
+  - { offset: 0x82505, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x4DB8, symBinAddr: 0xCDB4, symSize: 0x28 }
+  - { offset: 0x82519, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerCfD', symObjAddr: 0x4DE0, symBinAddr: 0xCDDC, symSize: 0x34 }
+  - { offset: 0x8253C, size: 0x8, addend: 0x0, symName: '_$sSo15AVAudioRecorderC3url8settingsAB10Foundation3URLV_SDySSypGtKcfcTO', symObjAddr: 0x5464, symBinAddr: 0xD460, symSize: 0x158 }
+  - { offset: 0x82550, size: 0x8, addend: 0x0, symName: '_$sSo13AVAudioPlayerC10contentsOfAB10Foundation3URLV_tKcfcTO', symObjAddr: 0x55BC, symBinAddr: 0xD5B8, symSize: 0x118 }
+  - { offset: 0x8259C, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaSYSCSY8rawValuexSg03RawG0Qz_tcfCTW', symObjAddr: 0x59B8, symBinAddr: 0xD9B4, symSize: 0x44 }
+  - { offset: 0x825C5, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaSYSCSY8rawValue03RawG0QzvgTW', symObjAddr: 0x59FC, symBinAddr: 0xD9F8, symSize: 0x28 }
+  - { offset: 0x825F5, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC19authorizationStatus33_3F31B092865C7E959D9E89F98895FE00LL10completionyySbc_tFTf4nd_n', symObjAddr: 0x5FD4, symBinAddr: 0xDFD0, symSize: 0x3AC }
+  - { offset: 0x82643, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC21configureAudioSession33_3F31B092865C7E959D9E89F98895FE00LLyyKFTf4d_n', symObjAddr: 0x6380, symBinAddr: 0xE37C, symSize: 0x1B4 }
+  - { offset: 0x827EF, size: 0x8, addend: 0x0, symName: '_$s17IDentityMediumSDK0aC0C012VoiceCaptureB0E05voiceE04from10completionySo16UIViewControllerC_ys6ResultOy10Foundation3URLVs5Error_pGctFZ', symObjAddr: 0x0, symBinAddr: 0xEF34, symSize: 0x19C }
+  - { offset: 0x82857, size: 0x8, addend: 0x0, symName: '_$s17IDentityMediumSDK0aC0C012VoiceCaptureB0E05voiceE04from10completionySo16UIViewControllerC_ys6ResultOy10Foundation3URLVs5Error_pGctFZ', symObjAddr: 0x0, symBinAddr: 0xEF34, symSize: 0x19C }
+  - { offset: 0x82924, size: 0x8, addend: 0x0, symName: '_$s17IDentityMediumSDK0aC0C012VoiceCaptureB0E25presentableViewController33_6E61E35C9F190C0B6B09E0CBA1792039LLAD0de11PresentablegH0_pSgvgZTf4d_n', symObjAddr: 0x1DC, symBinAddr: 0xF0D0, symSize: 0x13C }
+  - { offset: 0x829C6, size: 0x8, addend: 0x0, symName: '_$ss6ResultOy10Foundation3URLVs5Error_pGWOh', symObjAddr: 0x318, symBinAddr: 0xF20C, symSize: 0x40 }
+  - { offset: 0x829DA, size: 0x8, addend: 0x0, symName: '_$sSo16UIViewControllerCMa', symObjAddr: 0x368, symBinAddr: 0xF24C, symSize: 0x3C }
+  - { offset: 0x82C11, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium81IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt633_69EE281C62693A04D9D25CBEA4CFC695LLCfD', symObjAddr: 0x0, symBinAddr: 0xF288, symSize: 0x10 }
+  - { offset: 0x82C53, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium81IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt633_69EE281C62693A04D9D25CBEA4CFC695LLCMa', symObjAddr: 0x10, symBinAddr: 0xF298, symSize: 0x20 }
+  - { offset: 0x82C6E, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium81IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt633_69EE281C62693A04D9D25CBEA4CFC695LLCfD', symObjAddr: 0x0, symBinAddr: 0xF288, symSize: 0x10 }
 ...

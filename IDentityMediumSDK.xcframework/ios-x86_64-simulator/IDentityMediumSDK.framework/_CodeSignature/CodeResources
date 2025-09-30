@@ -258,7 +258,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KpHztFJuesk7yLwXYUWdYvJgDJo=
+		gRpxIzklg9xmrbwrHexRXjQjrws=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
@@ -298,11 +298,11 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		MoYlaC5/1ACOiN3oBiQ4Ky2bma8=
+		ezOnm7JTTylH+FXE8QdPgXer2bg=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		YMDP+CfQ3CfcLa3F++i8qPP+2NI=
+		AhdZxMU8hCuh26B9J1rMnrZ2RQA=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -310,7 +310,7 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		90Zv54NDAT2O35pGX9VDXVN3JsQ=
+		8yaCoUhI1FNWHSBDkGIN/X51Hmc=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -318,7 +318,7 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		goxpbFtiwuvZmH3CadHvbipQQU4=
+		XYOvnbgexuKoDUgjEUAa+dZka0M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -847,14 +847,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dnAGOqjj11EH5tOwb2oXdS2khhqxEEHhI+iR529mtQw=
+			vQNIvtx307CrFZ4Bx91wPcur72tQKra7aFQdiJ9avug=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rVWZkUw88leMxChrjI/bMMO0Xe5KeeNrGsq9tI1jBZw=
+			Utn9iQWStWJXLILqOKP7vItnWNJEkeniv6Omh32T4Dw=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -868,7 +868,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FYYPCVfjeXWzvGECNHtfQfcIVrXHPBZxj52j+4hl6aM=
+			aGK+TBXaf7CBm4uCW62mMfp2x6C7ATaM68JT3zowhU4=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -882,7 +882,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ae9HuOBxtiO/ry3lGp/cb3lwwYcDSHcmbWX38tZRTq0=
+			CH+m2Oul/9kGNZeATuDYo989IbFM5fT60lY/lmO1tZI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

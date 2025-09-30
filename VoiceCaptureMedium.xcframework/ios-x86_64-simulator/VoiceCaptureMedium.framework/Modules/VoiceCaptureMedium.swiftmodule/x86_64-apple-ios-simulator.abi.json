@@ -176,14 +176,14 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 785,
+      "offset": 777,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1130,
+      "offset": 1122,
       "length": 11,
       "value": "\"voice.m4a\""
     }

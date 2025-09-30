@@ -131727,6 +131727,16 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "IDentityMediumSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -238212,7 +238222,10 @@
             "declKind": "EnumElement",
             "usr": "s:17IDentityMediumSDK19InitializationStageO11getXsltDatayA2CmF",
             "mangledName": "$s17IDentityMediumSDK19InitializationStageO11getXsltDatayA2CmF",
-            "moduleName": "IDentityMediumSDK"
+            "moduleName": "IDentityMediumSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -248459,21 +248472,21 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Backward Compatibility\/Request\/AdditionalCustomerWFlagCommonDataV3.swift",
       "kind": "StringLiteral",
-      "offset": 13905,
+      "offset": 13741,
       "length": 18,
       "value": "\"IntrinsicLoginID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Backward Compatibility\/Request\/AdditionalCustomerWFlagCommonDataV3.swift",
       "kind": "StringLiteral",
-      "offset": 13959,
+      "offset": 13795,
       "length": 21,
       "value": "\"IntrinsicMerchantID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Backward Compatibility\/Request\/AdditionalCustomerWFlagCommonDataV3.swift",
       "kind": "StringLiteral",
-      "offset": 14016,
+      "offset": 13852,
       "length": 21,
       "value": "\"IntrinsicSDKVersion\""
     },
@@ -248858,28 +248871,28 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Enroll Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 20035,
+      "offset": 19939,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Enroll Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 25349,
+      "offset": 25220,
       "length": 18,
       "value": "\"IntrinsicLoginID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Enroll Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 25403,
+      "offset": 25274,
       "length": 21,
       "value": "\"IntrinsicMerchantID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Enroll Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 25460,
+      "offset": 25331,
       "length": 21,
       "value": "\"IntrinsicSDKVersion\""
     },
@@ -249061,51 +249074,51 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 6767,
-      "length": 28,
-      "value": "\"idCaptureTrainingModelName\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
-      "kind": "StringLiteral",
-      "offset": 7124,
+      "offset": 6755,
       "length": 30,
       "value": "\"passiveFaceTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 7914,
+      "offset": 7113,
+      "length": 28,
+      "value": "\"focusFaceTrainingModelName\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 7503,
       "length": 27,
       "value": "\"faceMaskTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 8290,
+      "offset": 7846,
+      "length": 28,
+      "value": "\"idCaptureTrainingModelName\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 8617,
       "length": 31,
       "value": "\"docDetectionTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 8665,
+      "offset": 8992,
       "length": 39,
       "value": "\"fingerprintDetectionTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 9065,
+      "offset": 9392,
       "length": 24,
       "value": "\"focusTrainingModelName\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
-      "kind": "StringLiteral",
-      "offset": 9400,
-      "length": 28,
-      "value": "\"focusFaceTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/ZIPFoundation\/ZIPFoundation\/Entry.swift",
@@ -249166,28 +249179,28 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/GTE\/Codable\/UploadDataRequest.swift",
       "kind": "StringLiteral",
-      "offset": 164,
+      "offset": 187,
       "length": 4,
       "value": "\"ID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/GTE\/Codable\/UploadDataRequest.swift",
       "kind": "StringLiteral",
-      "offset": 191,
+      "offset": 214,
       "length": 11,
       "value": "\"MobileSDK\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/GTE\/Codable\/UploadDataRequest.swift",
       "kind": "StringLiteral",
-      "offset": 325,
+      "offset": 355,
       "length": 6,
       "value": "\"FACE\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/GTE\/Codable\/UploadDataRequest.swift",
       "kind": "StringLiteral",
-      "offset": 354,
+      "offset": 384,
       "length": 11,
       "value": "\"MobileSDK\""
     },
@@ -249201,44 +249214,44 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
       "kind": "StringLiteral",
-      "offset": 222,
+      "offset": 208,
       "length": 24,
-      "value": "\"IDCaptureTrainingModel\""
+      "value": "\"FocusFaceTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
       "kind": "StringLiteral",
-      "offset": 401,
+      "offset": 296,
       "length": 23,
       "value": "\"FaceMaskTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
       "kind": "StringLiteral",
-      "offset": 479,
+      "offset": 341,
+      "length": 24,
+      "value": "\"IDCaptureTrainingModel\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
       "length": 30,
       "value": "\"EncDocDetectionTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
       "kind": "StringLiteral",
-      "offset": 542,
+      "offset": 567,
       "length": 26,
       "value": "\"FPDetectionTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
       "kind": "StringLiteral",
-      "offset": 586,
+      "offset": 611,
       "length": 24,
       "value": "\"FocusTrainingModel_448\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/Training Model\/TrainingModel.swift",
-      "kind": "StringLiteral",
-      "offset": 639,
-      "length": 24,
-      "value": "\"FocusFaceTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Metadata.swift",
@@ -249313,28 +249326,28 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Metadata.swift",
       "kind": "StringLiteral",
-      "offset": 7449,
+      "offset": 7518,
       "length": 55,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Metadata.swift",
       "kind": "StringLiteral",
-      "offset": 7503,
+      "offset": 7572,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Metadata.swift",
       "kind": "StringLiteral",
-      "offset": 7641,
+      "offset": 7710,
       "length": 41,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Metadata.swift",
       "kind": "StringLiteral",
-      "offset": 7681,
+      "offset": 7750,
       "length": 1,
       "value": "\"\""
     },
@@ -250531,140 +250544,140 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 515,
+      "offset": 535,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 805,
+      "offset": 825,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "IntegerLiteral",
-      "offset": 1112,
+      "offset": 1132,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "IntegerLiteral",
-      "offset": 1419,
+      "offset": 1439,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 1892,
+      "offset": 1912,
       "length": 4,
       "value": "0.48"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 2363,
+      "offset": 2383,
       "length": 4,
       "value": "0.67"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 2662,
+      "offset": 2682,
       "length": 4,
       "value": "0.79"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 2857,
+      "offset": 2877,
       "length": 4,
       "value": "0.98"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 3203,
+      "offset": 3223,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "IntegerLiteral",
-      "offset": 3317,
+      "offset": 3337,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 3523,
+      "offset": 3543,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 3685,
+      "offset": 3705,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 3814,
+      "offset": 3834,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 3930,
+      "offset": 3950,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 4080,
+      "offset": 4100,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 4248,
+      "offset": 4268,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 4664,
+      "offset": 4684,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 4670,
+      "offset": 4690,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 4416,
+      "offset": 4436,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/SelfieCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 4951,
+      "offset": 4971,
       "length": 5,
       "value": "false"
     },
@@ -252120,7 +252133,7 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/DocumentCapture\/Extensions\/IDentitySDK+DocumentCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 2592,
+      "offset": 2643,
       "length": 5,
       "value": "false"
     },
@@ -252757,14 +252770,14 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/GTE\/GTEManager.swift",
       "kind": "Array",
-      "offset": 800,
+      "offset": 822,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/GTE\/GTEManager.swift",
       "kind": "Array",
-      "offset": 859,
+      "offset": 888,
       "length": 2,
       "value": "[]"
     },
@@ -252834,126 +252847,126 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 534,
+      "offset": 573,
       "length": 15,
       "value": "\"GET_XSLT_DATA\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 590,
+      "offset": 636,
       "length": 33,
       "value": "\"SEARCH_COMPANY_TEMPLATE_DETAILS\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 665,
+      "offset": 711,
       "length": 26,
       "value": "\"PassiveFaceTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 731,
+      "offset": 777,
       "length": 24,
       "value": "\"IDCaptureTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 796,
+      "offset": 842,
       "length": 25,
       "value": "\"ClassifierTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 860,
+      "offset": 906,
       "length": 23,
       "value": "\"FaceMaskTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 926,
+      "offset": 972,
       "length": 27,
       "value": "\"DocDetectionTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1050,
       "length": 26,
       "value": "\"FPDetectionTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1066,
+      "offset": 1112,
       "length": 24,
       "value": "\"FocusTrainingModel_448\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1130,
+      "offset": 1176,
       "length": 24,
       "value": "\"FocusFaceTrainingModel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2558,
+      "offset": 2604,
       "length": 5,
       "value": "\"SDK\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2605,
+      "offset": 2651,
       "length": 152,
       "value": "\"10,20,25,30,50,55,60,65,70,75,77,78,80,100,105,155,160,165,175,180,185,186,190,191,200,300,305,310,320,330,360,361,400,401,410,500,505,510,515,620,660\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2782,
+      "offset": 2828,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 3634,
+      "offset": 3680,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 3703,
+      "offset": 3749,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4442,
+      "offset": 4488,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4506,
+      "offset": 4552,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 18749,
+      "offset": 18971,
       "length": 2,
       "value": "\"\""
     },

@@ -3989,6 +3989,238 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Var",
+            "name": "genericBiometricData",
+            "printedName": "genericBiometricData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericBiometricData",
+                "printedName": "IDentityMediumSDK.GenericBiometricData",
+                "usr": "s:17IDentityMediumSDK20GenericBiometricDataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E20genericBiometricDataAA07GenericgH0VvpZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E20genericBiometricDataAA07GenericgH0VvpZ",
+            "moduleName": "SelfieCaptureMedium",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericBiometricData",
+                    "printedName": "IDentityMediumSDK.GenericBiometricData",
+                    "usr": "s:17IDentityMediumSDK20GenericBiometricDataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E20genericBiometricDataAA07GenericgH0VvgZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E20genericBiometricDataAA07GenericgH0VvgZ",
+                "moduleName": "SelfieCaptureMedium",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericBiometricData",
+                    "printedName": "IDentityMediumSDK.GenericBiometricData",
+                    "usr": "s:17IDentityMediumSDK20GenericBiometricDataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E20genericBiometricDataAA07GenericgH0VvsZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E20genericBiometricDataAA07GenericgH0VvsZ",
+                "moduleName": "SelfieCaptureMedium",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E20genericBiometricDataAA07GenericgH0VvMZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E20genericBiometricDataAA07GenericgH0VvMZ",
+                "moduleName": "SelfieCaptureMedium",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "genericSignatureDataRequest",
+            "printedName": "genericSignatureDataRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDentityMediumSDK.SignatureDataRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SignatureDataRequest",
+                    "printedName": "IDentityMediumSDK.SignatureDataRequest",
+                    "usr": "s:17IDentityMediumSDK20SignatureDataRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E27genericSignatureDataRequestAA0ghI0VSgvpZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E27genericSignatureDataRequestAA0ghI0VSgvpZ",
+            "moduleName": "SelfieCaptureMedium",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDentityMediumSDK.SignatureDataRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SignatureDataRequest",
+                        "printedName": "IDentityMediumSDK.SignatureDataRequest",
+                        "usr": "s:17IDentityMediumSDK20SignatureDataRequestV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E27genericSignatureDataRequestAA0ghI0VSgvgZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E27genericSignatureDataRequestAA0ghI0VSgvgZ",
+                "moduleName": "SelfieCaptureMedium",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDentityMediumSDK.SignatureDataRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SignatureDataRequest",
+                        "printedName": "IDentityMediumSDK.SignatureDataRequest",
+                        "usr": "s:17IDentityMediumSDK20SignatureDataRequestV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E27genericSignatureDataRequestAA0ghI0VSgvsZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E27genericSignatureDataRequestAA0ghI0VSgvsZ",
+                "moduleName": "SelfieCaptureMedium",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK0aC0C013SelfieCaptureB0E27genericSignatureDataRequestAA0ghI0VSgvMZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C013SelfieCaptureB0E27genericSignatureDataRequestAA0ghI0VSgvMZ",
+                "moduleName": "SelfieCaptureMedium",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "genericApiCall",
             "printedName": "genericApiCall(genericDataDictionary:completion:)",
@@ -4119,42 +4351,42 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "Array",
-      "offset": 731,
+      "offset": 727,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1252,
+      "offset": 1248,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1334,
+      "offset": 1330,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16752,
+      "offset": 16751,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 995,
+      "offset": 991,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureInstructionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1077,
+      "offset": 1073,
       "length": 2,
       "value": "\"\""
     },
