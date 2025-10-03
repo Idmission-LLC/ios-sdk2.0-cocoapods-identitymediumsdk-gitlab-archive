@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name                    = "SelfieCaptureMedium"
-  spec.version                 = "10.1.16.2.3"
+  spec.version                 = "10.1.16.2.4"
   spec.summary                 = "SelfieCaptureMedium lets user add SelfieCaptureMediumSDK in their project"
   spec.description             = <<-DESC 
                                 SelfieCaptureMedium helps user to add SelfieCaptureMediumSDK in their project.
