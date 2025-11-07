@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		747ndBKZ1S1UxqovroUNml1Z5Fk=
+		W/IwPXhHsXeF/KbOc1ngg1vKieA=
 		</data>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		gfP75OW7enb5F8TDa4ANYcys9M8=
+		zo5jyD5RSplvnU2KJyYcU0QR3+g=
 		</data>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		UvIb2UlYY/jkMWdqpRdz2x19iWc=
+		fuYhask/cakQIPhn0M6dbvpw6Xw=
 		</data>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		OyTbOAC51eK1kJQsk5K9ikBzEG4=
+		I/a3P4JCCjLKQM7McOY+5KBGBcw=
 		</data>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		UvIb2UlYY/jkMWdqpRdz2x19iWc=
+		fuYhask/cakQIPhn0M6dbvpw6Xw=
 		</data>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		+GvYX/OCWrjOP6LysvA49BnfezU=
+		oOThktW2abCPm2y8Ms/80z+nnn8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -48,21 +48,13 @@
 		<data>
 		jgQkod60MTowySSGsZwaJbcSTlQ=
 		</data>
-		<key>VoiceCapture.storyboardc/VoiceCaptureViewController.nib/objects-14.0+.nib</key>
+		<key>VoiceCapture.storyboardc/VoiceCaptureViewController.nib</key>
 		<data>
 		XyerqGAhEbh8YP6Ozja+/q3q9zw=
 		</data>
-		<key>VoiceCapture.storyboardc/VoiceCaptureViewController.nib/runtime.nib</key>
-		<data>
-		XyerqGAhEbh8YP6Ozja+/q3q9zw=
-		</data>
-		<key>VoiceCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-14.0+.nib</key>
+		<key>VoiceCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
 		9mbpPyYpE6H4m3O9xrHKq8dFvrw=
-		</data>
-		<key>VoiceCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
-		<data>
-		1D1tabnn4KcBhFyhHLd8CPprcUc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -85,7 +77,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AmvI/b3JZPmWYpE3C74ujl6odBjJNYegO92YLNZJRxM=
+			wwZKBIt98JLulQzhyu9k2oqbhkaW0ZD7qJEUuQtW2Tk=
 			</data>
 		</dict>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -99,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g8XTXxkGSwHCN47NmDNtRAHxy2Um4NsvatfwZczvNdM=
+			8vL4i+zqBWYN2EP+4Fc8aKv7pFvCJex8PZsY1ogfwg8=
 			</data>
 		</dict>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qtWfxMvg07Wq1V3qoaKIMZmdiZ4Gzv01/6H5M6F8AU8=
+			ey9BPxIOAmm9pB+ESnMjeJajfJ3WAghjxFiFMIUkZkk=
 			</data>
 		</dict>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g8XTXxkGSwHCN47NmDNtRAHxy2Um4NsvatfwZczvNdM=
+			8vL4i+zqBWYN2EP+4Fc8aKv7pFvCJex8PZsY1ogfwg8=
 			</data>
 		</dict>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IPyWc8NdgksxPM2eFXlkjEs+VE+38+wqeIKYIUJrwFA=
+			tUkm7WsioOjGZqeCV9NFxl1djfMRm+to5a3RPUB5vGc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -137,32 +129,18 @@
 			j+W3SX6GUIy3ajno+XATUIYmC8rqBo3sMmJiDR4duuc=
 			</data>
 		</dict>
-		<key>VoiceCapture.storyboardc/VoiceCaptureViewController.nib/objects-14.0+.nib</key>
+		<key>VoiceCapture.storyboardc/VoiceCaptureViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			N55iIBFBTLMLN1lRZa6ZEqDR2/Fy0e4mNhkwZzsvPYY=
 			</data>
 		</dict>
-		<key>VoiceCapture.storyboardc/VoiceCaptureViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			N55iIBFBTLMLN1lRZa6ZEqDR2/Fy0e4mNhkwZzsvPYY=
-			</data>
-		</dict>
-		<key>VoiceCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-14.0+.nib</key>
+		<key>VoiceCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			pPV2bDoL/SEydsWB0dWT2MMo3/qCipkHXoIkta6xIDQ=
-			</data>
-		</dict>
-		<key>VoiceCapture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VNWy3czSUblLYZTmsoLgwrYCqEtGstXx6E4MQ3rgpvY=
 			</data>
 		</dict>
 	</dict>

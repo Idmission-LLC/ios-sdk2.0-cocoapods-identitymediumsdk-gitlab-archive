@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name                    = "VoiceCaptureMedium"
-  spec.version                 = "10.1.22.2.1"
+  spec.version                 = "10.1.22.2.2"
   spec.summary                 = "VoiceCaptureMedium lets user add VoiceCaptureMediumSDK in their project"
   spec.description             = <<-DESC 
                                 VoiceCaptureMedium helps user to add VoiceCaptureMediumSDK in their project.
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.author                  = { "Idmission LLC" => "amol.deshmukh@idmission.com" }
   spec.source                  = { :git => "https://cocoapods:z6yyrfTsynA2kKtAWCAF@gitlab.idmission.com/apps/sdk2.0/ios/cocoapods/identitymediumsdk2.0.git", :tag => "#{spec.version}"}
   spec.platform                = :ios
-  spec.ios.deployment_target   = '13.0'
+  spec.ios.deployment_target   = '15.6'
   spec.swift_version           = "5"
   spec.pod_target_xcconfig     = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
