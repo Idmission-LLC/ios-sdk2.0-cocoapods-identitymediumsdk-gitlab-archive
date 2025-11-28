@@ -66,31 +66,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6GgMaqKKRrgNWlCo7V3JueCaLfA=
+		zd2fd0WpLdZaly+92pXZSyl/DEo=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		nKPJoNjSqI5dTCG+LLWXptcC9dU=
+		bnvDomOyBEY8ZAjhajj4VUBvFqY=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		6omeGYvrOA1ldhlmV/yFzRE3AOQ=
+		o2tHTDUbNW/J97ndU2kDct78IJo=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		JpfaFttUrQCHyrOmML0DSpNW1Ms=
+		eKNzIj/gEI9rexMW+MqAEYpvBZ4=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		410omaXhsyWkpU49NnvZhoUpBQo=
+		OlxEm/K0F+bc8yt1JWnl1XriefU=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		JpfaFttUrQCHyrOmML0DSpNW1Ms=
+		eKNzIj/gEI9rexMW+MqAEYpvBZ4=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		2UgaAy5PotsYfrN3ug3YzCBr6hQ=
+		gc/NPUJ/Xoi412J6aGMRst7jJqc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -208,42 +208,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nqI0LaJDG+T/uP/W83hW7l/L/S0ApDSYuM6fZyLUP7w=
+			0sg2vK0saKbdRpECENIhmYUMBLjutLEKcM6xikTVh+Y=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dmZ3WrWDAlj+xsTpr+Zt6uYvsVnF8XeCwcNg7eZ28ys=
+			4Ebq16HSmhqhjWSsnDKnTgPOFvY/xPXeB4dwyyUqtII=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wJjux9BCOxVtWIbFQ3IzF1H/AdGBTe2QLeAb5bUS6x4=
+			zhycRh5tbePwyJNRGiVXQoLpXBk1E3YJON7fOJ3PydU=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hRVeUg6Wot8bP4ltGlI56mBChE9vLKgUvf9BaZGJ+fM=
+			/7FY34BqzPA7C3dlm4EFWFzLLoftwUV51sP1Utqoldc=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wJjux9BCOxVtWIbFQ3IzF1H/AdGBTe2QLeAb5bUS6x4=
+			zhycRh5tbePwyJNRGiVXQoLpXBk1E3YJON7fOJ3PydU=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Ptl+D8NJmze3rN6lfWsJgSZUmrELtal5SnicUEK6HU=
+			AWle091pI1qcMG/ypQ/QFWvt7C9J/751Iia5GO7wKiI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

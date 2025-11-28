@@ -16,42 +16,30 @@ import _SwiftConcurrencyShims
 public struct LiveFaceCheckResult {
   public var selfie: IDentityMediumSDK.Selfie
   public var isFakeFace: Swift.Bool
-  @available(*, deprecated, renamed: "finalSubmit", message: "This method will no longer supported in future release please use the updated 'finalSubmit' method")
-  public func submit(completion: @escaping IDentityMediumSDK.LiveFaceCheckAPICompletionV3)
   public func finalSubmit(completion: @escaping IDentityMediumSDK.LiveFaceCheckAPICompletion)
 }
 public struct CustomerEnrollBiometricsResult {
   public var selfie: IDentityMediumSDK.Selfie
-  @available(*, deprecated, renamed: "finalSubmit", message: "This method will no longer supported in future release please use the updated 'finalSubmit' method")
-  public func submit(completion: @escaping IDentityMediumSDK.CustomerEnrollBiometricsAPICompletionV3)
   public func finalSubmit(completion: @escaping IDentityMediumSDK.CustomerEnrollBiometricsAPICompletion)
 }
 public struct CustomerVerificationResult {
   public var selfie: IDentityMediumSDK.Selfie
-  @available(*, deprecated, renamed: "finalSubmit", message: "This method will no longer supported in future release please use the updated 'finalSubmit' method")
-  public func submit(completion: @escaping IDentityMediumSDK.CustomerVerificationAPICompletion)
   public func finalSubmit(completion: @escaping IDentityMediumSDK.CustomerVerificationAPICompletion)
 }
 public struct CustomerIdentifyResult {
   public var selfie: IDentityMediumSDK.Selfie
-  @available(*, deprecated, renamed: "finalSubmit", message: "This method will no longer supported in future release please use the updated 'finalSubmit' method")
-  public func submit(completion: @escaping IDentityMediumSDK.CustomerIdentifyAPICompletionV3)
   public func finalSubmit(completion: @escaping IDentityMediumSDK.CustomerIdentifyAPICompletion)
 }
 public struct ValidateIdMatchFaceResult {
   public var selfie: IDentityMediumSDK.Selfie
   public var front: IDentityMediumSDK.DetectedData
   public var back: IDentityMediumSDK.DetectedData?
-  @available(*, deprecated, renamed: "finalSubmit", message: "This method will no longer supported in future release please use the updated 'finalSubmit' method")
-  public func submit(completion: @escaping IDentityMediumSDK.ValidateIdMatchFaceAPICompletionV3)
   public func finalSubmit(completion: @escaping IDentityMediumSDK.ValidateIdMatchFaceAPICompletion)
 }
 public struct CustomerEnrollResult {
   public var selfie: IDentityMediumSDK.Selfie
   public var front: IDentityMediumSDK.DetectedData
   public var back: IDentityMediumSDK.DetectedData?
-  @available(*, deprecated, renamed: "finalSubmit", message: "This method will no longer supported in future release please use the updated 'finalSubmit' method")
-  public func submit(cardToken: Swift.String? = nil, cardLast4: Swift.String? = nil, completion: @escaping IDentityMediumSDK.ValidateIdCustomerEnrollAPICompletionV3)
   public func finalSubmit(cardToken: Swift.String? = nil, cardLast4: Swift.String? = nil, completion: @escaping IDentityMediumSDK.ValidateIdCustomerEnrollAPICompletion)
 }
 public typealias LiveFaceCheckCompletion = (_ result: Swift.Result<SelfieCaptureMedium.LiveFaceCheckResult, any Swift.Error>) -> Swift.Void
@@ -65,7 +53,6 @@ extension IDentityMediumSDK.IDentitySDK {
   public class func liveFaceCheck(from presenter: UIKit.UIViewController, customerDataOptions: IDentityMediumSDK.CommonCustomerDataRequest? = nil, options: IDentityMediumSDK.AdditionalCustomerLiveCheckData? = nil, completion: @escaping SelfieCaptureMedium.LiveFaceCheckCompletion)
   public static var customerEnrollBiometricsRequest: IDentityMediumSDK.CustomerEnrollBiometricsRequest?
   public class func customerEnrollBiometrics(from presenter: UIKit.UIViewController, customerDataOptions: IDentityMediumSDK.CommonCustomerDataRequest? = nil, personalData: IDentityMediumSDK.PersonalCustomerEnrollBiometricsRequestData, options: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData, completion: @escaping SelfieCaptureMedium.CustomerEnrollBiometricsCompletion)
-  public class func customerEnrollBiometrics(from presenter: UIKit.UIViewController, personalData: IDentityMediumSDK.PersonalCustomerCommonRequestDataV3, options: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestDataV3, completion: @escaping SelfieCaptureMedium.CustomerEnrollBiometricsCompletion)
   public static var customerVerifyRequest: IDentityMediumSDK.CustomerVerifyRequest?
   public class func customerVerification(from presenter: UIKit.UIViewController, customerDataOptions: IDentityMediumSDK.CommonCustomerDataRequest? = nil, personalData: IDentityMediumSDK.PersonalCustomerVerifyData, options: IDentityMediumSDK.AdditionalCustomerCommonData, completion: @escaping SelfieCaptureMedium.CustomerVerificationCompletion)
   public static var customerIdentifyRequest: IDentityMediumSDK.CustomerIdentifyRequest?
@@ -73,18 +60,15 @@ extension IDentityMediumSDK.IDentitySDK {
 }
 extension IDentityMediumSDK.IDentitySDK {
   public static var customerValidateIdFaceMatchRequest: IDentityMediumSDK.CustomerValidateIdFaceMatchRequest?
-  public class func idValidationAndMatchFace(from presenter: UIKit.UIViewController, customerDataOptions: IDentityMediumSDK.CommonCustomerDataRequest? = nil, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonData, captureBack: IDentityMediumSDK.CaptureBack = .auto, completion: @escaping SelfieCaptureMedium.ValidateIdMatchFaceCompletion)
-  public class func idValidationAndMatchFace(from presenter: UIKit.UIViewController, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, captureBack: IDentityMediumSDK.CaptureBack = .auto, completion: @escaping SelfieCaptureMedium.ValidateIdMatchFaceCompletion)
-  public class func idValidationAndMatchFace(from presenter: UIKit.UIViewController, customerDataOptions: IDentityMediumSDK.CommonCustomerDataRequest? = nil, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonData, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, completion: @escaping SelfieCaptureMedium.ValidateIdMatchFaceCompletion)
-  public class func idValidationAndMatchFace(from presenter: UIKit.UIViewController, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, completion: @escaping SelfieCaptureMedium.ValidateIdMatchFaceCompletion)
+  public static var customerValidateSecondaryIdFaceMatchRequest: IDentityMediumSDK.CustomerValidateIdFaceMatchRequest?
+  public class func idValidationAndMatchFace(from presenter: UIKit.UIViewController, customerDataOptions: IDentityMediumSDK.CommonCustomerDataRequest? = nil, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonData, captureBack: IDentityMediumSDK.CaptureBack = .auto, isSecondaryID: Swift.Bool = false, completion: @escaping SelfieCaptureMedium.ValidateIdMatchFaceCompletion)
+  public class func idValidationAndMatchFace(from presenter: UIKit.UIViewController, customerDataOptions: IDentityMediumSDK.CommonCustomerDataRequest? = nil, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonData, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, isSecondaryID: Swift.Bool = false, completion: @escaping SelfieCaptureMedium.ValidateIdMatchFaceCompletion)
   public static var customerEnrollRequest: IDentityMediumSDK.CustomerEnrollRequest?
   public class func idValidationAndCustomerEnroll(from presenter: UIKit.UIViewController, customerDataOptions: IDentityMediumSDK.CommonCustomerDataRequest? = nil, personalData: IDentityMediumSDK.PersonalCustomerCommonRequestEnrollData, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonData, captureBack: IDentityMediumSDK.CaptureBack = .auto, completion: @escaping SelfieCaptureMedium.ValidateIdCustomerEnrollCompletion)
-  public class func idValidationAndCustomerEnroll(from presenter: UIKit.UIViewController, personalData: IDentityMediumSDK.PersonalCustomerCommonRequestEnrollDataV3, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, captureBack: IDentityMediumSDK.CaptureBack = .auto, completion: @escaping SelfieCaptureMedium.ValidateIdCustomerEnrollCompletion)
   public class func idValidationAndCustomerEnroll(from presenter: UIKit.UIViewController, customerDataOptions: IDentityMediumSDK.CommonCustomerDataRequest? = nil, personalData: IDentityMediumSDK.PersonalCustomerCommonRequestEnrollData, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonData, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, completion: @escaping SelfieCaptureMedium.ValidateIdCustomerEnrollCompletion)
-  public class func idValidationAndCustomerEnroll(from presenter: UIKit.UIViewController, personalData: IDentityMediumSDK.PersonalCustomerCommonRequestEnrollDataV3, options: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, completion: @escaping SelfieCaptureMedium.ValidateIdCustomerEnrollCompletion)
 }
 extension IDentityMediumSDK.IDentitySDK {
-  public static var genericBiometricData: IDentityMediumSDK.GenericBiometricData
+  public static var genericCustomerData: IDentityMediumSDK.GenericCustomerData
   public static var genericSignatureDataRequest: IDentityMediumSDK.SignatureDataRequest?
   public class func genericApiCall(genericDataDictionary: [Swift.String : Any], completion: @escaping IDentityMediumSDK.GenericAPICompletion)
 }

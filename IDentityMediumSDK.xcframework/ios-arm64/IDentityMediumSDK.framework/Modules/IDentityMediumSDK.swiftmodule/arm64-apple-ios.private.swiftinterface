@@ -6,8 +6,6 @@ import AVFoundation
 import Accelerate
 import AudioToolbox
 import CommonCrypto
-import Compression
-import CoreFoundation
 import CoreGraphics
 import CoreLocation
 import CoreMedia
@@ -22,6 +20,8 @@ import MLKitTextRecognition
 import MLKitVision
 import MetalPerformanceShaders
 import MobileCoreServices
+import Network
+import SQLite3
 import Security
 import Swift
 import SwiftUI
@@ -31,7 +31,6 @@ import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import zlib
 public struct CustomerVerifyDataResponse : Swift.Codable {
   public var extractedPersonalData: IDentityMediumSDK.PersonalCustomerVerifyResponseData?
   public var extractedPOAData: [IDentityMediumSDK.POAExtractedDataResponse]?
@@ -91,16 +90,6 @@ public struct CommonAdditionalDocumentsRequest : Swift.Encodable {
   public init(documentName: Swift.String? = nil, additionalDocument: Swift.String? = nil, processAsPOA: IDentityMediumSDK.ProcessAsPOA? = .no)
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@available(*, deprecated, renamed: "CardData", message: "This struct will no longer supported in future release please use the updated 'CardData' struct")
-public struct CardDataV3 : Swift.Codable {
-  public var cardToken: Swift.String?
-  public var cardLast4: Swift.String?
-  public var cardExpDate: Swift.String?
-  public var nameOnCard: Swift.String?
-  public var postalCode: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 public struct OrderPEPResult : Swift.Codable {
   public var orderUrlPEP: Swift.String?
   public var orderIdPEP: Swift.String?
@@ -135,72 +124,29 @@ extension IDentityMediumSDK.DocumentCapture {
     public var retryScreenButtonFont: UIKit.UIFont?
   }
 }
-extension Foundation.FileManager {
-  @available(*, deprecated, renamed: "unzipItem(at:to:skipCRC32:progress:pathEncoding:)")
-  public func unzipItem(at sourceURL: Foundation.URL, to destinationURL: Foundation.URL, skipCRC32: Swift.Bool = false, progress: Foundation.Progress? = nil, preferredEncoding: Swift.String.Encoding?) throws
-}
 public struct GenericDataRequest : Swift.Encodable {
-  public var idData: IDentityMediumSDK.GenericIdData?
-  public var biometricData: IDentityMediumSDK.GenericBiometricData?
+  public var customerData: IDentityMediumSDK.GenericCustomerData?
   public var signatureData: IDentityMediumSDK.SignatureDataRequest?
   public var additionalDocuments: [IDentityMediumSDK.AdditionalDocumentsRequest]?
-  public init(idData: IDentityMediumSDK.GenericIdData? = nil, biometricData: IDentityMediumSDK.GenericBiometricData? = nil, signatureData: IDentityMediumSDK.SignatureDataRequest? = nil, additionalDocuments: [IDentityMediumSDK.AdditionalDocumentsRequest]? = nil)
+  public init(customerData: IDentityMediumSDK.GenericCustomerData? = nil, signatureData: IDentityMediumSDK.SignatureDataRequest? = nil, additionalDocuments: [IDentityMediumSDK.AdditionalDocumentsRequest]? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
 }
-public struct GenericIdData : Swift.Encodable {
-  public enum IdType : Swift.String, Swift.Encodable {
-    case passport
-    case driversLicense
-    case photoId
-    case nationalId
-    case governmentMilitaryOrPoliceId
-    case residenceCard
-    case voterIdCard
-    case workVisaOrPemit
-    case unitedNationsRefugeeCard
-    case notSpecified
-    case healthIdCard
-    case taxIdCard
-    case studentVisaPermit
-    case boatShipIdCard
-    case globalEntryCard
-    case passportCard
-    case travelDocument
-    case bankCard
-    case passportAddress
-    case other
-    public init?(rawValue: Swift.String)
-    public typealias RawValue = Swift.String
-    public var rawValue: Swift.String {
-      get
-    }
-  }
-  public var idType: IDentityMediumSDK.GenericIdData.IdType?
-  public var idCountry: Swift.String?
-  public var idState: Swift.String?
+public struct GenericCustomerData : Swift.Encodable {
+  public var selfie: Swift.String?
   public var idImageFront: Swift.String?
   public var idImageBack: Swift.String?
-  public var idNumber: Swift.String?
-  public var idNumber2: Swift.String?
-  public var issueDate: Swift.String?
-  public var expDate: Swift.String?
+  public var secondaryIdImageFront: Swift.String?
+  public var secondaryIdImageBack: Swift.String?
   public var videoIdImageFront: Swift.String?
   public var videoIdImageBack: Swift.String?
-  public var idFrontIrImage: Swift.String?
-  public var idBackIrImage: Swift.String?
-  public var idFrontUvImage: Swift.String?
-  public var idBackUvImage: Swift.String?
-  public init(idType: IDentityMediumSDK.GenericIdData.IdType? = nil, idCountry: Swift.String? = nil, idState: Swift.String? = nil, idImageFront: Swift.String? = nil, idImageBack: Swift.String? = nil, idNumber: Swift.String? = nil, idNumber2: Swift.String? = nil, issueDate: Swift.String? = nil, expDate: Swift.String? = nil, videoIdImageFront: Swift.String? = nil, videoIdImageBack: Swift.String? = nil, idFrontIrImage: Swift.String? = nil, idBackIrImage: Swift.String? = nil, idFrontUvImage: Swift.String? = nil, idBackUvImage: Swift.String? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
-}
-public struct GenericBiometricData : Swift.Encodable {
-  public var selfie: Swift.String?
   public var fingerPrintData: IDentityMediumSDK.FingerPrintData?
   public var voiceData: Swift.String?
   public var videoData: Swift.String?
   public var voiceStartTime: Swift.Int?
   public var expectedAudioText: Swift.String?
-  public init(selfie: Swift.String? = nil, fingerPrintData: IDentityMediumSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil)
+  public var metadata: IDentityMediumSDK.Metadata?
+  public var ocrMetadata: Swift.String?
+  public init(selfie: Swift.String? = nil, idImageFront: Swift.String? = nil, idImageBack: Swift.String? = nil, secondaryIdImageFront: Swift.String? = nil, secondaryIdImageBack: Swift.String? = nil, videoIdImageFront: Swift.String? = nil, videoIdImageBack: Swift.String? = nil, fingerPrintData: IDentityMediumSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil, metadata: IDentityMediumSDK.Metadata? = nil, ocrMetadata: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CriminalOffensesResult : Swift.Codable {
@@ -233,6 +179,68 @@ public struct CriminalOffensesResult : Swift.Codable {
   public var warrantDate: Swift.String?
   public var warrantNumber: Swift.String?
   public var weaponsUsed: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class IDMAnalytics {
+  public class func trackEvent(eventName: IDentityMediumSDK.EventName, eventStatus: IDentityMediumSDK.EventStatus, eventData: [Swift.String : Any])
+  @objc deinit
+}
+extension IDentityMediumSDK.IDMAnalytics {
+  public func flush()
+}
+public enum EventName : Swift.String, Swift.Codable {
+  case sdkInitializationEvent
+  case publicKeysDownloadEvent
+  case searchCompanyTemplateDownloadEvent
+  case xsltDownloadEvent
+  case modelDownloadFaceLivenessEvent
+  case modellDownloadFaceMaskEvent
+  case modelDownloadFaceFocusEvent
+  case modelDownloadIdRealnessEvent
+  case modelDownloadIdDocDetectionEvent
+  case modelDownloadIdFocusEvent
+  case modelDownloadClassificationEvent
+  case modelDownloadFingerPrintEvent
+  case selfieCaptureEvent
+  case idCaptureEvent
+  case idToSelfieMatchingEvent
+  case liveFaceCheckEvent
+  case idValidationEvent
+  case idValidationAndMatchFaceEvent
+  case idValidationAndcustomerEnrollEvent
+  case customerEnrollBiometricsEvent
+  case customerVerificationEvent
+  case identifyCustomerEvent
+  case finalSubmitEvent
+  case signatureCaptureEvent
+  case documentCaptureEvent
+  case voiceCaptureEvent
+  case fingerPrintCaptureEvent
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum EventStatus : Swift.String, Swift.Codable {
+  case initiated
+  case inProgress
+  case cancel
+  case timeout
+  case success
+  case completed
+  case failed
+  case error
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct AnyCodable : Swift.Codable {
+  public let value: Any
+  public init(_ value: Any)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -292,7 +300,8 @@ public struct CustomerEnrollDataResponse : Swift.Codable {
 public struct SignatureDataRequest : Swift.Codable {
   public var signatureImage: Swift.String?
   public var signatureVideo: Swift.String?
-  public init(signatureImage: Swift.String? = nil, signatureVideo: Swift.String? = nil)
+  public var digitalSignatureJsonString: Swift.String?
+  public init(signatureImage: Swift.String? = nil, signatureVideo: Swift.String? = nil, digitalSignatureJsonString: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -513,38 +522,6 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public var ocrMetadata: Swift.String?
   public var verificationApprovalCode: Swift.String?
   public init(idToken: Swift.String? = "", uniqueRequestId: Swift.String = IDentitySDK.requestID, clientRequestID: Swift.String? = nil, manualReviewRequired: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.ManualReviewRequired? = .no, bypassAgeValidation: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.BypassAgeValidation? = .no, deDuplicationRequired: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DeDuplicationRequired? = nil, postDataAPIRequired: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.PostDataAPIRequired? = .no, postDataAPIURL: Swift.String? = nil, sendMetaDataInPost: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.SendMetaDataInPost? = .yes, sendInputImagesInPost: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.SendInputImagesInPost? = .no, sendProcessedImagesInPost: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.SendProcessedImagesInPost? = .no, needImmediateResponse: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.NeedImmediateResponse? = nil, deduplicationSynchronous: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DeduplicationSynchronous? = .no, verifyDataWithHost: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.VerifyDataWithHost? = .no, idBackImageRequired: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.IdBackImageRequired? = .yes, stripSpecialCharacters: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.StripSpecialCharacters? = .yes, idImageResolutionCheck: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.IdImageResolutionCheck? = .yes, deDupDataRequiredInResponse: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DeDupDataRequiredInResponse? = .yes, deDupManualReviewRequired: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DeDupManualReviewRequired? = .yes, postDataOnReviewRequired: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.PostDataOnReviewRequired? = .yes, postDataOnReviewAPIURL: Swift.String? = nil, paymentGateway: Swift.String? = nil, gpsCoordinates: Swift.String? = nil, piiExclusion: Swift.String? = nil, detectLiveness: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DetectLiveness? = .yes, detectLabel: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DetectLabel? = .no, detectClosedEyes: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DetectClosedEyes? = .yes, sendDocumentIdInResponse: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.SendDocumentIdInResponse? = .yes, verificationApprovalCode: Swift.String? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from oldObject: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestDataV3)
-}
-@available(*, deprecated, renamed: "AdditionalCustomerWFlagCommonData", message: "This struct will no longer supported in future release please use the updated 'AdditionalCustomerWFlagCommonData' struct")
-public struct AdditionalCustomerWFlagCommonDataV3 : Swift.Encodable {
-  public var uniqueRequestId: Swift.String
-  public var clientTraceId: Swift.String?
-  public var clientRequestID: Swift.String?
-  public var manualReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.ManualReviewRequired?
-  public var bypassAgeValidation: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.BypassAgeValidation?
-  public var deDuplicationRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DeDuplicationRequired?
-  public var bypassNameMatching: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.BypassNameMatching?
-  public var postDataAPIRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.PostDataAPIRequired?
-  public var sendInputImagesInPost: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInPost?
-  public var sendProcessedImagesInPost: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendProcessedImagesInPost?
-  public var needImmediateResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.NeedImmediateResponse?
-  public var deduplicationSynchronous: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DeduplicationSynchronous?
-  public var verifyDataWithHost: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.VerifyDataWithHost?
-  public var idBackImageRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.IdBackImageRequired?
-  public var stripSpecialCharacters: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.StripSpecialCharacters?
-  public var idImageResolutionCheck: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.IdImageResolutionCheck?
-  public var deDupDataRequiredInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DeDupDataRequiredInResponse?
-  public var deDupManualReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DeDupManualReviewRequired?
-  public var postDataOnReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.PostDataOnReviewRequired?
-  public var paymentGateway: Swift.String?
-  public var gpsCoordinates: Swift.String?
-  public var piiExclusion: Swift.String?
-  public var sendProcessedImagesInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendProcessedImagesInResponse?
-  public var sendInputImagesInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInResponse?
-  public var metadata: IDentityMediumSDK.Metadata?
-  public var ocrMetadata: Swift.String?
-  public init(uniqueRequestId: Swift.String = IDentitySDK.requestID, clientTraceId: Swift.String? = nil, clientRequestID: Swift.String? = nil, manualReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.ManualReviewRequired? = .no, bypassAgeValidation: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.BypassAgeValidation? = .no, deDuplicationRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DeDuplicationRequired? = .no, bypassNameMatching: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.BypassNameMatching? = .yes, postDataAPIRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.PostDataAPIRequired? = .no, sendInputImagesInPost: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInPost? = .no, sendProcessedImagesInPost: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendProcessedImagesInPost? = .no, needImmediateResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.NeedImmediateResponse? = .no, deduplicationSynchronous: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DeduplicationSynchronous? = .no, verifyDataWithHost: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.VerifyDataWithHost? = .no, idBackImageRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.IdBackImageRequired? = .yes, stripSpecialCharacters: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.StripSpecialCharacters? = .yes, idImageResolutionCheck: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.IdImageResolutionCheck? = .yes, deDupDataRequiredInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DeDupDataRequiredInResponse? = .yes, deDupManualReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DeDupManualReviewRequired? = .no, postDataOnReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.PostDataOnReviewRequired? = .yes, paymentGateway: Swift.String? = nil, gpsCoordinates: Swift.String? = nil, piiExclusion: Swift.String? = nil, sendProcessedImagesInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendProcessedImagesInResponse? = .yes, sendInputImagesInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInResponse? = .yes)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 extension IDentityMediumSDK.DocumentCapture {
@@ -842,7 +819,6 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public var ocrMetadata: Swift.String?
   public init(idToken: Swift.String? = "", uniqueRequestId: Swift.String = IDentitySDK.requestID, clientTraceId: Swift.String? = nil, clientRequestID: Swift.String? = nil, manualReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.ManualReviewRequired? = .no, bypassAgeValidation: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.BypassAgeValidation? = .no, deDuplicationRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DeDuplicationRequired? = .no, bypassNameMatching: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.BypassNameMatching? = .yes, postDataAPIRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.PostDataAPIRequired? = .no, postDataAPIURL: Swift.String? = nil, sendMetaDataInPost: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendMetaDataInPost? = .yes, sendInputImagesInPost: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInPost? = .no, sendProcessedImagesInPost: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendProcessedImagesInPost? = .no, needImmediateResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.NeedImmediateResponse? = .no, deduplicationSynchronous: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DeduplicationSynchronous? = .no, verifyDataWithHost: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.VerifyDataWithHost? = .no, idBackImageRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.IdBackImageRequired? = .yes, stripSpecialCharacters: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.StripSpecialCharacters? = .yes, idImageResolutionCheck: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.IdImageResolutionCheck? = .yes, deDupDataRequiredInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DeDupDataRequiredInResponse? = .yes, deDupManualReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DeDupManualReviewRequired? = .no, postDataOnReviewRequired: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.PostDataOnReviewRequired? = .yes, postDataOnReviewAPIURL: Swift.String? = nil, paymentGateway: Swift.String? = nil, gpsCoordinates: Swift.String? = nil, piiExclusion: Swift.String? = nil, detectLiveness: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DetectLiveness? = .yes, detectLabel: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DetectLabel? = .yes, detectClosedEyes: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.DetectClosedEyes? = .no, sendSignatureFromIdInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendSignatureFromIdInResponse? = .yes, sendDocumentIdInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse? = .yes, customerDataMatchConfig: IDentityMediumSDK.CustomerDataMatchConfig? = nil, sendProcessedImagesInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendProcessedImagesInResponse? = .yes, sendInputImagesInResponse: IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInResponse? = .yes)
   public func encode(to encoder: any Swift.Encoder) throws
-  public init(from oldObject: IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3)
 }
 public protocol DocumentCaptureDelegate : AnyObject {
   func updated(state: IDentityMediumSDK.DocumentCaptureState)
@@ -902,14 +878,6 @@ extension IDentityMediumSDK.SignatureCapture {
   public struct Images {
   }
 }
-@available(*, deprecated, renamed: "CustomerIdentifyResponse", message: "This struct will no longer supported in future release please use the updated 'CustomerIdentifyResponse' struct")
-public struct CustomerIdentifyResponseV3 : Swift.Codable {
-  public var status: IDentityMediumSDK.StatusData?
-  public var resultData: IDentityMediumSDK.FormDetailIdentifyResponseDataV3?
-  public var responseCustomerData: IDentityMediumSDK.CustomerIdentifyDataResponseV3?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 public struct PersonalDataRequest : Swift.Encodable {
   public var uniqueNumber: Swift.String?
   public var name: Swift.String?
@@ -930,7 +898,6 @@ public struct PersonalDataRequest : Swift.Encodable {
   public var cardToken: Swift.String?
   public var cardLast4: Swift.String?
   public init(uniqueNumber: Swift.String? = nil, name: Swift.String? = nil, firstName: Swift.String? = nil, middleName: Swift.String? = nil, lastName: Swift.String? = nil, phone: Swift.String? = nil, phoneCountryCode: Swift.String? = nil, email: Swift.String? = nil, dob: Swift.String? = nil, gender: IDentityMediumSDK.Gender? = nil, addressLine1: Swift.String? = nil, addressLine2: Swift.String? = nil, city: Swift.String? = nil, district: Swift.String? = nil, postalCode: Swift.String? = nil, country: Swift.String? = nil, cardToken: Swift.String? = nil, cardLast4: Swift.String? = nil)
-  public init(from oldObject: IDentityMediumSDK.PersonalCustomerCommonRequestDataV3)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerValidateIdDataRequest : Swift.Encodable {
@@ -951,64 +918,12 @@ public struct BiometricEnrollBiometricRequestData : Swift.Encodable {
   public init(selfie: Swift.String? = nil, fingerPrintData: IDentityMediumSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@available(*, deprecated, renamed: "CustomerValidateIdFaceMatchResponse", message: "This struct will no longer supported in future release please use the updated 'CustomerValidateIdFaceMatchResponse' struct")
-public struct CustomerValidateIdFaceMatchResponseV3 : Swift.Codable {
-  public var status: IDentityMediumSDK.StatusData?
-  public var resultData: IDentityMediumSDK.FormDetailResultResponseData?
-  public var responseCustomerData: IDentityMediumSDK.CustomerValidateIdFaceMatchDataResponseV3?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-@available(*, deprecated, renamed: "CustomerLiveCheckResponse", message: "This struct will no longer supported in future release please use the updated 'CustomerLiveCheckResponse' struct")
-public struct CustomerLiveCheckResponseV3 : Swift.Codable {
-  public var status: IDentityMediumSDK.StatusData?
-  public var resultData: IDentityMediumSDK.FormDetailLiveCheckResponseData?
-  public var additionalData: IDentityMediumSDK.AdditionalCustomerLiveCheckResponseData?
-  public var responseCustomerData: IDentityMediumSDK.CustomerDataResponse?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 extension IDentityMediumSDK.SignatureCapture {
   public struct Fonts {
     public var titleLabelTextFont: UIKit.UIFont?
     public var clearButtonTextFont: UIKit.UIFont?
     public var doneButtonTextFont: UIKit.UIFont?
   }
-}
-public struct Entry : Swift.Equatable {
-  public enum EntryType : Swift.Int {
-    case file
-    case directory
-    case symlink
-    public init?(rawValue: Swift.Int)
-    public typealias RawValue = Swift.Int
-    public var rawValue: Swift.Int {
-      get
-    }
-  }
-  public func path(using encoding: Swift.String.Encoding) -> Swift.String
-  public var path: Swift.String {
-    get
-  }
-  public var fileAttributes: [Foundation.FileAttributeKey : Any] {
-    get
-  }
-  public var checksum: IDentityMediumSDK.CRC32 {
-    get
-  }
-  public var type: IDentityMediumSDK.Entry.EntryType {
-    get
-  }
-  public var isCompressed: Swift.Bool {
-    get
-  }
-  public var compressedSize: Swift.UInt64 {
-    get
-  }
-  public var uncompressedSize: Swift.UInt64 {
-    get
-  }
-  public static func == (lhs: IDentityMediumSDK.Entry, rhs: IDentityMediumSDK.Entry) -> Swift.Bool
 }
 extension IDentityMediumSDK.SignatureCapture {
   public enum LabelPosition {
@@ -1128,25 +1043,6 @@ public struct CustomerValidateIdFaceMatchDataResponse : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-@available(*, deprecated, renamed: "AdditionalCustomerEnrollBiometricRequestData", message: "This struct will no longer supported in future release please use the updated 'AdditionalCustomerEnrollBiometricRequestData' struct")
-public struct AdditionalCustomerEnrollBiometricRequestDataV3 : Swift.Encodable {
-  public var uniqueRequestId: Swift.String
-  public var verificationApprovalCode: Swift.String?
-  public var clientRequestID: Swift.String?
-  public var stripSpecialCharacters: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.StripSpecialCharacters?
-  public var postDataAPIRequired: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.PostDataAPIRequired?
-  public var gpsCoordinates: Swift.String?
-  public var piiExclusion: Swift.String?
-  public var needImmediateResponse: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.NeedImmediateResponse?
-  public var deDuplicationRequired: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DeDuplicationRequired?
-  public var deDupDataRequiredInResponse: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DeDupDataRequiredInResponse?
-  public var deDupManualReviewRequired: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DeDupManualReviewRequired?
-  public var detectLiveness: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DetectLiveness?
-  public var metadata: IDentityMediumSDK.Metadata?
-  public var ocrMetadata: Swift.String?
-  public init(uniqueRequestId: Swift.String = IDentitySDK.requestID, verificationApprovalCode: Swift.String? = nil, clientRequestID: Swift.String? = nil, stripSpecialCharacters: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.StripSpecialCharacters? = .yes, postDataAPIRequired: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.PostDataAPIRequired? = .no, gpsCoordinates: Swift.String? = nil, piiExclusion: Swift.String? = nil, needImmediateResponse: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.NeedImmediateResponse? = nil, deDuplicationRequired: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DeDuplicationRequired? = nil, deDupDataRequiredInResponse: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DeDupDataRequiredInResponse? = .yes, deDupManualReviewRequired: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DeDupManualReviewRequired? = .yes, detectLiveness: IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.DetectLiveness? = .yes)
-  public func encode(to encoder: any Swift.Encoder) throws
-}
 public protocol IDCaptureDelegate : AnyObject {
   func updated(state: IDentityMediumSDK.IDCaptureState)
 }
@@ -1261,23 +1157,6 @@ extension Foundation.NSNotification.Name {
   public static let idCaptureDebugData: Foundation.Notification.Name
   public static let idCaptureMode: Foundation.Notification.Name
 }
-public enum CompressionMethod : Swift.UInt16 {
-  case none
-  case deflate
-  public init?(rawValue: Swift.UInt16)
-  public typealias RawValue = Swift.UInt16
-  public var rawValue: Swift.UInt16 {
-    get
-  }
-}
-public typealias CRC32 = Swift.UInt32
-public typealias Consumer = (_ data: Foundation.Data) throws -> Swift.Void
-public typealias Provider = (_ position: Swift.Int64, _ size: Swift.Int) throws -> Foundation.Data
-extension Foundation.Data {
-  public func crc32(checksum: IDentityMediumSDK.CRC32) -> IDentityMediumSDK.CRC32
-  public static func compress(size: Swift.Int64, bufferSize: Swift.Int, provider: (_ position: Swift.Int64, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> IDentityMediumSDK.CRC32
-  public static func decompress(size: Swift.Int64, bufferSize: Swift.Int, skipCRC32: Swift.Bool, provider: (_ position: Swift.Int64, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> IDentityMediumSDK.CRC32
-}
 extension IDentityMediumSDK.SelfieCapture {
   public struct Strings {
     public var instructionScreenText: Swift.String
@@ -1300,6 +1179,8 @@ extension IDentityMediumSDK.SelfieCapture {
     public var moveFaceUp: Swift.String
     public var sunglassesDetected: Swift.String
     public var removeHat: Swift.String
+    public var removeHand: Swift.String
+    public var removeScarf: Swift.String
     public var fakeFace: Swift.String
     public var retryScreenText: Swift.String
     public var retryButtonText: Swift.String
@@ -1330,33 +1211,6 @@ public struct POAExtractedDataResponse : Swift.Codable {
   public var customerAddress: Swift.String?
   public var amount: Swift.String?
   public var metaData: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-@available(*, deprecated, renamed: "PersonalCustomerIdentifyResponseData", message: "This struct will no longer supported in future release please use the updated 'PersonalCustomerIdentifyResponseData' struct")
-public struct PersonalCustomerIdentifyResponseDataV3 : Swift.Codable {
-  public var uniqueNumber: Swift.String?
-  public var name: Swift.String?
-  public var email: Swift.String?
-  public var dob: Swift.String?
-  public var gender: Swift.String?
-  public var address: Swift.String?
-  public var addressLine1: Swift.String?
-  public var addressLine2: Swift.String?
-  public var addressLine3: Swift.String?
-  public var city: Swift.String?
-  public var country: Swift.String?
-  public var state: Swift.String?
-  public var postalCode: Swift.String?
-  public var phone: Swift.String?
-  public var district: Swift.String?
-  public var fingerprintUsedForVerification: Swift.String?
-  public var enrolledDate: Swift.String?
-  public var enrolledFaceImage: Swift.String?
-  public var idNumber: Swift.String?
-  public var expDate: Swift.String?
-  public var customerCode: Swift.String?
-  public var selfieImage: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -1468,10 +1322,10 @@ extension IDentityMediumSDK.IDentitySDK {
   public class func getFingerprintJSONString(fingerPrintData: IDentityMediumSDK.FingerPrintData?) -> Swift.String?
   public class func getVoiceJSONString(fileContent: Swift.String, formKey: Swift.String) -> Swift.String?
   public class func getLiveFaceImageDataNode(formKey: Swift.String, formID: Swift.String, request: IDentityMediumSDK.GenericDataRequest, additionalData: [Swift.String : Any]?) -> Swift.String?
-  public class func getPrimaryIdImageDataNode(formKey: Swift.String, serviceId: Swift.String?, request: IDentityMediumSDK.GenericDataRequest) -> Swift.String?
-  public class func getSecodaryIdImageDataNode(formKey: Swift.String, request: IDentityMediumSDK.GenericDataRequest) -> Swift.String?
+  public class func getPrimaryIdImageDataNode(formKey: Swift.String, serviceId: Swift.String?, request: IDentityMediumSDK.GenericDataRequest, idType: Swift.String?, countryCode: Swift.String?, stateCode: Swift.String?) -> Swift.String?
+  public class func getSecodaryIdImageDataNode(formKey: Swift.String, request: IDentityMediumSDK.GenericDataRequest, idType_sec: Swift.String?, countryCode_sec: Swift.String?, stateCode_sec: Swift.String?) -> Swift.String?
   public class func getEmployeeInformationDataNode(request: IDentityMediumSDK.GenericDataRequest, employeeInfoXMLString: Swift.String?, employeeCode: Swift.String?, serviceID: Swift.String?) -> Swift.String?
-  public class func getSignatureCaptureNode(request: IDentityMediumSDK.GenericDataRequest, isDigitalSignatureEnabled: Swift.Bool) -> Swift.String?
+  public class func getSignatureCaptureNode(request: IDentityMediumSDK.GenericDataRequest) -> Swift.String?
   public class func getFingerPrintXMLNode(request: IDentityMediumSDK.GenericDataRequest, for process: Swift.String) -> Swift.String?
   public class func getAdditionalDataXMLNode(loginId: Swift.String, merchantId: Swift.String, CompanyId: Swift.String, companyName: Swift.String, formKey: Swift.String, request: IDentityMediumSDK.GenericDataRequest, additionalDictionary: [Swift.String : Any]?) -> Swift.String?
 }
@@ -1634,16 +1488,6 @@ public struct PersonalCustomerIdentifyResponseData : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-extension IDentityMediumSDK.Archive {
-  @available(*, deprecated, message: "Please use `Int` for `bufferSize`.")
-  final public func addEntry(with path: Swift.String, relativeTo baseURL: Foundation.URL, compressionMethod: IDentityMediumSDK.CompressionMethod = .none, bufferSize: Swift.UInt32, progress: Foundation.Progress? = nil) throws
-  @available(*, deprecated, message: "Please use `Int` for `bufferSize`.")
-  final public func addEntry(with path: Swift.String, fileURL: Foundation.URL, compressionMethod: IDentityMediumSDK.CompressionMethod = .none, bufferSize: Swift.UInt32, progress: Foundation.Progress? = nil) throws
-  @available(*, deprecated, message: "Please use `Int64` for `uncompressedSize` and provider `position`. `Int` for `bufferSize`.")
-  final public func addEntry(with path: Swift.String, type: IDentityMediumSDK.Entry.EntryType, uncompressedSize: Swift.UInt32, modificationDate: Foundation.Date = Date(), permissions: Swift.UInt16? = nil, compressionMethod: IDentityMediumSDK.CompressionMethod = .none, bufferSize: Swift.Int = defaultWriteChunkSize, progress: Foundation.Progress? = nil, provider: (_ position: Swift.Int, _ size: Swift.Int) throws -> Foundation.Data) throws
-  @available(*, deprecated, message: "Please use `Int` for `bufferSize`.")
-  final public func remove(_ entry: IDentityMediumSDK.Entry, bufferSize: Swift.UInt32, progress: Foundation.Progress? = nil) throws
-}
 public struct FormDetailEnrollBiometricsResponseData : Swift.Codable {
   public var uniqueRequestId: Swift.String?
   public var verificationResultId: Swift.Int?
@@ -1695,15 +1539,8 @@ public struct PersonalCustomerEnrollBiometricsRequestData : Swift.Encodable {
   public var cardToken: Swift.String?
   public var cardLast4: Swift.String?
   public init(uniqueNumber: Swift.String, name: Swift.String? = nil, phone: Swift.String? = nil, phoneCountryCode: Swift.String? = nil, email: Swift.String? = nil, dob: Swift.String? = nil, gender: IDentityMediumSDK.Gender? = nil, addressLine1: Swift.String? = nil, addressLine2: Swift.String? = nil, city: Swift.String? = nil, district: Swift.String? = nil, postalCode: Swift.String? = nil, country: Swift.String? = nil, cardToken: Swift.String? = nil, cardLast4: Swift.String? = nil)
-  public init(from oldObject: IDentityMediumSDK.PersonalCustomerCommonRequestDataV3)
   public func encode(to encoder: any Swift.Encoder) throws
 }
-public typealias ValidateIdAPICompletionV3 = (_ result: Swift.Result<IDentityMediumSDK.CustomerValidateIdResponseV3, any Swift.Error>) -> Swift.Void
-public typealias LiveFaceCheckAPICompletionV3 = (_ result: Swift.Result<IDentityMediumSDK.CustomerLiveCheckResponseV3, any Swift.Error>) -> Swift.Void
-public typealias ValidateIdMatchFaceAPICompletionV3 = (_ result: Swift.Result<IDentityMediumSDK.CustomerValidateIdFaceMatchResponseV3, any Swift.Error>) -> Swift.Void
-public typealias ValidateIdCustomerEnrollAPICompletionV3 = (_ result: Swift.Result<IDentityMediumSDK.CustomerEnrollResponseV3, any Swift.Error>) -> Swift.Void
-public typealias CustomerEnrollBiometricsAPICompletionV3 = (_ result: Swift.Result<IDentityMediumSDK.CustomerEnrollBiometricResponseV3, any Swift.Error>) -> Swift.Void
-public typealias CustomerIdentifyAPICompletionV3 = (_ result: Swift.Result<IDentityMediumSDK.CustomerIdentifyResponseV3, any Swift.Error>) -> Swift.Void
 public typealias ValidateIdAPICompletion = (_ result: Swift.Result<IDentityMediumSDK.CustomerValidateIdResponse, any Swift.Error>) -> Swift.Void
 public typealias LiveFaceCheckAPICompletion = (_ result: Swift.Result<IDentityMediumSDK.CustomerLiveCheckResponse, any Swift.Error>) -> Swift.Void
 public typealias ValidateIdMatchFaceAPICompletion = (_ result: Swift.Result<IDentityMediumSDK.CustomerValidateIdFaceMatchResponse, any Swift.Error>) -> Swift.Void
@@ -1714,22 +1551,17 @@ public typealias CustomerIdentifyAPICompletion = (_ result: Swift.Result<IDentit
 public typealias GenericAPICompletion = (_ result: Swift.Result<[Swift.String : Any], any Swift.Error>) -> Swift.Void
 extension IDentityMediumSDK.IDentitySDK {
   public class func post(validateId request: IDentityMediumSDK.CustomerValidateIdRequest, completion: @escaping IDentityMediumSDK.ValidateIdAPICompletion)
-  public class func post(validateId request: IDentityMediumSDK.CustomerValidateIdRequest, completion: @escaping IDentityMediumSDK.ValidateIdAPICompletionV3)
   public class func post(liveFaceCheck request: IDentityMediumSDK.CustomerLiveCheckRequest, completion: @escaping IDentityMediumSDK.LiveFaceCheckAPICompletion)
-  public class func post(liveFaceCheck request: IDentityMediumSDK.CustomerLiveCheckRequest, completion: @escaping IDentityMediumSDK.LiveFaceCheckAPICompletionV3)
   public class func post(validateIdMatchFace request: IDentityMediumSDK.CustomerValidateIdFaceMatchRequest, completion: @escaping IDentityMediumSDK.ValidateIdMatchFaceAPICompletion)
-  public class func post(validateIdMatchFace request: IDentityMediumSDK.CustomerValidateIdFaceMatchRequest, completion: @escaping IDentityMediumSDK.ValidateIdMatchFaceAPICompletionV3)
   public class func post(enroll request: IDentityMediumSDK.CustomerEnrollRequest, completion: @escaping IDentityMediumSDK.ValidateIdCustomerEnrollAPICompletion)
-  public class func post(enroll request: IDentityMediumSDK.CustomerEnrollRequest, completion: @escaping IDentityMediumSDK.ValidateIdCustomerEnrollAPICompletionV3)
   public class func post(enrollBiometrics request: IDentityMediumSDK.CustomerEnrollBiometricsRequest, completion: @escaping IDentityMediumSDK.CustomerEnrollBiometricsAPICompletion)
-  public class func post(enrollBiometrics request: IDentityMediumSDK.CustomerEnrollBiometricsRequest, completion: @escaping IDentityMediumSDK.CustomerEnrollBiometricsAPICompletionV3)
   public class func post(verify request: IDentityMediumSDK.CustomerVerifyRequest, completion: @escaping IDentityMediumSDK.CustomerVerificationAPICompletion)
   public class func post(identify request: IDentityMediumSDK.CustomerIdentifyRequest, completion: @escaping IDentityMediumSDK.CustomerIdentifyAPICompletion)
-  public class func post(identify request: IDentityMediumSDK.CustomerIdentifyRequest, completion: @escaping IDentityMediumSDK.CustomerIdentifyAPICompletionV3)
   public class func post(xmlRequestString: Swift.String, completion: @escaping IDentityMediumSDK.GenericAPICompletion)
 }
 extension IDentityMediumSDK.SignatureCapture {
   public struct Options {
+    public var isEnableDigitalSignature: Swift.Bool
     public var signatureStrokeWidth: CoreFoundation.CGFloat?
   }
 }
@@ -1750,12 +1582,6 @@ public struct CompanyData : Swift.Codable {
   public var merchantId: Swift.Int?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
-}
-extension IDentityMediumSDK.Archive {
-  @available(*, deprecated, message: "Please use `Int` for `bufferSize`.")
-  final public func extract(_ entry: IDentityMediumSDK.Entry, to url: Foundation.URL, bufferSize: Swift.UInt32, skipCRC32: Swift.Bool = false, progress: Foundation.Progress? = nil) throws -> IDentityMediumSDK.CRC32
-  @available(*, deprecated, message: "Please use `Int` for `bufferSize`.")
-  final public func extract(_ entry: IDentityMediumSDK.Entry, bufferSize: Swift.UInt32, skipCRC32: Swift.Bool = false, progress: Foundation.Progress? = nil, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> IDentityMediumSDK.CRC32
 }
 public struct FingerPrint : Swift.Encodable {
   public enum Position : Swift.String, Swift.Encodable {
@@ -1851,12 +1677,6 @@ extension IDentityMediumSDK.CaptureSession : AVFoundation.AVCaptureVideoDataOutp
 extension IDentityMediumSDK.CaptureSession {
   public func authorizationStatus(completion: @escaping IDentityMediumSDK.BoolCompletion)
 }
-extension IDentityMediumSDK.Archive {
-  @available(*, deprecated, message: "Please use the throwing initializer.")
-  convenience public init?(url: Foundation.URL, accessMode mode: IDentityMediumSDK.Archive.AccessMode, preferredEncoding: Swift.String.Encoding? = nil)
-  @available(*, deprecated, message: "Please use the throwing initializer.")
-  convenience public init?(data: Foundation.Data = Data(), accessMode mode: IDentityMediumSDK.Archive.AccessMode, preferredEncoding: Swift.String.Encoding? = nil)
-}
 extension IDentityMediumSDK.SignatureCapture {
   public struct Strings {
     public var titleText: Swift.String
@@ -1864,12 +1684,6 @@ extension IDentityMediumSDK.SignatureCapture {
     public var doneButtonText: Swift.String
     public mutating func reset()
   }
-}
-extension Foundation.Data {
-  @available(*, deprecated, message: "Please use `Int64` for `size` and provider `position`.")
-  public static func compress(size: Swift.Int, bufferSize: Swift.Int, provider: (_ position: Swift.Int, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> IDentityMediumSDK.CRC32
-  @available(*, deprecated, message: "Please use `Int64` for `size` and provider `position`.")
-  public static func decompress(size: Swift.Int, bufferSize: Swift.Int, skipCRC32: Swift.Bool, provider: (_ position: Swift.Int, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> IDentityMediumSDK.CRC32
 }
 public struct PolicyAcceptanceData : Swift.Codable {
   public var BiometricTimestamp: Swift.String?
@@ -1897,12 +1711,6 @@ extension IDentityMediumSDK.SelfieCapture {
     public var retryScreenLabelFont: UIKit.UIFont?
     public var retryScreenButtonFont: UIKit.UIFont?
   }
-}
-extension IDentityMediumSDK.Archive {
-  final public func addEntry(with path: Swift.String, relativeTo baseURL: Foundation.URL, compressionMethod: IDentityMediumSDK.CompressionMethod = .none, bufferSize: Swift.Int = defaultWriteChunkSize, progress: Foundation.Progress? = nil) throws
-  final public func addEntry(with path: Swift.String, fileURL: Foundation.URL, compressionMethod: IDentityMediumSDK.CompressionMethod = .none, bufferSize: Swift.Int = defaultWriteChunkSize, progress: Foundation.Progress? = nil) throws
-  final public func addEntry(with path: Swift.String, type: IDentityMediumSDK.Entry.EntryType, uncompressedSize: Swift.Int64, modificationDate: Foundation.Date = Date(), permissions: Swift.UInt16? = nil, compressionMethod: IDentityMediumSDK.CompressionMethod = .none, bufferSize: Swift.Int = defaultWriteChunkSize, progress: Foundation.Progress? = nil, provider: (_ position: Swift.Int64, _ size: Swift.Int) throws -> Foundation.Data) throws
-  final public func remove(_ entry: IDentityMediumSDK.Entry, bufferSize: Swift.Int = defaultReadChunkSize, progress: Foundation.Progress? = nil) throws
 }
 @_hasMissingDesignatedInitializers public class XMLHashOptions {
   public var shouldProcessLazily: Swift.Bool
@@ -2301,11 +2109,6 @@ public struct CustomerValidateIdResponse : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-extension IDentityMediumSDK.Archive {
-  final public var data: Foundation.Data? {
-    get
-  }
-}
 public struct ConsentData : Swift.Encodable {
   public enum ConsentAccepted : Swift.String, Swift.Encodable {
     case yes
@@ -2325,10 +2128,6 @@ extension IDentityMediumSDK.VoiceCapture {
   public struct Options {
     public var maxRecordingTime: Swift.Int
   }
-}
-extension IDentityMediumSDK.Archive {
-  final public func extract(_ entry: IDentityMediumSDK.Entry, to url: Foundation.URL, bufferSize: Swift.Int = defaultReadChunkSize, skipCRC32: Swift.Bool = false, allowUncontainedSymlinks: Swift.Bool = false, progress: Foundation.Progress? = nil) throws -> IDentityMediumSDK.CRC32
-  final public func extract(_ entry: IDentityMediumSDK.Entry, bufferSize: Swift.Int = defaultReadChunkSize, skipCRC32: Swift.Bool = false, progress: Foundation.Progress? = nil, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> IDentityMediumSDK.CRC32
 }
 extension IDentityMediumSDK.SelfieCapture {
   public struct Colors {
@@ -2499,16 +2298,6 @@ public struct FormDetailLiveCheckResponseData : Swift.Codable {
   public var estimatedAge: Swift.Int?
   public var predicatedGender: Swift.String?
   public var closedEyes: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-@available(*, deprecated, renamed: "CustomerEnrollDataResponse", message: "This struct will no longer supported in future release please use the updated 'CustomerEnrollDataResponse' struct")
-public struct CustomerEnrollDataResponseV3 : Swift.Codable {
-  public var extractedIdData: IDentityMediumSDK.IdDataResponse?
-  public var extractedPersonalData: IDentityMediumSDK.PersonalCustomerEnrollResponseData?
-  public var extractedPOAData: [IDentityMediumSDK.POAExtractedDataResponse]?
-  public var hostData: IDentityMediumSDK.HostdataResponseV3?
-  public var parsedAddress: IDentityMediumSDK.ParsedAddress?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -2774,38 +2563,6 @@ public class FingerPrintCapture {
   public init(overlayFrame: CoreFoundation.CGRect)
   @objc deinit
 }
-@available(*, deprecated, renamed: "CustomerValidateIdFaceMatchDataResponse", message: "This struct will no longer supported in future release please use the updated 'CustomerValidateIdFaceMatchDataResponse' struct")
-public struct CustomerValidateIdFaceMatchDataResponseV3 : Swift.Codable {
-  public var extractedIdData: IDentityMediumSDK.IdDataResponse?
-  public var extractedPersonalData: IDentityMediumSDK.PersonalCustomerValidateIdFaceMatchResponseData?
-  public var extractedPOAData: [IDentityMediumSDK.POAExtractedDataResponse]?
-  public var hostData: IDentityMediumSDK.HostdataResponseV3?
-  public var parsedAddress: IDentityMediumSDK.ParsedAddress?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-@available(*, deprecated, renamed: "FormDetailIdentifyResponseData", message: "This struct will no longer supported in future release please use the updated 'FormDetailIdentifyResponseData' struct")
-public struct FormDetailIdentifyResponseDataV3 : Swift.Codable {
-  public var uniqueRequestId: Swift.String?
-  public var verificationResultId: Swift.Int?
-  public var verificationResultDetails: [Swift.String : Any]?
-  public var verificationResult: Swift.String?
-  public var verificationResultCode: Swift.String?
-  public var faceMask: Swift.String?
-  public var faceMaskScore: Swift.Double?
-  public var liveFace: Swift.String?
-  public var realScore: Swift.Double?
-  public var headCovering: Swift.String?
-  public var headCoveringScore: Swift.Double?
-  public var eyeCovering: Swift.String?
-  public var eyeCoveringScore: Swift.Double?
-  public var cellPhone: Swift.String?
-  public var cellPhoneScore: Swift.Double?
-  public var estimatedAge: Swift.Int?
-  public var predicatedGender: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 public struct CustomerLiveCheckDataRequest : Swift.Encodable {
   public var signatureData: IDentityMediumSDK.SignatureDataRequest?
   public var additionalDocuments: [IDentityMediumSDK.AdditionalDocumentsRequest]?
@@ -2839,16 +2596,6 @@ extension IDentityMediumSDK.DocumentCapture {
     public var retryScreenButtonTextColor: UIKit.UIColor?
     public var retryScreenButtonBackgroundColor: UIKit.UIColor?
   }
-}
-@available(*, deprecated, renamed: "CustomerDataValidateIdResponse", message: "This struct will no longer supported in future release please use the updated 'CustomerDataValidateIdResponse' struct")
-public struct CustomerDataValidateIdResponseV3 : Swift.Codable {
-  public var extractedIdData: IDentityMediumSDK.IdDataResponse?
-  public var extractedPersonalData: IDentityMediumSDK.PersonalCustomerValidateIdResponseData?
-  public var extractedPOAData: [IDentityMediumSDK.POAExtractedDataResponse]?
-  public var hostData: IDentityMediumSDK.HostdataResponseV3?
-  public var parsedAddress: IDentityMediumSDK.ParsedAddress?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
 }
 public struct TrainingModelDownloadRq : Swift.Encodable {
   public var uniqueKeyId: Swift.String
@@ -2962,14 +2709,6 @@ public struct FingerPrintMetadata : Swift.Encodable {
   public init(format: IDentityMediumSDK.FingerPrintMetadata.Format, model: Swift.String? = nil, serialNumber: Swift.String? = nil, backgroundColor: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@available(*, deprecated, renamed: "CustomerValidateIdResponse", message: "This struct will no longer supported in future release please use the updated 'CustomerValidateIdResponse' struct")
-public struct CustomerValidateIdResponseV3 : Swift.Codable {
-  public var status: IDentityMediumSDK.StatusData?
-  public var resultData: IDentityMediumSDK.FormDetailValidateIdResponseData?
-  public var responseCustomerData: IDentityMediumSDK.CustomerDataValidateIdResponseV3?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 @objc @_inheritsConvenienceInitializers public class IDError : Foundation.NSError {
   convenience public init(_ localizedDescription: Swift.String)
   @objc override dynamic public init(domain: Swift.String, code: Swift.Int, userInfo dict: [Swift.String : Any]? = nil)
@@ -3005,26 +2744,6 @@ extension IDentityMediumSDK.IDError {
     }
   }
   convenience public init(_ string: IDentityMediumSDK.IDError.Strings)
-}
-@available(*, deprecated, renamed: "DeDuplicationResponseData", message: "This struct will no longer supported in future release please use the updated 'DeDuplicationResponseData' struct")
-public struct DeDuplicationResponseDataV3 : Swift.Codable {
-  public var faceMatchingScore: Swift.String?
-  public var duplicatePersonId: Swift.Int?
-  public var clientCustomerNumber: Swift.String?
-  public var customerCode: Swift.String?
-  public var faceImage: Swift.String?
-  public var customerName: Swift.String?
-  public var recordType: Swift.String?
-  public var fingerPrintData: Swift.String?
-  public var fpMatchingScore: Swift.String?
-  public var isDuplicate: Swift.String?
-  public var duplicationStatus: Swift.String?
-  public var enrolledDate: Swift.String?
-  public var duplicateVoiceMatchScore: Swift.String?
-  public var duplicateFrontImage: Swift.String?
-  public var duplicateBackImage: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
 }
 extension IDentityMediumSDK.IDCapture {
   public struct Colors {
@@ -3090,14 +2809,6 @@ public struct PersonalCustomerValidateIdResponseData : Swift.Codable {
   public var parish: Swift.String?
   public var additionalNames: Swift.String?
   public var additionalNamesNonEng: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-@available(*, deprecated, renamed: "CustomerIdentifyDataResponse", message: "This struct will no longer supported in future release please use the updated 'CustomerIdentifyDataResponse' struct")
-public struct CustomerIdentifyDataResponseV3 : Swift.Codable {
-  public var extractedPersonalData: IDentityMediumSDK.PersonalCustomerIdentifyResponseDataV3?
-  public var cardData: IDentityMediumSDK.CardDataV3?
-  public var extractedPOAData: [IDentityMediumSDK.POAExtractedDataResponse]?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -3216,10 +2927,13 @@ extension IDentityMediumSDK.IDCapture {
   public struct Strings {
     public var instructionScreenText: Swift.String
     public var instructionScreenButtonText: Swift.String
+    public var captureFront: Swift.String
+    public var captureBack: Swift.String
     public var closeButtonText: Swift.String?
     public var moveCloser: Swift.String
     public var moveAway: Swift.String
     public var alignRectangle: Swift.String
+    public var tooMuchGlare: Swift.String
     public var glareDetected: Swift.String
     public var removeFinger: Swift.String
     public var notInFocus: Swift.String
@@ -3229,9 +2943,6 @@ extension IDentityMediumSDK.IDCapture {
     public var makeSureBarcodeVisible: Swift.String
     public var frontBackMismatch: Swift.String
     public var flipToBack: Swift.String
-    public var tooMuchGlare: Swift.String
-    public var captureFront: Swift.String
-    public var captureBack: Swift.String
     public var autofillPrompt: Swift.String
     public var documentDetectedHoldStill: Swift.String
     public var retryScreenText: Swift.String
@@ -3264,18 +2975,6 @@ public struct StateMasterVO : Swift.Codable {
 public struct StateList {
   public static var states: [IDentityMediumSDK.StateMasterVO] {
     get
-  }
-}
-public typealias FILEPointer = Swift.UnsafeMutablePointer<_stdio.FILE>
-extension Foundation.Data {
-  public enum DataError : Swift.Error {
-    case unreadableFile
-    case unwritableFile
-    public static func == (a: Foundation.Data.DataError, b: Foundation.Data.DataError) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
   }
 }
 public struct PersonalCustomerEnrollResponseData : Swift.Codable {
@@ -3409,13 +3108,6 @@ extension CoreFoundation.CGRect {
     get
   }
 }
-extension Foundation.FileManager {
-  public func zipItem(at sourceURL: Foundation.URL, to destinationURL: Foundation.URL, shouldKeepParent: Swift.Bool = true, compressionMethod: IDentityMediumSDK.CompressionMethod = .none, progress: Foundation.Progress? = nil) throws
-  public func unzipItem(at sourceURL: Foundation.URL, to destinationURL: Foundation.URL, skipCRC32: Swift.Bool = false, allowUncontainedSymlinks: Swift.Bool = false, progress: Foundation.Progress? = nil, pathEncoding: Swift.String.Encoding? = nil) throws
-}
-extension Foundation.URL {
-  public func isContained(in parentDirectoryURL: Foundation.URL) -> Swift.Bool
-}
 public typealias InitializeAPICompletion = (_ result: Swift.Result<IDentityMediumSDK.InitializeResponse, any Swift.Error>) -> Swift.Void
 public typealias TemplateDetailAPICompletion = (_ result: Swift.Result<IDentityMediumSDK.TemplateDetailResponse, any Swift.Error>) -> Swift.Void
 public typealias TrainingModelDownloadAPICompletion = (_ result: Swift.Result<IDentityMediumSDK.TrainingModelDownloadResponse, any Swift.Error>) -> Swift.Void
@@ -3429,15 +3121,6 @@ public struct CriminalRecordResult : Swift.Codable {
   public var profiles: IDentityMediumSDK.CriminalProfileResult?
   public var offenses: IDentityMediumSDK.CriminalOffensesResult?
   public var aliases: IDentityMediumSDK.CriminalAliasesResult?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-@available(*, deprecated, renamed: "CustomerEnrollResponse", message: "This struct will no longer supported in future release please use the updated 'CustomerEnrollResponse' struct")
-public struct CustomerEnrollResponseV3 : Swift.Codable {
-  public var status: IDentityMediumSDK.StatusData?
-  public var resultData: IDentityMediumSDK.FormDetailResultResponseData?
-  public var deDuplicationData: [IDentityMediumSDK.DeDuplicationResponseDataV3]?
-  public var responseCustomerData: IDentityMediumSDK.CustomerEnrollDataResponseV3?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -3488,55 +3171,6 @@ public struct BiometricValidateIdFaceMatchData : Swift.Encodable {
   public init(selfie: Swift.String, fingerPrintData: IDentityMediumSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
 }
-public let defaultReadChunkSize: Swift.Int
-public let defaultWriteChunkSize: Swift.Int
-public let defaultFilePermissions: Swift.UInt16
-public let defaultDirectoryPermissions: Swift.UInt16
-final public class Archive : Swift.Sequence {
-  public enum ArchiveError : Swift.Error {
-    case unreadableArchive
-    case unwritableArchive
-    case invalidEntryPath
-    case invalidCompressionMethod
-    case invalidCRC32
-    case cancelledOperation
-    case invalidBufferSize
-    case invalidEntrySize
-    case invalidLocalHeaderDataOffset
-    case invalidLocalHeaderSize
-    case invalidCentralDirectoryOffset
-    case invalidCentralDirectorySize
-    case invalidCentralDirectoryEntryCount
-    case missingEndOfCentralDirectoryRecord
-    case uncontainedSymlink
-    public static func == (a: IDentityMediumSDK.Archive.ArchiveError, b: IDentityMediumSDK.Archive.ArchiveError) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  public enum AccessMode : Swift.UInt {
-    case create
-    case read
-    case update
-    public init?(rawValue: Swift.UInt)
-    public typealias RawValue = Swift.UInt
-    public var rawValue: Swift.UInt {
-      get
-    }
-  }
-  final public let url: Foundation.URL
-  final public let accessMode: IDentityMediumSDK.Archive.AccessMode
-  public init(url: Foundation.URL, accessMode mode: IDentityMediumSDK.Archive.AccessMode, pathEncoding: Swift.String.Encoding? = nil) throws
-  public init(data: Foundation.Data = Data(), accessMode mode: IDentityMediumSDK.Archive.AccessMode, pathEncoding: Swift.String.Encoding? = nil) throws
-  @objc deinit
-  final public func makeIterator() -> Swift.AnyIterator<IDentityMediumSDK.Entry>
-  final public subscript(path: Swift.String) -> IDentityMediumSDK.Entry? {
-    get
-  }
-  public typealias Element = IDentityMediumSDK.Entry
-  public typealias Iterator = Swift.AnyIterator<IDentityMediumSDK.Entry>
-}
 extension IDentityMediumSDK.IDCapture {
   public struct Images {
     public var instructionScreenImage: UIKit.UIImage?
@@ -3584,24 +3218,6 @@ public struct InitializeResponse : Swift.Codable {
   public var appConfig: [Swift.String : Swift.String]?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
-}
-@available(*, deprecated, renamed: "PersonalCustomerCommonRequestEnrollData", message: "This struct will no longer supported in future release please use the updated 'PersonalCustomerCommonRequestEnrollData' struct")
-public struct PersonalCustomerCommonRequestEnrollDataV3 : Swift.Encodable {
-  public var uniqueNumber: Swift.String
-  public var name: Swift.String?
-  public var phone: Swift.String?
-  public var phoneCountryCode: Swift.String?
-  public var email: Swift.String?
-  public var dob: Swift.String?
-  public var gender: IDentityMediumSDK.PersonalCustomerCommonRequestEnrollData.Gender?
-  public var addressLine1: Swift.String?
-  public var addressLine2: Swift.String?
-  public var city: Swift.String?
-  public var district: Swift.String?
-  public var postalCode: Swift.String?
-  public var country: Swift.String?
-  public init(uniqueNumber: Swift.String, name: Swift.String? = nil, phone: Swift.String? = nil, phoneCountryCode: Swift.String? = nil, email: Swift.String? = nil, dob: Swift.String? = nil, gender: IDentityMediumSDK.PersonalCustomerCommonRequestEnrollData.Gender? = nil, addressLine1: Swift.String? = nil, addressLine2: Swift.String? = nil, city: Swift.String? = nil, district: Swift.String? = nil, postalCode: Swift.String? = nil, country: Swift.String? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct IdDataResponse : Swift.Codable {
   public var idType: Swift.String?
@@ -3739,7 +3355,6 @@ public struct PersonalCustomerCommonRequestEnrollData : Swift.Encodable {
   public var postalCode: Swift.String?
   public var country: Swift.String?
   public init(uniqueNumber: Swift.String, name: Swift.String? = nil, firstName: Swift.String? = nil, middleName: Swift.String? = nil, lastName: Swift.String? = nil, phone: Swift.String? = nil, phoneCountryCode: Swift.String? = nil, email: Swift.String? = nil, dob: Swift.String? = nil, gender: IDentityMediumSDK.PersonalCustomerCommonRequestEnrollData.Gender? = nil, addressLine1: Swift.String? = nil, addressLine2: Swift.String? = nil, city: Swift.String? = nil, district: Swift.String? = nil, postalCode: Swift.String? = nil, country: Swift.String? = nil)
-  public init(from oldObject: IDentityMediumSDK.PersonalCustomerCommonRequestEnrollDataV3)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct TrainingModelDownloadDetails : Swift.Encodable {
@@ -3775,25 +3390,6 @@ public struct AppConfig : Swift.Codable {
   public var UNIQUE_KEY_ID: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
-}
-@available(*, deprecated, renamed: "PersonalDataRequest", message: "This struct will no longer supported in future release please use the updated 'PersonalDataRequest' struct")
-public struct PersonalCustomerCommonRequestDataV3 : Swift.Encodable {
-  public var uniqueNumber: Swift.String
-  public var name: Swift.String?
-  public var phone: Swift.String?
-  public var phoneCountryCode: Swift.String?
-  public var email: Swift.String?
-  public var dob: Swift.String?
-  public var gender: IDentityMediumSDK.Gender?
-  public var addressLine1: Swift.String?
-  public var addressLine2: Swift.String?
-  public var city: Swift.String?
-  public var district: Swift.String?
-  public var country: Swift.String?
-  public var cardToken: Swift.String?
-  public var cardLast4: Swift.String?
-  public init(uniqueNumber: Swift.String, name: Swift.String? = nil, phone: Swift.String? = nil, phoneCountryCode: Swift.String? = nil, email: Swift.String? = nil, dob: Swift.String? = nil, gender: IDentityMediumSDK.Gender? = nil, addressLine1: Swift.String? = nil, addressLine2: Swift.String? = nil, city: Swift.String? = nil, district: Swift.String? = nil, country: Swift.String? = nil, cardToken: Swift.String? = nil, cardLast4: Swift.String? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct IdDataEnrollRequest : Swift.Encodable {
   public enum IdType : Swift.String, Swift.Encodable {
@@ -3944,15 +3540,6 @@ public struct CustomerValidateIdFaceMatchRequest : Swift.Encodable {
   public init(customerData: IDentityMediumSDK.CustomerValidateIdFaceMatchDataRequest, additionalData: IDentityMediumSDK.AdditionalCustomerWFlagCommonData)
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@available(*, deprecated, renamed: "CustomerEnrollBiometricResponse", message: "This struct will no longer supported in future release please use the updated 'CustomerEnrollBiometricResponse' struct")
-public struct CustomerEnrollBiometricResponseV3 : Swift.Codable {
-  public var status: IDentityMediumSDK.StatusData?
-  public var resultData: IDentityMediumSDK.FormDetailEnrollBiometricsResponseData?
-  public var deDuplicationData: [IDentityMediumSDK.DeDuplicationResponseDataV3]?
-  public var responseCustomerData: IDentityMediumSDK.CustomerDataResponse?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 extension UIKit.UIImage {
   public func getExifBase64String(for capturedImageType: Swift.String, compressionQuality: CoreFoundation.CGFloat) -> Swift.String
 }
@@ -3977,24 +3564,6 @@ extension IDentityMediumSDK.IDCapture {
     public var performIdCaptureBeforeSelfie: Swift.Bool
     public var passportNFCPhotoMatchThreshold: Swift.Float
   }
-}
-extension IDentityMediumSDK.Archive {
-  final public func totalUnitCountForRemoving(_ entry: IDentityMediumSDK.Entry) -> Swift.Int64
-  final public func totalUnitCountForReading(_ entry: IDentityMediumSDK.Entry) -> Swift.Int64
-  final public func totalUnitCountForAddingItem(at url: Foundation.URL) -> Swift.Int64
-}
-@available(*, deprecated, renamed: "HostdataResponse", message: "This struct will no longer supported in future release please use the updated 'HostdataResponse' struct")
-public struct HostdataResponseV3 : Swift.Codable {
-  public var textMatchResult: IDentityMediumSDK.TextMatchResult?
-  public var sexOffenders: IDentityMediumSDK.SexOffenderResult?
-  public var criminalRecord: IDentityMediumSDK.CriminalRecordResult?
-  public var ineResponse: IDentityMediumSDK.IneResponse?
-  public var renapoResponse: IDentityMediumSDK.RenapoResponse?
-  public var pepresult: IDentityMediumSDK.OrderPEPResult?
-  public var nmresult: IDentityMediumSDK.OrderNMResult?
-  public var wlsresult: IDentityMediumSDK.OrderWLSResult?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
 }
 public struct CustomerIdentifyResponse : Swift.Codable {
   public var status: IDentityMediumSDK.StatusData?
@@ -4153,9 +3722,12 @@ public struct CustomerEnrollBiometricResponse : Swift.Codable {
 extension IDentityMediumSDK.Gender : Swift.Equatable {}
 extension IDentityMediumSDK.Gender : Swift.Hashable {}
 extension IDentityMediumSDK.Gender : Swift.RawRepresentable {}
-extension IDentityMediumSDK.GenericIdData.IdType : Swift.Equatable {}
-extension IDentityMediumSDK.GenericIdData.IdType : Swift.Hashable {}
-extension IDentityMediumSDK.GenericIdData.IdType : Swift.RawRepresentable {}
+extension IDentityMediumSDK.EventName : Swift.Equatable {}
+extension IDentityMediumSDK.EventName : Swift.Hashable {}
+extension IDentityMediumSDK.EventName : Swift.RawRepresentable {}
+extension IDentityMediumSDK.EventStatus : Swift.Equatable {}
+extension IDentityMediumSDK.EventStatus : Swift.Hashable {}
+extension IDentityMediumSDK.EventStatus : Swift.RawRepresentable {}
 extension IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.ManualReviewRequired : Swift.Equatable {}
 extension IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.ManualReviewRequired : Swift.Hashable {}
 extension IDentityMediumSDK.AdditionalCustomerEnrollBiometricRequestData.ManualReviewRequired : Swift.RawRepresentable {}
@@ -4290,9 +3862,6 @@ extension IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendSignatureFromI
 extension IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse : Swift.Equatable {}
 extension IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse : Swift.Hashable {}
 extension IDentityMediumSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse : Swift.RawRepresentable {}
-extension IDentityMediumSDK.Entry.EntryType : Swift.Equatable {}
-extension IDentityMediumSDK.Entry.EntryType : Swift.Hashable {}
-extension IDentityMediumSDK.Entry.EntryType : Swift.RawRepresentable {}
 extension IDentityMediumSDK.SignatureCapture.LabelPosition : Swift.Equatable {}
 extension IDentityMediumSDK.SignatureCapture.LabelPosition : Swift.Hashable {}
 extension IDentityMediumSDK.DetectedData.DocumentSide : Swift.Equatable {}
@@ -4300,9 +3869,6 @@ extension IDentityMediumSDK.DetectedData.DocumentSide : Swift.Hashable {}
 extension IDentityMediumSDK.CaptureBack : Swift.Equatable {}
 extension IDentityMediumSDK.CaptureBack : Swift.Hashable {}
 extension IDentityMediumSDK.CaptureBack : Swift.RawRepresentable {}
-extension IDentityMediumSDK.CompressionMethod : Swift.Equatable {}
-extension IDentityMediumSDK.CompressionMethod : Swift.Hashable {}
-extension IDentityMediumSDK.CompressionMethod : Swift.RawRepresentable {}
 extension IDentityMediumSDK.AdditionalCustomerCommonData.PostDataAPIRequired : Swift.Equatable {}
 extension IDentityMediumSDK.AdditionalCustomerCommonData.PostDataAPIRequired : Swift.Hashable {}
 extension IDentityMediumSDK.AdditionalCustomerCommonData.PostDataAPIRequired : Swift.RawRepresentable {}
@@ -4392,8 +3958,6 @@ extension IDentityMediumSDK.FingerPrintCapture.LabelPosition : Swift.Equatable {
 extension IDentityMediumSDK.FingerPrintCapture.LabelPosition : Swift.Hashable {}
 extension IDentityMediumSDK.IDCapture.LabelPosition : Swift.Equatable {}
 extension IDentityMediumSDK.IDCapture.LabelPosition : Swift.Hashable {}
-extension Foundation.Data.DataError : Swift.Equatable {}
-extension Foundation.Data.DataError : Swift.Hashable {}
 extension IDentityMediumSDK.AdditionalCustomerLiveCheckData.StripSpecialCharacters : Swift.Equatable {}
 extension IDentityMediumSDK.AdditionalCustomerLiveCheckData.StripSpecialCharacters : Swift.Hashable {}
 extension IDentityMediumSDK.AdditionalCustomerLiveCheckData.StripSpecialCharacters : Swift.RawRepresentable {}
@@ -4421,11 +3985,6 @@ extension IDentityMediumSDK.AnalysePOA : Swift.RawRepresentable {}
 extension IDentityMediumSDK.ExtensionType : Swift.Equatable {}
 extension IDentityMediumSDK.ExtensionType : Swift.Hashable {}
 extension IDentityMediumSDK.ExtensionType : Swift.RawRepresentable {}
-extension IDentityMediumSDK.Archive.ArchiveError : Swift.Equatable {}
-extension IDentityMediumSDK.Archive.ArchiveError : Swift.Hashable {}
-extension IDentityMediumSDK.Archive.AccessMode : Swift.Equatable {}
-extension IDentityMediumSDK.Archive.AccessMode : Swift.Hashable {}
-extension IDentityMediumSDK.Archive.AccessMode : Swift.RawRepresentable {}
 extension IDentityMediumSDK.PersonalCustomerCommonRequestEnrollData.Gender : Swift.Equatable {}
 extension IDentityMediumSDK.PersonalCustomerCommonRequestEnrollData.Gender : Swift.Hashable {}
 extension IDentityMediumSDK.PersonalCustomerCommonRequestEnrollData.Gender : Swift.RawRepresentable {}

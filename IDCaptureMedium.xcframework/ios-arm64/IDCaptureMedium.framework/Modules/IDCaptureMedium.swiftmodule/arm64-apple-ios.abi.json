@@ -249,60 +249,6 @@
           },
           {
             "kind": "Function",
-            "name": "submit",
-            "printedName": "submit(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerValidateIdResponseV3, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<IDentityMediumSDK.CustomerValidateIdResponseV3, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomerValidateIdResponseV3",
-                        "printedName": "IDentityMediumSDK.CustomerValidateIdResponseV3",
-                        "usr": "s:17IDentityMediumSDK28CustomerValidateIdResponseV3V"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15IDCaptureMedium16ValidateIdResultV6submit10completionyys0E0Oy08IDentityB3SDK08CustomercD10ResponseV3Vs5Error_pGc_tF",
-            "mangledName": "$s15IDCaptureMedium16ValidateIdResultV6submit10completionyys0E0Oy08IDentityB3SDK08CustomercD10ResponseV3Vs5Error_pGc_tF",
-            "moduleName": "IDCaptureMedium",
-            "deprecated": true,
-            "declAttributes": [
-              "AccessControl",
-              "Available"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "finalSubmit",
             "printedName": "finalSubmit(completion:)",
             "children": [
@@ -696,9 +642,138 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "customerValidateSecondaryIdRequest",
+            "printedName": "customerValidateSecondaryIdRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDentityMediumSDK.CustomerValidateIdRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomerValidateIdRequest",
+                    "printedName": "IDentityMediumSDK.CustomerValidateIdRequest",
+                    "usr": "s:17IDentityMediumSDK25CustomerValidateIdRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvpZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvpZ",
+            "moduleName": "IDCaptureMedium",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDentityMediumSDK.CustomerValidateIdRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerValidateIdRequest",
+                        "printedName": "IDentityMediumSDK.CustomerValidateIdRequest",
+                        "usr": "s:17IDentityMediumSDK25CustomerValidateIdRequestV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvgZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvgZ",
+                "moduleName": "IDCaptureMedium",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDentityMediumSDK.CustomerValidateIdRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerValidateIdRequest",
+                        "printedName": "IDentityMediumSDK.CustomerValidateIdRequest",
+                        "usr": "s:17IDentityMediumSDK25CustomerValidateIdRequestV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvsZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvsZ",
+                "moduleName": "IDCaptureMedium",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvMZ",
+                "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvMZ",
+                "moduleName": "IDCaptureMedium",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "idValidation",
-            "printedName": "idValidation(from:customerDataOptions:options:captureBack:completion:)",
+            "printedName": "idValidation(from:customerDataOptions:options:captureBack:isSecondaryID:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -740,78 +815,11 @@
                 "usr": "s:17IDentityMediumSDK11CaptureBackO"
               },
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<IDCaptureMedium.ValidateIdResult, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<IDCaptureMedium.ValidateIdResult, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ValidateIdResult",
-                        "printedName": "IDCaptureMedium.ValidateIdResult",
-                        "usr": "s:15IDCaptureMedium16ValidateIdResultV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options11captureBack10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalr5WFlagqI0VAA07CaptureM0Oys6ResultOyAD010ValidateIdW0Vs5Error_pGctFZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options11captureBack10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalr5WFlagqI0VAA07CaptureM0Oys6ResultOyAD010ValidateIdW0Vs5Error_pGctFZ",
-            "moduleName": "IDCaptureMedium",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "idValidation",
-            "printedName": "idValidation(from:options:captureBack:completion:)",
-            "children": [
-              {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AdditionalCustomerWFlagCommonDataV3",
-                "printedName": "IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3",
-                "usr": "s:17IDentityMediumSDK35AdditionalCustomerWFlagCommonDataV3V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CaptureBack",
-                "printedName": "IDentityMediumSDK.CaptureBack",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
-                "usr": "s:17IDentityMediumSDK11CaptureBackO"
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeFunc",
@@ -847,8 +855,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from7options11captureBack10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VAA07CaptureJ0Oys6ResultOyAD010ValidateIdU0Vs5Error_pGctFZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from7options11captureBack10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VAA07CaptureJ0Oys6ResultOyAD010ValidateIdU0Vs5Error_pGctFZ",
+            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options11captureBack13isSecondaryID10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalu5WFlagtI0VAA07CaptureM0OSbys6ResultOyAD010ValidateIdZ0Vs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options11captureBack13isSecondaryID10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalu5WFlagtI0VAA07CaptureM0OSbys6ResultOyAD010ValidateIdZ0Vs5Error_pGctFZ",
             "moduleName": "IDCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -861,7 +869,7 @@
           {
             "kind": "Function",
             "name": "idValidation",
-            "printedName": "idValidation(from:customerDataOptions:options:idType:idCountry:idState:completion:)",
+            "printedName": "idValidation(from:customerDataOptions:options:idType:idCountry:idState:isSecondaryID:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -922,6 +930,13 @@
                 "usr": "s:Sq"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(Swift.Result<IDCaptureMedium.ValidateIdResult, any Swift.Error>) -> ()",
@@ -955,8 +970,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options0E4Type0E7Country0E5State10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionals5WFlagrI0VS3SSgys6ResultOyAD010ValidateIdW0Vs5Error_pGctFZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options0E4Type0E7Country0E5State10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionals5WFlagrI0VS3SSgys6ResultOyAD010ValidateIdW0Vs5Error_pGctFZ",
+            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options0E4Type0E7Country0E5State13isSecondaryID10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalv5WFlaguI0VS3SSgSbys6ResultOyAD010ValidateIdZ0Vs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options0E4Type0E7Country0E5State13isSecondaryID10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalv5WFlaguI0VS3SSgSbys6ResultOyAD010ValidateIdZ0Vs5Error_pGctFZ",
             "moduleName": "IDCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -969,7 +984,7 @@
           {
             "kind": "Function",
             "name": "idValidation",
-            "printedName": "idValidation(from:options:idType:idCountry:idState:completion:)",
+            "printedName": "idValidation(from:customerDataOptions:options:captureBack:idType:idCountry:idState:isSecondaryID:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -984,21 +999,37 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "AdditionalCustomerWFlagCommonDataV3",
-                "printedName": "IDentityMediumSDK.AdditionalCustomerWFlagCommonDataV3",
-                "usr": "s:17IDentityMediumSDK35AdditionalCustomerWFlagCommonDataV3V"
+                "name": "Optional",
+                "printedName": "IDentityMediumSDK.CommonCustomerDataRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonCustomerDataRequest",
+                    "printedName": "IDentityMediumSDK.CommonCustomerDataRequest",
+                    "usr": "s:17IDentityMediumSDK25CommonCustomerDataRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "AdditionalCustomerWFlagCommonData",
+                "printedName": "IDentityMediumSDK.AdditionalCustomerWFlagCommonData",
+                "usr": "s:17IDentityMediumSDK33AdditionalCustomerWFlagCommonDataV"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1015,6 +1046,41 @@
                 "usr": "s:Sq"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(Swift.Result<IDCaptureMedium.ValidateIdResult, any Swift.Error>) -> ()",
@@ -1048,13 +1114,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from7options0E4Type0E7Country0E5State10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VS3SSgys6ResultOyAD010ValidateIdU0Vs5Error_pGctFZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from7options0E4Type0E7Country0E5State10completionySo16UIViewControllerC_AA35AdditionalCustomerWFlagCommonDataV3VS3SSgys6ResultOyAD010ValidateIdU0Vs5Error_pGctFZ",
+            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options11captureBack0E4Type0E7Country0E5State13isSecondaryID10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalx5WFlagwI0VSiSgSSSgA2WSbys6ResultOyAD16ValidateIdResultVs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options11captureBack0E4Type0E7Country0E5State13isSecondaryID10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalx5WFlagwI0VSiSgSSSgA2WSbys6ResultOyAD16ValidateIdResultVs5Error_pGctFZ",
             "moduleName": "IDCaptureMedium",
             "static": true,
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -1318,28 +1383,56 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2020,
+      "offset": 1072,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2323,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "Array",
-      "offset": 2397,
+      "offset": 2432,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "Array",
-      "offset": 2454,
+      "offset": 2489,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 41223,
+      "offset": 43854,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4751,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6234,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8842,
       "length": 5,
       "value": "false"
     },
@@ -1368,6 +1461,13 @@
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/RetryViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 448,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 967,
       "length": 5,
       "value": "false"
     },

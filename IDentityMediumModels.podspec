@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name                    = "IDentityMediumModels"
-  spec.version                 = "10.1.18.2.1"
+  spec.version                 = "10.1.24.2.2"
   spec.summary                 = "IDentityMediumModels lets user add IDentityMediumModels in their project"
   spec.description             = <<-DESC 
                                 IDentityMediumModels helps user to add IDentityMediumModels in their project.

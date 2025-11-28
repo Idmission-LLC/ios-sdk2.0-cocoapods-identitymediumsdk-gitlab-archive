@@ -355,8 +355,6 @@ SWIFT_CLASS("_TtC17IDentityMediumSDK23DetectedFingerPrintData")
 
 
 
-
-
 @class UIImage;
 
 SWIFT_CLASS("_TtC17IDentityMediumSDK19FingerPrintDetector")
