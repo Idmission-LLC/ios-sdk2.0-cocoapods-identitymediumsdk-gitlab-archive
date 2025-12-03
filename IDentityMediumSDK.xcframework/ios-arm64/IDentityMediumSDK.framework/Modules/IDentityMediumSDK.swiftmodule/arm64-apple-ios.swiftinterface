@@ -300,8 +300,7 @@ public struct CustomerEnrollDataResponse : Swift.Codable {
 public struct SignatureDataRequest : Swift.Codable {
   public var signatureImage: Swift.String?
   public var signatureVideo: Swift.String?
-  public var digitalSignatureJsonString: Swift.String?
-  public init(signatureImage: Swift.String? = nil, signatureVideo: Swift.String? = nil, digitalSignatureJsonString: Swift.String? = nil)
+  public init(signatureImage: Swift.String? = nil, signatureVideo: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -1318,7 +1317,6 @@ extension IDentityMediumSDK.IDentitySDK {
   public class func getXMLString(request: IDentityMediumSDK.GenericDataRequest, genericDataDictionary: [Swift.String : Any]) -> Swift.String
   public class func getJSONString(dictionary: [Swift.String : Any]) -> Swift.String?
   public class func getImageJSONString(for fileBase64: Swift.String, formKey: Swift.String, ifForFace: Swift.Bool? = nil, pdfDocumentName: Swift.String? = nil, extensionType: IDentityMediumSDK.ExtensionType? = nil) -> Swift.String?
-  public class func getDigitalSignatureJSONString(fileContent: Swift.String) -> Swift.String?
   public class func getFingerprintJSONString(fingerPrintData: IDentityMediumSDK.FingerPrintData?) -> Swift.String?
   public class func getVoiceJSONString(fileContent: Swift.String, formKey: Swift.String) -> Swift.String?
   public class func getLiveFaceImageDataNode(formKey: Swift.String, formID: Swift.String, request: IDentityMediumSDK.GenericDataRequest, additionalData: [Swift.String : Any]?) -> Swift.String?
