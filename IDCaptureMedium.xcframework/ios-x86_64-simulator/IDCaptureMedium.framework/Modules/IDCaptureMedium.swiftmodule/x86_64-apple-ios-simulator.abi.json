@@ -1127,7 +1127,7 @@
           {
             "kind": "Function",
             "name": "autofill",
-            "printedName": "autofill(from:completion:)",
+            "printedName": "autofill(from:captureIdSide:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1141,9 +1141,15 @@
                 "usr": "c:objc(cs)UIViewController"
               },
               {
+                "kind": "TypeNominal",
+                "name": "AutofillCaptureIdSide",
+                "printedName": "IDentityMediumSDK.AutofillCaptureIdSide",
+                "usr": "s:17IDentityMediumSDK21AutofillCaptureIdSideO"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<IDentityMediumSDK.AutofillResult, any Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<IDentityMediumSDK.CustomerAutofillResponse, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1153,13 +1159,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<IDentityMediumSDK.AutofillResult, any Swift.Error>",
+                    "printedName": "Swift.Result<IDentityMediumSDK.CustomerAutofillResponse, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "AutofillResult",
-                        "printedName": "IDentityMediumSDK.AutofillResult",
-                        "usr": "s:17IDentityMediumSDK14AutofillResultV"
+                        "name": "CustomerAutofillResponse",
+                        "printedName": "IDentityMediumSDK.CustomerAutofillResponse",
+                        "usr": "s:17IDentityMediumSDK24CustomerAutofillResponseV"
                       },
                       {
                         "kind": "TypeNominal",
@@ -1174,8 +1180,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E8autofill4from10completionySo16UIViewControllerC_ys6ResultOyAA08AutofillJ0Vs5Error_pGctFZ",
-            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E8autofill4from10completionySo16UIViewControllerC_ys6ResultOyAA08AutofillJ0Vs5Error_pGctFZ",
+            "usr": "s:17IDentityMediumSDK0aC0C09IDCaptureB0E8autofill4from13captureIdSide10completionySo16UIViewControllerC_AA015AutofillCapturehI0Oys6ResultOyAA08CustomerM8ResponseVs5Error_pGctFZ",
+            "mangledName": "$s17IDentityMediumSDK0aC0C09IDCaptureB0E8autofill4from13captureIdSide10completionySo16UIViewControllerC_AA015AutofillCapturehI0Oys6ResultOyAA08CustomerM8ResponseVs5Error_pGctFZ",
             "moduleName": "IDCaptureMedium",
             "static": true,
             "declAttributes": [
@@ -1383,56 +1389,63 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1072,
+      "offset": 1079,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2323,
+      "offset": 1291,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2542,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "Array",
-      "offset": 2432,
+      "offset": 2651,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "Array",
-      "offset": 2489,
+      "offset": 2708,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 43854,
+      "offset": 49966,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 4751,
+      "offset": 4480,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 6234,
+      "offset": 5963,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 8842,
+      "offset": 8571,
       "length": 5,
       "value": "false"
     },
@@ -1467,7 +1480,7 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureInstructionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 967,
+      "offset": 1024,
       "length": 5,
       "value": "false"
     },
