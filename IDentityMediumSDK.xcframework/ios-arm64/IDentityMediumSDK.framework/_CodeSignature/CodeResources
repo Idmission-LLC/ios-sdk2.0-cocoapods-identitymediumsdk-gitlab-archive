@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		G7Nr3jDhfw392XtAkoUZoWki1Mk=
+		fnRmQMDMvFB1uRa9ymTA79hlJL0=
 		</data>
 		<key>DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib</key>
 		<data>
@@ -60,65 +60,13 @@
 		<data>
 		ku5oKK7xrf/GhE2zx1fFpHZxldU=
 		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
-		<data>
-		96Uw5p4tLIiDbN11Du0p0c5xqE8=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/BCLlefteyeclosed_200.emd</key>
-		<data>
-		KBTvwnLXsoe2PIlGUwZzMUOp5k8=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/BCLrighteyeclosed_200.emd</key>
-		<data>
-		fW6O7h6Je5DNmNrbOeCGmAixyLI=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
-		<data>
-		nz82B9ReqlrgBQLq+2lTptje5Vk=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
-		<data>
-		trY9XrpS4DxHzs3eHljZHIJNHrI=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/MFT_fssd_accgray.pb</key>
-		<data>
-		tq7fRawRQ359i/c0FEVvpQ6Oee0=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/MFT_fssd_fastgray.pb</key>
-		<data>
-		DP+qJf0czliL6znGLVx90ASNzCY=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/blazeface.tfl</key>
-		<data>
-		oseYQ/EQxo7JsNpdNgo4YVLh7a4=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/contours.tfl</key>
-		<data>
-		PaAh9+zFw3Is4fLMn5iQsLG5M34=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_100_8bit_gray_v1.tflite</key>
-		<data>
-		VCp0NyrYJWQnYbGaxVv0Vzy0IeA=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_100_8bit_v1.tflite</key>
-		<data>
-		AHaxev+fV4YGoIDboAUFlxfISmY=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_25_8bit_gray_v1.tflite</key>
-		<data>
-		Rd53RFFpKHZNvbiDaE2p4XxjbY0=
-		</data>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_25_8bit_v1.tflite</key>
-		<data>
-		RxtbTN3LjpFChp3tmniX3KD+dsE=
-		</data>
 		<key>Headers/CommonClass.h</key>
 		<data>
 		XbJUe8PtIFXmArkvhIp46V5BAD4=
 		</data>
 		<key>Headers/IDentityMediumSDK-Swift.h</key>
 		<data>
-		DXJNXKDSxEuUhdXfbQ9LNLAkxLU=
+		VPX5ddj3w97ku/UZDDCNgmnLaZM=
 		</data>
 		<key>Headers/IDentityMediumSDK.h</key>
 		<data>
@@ -270,7 +218,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nx8vQdz7hYwmN9pIFcffkub61EU=
+		AjAD+VbfVp0zCdvk1Mmj9O7Qq28=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -278,7 +226,7 @@
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		laJraRBtzovM4+JhhtzYDsv1ui4=
+		qPwKk00oYewlqdNsWUV5XAxnpi0=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -312,29 +260,25 @@
 		<data>
 		oYS7+p9yJEEy3UOE1YgjDNNbLAM=
 		</data>
-		<key>Modules/IDentityMediumSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		E/RAeGVd74vDf3dxOjjtTD200hY=
-		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/kom5b7cwO2OXW10p459t580GV0=
+		k8AX2M4uN3uhsO7bGLVQB8hvEPE=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		btB0Se3wR0Ur7AxNPrjM5IfdAcU=
+		uWiKYU7XxTKkCadxfZL3h4lYu8o=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		wy0y/ZlPlYpkCnaD7Hdcwdm+Eaw=
+		CqhW/a8RHuP43CfmqfTnYXn4ZoI=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		btB0Se3wR0Ur7AxNPrjM5IfdAcU=
+		uWiKYU7XxTKkCadxfZL3h4lYu8o=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		sMA9iegfv/our9G3ipSFOhRPl/4=
+		17hPTk9YjgPXxXyoXsfEtFdu+Vo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -352,6 +296,18 @@
 		<data>
 		+Besejjgg61DHPDJVuWdS2bVG+4=
 		</data>
+		<key>face_blendshapes.tflite</key>
+		<data>
+		6vJ990q7bhEvPtvXsG6z1GT9Asw=
+		</data>
+		<key>face_detector.tflite</key>
+		<data>
+		jIbaiblMJcOgX5XWSF0bPQ5p25A=
+		</data>
+		<key>face_landmarks_detector.tflite</key>
+		<data>
+		wIUFWwkLE+M5BwrWKLcCf9adB0I=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -359,7 +315,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+4g00SUx6asAKtKQhyS5AVq9IbdpETz7+KrWSOZuY3Y=
+			avMJi89nGGeF6JCb4HUy5TcYd9OJNLDLflxoa7/si3k=
 			</data>
 		</dict>
 		<key>DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib</key>
@@ -453,97 +409,6 @@
 			kOSrLc34DQ0zFXa7VbBcRQZjYIg0wBiOvPdurX6qK9E=
 			</data>
 		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8A8lZEpijnOMFV9JPQcq8UPyU8v5nwi/SCnL5dT0NRw=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/BCLlefteyeclosed_200.emd</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0xIT5PJf+LIXgeeG/YnO3lkX75s/vlC99V1IOvE27e0=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/BCLrighteyeclosed_200.emd</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y8oL2DjlGXdImtrbgKC+AWxaoLe2kPvDiaBkWqzP5P8=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3kz3lrW6TRJOM8ydS7YQwiekCNwkgmpgtVTOFB3E63I=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DtXIUoL5QNFKVyOmwK8F+cKr1Okww8TwvloHI203QRE=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/MFT_fssd_accgray.pb</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8K2wTXshtNmImTKmLw7/En7tsn0vhTQqkBRBU8oLgbE=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/MFT_fssd_fastgray.pb</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CUNCXfGzUODFinvmaL4flC6sM4wZjhpPFoWco+Eif0U=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/blazeface.tfl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TyXMFC6WtfIbMjbSFmwuZikgaB8dI5QtJRDpjIr27Nw=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/contours.tfl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hBYLwMSnSVF+Yvk8ssaKuP9J3lcfcOttFgJUypoHicA=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_100_8bit_gray_v1.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ekzwnGrkp1gUTUK/NbmiapWYfjxYQdDcORCVaYKZ2as=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_100_8bit_v1.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OvuTDu3I0dQENEgCgdO16M7EwwTlLTT9/IqVCDQLtxk=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_25_8bit_gray_v1.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IVEbvtJxoKkri5ORjg+I9u+70RWjbRVV8GHO4TH2qzw=
-			</data>
-		</dict>
-		<key>GoogleMVFaceDetectorResources.bundle/fssd_25_8bit_v1.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2pAlL0mzu5QuX4gBgKFFYfZpKW5/s+3s3quqi2u3gio=
-			</data>
-		</dict>
 		<key>Headers/CommonClass.h</key>
 		<dict>
 			<key>hash2</key>
@@ -555,7 +420,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nEQPLhbMMYJBIxrNaPaxAg73DyqAbO1R3yMNNegMP/0=
+			b9qFimSlJwLoup0qc7fYm86W7WFgGNvqLs1LJoY+dsI=
 			</data>
 		</dict>
 		<key>Headers/IDentityMediumSDK.h</key>
@@ -828,7 +693,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KAkKc+kR8U6bnoF8qeYOxHE/ZTZO0R1ex84pmAeUjHo=
+			TyVvyH3kfpzZ1VgFZhhy1iPpaykw0J2T9DjFTZmaFVU=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -887,46 +752,39 @@
 			DtYuT74PxcQJCuxHOxNuGI+ChZB2XAKDgjWNrds8y24=
 			</data>
 		</dict>
-		<key>Modules/IDentityMediumSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			m2sNY+aSwYCAx2Ufa3eu1U9UZpTYJCSOcDyiuATLUmE=
-			</data>
-		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EOIVUzATLJvDyWonAGqyTpP8uEPxZ7S2DEXaeUjQrlI=
+			KJTJI3dlrz8h26xgezjhymXkw8YCjR7BA19s2It5h2s=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fyliUNpNlrblMVGSb+UP8CGc+TbIMOyaXw29/VdE2zo=
+			C6725tpMeOMBnykaMmBDlhoJdDjRk60+DlLSEhWpvwQ=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			71DOLlun3exJQqj6ym6DyDqXc0rE4YNolyx89QpBQ5M=
+			jzDGX2o3TvdlRHmbzqbrXeFsDjJvM2wyx8tpsoUOaSg=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fyliUNpNlrblMVGSb+UP8CGc+TbIMOyaXw29/VdE2zo=
+			C6725tpMeOMBnykaMmBDlhoJdDjRk60+DlLSEhWpvwQ=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AKOJ5FMtn035K00Y4dL37s/7+74jcY/oGIwwPC5l9Hs=
+			hKzmCtpLMm1ZTWUxf04d5HosDovs1M8KL9m+SdowTxE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -955,6 +813,27 @@
 			<key>hash2</key>
 			<data>
 			YmDHj0If28dVTXDtzPSypdca/hiBtCN6BVsPzlVqqnM=
+			</data>
+		</dict>
+		<key>face_blendshapes.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Tzbd7QSdsY12BIVnQ5sqf1jx2qvADXi/6POtOWotIII=
+			</data>
+		</dict>
+		<key>face_detector.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tFePNZQL9aGmVSFKHM5cqxPrpzwSl8144aBMI4CwFS8=
+			</data>
+		</dict>
+		<key>face_landmarks_detector.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x9VCBM4ESEdMfz+pr0lHh8CWXL3W8g/HKGfkMEa9Q9U=
 			</data>
 		</dict>
 	</dict>
