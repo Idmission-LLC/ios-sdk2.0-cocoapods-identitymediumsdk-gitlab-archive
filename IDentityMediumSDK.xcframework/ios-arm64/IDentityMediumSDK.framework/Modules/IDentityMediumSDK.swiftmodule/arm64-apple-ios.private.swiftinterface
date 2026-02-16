@@ -15,6 +15,7 @@ import Foundation
 import GZIP
 @_exported import IDentityMediumSDK
 import ImageIO
+import MLKitFaceDetection
 import MLKitTextRecognition
 import MLKitVision
 import MetalPerformanceShaders
@@ -24,6 +25,7 @@ import SQLite3
 import Security
 import Swift
 import SwiftUI
+import TensorFlowLite
 import UIKit
 import Vision
 import _Concurrency
@@ -146,6 +148,7 @@ public struct CustomerAutofillIdDataRS : Swift.Codable {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class FingerPrintDetector : ObjectiveC.NSObject {
+  public var interpreter: TensorFlowLite.Interpreter?
   @objc override dynamic public init()
   @objc deinit
   #if compiler(>=5.3) && $NonescapableTypes
@@ -2614,6 +2617,8 @@ extension IDentityMediumSDK.SelfieCapture {
     public var capture4K: Swift.Bool
     public var uploadFaceData: Swift.Bool
     public var enableInstructionScreen: Swift.Bool
+    public var instructionScreenBackButtonIsHidden: Swift.Bool
+    public var cameraScreenBackButtonIsHidden: Swift.Bool
     public var ovalScaleMultiplier: Swift.Float {
       get
       set
@@ -3449,8 +3454,6 @@ extension IDentityMediumSDK.IDCapture {
     public var retryButtonText: Swift.String
     public var cancelButtonText: Swift.String
     public var passportNFCPrompt: Swift.String
-    public var passportReadingNFCDataText: Swift.String
-    public var passportReadingNFCDataSuccessText: Swift.String
     public var faceDoesNotMatch: Swift.String
     public mutating func reset()
   }
@@ -3462,6 +3465,8 @@ extension IDentityMediumSDK.DocumentCapture {
     public var isDebugMode: Swift.Bool
     public var capture4K: Swift.Bool
     public var enableInstructionScreen: Swift.Bool
+    public var instructionScreenBackButtonIsHidden: Swift.Bool
+    public var cameraScreenBackButtonIsHidden: Swift.Bool
     public var documentCaptureFrameWidth: Swift.Float?
     public var documentCaptureFrameHeight: Swift.Float?
     public var documentFileSizeLimit: Swift.Float
@@ -4162,6 +4167,8 @@ extension IDentityMediumSDK.IDCapture {
     public var enableInstructionScreen: Swift.Bool
     public var enablePassportNFC: Swift.Bool
     public var performIdCaptureBeforeSelfie: Swift.Bool
+    public var instructionScreenBackButtonIsHidden: Swift.Bool
+    public var cameraScreenBackButtonIsHidden: Swift.Bool
     public var passportNFCPhotoMatchThreshold: Swift.Float
   }
 }
@@ -4238,16 +4245,16 @@ public enum InitializationState : Swift.String {
 }
 public enum InitializationStage : Swift.String {
   case login
-  case passiveFaceTrainingModelLabel
-  case faceMaskTrainingModelLabel
-  case focusFaceTrainingModelLabel
   case getXsltData
   case searchCompanyTemplateDetails
+  case passiveFaceTrainingModelLabel
   case idCaptureTrainingModelLabel
   case classifierTrainingModelLabel
+  case faceMaskTrainingModelLabel
   case docDetectionTrainingModelLabel
   case fingerprintDetectionTrainingModelLabel
   case focusTrainingModelLabel
+  case focusFaceTrainingModelLabel
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -4276,13 +4283,10 @@ extension IDentityMediumSDK.IDentitySDK {
   public static var livenessModelName: Swift.String {
     get
   }
-  public static var focusFaceModelName: Swift.String {
+  public static var docRealnessModelName: Swift.String {
     get
   }
   public static var faceMaskModelName: Swift.String {
-    get
-  }
-  public static var docRealnessModelName: Swift.String {
     get
   }
   public static var docDetectionModelName: Swift.String {
@@ -4292,6 +4296,9 @@ extension IDentityMediumSDK.IDentitySDK {
     get
   }
   public static var focusModelName: Swift.String {
+    get
+  }
+  public static var focusFaceModelName: Swift.String {
     get
   }
   public static var modelVersions: [Swift.String : Swift.String] {

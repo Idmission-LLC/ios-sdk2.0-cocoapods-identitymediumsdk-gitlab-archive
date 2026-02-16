@@ -34,7 +34,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bEaTVPgdD3dBA+7ahS+90w9EFzQ=
+		EMF0+6nHlmlLIOE5xT2NT0IgqXA=
+		</data>
+		<key>Modules/IDentityMediumModels.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<data>
+		YycU3mId38f/fagxrmYTBtTTJoI=
 		</data>
 		<key>Modules/IDentityMediumModels.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -114,6 +118,13 @@
 			<key>hash2</key>
 			<data>
 			4TkbE0afdybiqwxoklEpStXEZSG30QJ3uiS5LIkjecU=
+			</data>
+		</dict>
+		<key>Modules/IDentityMediumModels.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3ysryoM2No+h/J0GIqsN2EXlJiruodkeeXbhC0ktHCw=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumModels.swiftmodule/arm64-apple-ios.abi.json</key>

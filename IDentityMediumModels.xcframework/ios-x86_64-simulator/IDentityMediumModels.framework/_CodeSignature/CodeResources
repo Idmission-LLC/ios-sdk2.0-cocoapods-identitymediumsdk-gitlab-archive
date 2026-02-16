@@ -34,7 +34,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sYgO+4N8OQQWFrw6xY/GGSAVrqM=
+		Vxuw86kHF5YnWHFANeyHPCIskJI=
+		</data>
+		<key>Modules/IDentityMediumModels.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		8LxFVTk4fzNiWHlE6ykVu/AfHxw=
 		</data>
 		<key>Modules/IDentityMediumModels.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -114,6 +118,13 @@
 			<key>hash2</key>
 			<data>
 			4TkbE0afdybiqwxoklEpStXEZSG30QJ3uiS5LIkjecU=
+			</data>
+		</dict>
+		<key>Modules/IDentityMediumModels.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H0fXB1zgB48ZSORd+YF2qg7uCdT403gsIiyF65Yh6C0=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumModels.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
