@@ -56,10 +56,6 @@
 		<data>
 		r4pT4tYjepBLh4NXSpKs3Pp+qDM=
 		</data>
-		<key>GET_XSLT_DATA.xml</key>
-		<data>
-		ku5oKK7xrf/GhE2zx1fFpHZxldU=
-		</data>
 		<key>Headers/CommonClass.h</key>
 		<data>
 		XbJUe8PtIFXmArkvhIp46V5BAD4=
@@ -292,10 +288,6 @@
 		<data>
 		Vwq5XkLRRMhgBZjUYTYw8eBjt+U=
 		</data>
-		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.xml</key>
-		<data>
-		+Besejjgg61DHPDJVuWdS2bVG+4=
-		</data>
 		<key>face_blendshapes.tflite</key>
 		<data>
 		6vJ990q7bhEvPtvXsG6z1GT9Asw=
@@ -303,10 +295,6 @@
 		<key>face_detection_full_range_sparse.tflite</key>
 		<data>
 		hsKkdvGLjsqJX5GuBM729oLj/os=
-		</data>
-		<key>face_detector.tflite</key>
-		<data>
-		jIbaiblMJcOgX5XWSF0bPQ5p25A=
 		</data>
 		<key>face_landmarks_detector.tflite</key>
 		<data>
@@ -404,13 +392,6 @@
 			<key>hash2</key>
 			<data>
 			+X0nw/ckaF0YzKlkavzT6AedsjUBqeh7isqyOgtA1VE=
-			</data>
-		</dict>
-		<key>GET_XSLT_DATA.xml</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kOSrLc34DQ0zFXa7VbBcRQZjYIg0wBiOvPdurX6qK9E=
 			</data>
 		</dict>
 		<key>Headers/CommonClass.h</key>
@@ -812,13 +793,6 @@
 			TJj2RjX8fMzdFPD/MPRGFrvXrzLT4ta3/pLxbGAy7BU=
 			</data>
 		</dict>
-		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.xml</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YmDHj0If28dVTXDtzPSypdca/hiBtCN6BVsPzlVqqnM=
-			</data>
-		</dict>
 		<key>face_blendshapes.tflite</key>
 		<dict>
 			<key>hash2</key>
@@ -831,13 +805,6 @@
 			<key>hash2</key>
 			<data>
 			LDco5tpW8h4hoyBDM5b7BtQNkIjyJHwF5WNaaI1F3+E=
-			</data>
-		</dict>
-		<key>face_detector.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tFePNZQL9aGmVSFKHM5cqxPrpzwSl8144aBMI4CwFS8=
 			</data>
 		</dict>
 		<key>face_landmarks_detector.tflite</key>
