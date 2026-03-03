@@ -14,15 +14,15 @@
 		</data>
 		<key>IDCapture.storyboardc/0MQ-BS-jP5-view-1qV-G3-ufb.nib</key>
 		<data>
-		wpUKYbqVCKEPaouLKyQ9riLb94Y=
+		zXzukR/oYplirCvIMY23+ppdX1E=
 		</data>
 		<key>IDCapture.storyboardc/82V-S7-3fK-view-rnQ-zC-kEZ.nib</key>
 		<data>
-		WTGVfEtEK5GfQtlJ/Ti/0Ehx2/U=
+		5hFjCqlmAKyaZCAACPupCbwYqcU=
 		</data>
 		<key>IDCapture.storyboardc/Ff5-cc-gUl-view-big-ZQ-W6Q.nib</key>
 		<data>
-		ObdeMMfU6iwsrZCcYvGuhEANmDM=
+		h2H4rZCJ6U+JjmysSZqSWebsqaE=
 		</data>
 		<key>IDCapture.storyboardc/IDCaptureInstructionsViewController.nib</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>IDCapture.storyboardc/Kxl-rx-rZ7-view-MTo-GG-BaX.nib</key>
 		<data>
-		ObdeMMfU6iwsrZCcYvGuhEANmDM=
+		h2H4rZCJ6U+JjmysSZqSWebsqaE=
 		</data>
 		<key>IDCapture.storyboardc/RetryViewController.nib</key>
 		<data>
@@ -58,23 +58,19 @@
 		</data>
 		<key>IDCapture.storyboardc/T4m-RV-e8I-view-2Da-Et-BYa.nib</key>
 		<data>
-		D5vnTjtpuWsns5ctE6y2orAgBMo=
+		ZNE3Mn6xL+9YjWoXGQceuno0w+k=
 		</data>
 		<key>IDCapture.storyboardc/mkj-2R-7XC-view-Woh-ia-fDF.nib</key>
 		<data>
-		ObdeMMfU6iwsrZCcYvGuhEANmDM=
+		h2H4rZCJ6U+JjmysSZqSWebsqaE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zfocqCtRCagZvf3DvtrEV67xWHE=
-		</data>
-		<key>Modules/IDCaptureMedium.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		j5ypTdfDiqsp1kQ3xtjRSYv9HXg=
+		f+Po3cmn0L2b/sQr/pWf8LystLA=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rVhaFbpKkgnpQX9WpKXWPwhLPpk=
+		5o26bKdEKOnq55BnrbAlj/5gX9Q=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -90,7 +86,7 @@
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IvNgo/RZZg8AVJDWNI2sHVGzANo=
+		AD/mbS+Wsfl7BrE56eMR9B75TSk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -117,21 +113,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mYrKx1HPtXynsX/1BvukNPGf/WDQ5IcwJJq6wy6Bsgw=
+			djXZlMLPG5dDO3to9cFyRoWLJ3Kz0SuMWkW9J7xMkHE=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/82V-S7-3fK-view-rnQ-zC-kEZ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HUA9cX/hoMM2wqB446n/bFjabO2AbFF7FGcY1ijGlhs=
+			j4M1oSdrAKe7APo1tMWWR4kusxDYplp3fj2dUmUlwO0=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/Ff5-cc-gUl-view-big-ZQ-W6Q.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0O3AbS16/ulMxHE2LuB2EK7Thkcmn2JKmWZ8zqo+TjM=
+			/up1zQfpTCrHe2zX91ZKAsXC7g7ktFBPXvDVQIV2hwE=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/IDCaptureInstructionsViewController.nib</key>
@@ -159,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0O3AbS16/ulMxHE2LuB2EK7Thkcmn2JKmWZ8zqo+TjM=
+			/up1zQfpTCrHe2zX91ZKAsXC7g7ktFBPXvDVQIV2hwE=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/RetryViewController.nib</key>
@@ -194,28 +190,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			avhpCrwS1cZL/+e/wLX2UK/pgwOsYInVXqp3azhx664=
+			vCjTX97WfW60ivbxWIY48uHetI7RxDhaW6M27B3L/m0=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/mkj-2R-7XC-view-Woh-ia-fDF.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0O3AbS16/ulMxHE2LuB2EK7Thkcmn2JKmWZ8zqo+TjM=
-			</data>
-		</dict>
-		<key>Modules/IDCaptureMedium.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jCK+MOVcMrAvMxr0y49WGajLEqDVio4zqcZyZw+GCuc=
+			/up1zQfpTCrHe2zX91ZKAsXC7g7ktFBPXvDVQIV2hwE=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cUfR6m34GD/+Dv5uJMyc+ZGAddSfhf2ebV3pSAlyaZI=
+			7Egz4WtQiU9y2DimHKhp2dHrjnKnlObB+H49+MXa55k=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -243,7 +232,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/oXW0yhaAjBbxniDIwIT5DMO4rKCUMdCmMfeVPyLr3s=
+			eFGNW54GhIkWee07pgKoiPVHzUjb4AQYXntEzg0j8/8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
