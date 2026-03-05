@@ -4323,7 +4323,7 @@ public typealias ErrorCompletion = ((any Swift.Error)?) -> Swift.Void
   weak public static var delegate: (any IDentityMediumSDK.InitializationDelegate)?
   public class func setDevelopmentRelaxationSecret(_ secret: Swift.Int)
   public class func setScreenSecurityEnabled(_ enabled: Swift.Bool)
-  public class func setScreenRecordingBlurEnabled(_ enabled: Swift.Bool)
+  public class func enabledScreenRecording(_ enabled: Swift.Bool)
   public class func initializeSDK(language: IDentityMediumSDK.Language = .en, isGPSEnabled: Swift.Bool = true, isUpdateModelsData: Swift.Bool = true, accessToken: Swift.String, completion: @escaping IDentityMediumSDK.ErrorCompletion)
   @objc deinit
 }
