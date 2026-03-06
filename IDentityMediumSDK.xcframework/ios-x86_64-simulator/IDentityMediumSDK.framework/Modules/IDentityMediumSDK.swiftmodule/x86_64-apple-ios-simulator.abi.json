@@ -242637,14 +242637,14 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 89439,
+      "offset": 89506,
       "length": 20,
       "value": "\"idCaptureDebugData\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 89510,
+      "offset": 89577,
       "length": 15,
       "value": "\"idCaptureMode\""
     },
@@ -245808,7 +245808,7 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 23605,
+      "offset": 23669,
       "length": 2,
       "value": "\"\""
     },
