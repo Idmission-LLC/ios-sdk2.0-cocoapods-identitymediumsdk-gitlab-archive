@@ -214,7 +214,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		z6NRaNwNiVfMLT90gYGXLDLqeGQ=
+		gGcGwXOP6bQeWY+bH+vqqj2lilk=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -258,11 +258,11 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		elZ8uNqYHeZc99hmFtdr0kbodtY=
+		zCEXxUtFzLrnyr0I1tF3w7OUC5A=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OJGEaCSVITBY4iJcgEk+drf9ErM=
+		ULpb22vhjn0zuneRN1cvXNEHbYE=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -270,11 +270,11 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OJGEaCSVITBY4iJcgEk+drf9ErM=
+		ULpb22vhjn0zuneRN1cvXNEHbYE=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pmWIXLKojhbL5a5XwPvK13+FSmg=
+		C6Y0VuVTu+PuPbUZ/7rIMjefl1o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -729,14 +729,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cA+wN7/oCyrvcXf7iKVzcz/YwZsePlpOQw1uxDJJOCw=
+			do0VwzkzM7sWOyQkEqeLUN+d0zbb1rPZduptNilzSPE=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H6mExuo+la1xe8XQ+QBVXGQnsWz89QH//FPMPaYCc5U=
+			8ELf0RlyKXrKxU0FY5F91kYEYW8m4isvCLqUk0B2jo8=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -750,14 +750,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H6mExuo+la1xe8XQ+QBVXGQnsWz89QH//FPMPaYCc5U=
+			8ELf0RlyKXrKxU0FY5F91kYEYW8m4isvCLqUk0B2jo8=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			syM6soG6EdAZ+o1NIxvWRRy4OT8lBj2PkOXHBbapbio=
+			kTzHjaKjgG7px+V9nqwLPAjWij8Cncm7uHGtzapfCkg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -3243,6 +3243,8 @@ public struct FingerPrintMetadata : Swift.Encodable {
 extension IDentityMediumSDK.IDError {
   public enum Strings {
     case jailbrokenDeviceDetected
+    case hookingFrameworkDetected
+    case debuggerAttachedDetected
     case errorDownloadingSearchCompanyTemplateDetails
     case errorDownloadingGetXsltData
     case invalidURL

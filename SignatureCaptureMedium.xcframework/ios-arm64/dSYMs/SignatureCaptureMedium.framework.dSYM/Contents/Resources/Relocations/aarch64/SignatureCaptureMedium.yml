@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-medium/Build/Products/Release-iphoneos/SignatureCaptureMedium.framework/SignatureCaptureMedium'
 relocations:
-  - { offset: 0x85206, size: 0x8, addend: 0x0, symName: _SignatureCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0xCFE0, symSize: 0x0 }
-  - { offset: 0x8523B, size: 0x8, addend: 0x0, symName: _SignatureCaptureMediumVersionNumber, symObjAddr: 0x40, symBinAddr: 0xD020, symSize: 0x0 }
+  - { offset: 0x85206, size: 0x8, addend: 0x0, symName: _SignatureCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0xCFA0, symSize: 0x0 }
+  - { offset: 0x8523B, size: 0x8, addend: 0x0, symName: _SignatureCaptureMediumVersionNumber, symObjAddr: 0x40, symBinAddr: 0xCFE0, symSize: 0x0 }
   - { offset: 0x85347, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n', symObjAddr: 0x71C, symBinAddr: 0x471C, symSize: 0x104 }
   - { offset: 0x854F7, size: 0x8, addend: 0x0, symName: '_$s17IDentityMediumSDK0aC0C016SignatureCaptureB0E09signatureE04from10completionySo16UIViewControllerC_ys6ResultOyAA0D11DataRequestVs5Error_pGctFZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x488 }
   - { offset: 0x8572B, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x488, symBinAddr: 0x4488, symSize: 0x44 }
