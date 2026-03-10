@@ -1277,6 +1277,22 @@ public struct Metadata : Swift.Encodable {
   #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
+extension UIKit.UIDevice {
+  public enum IntegritySignal : Swift.Int {
+    case healthy
+    case jailbreakCompromised
+    case debuggerCompromised
+    case hookingCompromised
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.Int)
+    #endif
+    @available(iOS 2.0, *)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+}
 public struct CustomerValidateIdFaceMatchDataResponse : Swift.Codable {
   public var extractedIdData: IDentityMediumSDK.IdDataResponse?
   public var extractedPersonalData: IDentityMediumSDK.PersonalCustomerValidateIdFaceMatchResponseData?
@@ -4537,6 +4553,9 @@ extension IDentityMediumSDK.SignatureCapture.LabelPosition : Swift.Hashable {}
 extension IDentityMediumSDK.CustomerAdditionalData.SendDocumentIdInResponse : Swift.Equatable {}
 extension IDentityMediumSDK.CustomerAdditionalData.SendDocumentIdInResponse : Swift.Hashable {}
 extension IDentityMediumSDK.CustomerAdditionalData.SendDocumentIdInResponse : Swift.RawRepresentable {}
+extension UIKit.UIDevice.IntegritySignal : Swift.Equatable {}
+extension UIKit.UIDevice.IntegritySignal : Swift.Hashable {}
+extension UIKit.UIDevice.IntegritySignal : Swift.RawRepresentable {}
 extension IDentityMediumSDK.DetectedData.DocumentSide : Swift.Equatable {}
 extension IDentityMediumSDK.DetectedData.DocumentSide : Swift.Hashable {}
 extension IDentityMediumSDK.AutofillCaptureIdSide : Swift.Equatable {}
