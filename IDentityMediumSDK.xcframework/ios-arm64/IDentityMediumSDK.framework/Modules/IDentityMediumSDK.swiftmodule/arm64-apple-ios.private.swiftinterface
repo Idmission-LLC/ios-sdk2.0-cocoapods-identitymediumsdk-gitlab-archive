@@ -4226,7 +4226,6 @@ extension IDentityMediumSDK.IDCapture {
     public var enableRealId: Swift.Bool
     public var enableInstructionScreen: Swift.Bool
     public var enablePassportNFC: Swift.Bool
-    public var enableIdSideMismatchCapture: Swift.Bool
     public var performIdCaptureBeforeSelfie: Swift.Bool
     public var instructionScreenBackButtonIsHidden: Swift.Bool
     public var cameraScreenBackButtonIsHidden: Swift.Bool

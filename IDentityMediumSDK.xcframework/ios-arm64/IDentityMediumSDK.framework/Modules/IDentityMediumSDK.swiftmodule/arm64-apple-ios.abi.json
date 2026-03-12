@@ -84233,93 +84233,6 @@
               },
               {
                 "kind": "Var",
-                "name": "enableIdSideMismatchCapture",
-                "printedName": "enableIdSideMismatchCapture",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:17IDentityMediumSDK9IDCaptureC7OptionsV27enableIdSideMismatchCaptureSbvp",
-                "mangledName": "$s17IDentityMediumSDK9IDCaptureC7OptionsV27enableIdSideMismatchCaptureSbvp",
-                "moduleName": "IDentityMediumSDK",
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:17IDentityMediumSDK9IDCaptureC7OptionsV27enableIdSideMismatchCaptureSbvg",
-                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC7OptionsV27enableIdSideMismatchCaptureSbvg",
-                    "moduleName": "IDentityMediumSDK",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:17IDentityMediumSDK9IDCaptureC7OptionsV27enableIdSideMismatchCaptureSbvs",
-                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC7OptionsV27enableIdSideMismatchCaptureSbvs",
-                    "moduleName": "IDentityMediumSDK",
-                    "implicit": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:17IDentityMediumSDK9IDCaptureC7OptionsV27enableIdSideMismatchCaptureSbvM",
-                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC7OptionsV27enableIdSideMismatchCaptureSbvM",
-                    "moduleName": "IDentityMediumSDK",
-                    "implicit": true,
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
                 "name": "performIdCaptureBeforeSelfie",
                 "printedName": "performIdCaptureBeforeSelfie",
                 "children": [
@@ -243193,14 +243106,14 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 89740,
+      "offset": 89526,
       "length": 20,
       "value": "\"idCaptureDebugData\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 89811,
+      "offset": 89597,
       "length": 15,
       "value": "\"idCaptureMode\""
     },
@@ -245923,49 +245836,49 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 16337,
+      "offset": 16336,
       "length": 43,
       "value": "[(\"eventDescription\", \"Eye Close Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 16608,
+      "offset": 16607,
       "length": 42,
       "value": "[(\"eventDescription\", \"Eye Open Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 17266,
+      "offset": 17265,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 17526,
+      "offset": 17525,
       "length": 37,
       "value": "[(\"eventDescription\", \"Face inFocus\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "Dictionary",
-      "offset": 17937,
+      "offset": 17936,
       "length": 39,
       "value": "[(\"eventDescription\", \"Glare Detected\")]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 26156,
+      "offset": 26155,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/SelfieCapture.swift",
       "kind": "StringLiteral",
-      "offset": 27432,
+      "offset": 27431,
       "length": 24,
       "value": "\"selfieCaptureDebugData\""
     },
@@ -246091,35 +246004,28 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 3595,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3734,
+      "offset": 3596,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 3903,
+      "offset": 3765,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 4062,
+      "offset": 3924,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 4202,
+      "offset": 4064,
       "length": 4,
       "value": "0.97"
     },
