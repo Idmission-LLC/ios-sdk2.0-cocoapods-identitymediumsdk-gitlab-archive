@@ -62,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		S3RJ1XafP9Ly4fMwWYc49SWxfhg=
+		8L9IBPTKMsUGm/8kbiOR2vTcOH0=
 		</data>
 		<key>Modules/FingerPrintCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/FingerPrintCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		f5uXGhNAgGEcGeeSeN9ICVTD7Tk=
+		JtWSUB9JbDDYpBiaSElrbavPh18=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -221,7 +221,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1TWIeGIEDBGv5ytHwi4z3OyfqWUcYgc/mDzEcUSpTCA=
+			/3dudSHROf5XooQx2jk+5Cu1M02HiltHVkjQ9n0NUm0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

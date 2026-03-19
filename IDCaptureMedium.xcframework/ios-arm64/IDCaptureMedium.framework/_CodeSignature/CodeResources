@@ -18,7 +18,7 @@
 		</data>
 		<key>IDCapture.storyboardc/82V-S7-3fK-view-rnQ-zC-kEZ.nib</key>
 		<data>
-		5hFjCqlmAKyaZCAACPupCbwYqcU=
+		W6LJ0bn+HEa26ir7wKID8TGtNzs=
 		</data>
 		<key>IDCapture.storyboardc/Ff5-cc-gUl-view-big-ZQ-W6Q.nib</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>IDCapture.storyboardc/T4m-RV-e8I-view-2Da-Et-BYa.nib</key>
 		<data>
-		ZNE3Mn6xL+9YjWoXGQceuno0w+k=
+		D5vnTjtpuWsns5ctE6y2orAgBMo=
 		</data>
 		<key>IDCapture.storyboardc/mkj-2R-7XC-view-Woh-ia-fDF.nib</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pzrgaOZTAwyOsd9oGC+PkRRR4ck=
+		ITkrFRTn47YbdDsUj6cyRcGz06k=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		gWyfgmOq4sjVlVJsraZXJR4K7BA=
+		hHfuRD7ytYxBhag8pN/bZ+jfnnc=
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		VL2Icryk6uKnY7kWywVGceW9SV4=
+		s6ZPvBAs2xMQ74MioMHI+rAUAME=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j4M1oSdrAKe7APo1tMWWR4kusxDYplp3fj2dUmUlwO0=
+			DwT+nrGmTl0wqc19vnmylaq2GoOHpS24Xxp8Zgm0MWY=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/Ff5-cc-gUl-view-big-ZQ-W6Q.nib</key>
@@ -190,7 +190,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vCjTX97WfW60ivbxWIY48uHetI7RxDhaW6M27B3L/m0=
+			avhpCrwS1cZL/+e/wLX2UK/pgwOsYInVXqp3azhx664=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/mkj-2R-7XC-view-Woh-ia-fDF.nib</key>
@@ -204,7 +204,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			37WYVsVFZRZjCF1QtD6vN++zPTaJk3xfATwuLrJVYmA=
+			/oo7tDhQMuyNmVOWKijOSUkj9eQz/joiDVk4+qdgxnQ=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureMedium.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -232,7 +232,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gmt1cWcRManjQ7IefvEGJJEP2Q6Ld59/y35qIFPA5Qs=
+			uWU4gtY+2VULlMzV1831D0MWI21aOS3Vg+re1501ZLo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

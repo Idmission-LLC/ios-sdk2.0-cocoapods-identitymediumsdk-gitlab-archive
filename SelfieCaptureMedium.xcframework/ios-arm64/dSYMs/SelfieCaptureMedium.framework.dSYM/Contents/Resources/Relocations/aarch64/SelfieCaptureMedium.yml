@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-medium/Build/Products/Release-iphoneos/SelfieCaptureMedium.framework/SelfieCaptureMedium'
 relocations:
-  - { offset: 0x7D72A, size: 0x8, addend: 0x0, symName: _SelfieCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0x32D10, symSize: 0x0 }
-  - { offset: 0x7D75F, size: 0x8, addend: 0x0, symName: _SelfieCaptureMediumVersionNumber, symObjAddr: 0x38, symBinAddr: 0x32D48, symSize: 0x0 }
+  - { offset: 0x7D72A, size: 0x8, addend: 0x0, symName: _SelfieCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0x32D50, symSize: 0x0 }
+  - { offset: 0x7D75F, size: 0x8, addend: 0x0, symName: _SelfieCaptureMediumVersionNumber, symObjAddr: 0x38, symBinAddr: 0x32D88, symSize: 0x0 }
   - { offset: 0x7D7C5, size: 0x8, addend: 0x0, symName: ___swift_memcpy16_8, symObjAddr: 0xFC, symBinAddr: 0x8000, symSize: 0xC }
   - { offset: 0x7D7D9, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x108, symBinAddr: 0x800C, symSize: 0x4 }
   - { offset: 0x7D7ED, size: 0x8, addend: 0x0, symName: '_$sSo6CGSizeVwet', symObjAddr: 0x10C, symBinAddr: 0x8010, symSize: 0x20 }
