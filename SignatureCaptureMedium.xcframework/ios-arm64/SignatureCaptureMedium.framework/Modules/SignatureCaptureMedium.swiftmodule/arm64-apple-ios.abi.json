@@ -1667,6 +1667,34 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignatureCaptureMedium"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SignatureCaptureMedium"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SignatureCaptureMedium"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "SignatureCaptureMedium"
+      },
+      {
         "kind": "TypeDecl",
         "name": "IDentitySDK",
         "printedName": "IDentitySDK",
@@ -1920,6 +1948,13 @@
       "offset": 2804,
       "length": 17,
       "value": "\"touchesMoved : \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/SignatureCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 12,
+      "value": "\"back_arrow\""
     }
   ]
 }

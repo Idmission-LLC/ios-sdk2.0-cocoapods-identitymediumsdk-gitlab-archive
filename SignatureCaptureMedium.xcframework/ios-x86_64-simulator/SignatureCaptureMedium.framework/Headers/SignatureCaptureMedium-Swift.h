@@ -339,6 +339,8 @@ SWIFT_CLASS("_TtC22SignatureCaptureMedium13SignatureView")
 - (UIImage * _Nonnull)signatureImage SWIFT_WARN_UNUSED_RESULT;
 @end
 
+
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

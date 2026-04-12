@@ -423,6 +423,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCaptureMedium",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityMediumSDK",
+        "printedName": "IDentityMediumSDK",
+        "declKind": "Import",
+        "moduleName": "IDCaptureMedium"
+      },
+      {
+        "kind": "Import",
         "name": "CoreGraphics",
         "printedName": "CoreGraphics",
         "declKind": "Import",
@@ -1417,7 +1434,7 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 56776,
+      "offset": 58235,
       "length": 5,
       "value": "false"
     },
@@ -1441,20 +1458,6 @@
       "offset": 8571,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/UIImage+IDCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 743,
-      "length": 27,
-      "value": "\"id_capture_instruction_pp\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/UIImage+IDCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 801,
-      "length": 27,
-      "value": "\"id_capture_instruction_dl\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectStateTableViewController.swift",
@@ -1543,58 +1546,58 @@
     {
       "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/IDCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 901,
-      "length": 27,
-      "value": "\"id_capture_instruction_dl\""
+      "offset": 874,
+      "length": 12,
+      "value": "\"IDDocument\""
     },
     {
       "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/IDCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
-      "length": 27,
-      "value": "\"id_capture_instruction_pp\""
+      "offset": 1015,
+      "length": 12,
+      "value": "\"back_arrow\""
     },
     {
       "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/IDCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1251,
+      "offset": 1150,
+      "length": 9,
+      "value": "\"close-x\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/IDCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1298,
       "length": 17,
       "value": "\"overlay_barcode\""
     },
     {
       "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/IDCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1407,
+      "offset": 1454,
       "length": 17,
       "value": "\"overlay_capture\""
     },
     {
       "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/IDCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1581,
+      "offset": 1628,
       "length": 27,
       "value": "\"overlay_landscape_id_back\""
     },
     {
       "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/IDCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1765,
+      "offset": 1812,
       "length": 27,
       "value": "\"overlay_portrait_id_front\""
     },
     {
       "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/IDCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1917,
+      "offset": 1964,
       "length": 10,
       "value": "\"retry_id\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-medium\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphoneos\/IDCaptureMedium.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2058,
-      "length": 13,
-      "value": "\"xmark-solid\""
     }
   ]
 }
