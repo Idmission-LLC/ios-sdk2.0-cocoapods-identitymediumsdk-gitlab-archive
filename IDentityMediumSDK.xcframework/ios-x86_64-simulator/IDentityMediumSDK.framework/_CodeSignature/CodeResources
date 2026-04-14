@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		MUvUx6fhZ2/q6dzMk6y+YsqPXSs=
+		siSrJzNcGRXnnke7QUvaTpmfm7o=
 		</data>
 		<key>DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>DocumentCapture.storyboardc/uZ1-C4-XDq-view-stv-OC-CZ5.nib</key>
 		<data>
-		VN4hBkzAM1kIK4TKTtrXH9QW2/U=
+		utD34u4r8LFOgfKTPyO0jbHFqZg=
 		</data>
 		<key>DocumentCapture.storyboardc/vOZ-qx-4e5-view-VEb-Bo-e7P.nib</key>
 		<data>
-		L6VARXvK6tQ8tzw1VKDA1j50VK0=
+		E0P+ApXLYwZvbg5UNrhD8PKvj6M=
 		</data>
 		<key>GET_XSLT_DATA.json</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Lm+2M8wWpTruSrmxYjU9ey4NzDY=
+		ku6KRIfyTcpQ6MG6f3yUe+fqPlo=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -258,23 +258,23 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		e+GZqDtFQyFqVbVXdnUDCwrVDg0=
+		ONAq36A+PGGzX2gFqdM5YlEjT54=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hepU4DdOdcvnwOrI3qhZ8zKlNGc=
+		QRyTFTpNOV7of4mcA5lDntseSY4=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8VH+VgPrUCPDr9oERgeYnkislPk=
+		8N3AcGgnjO+5CUChX1npPJKinp0=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hepU4DdOdcvnwOrI3qhZ8zKlNGc=
+		QRyTFTpNOV7of4mcA5lDntseSY4=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ip7k84FzXh/ogeR2dwEpX9EvDU4=
+		CAXI32JureK/NEtUg02+6Def58k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -295,7 +295,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jlnU62Eb07X2Kas/NanyiNYKGk29OczouJSdhfo5It0=
+			nG9b+ZNYY2e0K0tV1rJfUj/Rx1ivOk8Gf5H4Fw0Siuo=
 			</data>
 		</dict>
 		<key>DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib</key>
@@ -365,14 +365,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vWUGke4aTwXydbsOKvAsviwogs54pCr3mp+uIoJ06EE=
+			GW+RwegZtMRZQ/2DK/+uDodPoHpYbxkV5qg/3qlOHaY=
 			</data>
 		</dict>
 		<key>DocumentCapture.storyboardc/vOZ-qx-4e5-view-VEb-Bo-e7P.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eijdznwNreHqaHMX3lgBJA4iWCiwYi5zKSWoBxhJHtI=
+			XqzO6fuK3R5Q5oQjQP62jw/76WDDg4ONF0/hsoGEVxw=
 			</data>
 		</dict>
 		<key>GET_XSLT_DATA.json</key>
@@ -729,35 +729,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jUiukv1BG5QhHRyYJe1Jqo0P97RNti6g8gxmp4xpGZM=
+			FHi9bdp4VGqacooZJVHisNVOIdlNvAZR+F1GjlbhogU=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xOo504bJCu/Tyn5z9WlZMDwoKPACr8pi1AYbM74+4hc=
+			QxVW9qF+2lwYW+d6qCoLwn5yJaKZZYC3mJJD8vtqiyE=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ng8r9tjV6tEdPQd4v2hixof/GzMTqBsaT288EgSIwNY=
+			paVTI1UnSP2Wd8i91y1Hogr/vn8qdVLecCuQ4v6zPvU=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xOo504bJCu/Tyn5z9WlZMDwoKPACr8pi1AYbM74+4hc=
+			QxVW9qF+2lwYW+d6qCoLwn5yJaKZZYC3mJJD8vtqiyE=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hc45uivj80yTPQuGUu5H2tw2bLBcOJn4obdYD8sf7o8=
+			GNn4sNWbXuy5vKEq9M+FQImZwO6nkoPB39kDtcl1DGA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
