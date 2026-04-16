@@ -214,7 +214,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ku6KRIfyTcpQ6MG6f3yUe+fqPlo=
+		5UrZAJniwCB5pZ9nJDybgx5h6xw=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		3Cd7kZqRhM+2m2nL3DCpd0ygGB8=
+		7XojSFfbtNDR2OJhIdybXHl4VUg=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -258,7 +258,7 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ONAq36A+PGGzX2gFqdM5YlEjT54=
+		t5fsEJdCTuRICgM+N+m1XLgND2M=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -666,7 +666,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lwdhT7PuHeLf193p3WqTCTK1eAFqFCACZ8nZTwmaRXA=
+			SDr2wQH+UQKMT++kEVl0ixww/8zQm4d0Q+vPzmTofM0=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -729,7 +729,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FHi9bdp4VGqacooZJVHisNVOIdlNvAZR+F1GjlbhogU=
+			psfRA9K4b9ZlsQZ0XLfHTMyex4Py7eIaP38HY3whGsc=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
