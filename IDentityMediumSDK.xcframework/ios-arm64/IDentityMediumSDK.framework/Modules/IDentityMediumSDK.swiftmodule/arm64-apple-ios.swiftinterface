@@ -592,6 +592,7 @@ extension IDentityMediumSDK.IDCapture {
   public struct ButtonStyle {
     public var instructionScreenContinueButton: IDentityMediumSDK.IDCapture.ButtonBorderStyle?
     public var captureAnywayButton: IDentityMediumSDK.IDCapture.ButtonBorderStyle?
+    public var exitButton: IDentityMediumSDK.IDCapture.ButtonBorderStyle?
     public var previewScreenRetryButton: IDentityMediumSDK.IDCapture.ButtonBorderStyle?
     public var previewScreenDoneButton: IDentityMediumSDK.IDCapture.ButtonBorderStyle?
     public var retryScreenRetryButton: IDentityMediumSDK.IDCapture.ButtonBorderStyle?
@@ -3107,6 +3108,8 @@ extension IDentityMediumSDK.IDCapture {
     public var warningLabelTextColor: UIKit.UIColor?
     public var captureAnywayButtonColor: UIKit.UIColor?
     public var captureAnywayButtonTextColor: UIKit.UIColor?
+    public var exitButtonColor: UIKit.UIColor?
+    public var exitButtonTextColor: UIKit.UIColor?
     public var idCaptureProgressBarColor: UIKit.UIColor?
     public var previewScreenBackgroundColor: UIKit.UIColor?
     public var previewScreenTopViewColor: UIKit.UIColor?
@@ -3301,6 +3304,7 @@ extension IDentityMediumSDK.IDCapture {
     public var frontImageDetected: Swift.String
     public var idCaptureWarningMessage: Swift.String
     public var captureAnywayButtonText: Swift.String
+    public var exitButtonText: Swift.String
     public var tooMuchGlare: Swift.String
     public var glareDetected: Swift.String
     public var removeFinger: Swift.String
@@ -3701,6 +3705,7 @@ extension IDentityMediumSDK.IDCapture {
     public var captureLabelFont: UIKit.UIFont?
     public var warningLabelFont: UIKit.UIFont?
     public var captureAnywayButtonTextFont: UIKit.UIFont?
+    public var exitButtonTextFont: UIKit.UIFont?
     public var previewScreenTitleLabelFont: UIKit.UIFont?
     public var previewScreenRetryBtnFont: UIKit.UIFont?
     public var previewScreenDoneBtnFont: UIKit.UIFont?
@@ -3987,6 +3992,7 @@ extension UIKit.UIImage {
 public enum WrongDocumentTypeHandlingMode {
   case autoCapture
   case manualCapture
+  case exit
   public static func == (a: IDentityMediumSDK.WrongDocumentTypeHandlingMode, b: IDentityMediumSDK.WrongDocumentTypeHandlingMode) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {

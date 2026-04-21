@@ -77539,6 +77539,117 @@
               },
               {
                 "kind": "Var",
+                "name": "exitButton",
+                "printedName": "exitButton",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDentityMediumSDK.IDCapture.ButtonBorderStyle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ButtonBorderStyle",
+                        "printedName": "IDentityMediumSDK.IDCapture.ButtonBorderStyle",
+                        "usr": "s:17IDentityMediumSDK9IDCaptureC17ButtonBorderStyleV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17IDentityMediumSDK9IDCaptureC11ButtonStyleV04exitE0AC0e6BorderF0VSgvp",
+                "mangledName": "$s17IDentityMediumSDK9IDCaptureC11ButtonStyleV04exitE0AC0e6BorderF0VSgvp",
+                "moduleName": "IDentityMediumSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "IDentityMediumSDK.IDCapture.ButtonBorderStyle?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ButtonBorderStyle",
+                            "printedName": "IDentityMediumSDK.IDCapture.ButtonBorderStyle",
+                            "usr": "s:17IDentityMediumSDK9IDCaptureC17ButtonBorderStyleV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC11ButtonStyleV04exitE0AC0e6BorderF0VSgvg",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC11ButtonStyleV04exitE0AC0e6BorderF0VSgvg",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "IDentityMediumSDK.IDCapture.ButtonBorderStyle?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ButtonBorderStyle",
+                            "printedName": "IDentityMediumSDK.IDCapture.ButtonBorderStyle",
+                            "usr": "s:17IDentityMediumSDK9IDCaptureC17ButtonBorderStyleV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC11ButtonStyleV04exitE0AC0e6BorderF0VSgvs",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC11ButtonStyleV04exitE0AC0e6BorderF0VSgvs",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC11ButtonStyleV04exitE0AC0e6BorderF0VSgvM",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC11ButtonStyleV04exitE0AC0e6BorderF0VSgvM",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "previewScreenRetryButton",
                 "printedName": "previewScreenRetryButton",
                 "children": [
@@ -80818,6 +80929,228 @@
                     "declKind": "Accessor",
                     "usr": "s:17IDentityMediumSDK9IDCaptureC6ColorsV28captureAnywayButtonTextColorSo7UIColorCSgvM",
                     "mangledName": "$s17IDentityMediumSDK9IDCaptureC6ColorsV28captureAnywayButtonTextColorSo7UIColorCSgvM",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "exitButtonColor",
+                "printedName": "exitButtonColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17IDentityMediumSDK9IDCaptureC6ColorsV15exitButtonColorSo7UIColorCSgvp",
+                "mangledName": "$s17IDentityMediumSDK9IDCaptureC6ColorsV15exitButtonColorSo7UIColorCSgvp",
+                "moduleName": "IDentityMediumSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIColor?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC6ColorsV15exitButtonColorSo7UIColorCSgvg",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC6ColorsV15exitButtonColorSo7UIColorCSgvg",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIColor?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC6ColorsV15exitButtonColorSo7UIColorCSgvs",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC6ColorsV15exitButtonColorSo7UIColorCSgvs",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC6ColorsV15exitButtonColorSo7UIColorCSgvM",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC6ColorsV15exitButtonColorSo7UIColorCSgvM",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "exitButtonTextColor",
+                "printedName": "exitButtonTextColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17IDentityMediumSDK9IDCaptureC6ColorsV19exitButtonTextColorSo7UIColorCSgvp",
+                "mangledName": "$s17IDentityMediumSDK9IDCaptureC6ColorsV19exitButtonTextColorSo7UIColorCSgvp",
+                "moduleName": "IDentityMediumSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIColor?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC6ColorsV19exitButtonTextColorSo7UIColorCSgvg",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC6ColorsV19exitButtonTextColorSo7UIColorCSgvg",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIColor?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC6ColorsV19exitButtonTextColorSo7UIColorCSgvs",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC6ColorsV19exitButtonTextColorSo7UIColorCSgvs",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC6ColorsV19exitButtonTextColorSo7UIColorCSgvM",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC6ColorsV19exitButtonTextColorSo7UIColorCSgvM",
                     "moduleName": "IDentityMediumSDK",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -84369,6 +84702,92 @@
                     "declKind": "Accessor",
                     "usr": "s:17IDentityMediumSDK9IDCaptureC7StringsV23captureAnywayButtonTextSSvM",
                     "mangledName": "$s17IDentityMediumSDK9IDCaptureC7StringsV23captureAnywayButtonTextSSvM",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "exitButtonText",
+                "printedName": "exitButtonText",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17IDentityMediumSDK9IDCaptureC7StringsV14exitButtonTextSSvp",
+                "mangledName": "$s17IDentityMediumSDK9IDCaptureC7StringsV14exitButtonTextSSvp",
+                "moduleName": "IDentityMediumSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC7StringsV14exitButtonTextSSvg",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC7StringsV14exitButtonTextSSvg",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC7StringsV14exitButtonTextSSvs",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC7StringsV14exitButtonTextSSvs",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC7StringsV14exitButtonTextSSvM",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC7StringsV14exitButtonTextSSvM",
                     "moduleName": "IDentityMediumSDK",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -88096,6 +88515,117 @@
                     "declKind": "Accessor",
                     "usr": "s:17IDentityMediumSDK9IDCaptureC5FontsV27captureAnywayButtonTextFontSo6UIFontCSgvM",
                     "mangledName": "$s17IDentityMediumSDK9IDCaptureC5FontsV27captureAnywayButtonTextFontSo6UIFontCSgvM",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "exitButtonTextFont",
+                "printedName": "exitButtonTextFont",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17IDentityMediumSDK9IDCaptureC5FontsV18exitButtonTextFontSo6UIFontCSgvp",
+                "mangledName": "$s17IDentityMediumSDK9IDCaptureC5FontsV18exitButtonTextFontSo6UIFontCSgvp",
+                "moduleName": "IDentityMediumSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIFont?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIFont",
+                            "printedName": "UIKit.UIFont",
+                            "usr": "c:objc(cs)UIFont"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC5FontsV18exitButtonTextFontSo6UIFontCSgvg",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC5FontsV18exitButtonTextFontSo6UIFontCSgvg",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIFont?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIFont",
+                            "printedName": "UIKit.UIFont",
+                            "usr": "c:objc(cs)UIFont"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC5FontsV18exitButtonTextFontSo6UIFontCSgvs",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC5FontsV18exitButtonTextFontSo6UIFontCSgvs",
+                    "moduleName": "IDentityMediumSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17IDentityMediumSDK9IDCaptureC5FontsV18exitButtonTextFontSo6UIFontCSgvM",
+                    "mangledName": "$s17IDentityMediumSDK9IDCaptureC5FontsV18exitButtonTextFontSo6UIFontCSgvM",
                     "moduleName": "IDentityMediumSDK",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -238426,6 +238956,43 @@
             "moduleName": "IDentityMediumSDK"
           },
           {
+            "kind": "Var",
+            "name": "exit",
+            "printedName": "exit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDentityMediumSDK.WrongDocumentTypeHandlingMode.Type) -> IDentityMediumSDK.WrongDocumentTypeHandlingMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WrongDocumentTypeHandlingMode",
+                    "printedName": "IDentityMediumSDK.WrongDocumentTypeHandlingMode",
+                    "usr": "s:17IDentityMediumSDK29WrongDocumentTypeHandlingModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDentityMediumSDK.WrongDocumentTypeHandlingMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WrongDocumentTypeHandlingMode",
+                        "printedName": "IDentityMediumSDK.WrongDocumentTypeHandlingMode",
+                        "usr": "s:17IDentityMediumSDK29WrongDocumentTypeHandlingModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17IDentityMediumSDK29WrongDocumentTypeHandlingModeO4exityA2CmF",
+            "mangledName": "$s17IDentityMediumSDK29WrongDocumentTypeHandlingModeO4exityA2CmF",
+            "moduleName": "IDentityMediumSDK"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -254252,14 +254819,14 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 89799,
+      "offset": 89902,
       "length": 20,
       "value": "\"idCaptureDebugData\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 89870,
+      "offset": 89973,
       "length": 15,
       "value": "\"idCaptureMode\""
     },
@@ -256548,7 +257115,7 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/DocumentCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 2191,
+      "offset": 2190,
       "length": 4,
       "value": "true"
     },
@@ -257136,182 +257703,182 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 456,
+      "offset": 470,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 643,
+      "offset": 657,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 832,
+      "offset": 846,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 1019,
+      "offset": 1033,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 1394,
+      "offset": 1408,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 1794,
+      "offset": 1808,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 2007,
+      "offset": 2021,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 2204,
+      "offset": 2218,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 2375,
+      "offset": 2389,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 2548,
+      "offset": 2562,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 2709,
+      "offset": 2723,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 2838,
+      "offset": 2852,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 2954,
+      "offset": 2968,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 3100,
+      "offset": 3114,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 3216,
+      "offset": 3230,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 3384,
+      "offset": 3398,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 3552,
+      "offset": 3566,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 3692,
+      "offset": 3706,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 3861,
+      "offset": 3875,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 4020,
+      "offset": 4034,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "FloatLiteral",
-      "offset": 4160,
+      "offset": 4174,
       "length": 4,
       "value": "0.97"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 4284,
+      "offset": 4298,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "IntegerLiteral",
-      "offset": 4421,
+      "offset": 4435,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "IntegerLiteral",
-      "offset": 4722,
+      "offset": 4765,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "IntegerLiteral",
-      "offset": 4827,
+      "offset": 4870,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/Customizations\/Options\/IDCapture.Options.swift",
       "kind": "BooleanLiteral",
-      "offset": 4960,
+      "offset": 5003,
       "length": 5,
       "value": "false"
     },
