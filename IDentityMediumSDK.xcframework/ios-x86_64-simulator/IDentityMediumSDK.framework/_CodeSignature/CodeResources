@@ -52,9 +52,57 @@
 		<data>
 		E0P+ApXLYwZvbg5UNrhD8PKvj6M=
 		</data>
+		<key>FBLPromises_Privacy.bundle/Info.plist</key>
+		<data>
+		OkzzctFyCuhzdaZbcT9Txm1M+Aw=
+		</data>
+		<key>FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
+		</data>
 		<key>GET_XSLT_DATA.json</key>
 		<data>
 		r4pT4tYjepBLh4NXSpKs3Pp+qDM=
+		</data>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/Info.plist</key>
+		<data>
+		6eTd1poEmsbyR6q6AAfJwOdwDXs=
+		</data>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		GqeAMkwbcNQeG0K4qQhQh2vHhHo=
+		</data>
+		<key>GoogleDataTransport_Privacy.bundle/Info.plist</key>
+		<data>
+		AUAvIqDm/Bbwv9Lls7Bps38LQkg=
+		</data>
+		<key>GoogleDataTransport_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		WXQUJr75eMRgiVnLGyf8Gr3uLUU=
+		</data>
+		<key>GoogleToolboxForMac_Logger_Privacy.bundle/Info.plist</key>
+		<data>
+		YtJ+7jBRbY5FKA3FMicmCsUdeXg=
+		</data>
+		<key>GoogleToolboxForMac_Logger_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		GqeAMkwbcNQeG0K4qQhQh2vHhHo=
+		</data>
+		<key>GoogleToolboxForMac_Privacy.bundle/Info.plist</key>
+		<data>
+		E+m9C31v9JBMSkmNL4Kwz1Ykslw=
+		</data>
+		<key>GoogleToolboxForMac_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
+		</data>
+		<key>GoogleUtilities_Privacy.bundle/Info.plist</key>
+		<data>
+		svPgkpk/R8gvW+0NmorLxmHzsaQ=
+		</data>
+		<key>GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		9Dge7JFNlx7Vk430tsjNsK3d0Ng=
 		</data>
 		<key>Headers/CommonClass.h</key>
 		<data>
@@ -62,7 +110,7 @@
 		</data>
 		<key>Headers/IDentityMediumSDK-Swift.h</key>
 		<data>
-		gG9a8WRRdyhWTHGZZ92vSvWlhpM=
+		XNLpHKisMFeevXPkLBZ+THP7SKY=
 		</data>
 		<key>Headers/IDentityMediumSDK.h</key>
 		<data>
@@ -214,7 +262,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SzW+2pk4Rigug39R6Wnh9MloSPQ=
+		CBu0yRlPt+4Nnu4b+aEVwbvENeY=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -258,23 +306,23 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Wse2LPSAcW289vmx2xHOL89hARk=
+		jFTDiAcqIflVLasrJHtfKKn6lro=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pxgdnWeFpp7ch7bDuFceOcc+Z1g=
+		sf2SrRQjq/s4zU0LdPNaY6kgkYI=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		i1WUbgRyTlY741AMDV4QWHaQal8=
+		3xfwD1/DEfDeeFWC+ihysUMV4qY=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pxgdnWeFpp7ch7bDuFceOcc+Z1g=
+		sf2SrRQjq/s4zU0LdPNaY6kgkYI=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		j9By5KKduFphGcOqtBDVZ92msEQ=
+		HM5Y7AIQkET0v1RmqjkrgbI4ZOA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -287,6 +335,14 @@
 		<key>SEARCH_COMPANY_TEMPLATE_DETAILS.json</key>
 		<data>
 		Vwq5XkLRRMhgBZjUYTYw8eBjt+U=
+		</data>
+		<key>nanopb_Privacy.bundle/Info.plist</key>
+		<data>
+		oO3D50re7wWKqGjkjCGex1f/JqQ=
+		</data>
+		<key>nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		KY5lfwC2TvsgFj4wt7hkMmainbs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -375,11 +431,95 @@
 			XqzO6fuK3R5Q5oQjQP62jw/76WDDg4ONF0/hsoGEVxw=
 			</data>
 		</dict>
+		<key>FBLPromises_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fJvOhIlIe2+hNZMT1UEFAdoONJbg9B+ktNH6hj0EgFg=
+			</data>
+		</dict>
+		<key>FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
+			</data>
+		</dict>
 		<key>GET_XSLT_DATA.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			+X0nw/ckaF0YzKlkavzT6AedsjUBqeh7isqyOgtA1VE=
+			</data>
+		</dict>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+eRS0Udg/ofrviTM0KjJ7loJ+wzK8z1GjIiNXjLuH0M=
+			</data>
+		</dict>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PkqTy+hqzvfdfgY6KMhJmS9Vbn9SytxfN8HosOG1RoY=
+			</data>
+		</dict>
+		<key>GoogleDataTransport_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QWfEVsb1Ngn7dfcqU+YpAyVx3Kf8Ev/1iimk2YZu5ho=
+			</data>
+		</dict>
+		<key>GoogleDataTransport_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z7s8T3ambVNpi66R9xEMAPIUjm5vE619MlkpCbwBDlE=
+			</data>
+		</dict>
+		<key>GoogleToolboxForMac_Logger_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			W5sYGKl/pjaGYJQ/3Y5eWCHd9pn9otev9NyLRs6qq2k=
+			</data>
+		</dict>
+		<key>GoogleToolboxForMac_Logger_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PkqTy+hqzvfdfgY6KMhJmS9Vbn9SytxfN8HosOG1RoY=
+			</data>
+		</dict>
+		<key>GoogleToolboxForMac_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3HYPIY/F4HWnKs+V7/0THOm82Y3rv8+5C9PV/7P8eh0=
+			</data>
+		</dict>
+		<key>GoogleToolboxForMac_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
+			</data>
+		</dict>
+		<key>GoogleUtilities_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			apyMy1HezeIZBdCUA1bpvtYabQkc3fBQAuhnkPUWYC0=
+			</data>
+		</dict>
+		<key>GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+Btc+PBDZicS7KnpeFdnJkzxkAJf5720l3cpbAaN5Tw=
 			</data>
 		</dict>
 		<key>Headers/CommonClass.h</key>
@@ -393,7 +533,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/fwSEz1+aOty4s9j19D81h4KuVibY6HfUNR+sUNkDDg=
+			Zv2mV140qscI1LWSadfEZNEfXVh2CnXvx0UlEKo7l+Q=
 			</data>
 		</dict>
 		<key>Headers/IDentityMediumSDK.h</key>
@@ -729,35 +869,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0JhEJg90oqwNSQ0oLfdBciH1eNO/ov7ON3DxmpwK5Do=
+			NWGkxcGlzZqlRHiACBqmgFZe32vCvWxurOWs+beOncA=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h5uRsiqAMpdu7gue7lJnyTfgJAeaXdPt2cA//4yu/D0=
+			NYWTOuaHJISWXrWuXMcFORITi+DYX7xBOSbGL1VfdNE=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k8/RO6VMg7MUfSGRg0X8/8du/HL9BilaVw0+7G1yTs0=
+			RpNyLz1babU0kHSpXnRgCo6Si+lvHtugh1Eu+D1F2fo=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h5uRsiqAMpdu7gue7lJnyTfgJAeaXdPt2cA//4yu/D0=
+			NYWTOuaHJISWXrWuXMcFORITi+DYX7xBOSbGL1VfdNE=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jRcl/SUUhINF1mE7Icn6PbVoNr7i08NGZshmdUGgGno=
+			c6E3W+uEM37vaYHoyZI7TL3R/dlxvcOrQ/3sQat6DgQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -779,6 +919,20 @@
 			<key>hash2</key>
 			<data>
 			TJj2RjX8fMzdFPD/MPRGFrvXrzLT4ta3/pLxbGAy7BU=
+			</data>
+		</dict>
+		<key>nanopb_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KOs9L6+AgZATUHWdZjie0N9fmpp+HDCw7UaUrN21tYQ=
+			</data>
+		</dict>
+		<key>nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cpujy9D0WMeM1h7fFzUO2v4ONMqG4xTsZMjLIszSG1Q=
 			</data>
 		</dict>
 	</dict>

@@ -22,3 +22,7 @@ extension IDentityMediumSDK.IDentitySDK {
   @objc override dynamic public init()
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @objcMembers final public class ModelsEntryPoint : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
