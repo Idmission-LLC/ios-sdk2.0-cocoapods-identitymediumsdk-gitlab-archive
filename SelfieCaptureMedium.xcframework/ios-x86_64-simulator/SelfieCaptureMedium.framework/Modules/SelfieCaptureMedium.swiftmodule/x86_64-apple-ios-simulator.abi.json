@@ -23,23 +23,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SelfieCaptureMedium",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "IDentityMediumSDK",
-        "printedName": "IDentityMediumSDK",
-        "declKind": "Import",
-        "moduleName": "SelfieCaptureMedium"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3724,21 +3707,21 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 31335,
+      "offset": 29711,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 33259,
+      "offset": 31403,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/Extensions\/IDentitySDK+SelfieCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 36647,
+      "offset": 34327,
       "length": 5,
       "value": "false"
     },
@@ -3780,7 +3763,7 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/SelfieCapture\/SelfieCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19388,
+      "offset": 19849,
       "length": 5,
       "value": "false"
     },

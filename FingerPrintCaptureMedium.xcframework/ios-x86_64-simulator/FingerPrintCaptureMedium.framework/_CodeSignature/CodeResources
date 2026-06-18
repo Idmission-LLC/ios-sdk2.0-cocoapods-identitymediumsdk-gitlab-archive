@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/FingerPrintCaptureMedium-Swift.h</key>
 		<data>
-		gbuvDV/M8j1PQIHa+h2cunfGFOc=
+		pP/sPtjnvoDSobgrPNbRqZyssZI=
 		</data>
 		<key>Headers/FingerPrintCaptureMedium.h</key>
 		<data>
@@ -62,15 +62,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rL3QXZOd3mbtUof4o22TlBOj/zk=
+		tqLvfQBNK7yjpNWpQVYEAW+BHkI=
 		</data>
 		<key>Modules/FingerPrintCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		enknOLBPh924MNhZo7HpvyJoBUU=
+		DvRqQ/viFa+raaNWpRxMEgQtmTU=
 		</data>
 		<key>Modules/FingerPrintCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UyFcb9N6edRMq/UvgqyaHLslxDk=
+		SBgWxy28Dw6jlPHCaZTcTl+9Q3I=
 		</data>
 		<key>Modules/FingerPrintCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/FingerPrintCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UyFcb9N6edRMq/UvgqyaHLslxDk=
+		SBgWxy28Dw6jlPHCaZTcTl+9Q3I=
 		</data>
 		<key>Modules/FingerPrintCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ftzDY9yB82a3TglnQpDaRYa0Wmg=
+		v3/OznRF5MtGID9NGaYLb2H2e9I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -158,7 +158,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zo/9WJUf8O6zillU/q+AsnVEQqhrQaTbxRAPbdyju8U=
+			J/D7OMBV/ZrYnAVcaiFVo8eH9MVnuZ3GjiZS0VQVALk=
 			</data>
 		</dict>
 		<key>Headers/FingerPrintCaptureMedium.h</key>
@@ -193,14 +193,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GR/w4e/HzSC9jmge3ukEbo5BkliSNPed4X8YswVjjG8=
+			M3DtrCn6iprnNPl7BQQUqTwI9rWUMISEujx/0J2KyEQ=
 			</data>
 		</dict>
 		<key>Modules/FingerPrintCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IGcKqwASOr4BSaAeR7FIXdnPMENXsJTcY0LqRVE/KLo=
+			/R6Ps1FKBxeO3RzL73nRqhiTKIFpiA8LiCOzGNpkVBw=
 			</data>
 		</dict>
 		<key>Modules/FingerPrintCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -214,14 +214,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IGcKqwASOr4BSaAeR7FIXdnPMENXsJTcY0LqRVE/KLo=
+			/R6Ps1FKBxeO3RzL73nRqhiTKIFpiA8LiCOzGNpkVBw=
 			</data>
 		</dict>
 		<key>Modules/FingerPrintCaptureMedium.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QBFOkK7mpj4roC1jXZWnOok6NTZgfnlFHCpJXC4qxIA=
+			DUMjy62LUt4a9JIF1/Recg16jy9yMKNXNtNtRe5TamY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name                    = "VoiceCaptureMedium"
-  spec.version                 = "11.1.11.2.1"
+  spec.version                 = "11.1.7.2.8"
   spec.summary                 = "VoiceCaptureMedium lets user add VoiceCaptureMediumSDK in their project"
   spec.description             = <<-DESC 
                                 VoiceCaptureMedium helps user to add VoiceCaptureMediumSDK in their project.
