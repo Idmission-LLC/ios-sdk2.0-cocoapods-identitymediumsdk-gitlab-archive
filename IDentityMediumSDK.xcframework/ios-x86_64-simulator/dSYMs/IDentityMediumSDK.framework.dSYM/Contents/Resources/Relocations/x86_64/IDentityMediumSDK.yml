@@ -200,7 +200,7 @@ relocations:
   - { offset: 0x15C5B7, size: 0x8, addend: 0x0, symName: _xsltEngineVersion, symObjAddr: 0x4620, symBinAddr: 0x29EFAA8, symSize: 0x0 }
   - { offset: 0x15C5D7, size: 0x8, addend: 0x0, symName: _xsltLibxsltVersion, symObjAddr: 0x4628, symBinAddr: 0x21F4AF4, symSize: 0x0 }
   - { offset: 0x15C5F9, size: 0x8, addend: 0x0, symName: _xsltLibxmlVersion, symObjAddr: 0x462C, symBinAddr: 0x21F4AF8, symSize: 0x0 }
-  - { offset: 0x15C60F, size: 0x8, addend: 0x0, symName: _initialized, symObjAddr: 0x13A78, symBinAddr: 0x2ACBA20, symSize: 0x0 }
+  - { offset: 0x15C60F, size: 0x8, addend: 0x0, symName: _initialized, symObjAddr: 0x13A80, symBinAddr: 0x2ACBA20, symSize: 0x0 }
   - { offset: 0x15C620, size: 0x8, addend: 0x0, symName: _xsltNewDecimalFormat, symObjAddr: 0x2D69, symBinAddr: 0x14415, symSize: 0xE7 }
   - { offset: 0x15C648, size: 0x8, addend: 0x0, symName: _xsltNewDecimalFormat.permille, symObjAddr: 0x4630, symBinAddr: 0x21F4AFC, symSize: 0x0 }
   - { offset: 0x15D701, size: 0x8, addend: 0x0, symName: _xsltInit, symObjAddr: 0x0, symBinAddr: 0x116AC, symSize: 0x1C }
