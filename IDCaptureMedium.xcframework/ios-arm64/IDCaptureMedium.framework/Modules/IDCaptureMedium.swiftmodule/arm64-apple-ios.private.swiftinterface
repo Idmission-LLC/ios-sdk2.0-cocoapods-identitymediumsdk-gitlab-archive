@@ -30,6 +30,12 @@ extension IDentityMediumSDK.IDentitySDK {
 extension IDentityMediumSDK.StateMasterVO : Swift.Equatable {
   public static func == (lhs: IDentityMediumSDK.StateMasterVO, rhs: IDentityMediumSDK.StateMasterVO) -> Swift.Bool
 }
+extension Foundation.UserDefaults {
+  public static var realIdNotDetectedCount: Swift.Int {
+    get
+    set
+  }
+}
 extension IDentityMediumSDK.CountryMaster : Swift.Equatable {
   public static func == (lhs: IDentityMediumSDK.CountryMaster, rhs: IDentityMediumSDK.CountryMaster) -> Swift.Bool
 }

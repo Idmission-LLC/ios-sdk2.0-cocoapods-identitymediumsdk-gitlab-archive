@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FC6QNYLWTDPPwN/AiYuvsX5ifWo=
+		1jnQ41ePKkXceON8kVptDHSEO2A=
 		</data>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/VoiceCaptureMedium.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		lp8WHSBSsQeLJORAPLPg17EUwXc=
+		YEpj6k4GNA8NC8kkSjzWs1/NYJc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/couLM26VmhblS0GiuX04VpAeLbCk6taheAArTswFEI=
+			kWeJTn0XeHP/TgQfHySl8r/W1roGSpbD1wcZcU7rmok=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

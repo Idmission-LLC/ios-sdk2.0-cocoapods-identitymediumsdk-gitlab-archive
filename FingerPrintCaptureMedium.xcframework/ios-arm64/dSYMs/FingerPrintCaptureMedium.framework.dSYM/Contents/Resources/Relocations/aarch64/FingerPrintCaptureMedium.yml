@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-medium/Build/Products/Release-iphoneos/FingerPrintCaptureMedium.framework/FingerPrintCaptureMedium'
 relocations:
-  - { offset: 0x7DA3F, size: 0x8, addend: 0x0, symName: _FingerPrintCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0x310830, symSize: 0x0 }
-  - { offset: 0x7DA74, size: 0x8, addend: 0x0, symName: _FingerPrintCaptureMediumVersionNumber, symObjAddr: 0x40, symBinAddr: 0x310870, symSize: 0x0 }
+  - { offset: 0x7DA3F, size: 0x8, addend: 0x0, symName: _FingerPrintCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0x310950, symSize: 0x0 }
+  - { offset: 0x7DA74, size: 0x8, addend: 0x0, symName: _FingerPrintCaptureMediumVersionNumber, symObjAddr: 0x40, symBinAddr: 0x310990, symSize: 0x0 }
   - { offset: 0x8C8D5, size: 0x8, addend: 0x0, symName: __ZNSt3__112__destroy_atB8ne180100IN2cv3MatELi0EEEvPT_, symObjAddr: 0x7CE4, symBinAddr: 0xFCE4, symSize: 0x90 }
   - { offset: 0x90EE2, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController viewDidLoad]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x16C }
   - { offset: 0x90F25, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController didReceiveMemoryWarning]', symObjAddr: 0x16C, symBinAddr: 0x816C, symSize: 0x34 }
@@ -241,5 +241,9 @@ relocations:
   - { offset: 0xC4A7C, size: 0x8, addend: 0x0, symName: '_$s24FingerPrintCaptureMedium81IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt433_83097ABA33DDF1954181BE45E4FEE398LLCfD', symObjAddr: 0x0, symBinAddr: 0x18E74, symSize: 0x10 }
   - { offset: 0xC4ABE, size: 0x8, addend: 0x0, symName: '_$s24FingerPrintCaptureMedium81IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt433_83097ABA33DDF1954181BE45E4FEE398LLCMa', symObjAddr: 0x10, symBinAddr: 0x18E84, symSize: 0x20 }
   - { offset: 0xC4AD9, size: 0x8, addend: 0x0, symName: '_$s24FingerPrintCaptureMedium81IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt433_83097ABA33DDF1954181BE45E4FEE398LLCfD', symObjAddr: 0x0, symBinAddr: 0x18E74, symSize: 0x10 }
-  - { offset: 0xC4C48, size: 0x8, addend: 0x0, symName: '_$s24FingerPrintCaptureMedium19ResourceBundleClass33_A1D8F6E8AA8540F4DEB94B3ECF0AE7FFLLCMa', symObjAddr: 0x10, symBinAddr: 0x18EA4, symSize: 0x20 }
+  - { offset: 0xC4CA7, size: 0x8, addend: 0x0, symName: '_$s24FingerPrintCaptureMedium16ModelsEntryPointCMa', symObjAddr: 0xC4, symBinAddr: 0x18F48, symSize: 0x20 }
+  - { offset: 0xC4CC2, size: 0x8, addend: 0x0, symName: '_$s24FingerPrintCaptureMedium16ModelsEntryPointCACycfc', symObjAddr: 0x20, symBinAddr: 0x18EA4, symSize: 0x34 }
+  - { offset: 0xC4CFA, size: 0x8, addend: 0x0, symName: '_$s24FingerPrintCaptureMedium16ModelsEntryPointCACycfcTo', symObjAddr: 0x54, symBinAddr: 0x18ED8, symSize: 0x3C }
+  - { offset: 0xC4D35, size: 0x8, addend: 0x0, symName: '_$s24FingerPrintCaptureMedium16ModelsEntryPointCfD', symObjAddr: 0x90, symBinAddr: 0x18F14, symSize: 0x34 }
+  - { offset: 0xC4E9D, size: 0x8, addend: 0x0, symName: '_$s24FingerPrintCaptureMedium19ResourceBundleClass33_A1D8F6E8AA8540F4DEB94B3ECF0AE7FFLLCMa', symObjAddr: 0x10, symBinAddr: 0x18F68, symSize: 0x20 }
 ...
