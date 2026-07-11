@@ -74,7 +74,7 @@
 		</data>
 		<key>ios-arm64/IDCaptureMedium.framework/IDCaptureMedium</key>
 		<data>
-		MUxv5pTzgotyCr/A1czgRJRe3QY=
+		/XVIaJ/QzaNlAz+FhEVd8b6vV+c=
 		</data>
 		<key>ios-arm64/IDCaptureMedium.framework/Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/IDCaptureMedium.framework.dSYM/Contents/Resources/DWARF/IDCaptureMedium</key>
 		<data>
-		vK+gp71irRNU5FaPiDe301Tjacc=
+		yZLtjswJxGd/SdBE1QU/6R6YSL0=
 		</data>
 		<key>ios-arm64/dSYMs/IDCaptureMedium.framework.dSYM/Contents/Resources/Relocations/aarch64/IDCaptureMedium.yml</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDCaptureMedium.framework.dSYM/Contents/Resources/DWARF/IDCaptureMedium</key>
 		<data>
-		8XhvGzHBz+h7JWpBBtr9ryxlXi0=
+		c7M0ape9nXX55h5F/xYTK6H0KNs=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDCaptureMedium.framework.dSYM/Contents/Resources/Relocations/x86_64/IDCaptureMedium.yml</key>
 		<data>
@@ -422,11 +422,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MUxv5pTzgotyCr/A1czgRJRe3QY=
+			/XVIaJ/QzaNlAz+FhEVd8b6vV+c=
 			</data>
 			<key>hash2</key>
 			<data>
-			CSqMEOoQT6Hhg60BGlNj2J3PDi1FQh7p3+XNvP4qWsg=
+			LS8R4VmTMMaz1b+YhCgkl75DQgaN3mJ+f78uTwTRCfw=
 			</data>
 		</dict>
 		<key>ios-arm64/IDCaptureMedium.framework/Info.plist</key>
@@ -521,11 +521,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vK+gp71irRNU5FaPiDe301Tjacc=
+			yZLtjswJxGd/SdBE1QU/6R6YSL0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ipFDyUVBALLxRU0fk9XAh2FnKx7vHn/+OpQNH/93/WA=
+			ONS5t2zolJiFHgIb2Bqq/q9lMcvJU3QhciOLQNwgDzM=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDCaptureMedium.framework.dSYM/Contents/Resources/Relocations/aarch64/IDCaptureMedium.yml</key>
@@ -829,11 +829,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8XhvGzHBz+h7JWpBBtr9ryxlXi0=
+			c7M0ape9nXX55h5F/xYTK6H0KNs=
 			</data>
 			<key>hash2</key>
 			<data>
-			vGmmiYpLN0GHXSwrdHWcf5whedvAbUHR6M25qwmyiC0=
+			RvvtqSyncYf/qUDYEPKlxwTwjKsXuzNXVE2a4zkr3qk=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDCaptureMedium.framework.dSYM/Contents/Resources/Relocations/x86_64/IDCaptureMedium.yml</key>
