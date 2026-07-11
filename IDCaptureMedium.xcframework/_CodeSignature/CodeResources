@@ -74,7 +74,7 @@
 		</data>
 		<key>ios-arm64/IDCaptureMedium.framework/IDCaptureMedium</key>
 		<data>
-		/XVIaJ/QzaNlAz+FhEVd8b6vV+c=
+		6J9wqOMtsnyqi7bSZ7sSG8oCdHE=
 		</data>
 		<key>ios-arm64/IDCaptureMedium.framework/Info.plist</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/IDCaptureMedium.framework.dSYM/Contents/Resources/DWARF/IDCaptureMedium</key>
 		<data>
-		yZLtjswJxGd/SdBE1QU/6R6YSL0=
+		RAGjvMhtR5Pwm//kubRucHkMpR4=
 		</data>
 		<key>ios-arm64/dSYMs/IDCaptureMedium.framework.dSYM/Contents/Resources/Relocations/aarch64/IDCaptureMedium.yml</key>
 		<data>
-		EvQ2iwxUYixnp45G371um6z/iB4=
+		joRqR4KYhM2ASegpv0R5En2h72E=
 		</data>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/Assets.car</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDCaptureMedium.framework.dSYM/Contents/Resources/DWARF/IDCaptureMedium</key>
 		<data>
-		c7M0ape9nXX55h5F/xYTK6H0KNs=
+		GRvI9wlnUj11KLLq4r+6FwBjODg=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDCaptureMedium.framework.dSYM/Contents/Resources/Relocations/x86_64/IDCaptureMedium.yml</key>
 		<data>
@@ -422,11 +422,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/XVIaJ/QzaNlAz+FhEVd8b6vV+c=
+			6J9wqOMtsnyqi7bSZ7sSG8oCdHE=
 			</data>
 			<key>hash2</key>
 			<data>
-			LS8R4VmTMMaz1b+YhCgkl75DQgaN3mJ+f78uTwTRCfw=
+			jd8AqgxTxvTyHmCGIh2J4SX4ojwS4hwMzJPBVbCexHE=
 			</data>
 		</dict>
 		<key>ios-arm64/IDCaptureMedium.framework/Info.plist</key>
@@ -521,22 +521,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yZLtjswJxGd/SdBE1QU/6R6YSL0=
+			RAGjvMhtR5Pwm//kubRucHkMpR4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ONS5t2zolJiFHgIb2Bqq/q9lMcvJU3QhciOLQNwgDzM=
+			7MFPZeZ2B37icB8lo05OT+zu4ZivUQ+7Pzxl8bFxabg=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDCaptureMedium.framework.dSYM/Contents/Resources/Relocations/aarch64/IDCaptureMedium.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EvQ2iwxUYixnp45G371um6z/iB4=
+			joRqR4KYhM2ASegpv0R5En2h72E=
 			</data>
 			<key>hash2</key>
 			<data>
-			4LHzzYJb8f3wP6K0NlzlVEr0ulh0/L4T9CTeP+2qC2Y=
+			gapGZn2j9ImMFMYZOi0JMGkdTB3R4QXKy5v/rsJyj1Y=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDCaptureMedium.framework/Assets.car</key>
@@ -829,11 +829,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c7M0ape9nXX55h5F/xYTK6H0KNs=
+			GRvI9wlnUj11KLLq4r+6FwBjODg=
 			</data>
 			<key>hash2</key>
 			<data>
-			RvvtqSyncYf/qUDYEPKlxwTwjKsXuzNXVE2a4zkr3qk=
+			HnD2+Ec2v9sW6iJnRLnRUJDHXgOLa3cQVUs03I8mkXE=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDCaptureMedium.framework.dSYM/Contents/Resources/Relocations/x86_64/IDCaptureMedium.yml</key>

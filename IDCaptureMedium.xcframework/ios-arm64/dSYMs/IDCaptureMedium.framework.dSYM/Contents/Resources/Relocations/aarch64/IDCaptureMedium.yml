@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-medium/Build/Products/Release-iphoneos/IDCaptureMedium.framework/IDCaptureMedium'
 relocations:
-  - { offset: 0x852C1, size: 0x8, addend: 0x0, symName: _IDCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0x37C30, symSize: 0x0 }
-  - { offset: 0x852F6, size: 0x8, addend: 0x0, symName: _IDCaptureMediumVersionNumber, symObjAddr: 0x38, symBinAddr: 0x37C68, symSize: 0x0 }
+  - { offset: 0x852C1, size: 0x8, addend: 0x0, symName: _IDCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0x37BF0, symSize: 0x0 }
+  - { offset: 0x852F6, size: 0x8, addend: 0x0, symName: _IDCaptureMediumVersionNumber, symObjAddr: 0x38, symBinAddr: 0x37C28, symSize: 0x0 }
   - { offset: 0x85A01, size: 0x8, addend: 0x0, symName: '_$sSmsSKRzrlE10removeLastyySiFSS_Tg5', symObjAddr: 0x18AFC, symBinAddr: 0x1CAFC, symSize: 0x9C }
   - { offset: 0x85AC5, size: 0x8, addend: 0x0, symName: '_$sSTsSQ7ElementRpzrlE6starts4withSbqd___tSTRd__AAQyd__ABRSlFSS_SSTg5', symObjAddr: 0x18B98, symBinAddr: 0x1CB98, symSize: 0x158 }
   - { offset: 0x85CEF, size: 0x8, addend: 0x0, symName: '_$s15IDCaptureMedium0A14ViewControllerCMa', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x38 }
