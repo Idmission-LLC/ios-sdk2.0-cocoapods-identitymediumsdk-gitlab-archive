@@ -52,9 +52,57 @@
 		<data>
 		E0P+ApXLYwZvbg5UNrhD8PKvj6M=
 		</data>
+		<key>FBLPromises_Privacy.bundle/Info.plist</key>
+		<data>
+		t0ilRpV6LWya5XU/JCzXDavGxMs=
+		</data>
+		<key>FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
+		</data>
 		<key>GET_XSLT_DATA.json</key>
 		<data>
 		r4pT4tYjepBLh4NXSpKs3Pp+qDM=
+		</data>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/Info.plist</key>
+		<data>
+		07bGCyqW6bQh07ChNYBfQzr1E54=
+		</data>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		GqeAMkwbcNQeG0K4qQhQh2vHhHo=
+		</data>
+		<key>GoogleDataTransport_Privacy.bundle/Info.plist</key>
+		<data>
+		jzv8l8cNtVbvD058MFdefvPOHUw=
+		</data>
+		<key>GoogleDataTransport_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		WXQUJr75eMRgiVnLGyf8Gr3uLUU=
+		</data>
+		<key>GoogleToolboxForMac_Logger_Privacy.bundle/Info.plist</key>
+		<data>
+		+VVGqnzwALEOugf8do9TGR6ndt4=
+		</data>
+		<key>GoogleToolboxForMac_Logger_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		GqeAMkwbcNQeG0K4qQhQh2vHhHo=
+		</data>
+		<key>GoogleToolboxForMac_Privacy.bundle/Info.plist</key>
+		<data>
+		rdTfYZagliElT4lzXSdsKMmkAIs=
+		</data>
+		<key>GoogleToolboxForMac_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
+		</data>
+		<key>GoogleUtilities_Privacy.bundle/Info.plist</key>
+		<data>
+		e/kiITuB8t38czUUM0vIYzR3PtE=
+		</data>
+		<key>GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		9Dge7JFNlx7Vk430tsjNsK3d0Ng=
 		</data>
 		<key>Headers/CommonClass.h</key>
 		<data>
@@ -288,6 +336,14 @@
 		<data>
 		Vwq5XkLRRMhgBZjUYTYw8eBjt+U=
 		</data>
+		<key>nanopb_Privacy.bundle/Info.plist</key>
+		<data>
+		69ftY7UWz4f6sVSDBfNLSpgKBtE=
+		</data>
+		<key>nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		KY5lfwC2TvsgFj4wt7hkMmainbs=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -375,11 +431,95 @@
 			XqzO6fuK3R5Q5oQjQP62jw/76WDDg4ONF0/hsoGEVxw=
 			</data>
 		</dict>
+		<key>FBLPromises_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			X9oxBYW0aXEMkGXPaCK/7IcGtf+dGvzlaHmL0H7wD9s=
+			</data>
+		</dict>
+		<key>FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
+			</data>
+		</dict>
 		<key>GET_XSLT_DATA.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			+X0nw/ckaF0YzKlkavzT6AedsjUBqeh7isqyOgtA1VE=
+			</data>
+		</dict>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lAN8TFgBgOXcBTOlk188yStto1lckb3R7C/0hwfNG3Y=
+			</data>
+		</dict>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PkqTy+hqzvfdfgY6KMhJmS9Vbn9SytxfN8HosOG1RoY=
+			</data>
+		</dict>
+		<key>GoogleDataTransport_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			REMkNsY3Jp/Ej5DIo/JqQqvM+YJgxk9t6bqPhRKyv7I=
+			</data>
+		</dict>
+		<key>GoogleDataTransport_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z7s8T3ambVNpi66R9xEMAPIUjm5vE619MlkpCbwBDlE=
+			</data>
+		</dict>
+		<key>GoogleToolboxForMac_Logger_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DeUH/6CCEGQkk7EZKmCIMkxYc0nGHnBEK71FRnpIaXQ=
+			</data>
+		</dict>
+		<key>GoogleToolboxForMac_Logger_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PkqTy+hqzvfdfgY6KMhJmS9Vbn9SytxfN8HosOG1RoY=
+			</data>
+		</dict>
+		<key>GoogleToolboxForMac_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Sw6BqCuflyo73P2+BDj9mSO1/X270VH4IZxUlvWuinI=
+			</data>
+		</dict>
+		<key>GoogleToolboxForMac_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
+			</data>
+		</dict>
+		<key>GoogleUtilities_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TpthYYFEN9Pp/V9+g1evWZV1VDTmnhevEnHr4wBdtks=
+			</data>
+		</dict>
+		<key>GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+Btc+PBDZicS7KnpeFdnJkzxkAJf5720l3cpbAaN5Tw=
 			</data>
 		</dict>
 		<key>Headers/CommonClass.h</key>
@@ -779,6 +919,20 @@
 			<key>hash2</key>
 			<data>
 			TJj2RjX8fMzdFPD/MPRGFrvXrzLT4ta3/pLxbGAy7BU=
+			</data>
+		</dict>
+		<key>nanopb_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4U0qtBWw3QL2bCLCaDU5lbo0QcaokHqd3gVPUYmOKIQ=
+			</data>
+		</dict>
+		<key>nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cpujy9D0WMeM1h7fFzUO2v4ONMqG4xTsZMjLIszSG1Q=
 			</data>
 		</dict>
 	</dict>

@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-medium/Build/Products/Release-iphoneos/FingerPrintCaptureMedium.framework/FingerPrintCaptureMedium'
 relocations:
-  - { offset: 0x855DB, size: 0x8, addend: 0x0, symName: _FingerPrintCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0x30F560, symSize: 0x0 }
-  - { offset: 0x85610, size: 0x8, addend: 0x0, symName: _FingerPrintCaptureMediumVersionNumber, symObjAddr: 0x40, symBinAddr: 0x30F5A0, symSize: 0x0 }
+  - { offset: 0x855DB, size: 0x8, addend: 0x0, symName: _FingerPrintCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0x30F5A0, symSize: 0x0 }
+  - { offset: 0x85610, size: 0x8, addend: 0x0, symName: _FingerPrintCaptureMediumVersionNumber, symObjAddr: 0x40, symBinAddr: 0x30F5E0, symSize: 0x0 }
   - { offset: 0x935AF, size: 0x8, addend: 0x0, symName: __ZNSt3__112__destroy_atB8ne200100IN2cv3MatELi0EEEvPT_, symObjAddr: 0x7C68, symBinAddr: 0xBC68, symSize: 0x90 }
   - { offset: 0x97EBE, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController viewDidLoad]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x16C }
   - { offset: 0x97F01, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController didReceiveMemoryWarning]', symObjAddr: 0x16C, symBinAddr: 0x416C, symSize: 0x34 }
