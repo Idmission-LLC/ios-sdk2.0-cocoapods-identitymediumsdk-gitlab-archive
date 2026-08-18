@@ -258,23 +258,23 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Osr7PHexUP+erwJWMx6rtBxEL08=
+		Jv5WxQvjjpHxe+iTi9TMUZDl0NE=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		zED7qknwu5f1IEe+HWmyp20TYvI=
+		tAlCxOd8dlSD/BWKAiTSv0LUy8E=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		lMsAsAXUgLZITOFBA38xeY/sFwU=
+		yuuCudo9Xq+5XqxjR48MZy2G4WQ=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		zED7qknwu5f1IEe+HWmyp20TYvI=
+		tAlCxOd8dlSD/BWKAiTSv0LUy8E=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		hXVO4XhtC1Q2BTMS6SZduZOK7t4=
+		ndJTelug8qJjcZeCL4RmUzNXV/A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -729,35 +729,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sThgxH2EY1YZyRhpG44p4bYfpzy+6qgsaGZbAy9I+cM=
+			aLnTXxSWUPZFlo1JK7WzNgR7uWFxTYX+n/OZgktCTBM=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rgVSsZ6pcOh5rZeIk8lT+Z1/fyX8ZB6mE/oyX75C+Lw=
+			B282aS6VpWOuSiQL0EFIDaWHw99dmEDB7efmTx8pFmE=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yRxD5JypbhvNyMudiYHRPiZr/jsrb46xgIijzBrP7A8=
+			Ke+pUATIxFO0jS9sgYojUSwErnPZ65+CVs8qP8TL7Bw=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rgVSsZ6pcOh5rZeIk8lT+Z1/fyX8ZB6mE/oyX75C+Lw=
+			B282aS6VpWOuSiQL0EFIDaWHw99dmEDB7efmTx8pFmE=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iFO6DYkEYv9Pa3FhWrFOpc+mbsN3YtQUfxSWGA6c5vw=
+			bRlWBJFpEGPZdKPKDcl3s/pB5kWuopwlGJZ3Q+IEv3I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

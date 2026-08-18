@@ -114598,6 +114598,450 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "nameNonEng",
+            "printedName": "nameNonEng",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvp",
+            "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvp",
+            "moduleName": "IDentityMediumSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvg",
+                "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvg",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvs",
+                "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvs",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvM",
+                "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvM",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstNameNonEng",
+            "printedName": "firstNameNonEng",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvp",
+            "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvp",
+            "moduleName": "IDentityMediumSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvg",
+                "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvg",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvs",
+                "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvs",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvM",
+                "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvM",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastNameNonEng",
+            "printedName": "lastNameNonEng",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvp",
+            "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvp",
+            "moduleName": "IDentityMediumSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvg",
+                "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvg",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvs",
+                "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvs",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvM",
+                "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvM",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "middleNameNonEng",
+            "printedName": "middleNameNonEng",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvp",
+            "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvp",
+            "moduleName": "IDentityMediumSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvg",
+                "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvg",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvs",
+                "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvs",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvM",
+                "mangledName": "$s17IDentityMediumSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvM",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -147859,6 +148303,117 @@
                 "declKind": "Accessor",
                 "usr": "s:17IDentityMediumSDK47PersonalCustomerValidateIdFaceMatchResponseDataV8lastNameSSSgvM",
                 "mangledName": "$s17IDentityMediumSDK47PersonalCustomerValidateIdFaceMatchResponseDataV8lastNameSSSgvM",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nameNonEng",
+            "printedName": "nameNonEng",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17IDentityMediumSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvp",
+            "mangledName": "$s17IDentityMediumSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvp",
+            "moduleName": "IDentityMediumSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvg",
+                "mangledName": "$s17IDentityMediumSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvg",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvs",
+                "mangledName": "$s17IDentityMediumSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvs",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvM",
+                "mangledName": "$s17IDentityMediumSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvM",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -185287,6 +185842,117 @@
                 "declKind": "Accessor",
                 "usr": "s:17IDentityMediumSDK38PersonalCustomerValidateIdResponseDataV8lastNameSSSgvM",
                 "mangledName": "$s17IDentityMediumSDK38PersonalCustomerValidateIdResponseDataV8lastNameSSSgvM",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nameNonEng",
+            "printedName": "nameNonEng",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17IDentityMediumSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvp",
+            "mangledName": "$s17IDentityMediumSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvp",
+            "moduleName": "IDentityMediumSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvg",
+                "mangledName": "$s17IDentityMediumSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvg",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvs",
+                "mangledName": "$s17IDentityMediumSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvs",
+                "moduleName": "IDentityMediumSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IDentityMediumSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvM",
+                "mangledName": "$s17IDentityMediumSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvM",
                 "moduleName": "IDentityMediumSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
