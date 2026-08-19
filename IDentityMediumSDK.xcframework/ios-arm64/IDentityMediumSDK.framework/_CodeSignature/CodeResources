@@ -306,23 +306,23 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		0BdWoZM9BDR3SnLvGGxa253x+Zw=
+		4gIwHEY2urmW7QPPx2hXlXX1Bk8=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		dSB1Znr3+sx3TqCJ1Tc/QEMshHM=
+		JEzWaUJeK9oQz5wDaMxMvsWg9Oc=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		hKrP/87MpYP7qQrFbmfBaYs8EMI=
+		SSDTPIlXtdzrVIuC0aqMfde0dUA=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		dSB1Znr3+sx3TqCJ1Tc/QEMshHM=
+		JEzWaUJeK9oQz5wDaMxMvsWg9Oc=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		UdGxk0oh+RP/VvRV7FCI7DHm/XQ=
+		XV3mgXHecGTVgOW/O4ZuDTGgFnY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -869,35 +869,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UCsiTSFfxF4TS1oUduXP7UUptj7DNl5G/u+2VRTmzAY=
+			MiCf18/GOoX05b18xef9OBmYTraqATGsjm1kFHv6EHg=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dmyeIofouWpxZI8TEOSCUJ95M7DXSqQhSFwjfktAOOs=
+			8KxEWWBuIzDAARtt3FBYG/7dXwEnnkqMqqPqgbJCcOc=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YfiOOtVK6UUJlxpzCYpjbXDSIEibAiJwaThedPxSlQo=
+			a8nUc1azJBxVO1yH0Dc4kunuFJP4px1Od2HBG9VnCVo=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dmyeIofouWpxZI8TEOSCUJ95M7DXSqQhSFwjfktAOOs=
+			8KxEWWBuIzDAARtt3FBYG/7dXwEnnkqMqqPqgbJCcOc=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jY2tLh/2idXbHcXkLkV+Tm7gSTbd6O/ZnRqyabkhxRY=
+			7kimiwCQyVz2BA+LBJazTwyHFXdEPVsVTZsfsQU7Izk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

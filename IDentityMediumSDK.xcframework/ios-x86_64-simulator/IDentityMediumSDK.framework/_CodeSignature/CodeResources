@@ -306,23 +306,23 @@
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		UHhYN+MEsWi47hNDR3JRmziKihA=
+		RvHX1S7omhUCODXuEEElfLtkY9s=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		So6ZZCuO0P0Up2Jz5VOCLzgSmro=
+		ubuTrvkBXLgnBbDhINFZgmT/RTM=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wXXjjtROUKjTuzNuP/yc26qgglU=
+		iMPZHTZtmDR8qEUP47c84CI5hUU=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		So6ZZCuO0P0Up2Jz5VOCLzgSmro=
+		ubuTrvkBXLgnBbDhINFZgmT/RTM=
 		</data>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MHcRcovwr9Izd1mrjCrSKQHPLJU=
+		yVfhL0oIQEY5kCdEaQfbndgUCZw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -869,35 +869,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i2txcZNyMYXZOiHzxJMeH0XRm6pW4LEiF9g3ofh51Co=
+			Lwi3NFJz5N0aVu4aIrdP6V19o4mgF5efln3ItuLaWAE=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RnzIUIvQSdCobMc4Y6N9mYaIxZFkLWpTzsj5G6Z69bU=
+			TzoVZBq62iimQwdcaFuILUpU7b5xHkiPLQHUXOMzQK0=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fdXFYip93JGYl+UxNrCjxy5ptmKoReswtlPRtKjnjqo=
+			ktd9CM8Lt5qm1rZwgC3TqOKq1B22koQRPSJJ+gwtBI8=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RnzIUIvQSdCobMc4Y6N9mYaIxZFkLWpTzsj5G6Z69bU=
+			TzoVZBq62iimQwdcaFuILUpU7b5xHkiPLQHUXOMzQK0=
 			</data>
 		</dict>
 		<key>Modules/IDentityMediumSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YsnudkASJwClXOBq8WAa95SNT63R+IGF41q0vI95CAI=
+			KlKFkvnmIKqXzIRmyVm85cfUX90uRMUT6oVz5RIe11g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
