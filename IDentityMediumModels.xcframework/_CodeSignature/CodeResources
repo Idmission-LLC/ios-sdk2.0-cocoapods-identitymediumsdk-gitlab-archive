@@ -38,7 +38,7 @@
 		</data>
 		<key>ios-arm64/IDentityMediumModels.framework/IDentityMediumModels</key>
 		<data>
-		DBvAzwMyhhumc6udJrRjDA8ANes=
+		J2Ty70K2ak63OU9Fg45aLG9xOWE=
 		</data>
 		<key>ios-arm64/IDentityMediumModels.framework/IdTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>ios-arm64/IDentityMediumModels.framework/Info.plist</key>
 		<data>
-		8Yg4pRTCem3gQyWHkrptm/uM0Fk=
+		qvDZHEQn3NmXmQqFs5QkHZwe2lM=
 		</data>
 		<key>ios-arm64/IDentityMediumModels.framework/Modules/IDentityMediumModels.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -68,21 +68,29 @@
 		<data>
 		WfMWUC7P3yY0IZ+MOVjV+vpOCiM=
 		</data>
+		<key>ios-arm64/IDentityMediumModels.framework/PaddleOCRDetectionTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
+		<data>
+		f+r/1kXN/7nXBpwyJSSjc/RQf0M=
+		</data>
+		<key>ios-arm64/IDentityMediumModels.framework/PaddleOCRRecognitionTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
+		<data>
+		8GAG2tYQBrSXcgkAMVwD5nSNEWI=
+		</data>
 		<key>ios-arm64/IDentityMediumModels.framework/PassiveFaceTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<data>
 		WqZKYXWn26bAKfJJrimZwb+Loto=
 		</data>
 		<key>ios-arm64/IDentityMediumModels.framework/_CodeSignature/CodeResources</key>
 		<data>
-		NzwvJbV/yOmY1zRUetbCuRnqhKk=
+		jYLo2P3V1LZGpQcrHoU0ICjVnVY=
 		</data>
 		<key>ios-arm64/dSYMs/IDentityMediumModels.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		rUGzQv8dgEL7JrhXJo47VSsauNs=
+		C/XbS1vgfy4ENJzr6A8ZsCaGSFM=
 		</data>
 		<key>ios-arm64/dSYMs/IDentityMediumModels.framework.dSYM/Contents/Resources/DWARF/IDentityMediumModels</key>
 		<data>
-		lYOhYO+XStahFXs0l/ltav5H7pY=
+		PGXnwcBJyV7F4OGGE26WC60GkD4=
 		</data>
 		<key>ios-arm64/dSYMs/IDentityMediumModels.framework.dSYM/Contents/Resources/Relocations/aarch64/IDentityMediumModels.yml</key>
 		<data>
@@ -122,7 +130,7 @@
 		</data>
 		<key>ios-x86_64-simulator/IDentityMediumModels.framework/IDentityMediumModels</key>
 		<data>
-		oUsE5usVOCoRpNigZMXrV11sViw=
+		RBvfeQTZAFD5oSwm26Dwg9TUqck=
 		</data>
 		<key>ios-x86_64-simulator/IDentityMediumModels.framework/IdTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<data>
@@ -130,7 +138,7 @@
 		</data>
 		<key>ios-x86_64-simulator/IDentityMediumModels.framework/Info.plist</key>
 		<data>
-		FCGzyn1F4qbx6HYLzVe+C4Pn58s=
+		3PSpkcM+q/3Me7zBbxaUPeoyaZQ=
 		</data>
 		<key>ios-x86_64-simulator/IDentityMediumModels.framework/Modules/IDentityMediumModels.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -152,21 +160,29 @@
 		<data>
 		WfMWUC7P3yY0IZ+MOVjV+vpOCiM=
 		</data>
+		<key>ios-x86_64-simulator/IDentityMediumModels.framework/PaddleOCRDetectionTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
+		<data>
+		f+r/1kXN/7nXBpwyJSSjc/RQf0M=
+		</data>
+		<key>ios-x86_64-simulator/IDentityMediumModels.framework/PaddleOCRRecognitionTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
+		<data>
+		8GAG2tYQBrSXcgkAMVwD5nSNEWI=
+		</data>
 		<key>ios-x86_64-simulator/IDentityMediumModels.framework/PassiveFaceTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<data>
 		WqZKYXWn26bAKfJJrimZwb+Loto=
 		</data>
 		<key>ios-x86_64-simulator/IDentityMediumModels.framework/_CodeSignature/CodeResources</key>
 		<data>
-		4tf5s87DQN7rCoFLenAwVbJcNGs=
+		32xZqjl1K8ksqjaQZbtR7yO26Y8=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityMediumModels.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		rUGzQv8dgEL7JrhXJo47VSsauNs=
+		C/XbS1vgfy4ENJzr6A8ZsCaGSFM=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityMediumModels.framework.dSYM/Contents/Resources/DWARF/IDentityMediumModels</key>
 		<data>
-		oXclM+vTyM4M9riJs3QgyHGSkb0=
+		O+M/RfyUQUmwRB68oWPSN472nJk=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityMediumModels.framework.dSYM/Contents/Resources/Relocations/x86_64/IDentityMediumModels.yml</key>
 		<data>
@@ -235,7 +251,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8//Z5yO0mBR8JgWq+/JB1Bsws4rrtzbVir0VmdS+sUg=
+			0kVZ62oPmeo04Oo4T6Fawj9OGO5Jvxd06ZWZR2fnmK8=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityMediumModels.framework/IdTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
@@ -249,7 +265,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h3v4h4DnYtbLdqn9kE9eUjIpnq8liAe86uqpZLPlvbY=
+			uelhs/FRIdvNu9f8gF81TjgHJeeSdl7N2ApN7qp4xbc=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityMediumModels.framework/Modules/IDentityMediumModels.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -287,6 +303,20 @@
 			gWaiaMSIV0M9WyXrZwl/GKDASr0LRng/+oITEpF9JLA=
 			</data>
 		</dict>
+		<key>ios-arm64/IDentityMediumModels.framework/PaddleOCRDetectionTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XzWakQVnJiYRW/7boFfCb0vksuoeGpu5SMKuL/TnPNc=
+			</data>
+		</dict>
+		<key>ios-arm64/IDentityMediumModels.framework/PaddleOCRRecognitionTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fl+K38jYUYR1JH8PLUPvwZHmCVnTRMekLxmlU2zlflo=
+			</data>
+		</dict>
 		<key>ios-arm64/IDentityMediumModels.framework/PassiveFaceTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
 			<key>hash2</key>
@@ -298,21 +328,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GwZibwThsBvy4i2QPjmoh94m4WxcZRB+CWtthRbC43c=
+			AElqZlpVlHH+SbyBnZ7j3yhqHND55DZ7CW8bvfS5EZ4=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDentityMediumModels.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bjPMUYRfWJHwnu6bPFOtkKJqhwsqgE+AbsUYKpnjMQQ=
+			hg1afsWdE0t2nJ/WlYGZ2FE8hex8E30PbsdSpuC90dQ=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDentityMediumModels.framework.dSYM/Contents/Resources/DWARF/IDentityMediumModels</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gPuMjskqWDUYlosNjcu8I5TrQZUBnPuWHGXaMu37viY=
+			3Psv073+Gyxk/RbHRaMMflVFPs2XBVVt23X6Pp03FgI=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDentityMediumModels.framework.dSYM/Contents/Resources/Relocations/aarch64/IDentityMediumModels.yml</key>
@@ -382,7 +412,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HfuS3fr8aJKFlu4mpSQz33eppg3U/iBKdR1PkUw9ED8=
+			HiSP0EnFbtBoh2s/h31acPl5TtWNbXCym3yHWLpTR3s=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityMediumModels.framework/IdTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
@@ -396,7 +426,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WGnU2h6SrNypQm3/LIilmnKBTNhIOdlR5yLh22wzAhY=
+			8LwvfPOfGR4cMpU4h97c9s97ckGVoMB8IyV2RselDRM=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityMediumModels.framework/Modules/IDentityMediumModels.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -434,6 +464,20 @@
 			gWaiaMSIV0M9WyXrZwl/GKDASr0LRng/+oITEpF9JLA=
 			</data>
 		</dict>
+		<key>ios-x86_64-simulator/IDentityMediumModels.framework/PaddleOCRDetectionTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XzWakQVnJiYRW/7boFfCb0vksuoeGpu5SMKuL/TnPNc=
+			</data>
+		</dict>
+		<key>ios-x86_64-simulator/IDentityMediumModels.framework/PaddleOCRRecognitionTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fl+K38jYUYR1JH8PLUPvwZHmCVnTRMekLxmlU2zlflo=
+			</data>
+		</dict>
 		<key>ios-x86_64-simulator/IDentityMediumModels.framework/PassiveFaceTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
 			<key>hash2</key>
@@ -445,21 +489,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c2htKQj4Z+AOci8mc7G9Yuzl0NpRSRE0WtCQWxrS1gg=
+			symjHYM6i+BIWrw1zIqkbzc9+W3xjx3npNMu129N8+M=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDentityMediumModels.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bjPMUYRfWJHwnu6bPFOtkKJqhwsqgE+AbsUYKpnjMQQ=
+			hg1afsWdE0t2nJ/WlYGZ2FE8hex8E30PbsdSpuC90dQ=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDentityMediumModels.framework.dSYM/Contents/Resources/DWARF/IDentityMediumModels</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vg4Kg8mJhh/JocwHd04pkD+iVs8jdAEq99jvG6YZzK4=
+			KA7RzxxKrOUeLEMM1z8cP1C2aSuFajN8j6WQKsHGu24=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDentityMediumModels.framework.dSYM/Contents/Resources/Relocations/x86_64/IDentityMediumModels.yml</key>
