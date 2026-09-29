@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-medium/Build/Products/Release-iphoneos/VoiceCaptureMedium.framework/VoiceCaptureMedium'
 relocations:
-  - { offset: 0x84AA7, size: 0x8, addend: 0x0, symName: _VoiceCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0xD530, symSize: 0x0 }
-  - { offset: 0x84ADC, size: 0x8, addend: 0x0, symName: _VoiceCaptureMediumVersionNumber, symObjAddr: 0x38, symBinAddr: 0xD568, symSize: 0x0 }
+  - { offset: 0x84AA7, size: 0x8, addend: 0x0, symName: _VoiceCaptureMediumVersionString, symObjAddr: 0x0, symBinAddr: 0xD4F0, symSize: 0x0 }
+  - { offset: 0x84ADC, size: 0x8, addend: 0x0, symName: _VoiceCaptureMediumVersionNumber, symObjAddr: 0x38, symBinAddr: 0xD528, symSize: 0x0 }
   - { offset: 0x84C70, size: 0x8, addend: 0x0, symName: '_$s18VoiceCaptureMedium0aB14ViewControllerC5StateOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x80, symBinAddr: 0x4080, symSize: 0x40 }
   - { offset: 0x84F82, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas21_ObjectiveCBridgeableSCsACP09_bridgeToF1C01_F5CTypeQzyFTW', symObjAddr: 0x5A5C, symBinAddr: 0x9A5C, symSize: 0x8 }
   - { offset: 0x84FFE, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromF1C_6resulty01_F5CTypeQz_xSgztFZTW', symObjAddr: 0x5A64, symBinAddr: 0x9A64, symSize: 0x74 }
