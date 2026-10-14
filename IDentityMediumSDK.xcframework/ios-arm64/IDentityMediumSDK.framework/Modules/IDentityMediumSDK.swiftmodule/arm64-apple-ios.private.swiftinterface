@@ -82,6 +82,9 @@ public struct DebugData {
   public var fingerRect: CoreFoundation.CGRect?
   public var glareScore: Swift.Float?
   public var fingerScore: Swift.Float?
+  public var detectedDocumentType: Swift.String?
+  public var documentScore: Swift.Float?
+  public var documentBackScore: Swift.Float?
   public var mrzRect: CoreFoundation.CGRect?
   public var barcodeRect: CoreFoundation.CGRect?
 }

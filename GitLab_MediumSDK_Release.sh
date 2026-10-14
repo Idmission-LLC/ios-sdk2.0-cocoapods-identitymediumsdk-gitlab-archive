@@ -26,6 +26,7 @@ echo "🚀 MediumSDK: Updating All .podspec file vesions"
 for file in FingerPrintCaptureMedium.podspec \
             IDCaptureMedium.podspec \
             IDentityMediumModels.podspec \
+            IDentityMediumNFC.podspec \
             IDentityMediumSDK2.0.podspec \
             SelfieCaptureMedium.podspec \
             SignatureCaptureMedium.podspec \
